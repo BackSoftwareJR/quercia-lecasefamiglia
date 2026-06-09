@@ -1,0 +1,173 @@
+/**
+ * Casa Famiglia Quercia - Galleria Fotografica
+ * File CSS dedicato per la galleria a schermo intero con scorrimento automatico
+ */
+
+/* Contenitore principale della galleria */
+.gallery-fullscreen {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Altezza fissa per la galleria a schermo intero */
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+/* Contenitore delle slide */
+.gallery-slides {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Stile delle singole slide */
+.gallery-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+/* Slide attiva */
+.gallery-slide.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Immagini all'interno delle slide */
+.gallery-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Didascalia delle immagini */
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 3;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+/* Controlli di navigazione */
+.gallery-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Pulsanti di navigazione */
+.gallery-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.gallery-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Indicatori delle slide */
+.gallery-indicators {
+    position: absolute;
+    bottom: 60px; /* Posizionato sopra la didascalia */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 4;
+}
+
+.gallery-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gallery-indicator.active {
+    background-color: white;
+}
+
+/* Stile per il titolo della sezione */
+.gallery-section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Merriweather", serif;
+    color: #556B2F;
+}
+
+.gallery-section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.gallery-section-title p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Media query per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    .gallery-fullscreen {
+        height: 50vh; /* Altezza ridotta su mobile */
+    }
+    
+    .gallery-control {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+    
+    .gallery-caption {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .gallery-indicator {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .gallery-section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .gallery-section-title p {
+        font-size: 1rem;
+    }
+}
