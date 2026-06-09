@@ -5,11 +5,43 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Add a tracking code snippet at the very top of each page's header section to enable Google Tag Manager functionality. Additionally, insert another snippet immediately after the page's main content ope
+**Current task context:** Copia la porzione di codice seguente e incollala in tutte le pagine del tuo sito web.
+
+1. Incolla questo codice quanto più in alto possibile nella sezione <head> della pagina:
+
+<!-- Google Tag Manager
+
+## Project-Specific Patterns
+
+### Pattern 1 (relevance: 6%)
+
+**When you see:**
+```
+Command: npm run test
+Exit: non-zero
+
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /workspace/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/workspace/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2026-06-09T11_39_53_176Z-debug-0.log
+```
+
+**Try this approach:**
+```
+Resolved after 1 failed attempt(s)
+```
+
+_From task: Add a tracking code snippet at the very top of each page's header section to enable Google Tag Manager functionality. Additionally, insert another snippet immediately after the page's main content opening tag to handle cases where scripts are not executed, ensuring the Google Tag Manager is properly set up on all pages of the website. | Failures before success: 1_
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 25%)
+### Pattern 1 (relevance: 4%)
 
 **When you see:**
 ```
