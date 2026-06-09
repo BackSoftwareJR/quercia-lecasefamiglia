@@ -1,0 +1,7 @@
+{
+  "name": "quercia-lecasefamiglia",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/validate-gtm.js"
+  }
+}
