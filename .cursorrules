@@ -5,11 +5,13 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Improve the legal pages, including the footer, to ensure they are compliant with standards and visually appealing. The cookie banner should remain unchanged. Ensure all elements are properly aligned a
+**Current task context:** # PROMPT CURSOR: RISTRUTTURAZIONE HERO SECTION (EMPATIA & CONVERSIONE AD ALTO VALORE)
+
+Contesto: Stiamo ridisegnando la Landing Page di "Casa Famiglia Quercia" (Pinerolo) per trasformarla in una pagin
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 27%)
+### Pattern 1 (relevance: 1%)
 
 **When you see:**
 ```
@@ -37,7 +39,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 33%)
+### Pattern 1 (relevance: 1%)
 
 **When you see:**
 ```

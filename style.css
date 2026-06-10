@@ -19,8 +19,8 @@
     --radius-md: 16px;
     --radius-lg: 24px;
     --radius-pill: 50px;
-    --shadow-soft: 0 4px 20px rgba(58, 61, 58, 0.06);
-    --shadow-medium: 0 8px 32px rgba(58, 61, 58, 0.1);
+    --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.04);
+    --shadow-medium: 0 12px 40px rgba(58, 61, 58, 0.1);
     --transition: 0.3s ease;
 }
 
@@ -165,8 +165,8 @@ h1, h2, h3, h4 {
     min-height: 100dvh;
     overflow: hidden;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-video-container {
@@ -191,44 +191,81 @@ h1, h2, h3, h4 {
     position: absolute;
     inset: 0;
     background: linear-gradient(
-        to bottom,
-        rgba(58, 61, 58, 0.35) 0%,
-        rgba(96, 140, 110, 0.45) 100%
+        165deg,
+        rgba(58, 50, 42, 0.35) 0%,
+        rgba(74, 62, 52, 0.35) 45%,
+        rgba(96, 140, 110, 0.3) 100%
     );
     z-index: 1;
 }
 
-.hero-content {
+.hero-inner {
     position: relative;
     z-index: 2;
-    max-width: 640px;
-    text-align: center;
-    padding: 2rem 1.25rem;
-    color: var(--color-white);
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px 16px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-.hero-content h1 {
+.hero-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-message {
+    color: var(--color-white);
+    text-align: center;
+}
+
+.hero-message h1 {
+    font-family: var(--font-serif);
     font-size: 1.75rem;
     font-weight: 700;
-    margin-bottom: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 16px;
     color: var(--color-white);
-    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+    max-width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-subheading {
-    font-size: 1.05rem;
-    line-height: 1.65;
-    margin-bottom: 2rem;
-    opacity: 0.95;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(253, 251, 247, 0.95);
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    max-width: 42rem;
+    margin: 0 auto;
 }
 
 .hero-contact-box {
-    background: rgba(253, 251, 247, 0.97);
-    border-radius: var(--radius-lg);
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: var(--shadow-medium);
+    background: var(--color-bg);
+    border-radius: var(--radius-md);
+    padding: 24px;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid rgba(96, 140, 110, 0.12);
+}
+
+.hero-welcome-text {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    font-style: italic;
+    text-align: center;
+}
+
+.hero-cta-group {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -241,61 +278,148 @@ h1, h2, h3, h4 {
 .btn-hero-primary {
     background-color: var(--color-primary);
     color: var(--color-white);
-    padding: 18px 24px;
+    padding: 20px 24px;
     border-radius: var(--radius-md);
+    min-height: 64px;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow-soft);
 }
 
 .btn-hero-primary i {
-    font-size: 1.1rem;
-    margin-bottom: 6px;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.btn-hero-primary:hover,
+.btn-hero-primary:focus-visible {
+    background-color: var(--color-secondary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
 }
 
 .btn-hero-secondary {
-    background-color: transparent;
+    background-color: var(--color-white);
     color: var(--color-primary-dark);
     border: 2px solid var(--color-primary);
     flex-direction: row;
     gap: 10px;
-    padding: 14px 24px;
+    padding: 16px 24px;
+    min-height: 56px;
+    font-size: 1rem;
+    border-radius: var(--radius-md);
 }
 
 .btn-hero-secondary:hover,
 .btn-hero-secondary:focus-visible {
-    background-color: rgba(96, 140, 110, 0.08);
-    color: var(--color-primary-dark);
+    background-color: rgba(217, 138, 108, 0.1);
+    border-color: var(--color-secondary);
+    color: var(--color-secondary-dark);
+    transform: translateY(-2px);
 }
 
-.trust-badge {
+.hero-trust-badges {
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem 0.75rem;
-    font-size: 0.9rem;
-    font-weight: 500;
-    opacity: 0.92;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 20px;
+    background: rgba(253, 251, 247, 0.92);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
 }
 
-.trust-sep {
-    opacity: 0.6;
+.hero-trust-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.hero-trust-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+    background: rgba(96, 140, 110, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-content {
-        max-width: 720px;
-        padding: 3rem 2rem;
+    .hero-inner {
+        padding: 48px 32px 64px;
+        gap: 40px;
     }
 
-    .hero-content h1 {
-        font-size: 2.6rem;
+    .hero-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+        align-items: center;
+    }
+
+    .hero-message {
+        text-align: left;
+    }
+
+    .hero-message h1 {
+        font-size: 2.5rem;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .hero-subheading {
-        font-size: 1.15rem;
+        font-size: 1.125rem;
+        margin: 0;
     }
 
     .hero-contact-box {
-        padding: 2rem;
+        padding: 32px;
+        gap: 20px;
+    }
+
+    .hero-welcome-text {
+        text-align: left;
+        font-size: 1.05rem;
+    }
+
+    .btn-hero-primary {
+        padding: 24px 28px;
+        min-height: 72px;
+        font-size: 1.2rem;
+    }
+
+    .hero-trust-badges {
+        flex-direction: row;
+        justify-content: center;
+        gap: 32px;
+        padding: 20px 32px;
+    }
+
+    .hero-trust-item {
+        flex: 1;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-message h1 {
+        font-size: 2.75rem;
+    }
+
+    .hero-grid {
+        gap: 64px;
     }
 }
 
@@ -311,6 +435,13 @@ h1, h2, h3, h4 {
         background-image: url('images/Pinerolo - Casa Famiglia Quercia 1/img1.avif');
         background-size: cover;
         background-position: center;
+    }
+
+    .btn-hero-primary:hover,
+    .btn-hero-primary:focus-visible,
+    .btn-hero-secondary:hover,
+    .btn-hero-secondary:focus-visible {
+        transform: none;
     }
 }
 

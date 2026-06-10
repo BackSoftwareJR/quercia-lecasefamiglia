@@ -141,7 +141,7 @@
     <!-- Preconnect to resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="galleria.css">
@@ -192,26 +192,56 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Hero Section -->
-    <section class="hero">
-        <!-- Video Background -->
+    <section id="hero" class="hero" aria-label="Casa Famiglia Quercia — accoglienza per anziani a Pinerolo">
         <div class="hero-video-container">
-            <video id="heroVideo" autoplay muted loop playsinline>
+            <video id="heroVideo" autoplay muted loop playsinline poster="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif">
                 <!-- JavaScript caricherà il video appropriato -->
             </video>
-            <!-- Overlay scuro -->
-            <div class="hero-overlay"></div>
-            
-            <!-- Fallback per JavaScript disabilitato -->
+            <div class="hero-overlay" aria-hidden="true"></div>
             <noscript>
                 <img src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" alt="Casa Famiglia Quercia a Pinerolo" class="hero-fallback">
             </noscript>
         </div>
 
-        <!-- Contenuto Hero -->
-        <div class="hero-content">
-            <h1>Casa Famiglia Quercia per Anziani a Pinerolo (TO)</h1>
-            <h2>Calore, rispetto e libertà: le nostre residenze sono pensate per chi desidera continuare a vivere con autonomia, dignità e naturalezza. <br><br> Ambienti sereni e sicuri, nel verde della 
-provincia di Torino</h2>
+        <div class="hero-inner">
+            <div class="hero-grid">
+                <div class="hero-message">
+                    <h1>Tuo genitore non vuole la casa di ripari? Scopri il calore di una vera famiglia.</h1>
+                    <p class="hero-subheading">A Pinerolo (a soli 30 minuti da Torino), un ambiente protetto, piccolo e sereno per anziani autosufficienti over 65. Massimo 8 ospiti, per sentirsi liberi, amati e sempre a casa.</p>
+                </div>
+
+                <aside class="hero-contact-box" aria-labelledby="hero-contact-heading">
+                    <h2 id="hero-contact-heading" class="visually-hidden">Contatti rapidi</h2>
+                    <p class="hero-welcome-text">Noi ci siamo. Chiamaci anche solo per un consiglio, una domanda o per sfogarti. La porta è sempre aperta, anche solo per un caffè insieme.</p>
+
+                    <div class="hero-cta-group">
+                        <a href="tel:+393762031211" class="btn btn-hero-primary track-phone" data-track-label="hero_call">
+                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                            <span class="btn-label">Fai uno squillo: 376 203 1211</span>
+                            <span class="btn-sublabel">Risponde il nostro personale, senza impegno</span>
+                        </a>
+                        <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20fare%20due%20chiacchiere..." class="btn btn-hero-secondary track-whatsapp" data-track-label="hero_whatsapp" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            <span class="btn-label">Scrivici su WhatsApp</span>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+
+            <ul class="hero-trust-badges" aria-label="Punti di forza">
+                <li class="hero-trust-item">
+                    <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-clock"></i></span>
+                    <span>Presenza e Assistenza 24h</span>
+                </li>
+                <li class="hero-trust-item">
+                    <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-leaf"></i></span>
+                    <span>Giardino privato protetto</span>
+                </li>
+                <li class="hero-trust-item">
+                    <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-home"></i></span>
+                    <span>Massimo 8 ospiti (Niente liste d'attesa)</span>
+                </li>
+            </ul>
         </div>
     </section>
 
