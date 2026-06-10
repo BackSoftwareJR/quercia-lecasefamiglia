@@ -157,12 +157,10 @@ h1, h2, h3, h4 {
     outline-offset: 2px;
 }
 
-/* Hero */
+/* Hero — premium minimal */
 .hero {
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    min-height: 100dvh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -175,12 +173,7 @@ h1, h2, h3, h4 {
     z-index: 0;
 }
 
-#heroVideo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
+#heroVideo,
 .hero-fallback {
     width: 100%;
     height: 100%;
@@ -190,13 +183,13 @@ h1, h2, h3, h4 {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        165deg,
-        rgba(58, 50, 42, 0.35) 0%,
-        rgba(74, 62, 52, 0.35) 45%,
-        rgba(96, 140, 110, 0.3) 100%
-    );
     z-index: 1;
+    background: linear-gradient(
+        120deg,
+        rgba(253, 251, 247, 0.92) 0%,
+        rgba(253, 251, 247, 0.82) 45%,
+        rgba(253, 251, 247, 0.72) 100%
+    );
 }
 
 .hero-inner {
@@ -205,127 +198,152 @@ h1, h2, h3, h4 {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 32px 16px 48px;
+    padding: 80px 20px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 48px;
 }
 
-.hero-grid {
+.hero-layout {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    align-items: center;
+    gap: 48px;
 }
 
-.hero-message {
-    color: var(--color-white);
+.hero-copy {
     text-align: center;
+    max-width: 36rem;
 }
 
-.hero-message h1 {
+.hero-copy h1 {
     font-family: var(--font-serif);
-    font-size: 1.75rem;
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 16px;
-    color: var(--color-white);
-    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
-    max-width: 22rem;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.15;
+    color: #2D312E;
+    margin-bottom: 24px;
 }
 
-.hero-subheading {
+.hero-lead {
     font-family: var(--font-sans);
     font-size: 1rem;
-    line-height: 1.7;
-    color: rgba(253, 251, 247, 0.95);
-    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-    max-width: 42rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #5C605C;
+    max-width: 42ch;
     margin: 0 auto;
 }
 
-.hero-contact-box {
-    background: var(--color-bg);
-    border-radius: var(--radius-md);
-    padding: 24px;
-    box-shadow: var(--shadow-soft);
+.hero-contact {
+    width: 100%;
+    max-width: 28rem;
+    padding: 32px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    border: 1px solid rgba(96, 140, 110, 0.12);
+    gap: 24px;
+    background: rgba(253, 251, 247, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px rgba(45, 49, 46, 0.06);
 }
 
-.hero-welcome-text {
+.hero-contact-intro {
     font-family: var(--font-sans);
     font-size: 1rem;
-    line-height: 1.7;
-    color: var(--color-text);
-    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-text-muted);
     text-align: center;
 }
 
-.hero-cta-group {
+.hero-actions {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 
-.hero-contact-box .btn {
+.hero-actions .btn {
     width: 100%;
+    min-height: 52px;
 }
 
 .btn-hero-primary {
-    background-color: var(--color-primary);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 32px;
+    border-radius: 999px;
+    background-color: #5C8B6B;
     color: var(--color-white);
-    padding: 20px 24px;
-    border-radius: var(--radius-md);
-    min-height: 64px;
-    font-size: 1.1rem;
-    box-shadow: var(--shadow-soft);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    box-shadow: 0 4px 16px rgba(92, 139, 107, 0.2);
 }
 
 .btn-hero-primary i {
-    font-size: 1.25rem;
-    margin-bottom: 4px;
+    font-size: 1.125rem;
+    flex-shrink: 0;
+}
+
+.btn-hero-primary .btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.btn-hero-primary .btn-sublabel {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 0.92;
+    margin-top: 2px;
 }
 
 .btn-hero-primary:hover,
 .btn-hero-primary:focus-visible {
-    background-color: var(--color-secondary);
+    background-color: #4D7359;
     transform: translateY(-2px);
-    box-shadow: var(--shadow-medium);
+    box-shadow: 0 10px 25px rgba(92, 139, 107, 0.3);
 }
 
-.btn-hero-secondary {
-    background-color: var(--color-white);
-    color: var(--color-primary-dark);
-    border: 2px solid var(--color-primary);
+.btn-hero-whatsapp {
     flex-direction: row;
-    gap: 10px;
-    padding: 16px 24px;
-    min-height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 32px;
+    border-radius: 999px;
+    background-color: var(--color-white);
+    color: #2D312E;
     font-size: 1rem;
-    border-radius: var(--radius-md);
+    font-weight: 600;
+    border: 1px solid #E5E7E5;
+    box-shadow: 0 2px 8px rgba(45, 49, 46, 0.04);
 }
 
-.btn-hero-secondary:hover,
-.btn-hero-secondary:focus-visible {
-    background-color: rgba(217, 138, 108, 0.1);
-    border-color: var(--color-secondary);
-    color: var(--color-secondary-dark);
+.btn-hero-whatsapp i {
+    font-size: 1.375rem;
+    color: #25D366;
+}
+
+.btn-hero-whatsapp:hover,
+.btn-hero-whatsapp:focus-visible {
     transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(45, 49, 46, 0.08);
+    border-color: #D1D5D1;
 }
 
-.hero-trust-badges {
+.hero-trust {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 16px 20px;
-    background: rgba(253, 251, 247, 0.92);
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-soft);
+    gap: 16px;
+    padding: 0;
 }
 
 .hero-trust-item {
@@ -333,93 +351,86 @@ h1, h2, h3, h4 {
     align-items: center;
     gap: 12px;
     font-family: var(--font-sans);
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--color-text);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #2D312E;
+    line-height: 1.4;
 }
 
 .hero-trust-icon {
     flex-shrink: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: var(--radius-sm);
-    background: rgba(96, 140, 110, 0.12);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(92, 139, 107, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-primary);
+    color: #5C8B6B;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .btn-hero-primary .btn-text {
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .hero-inner {
-        padding: 48px 32px 64px;
-        gap: 40px;
+        padding: 120px 24px;
+        gap: 64px;
     }
 
-    .hero-grid {
+    .hero-layout {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 48px;
-        align-items: center;
+        align-items: start;
+        gap: 64px;
     }
 
-    .hero-message {
+    .hero-copy {
         text-align: left;
-    }
-
-    .hero-message h1 {
-        font-size: 2.5rem;
         max-width: none;
-        margin-left: 0;
-        margin-right: 0;
     }
 
-    .hero-subheading {
-        font-size: 1.125rem;
+    .hero-copy h1 {
+        font-size: 2.75rem;
+        margin-bottom: 32px;
+        max-width: 16ch;
+    }
+
+    .hero-lead {
+        font-size: 1.25rem;
         margin: 0;
+        max-width: 38ch;
     }
 
-    .hero-contact-box {
-        padding: 32px;
-        gap: 20px;
+    .hero-contact {
+        max-width: none;
+        padding: 40px;
     }
 
-    .hero-welcome-text {
+    .hero-contact-intro {
         text-align: left;
-        font-size: 1.05rem;
+        font-size: 1.0625rem;
     }
 
-    .btn-hero-primary {
-        padding: 24px 28px;
-        min-height: 72px;
-        font-size: 1.2rem;
-    }
-
-    .hero-trust-badges {
+    .hero-trust {
         flex-direction: row;
-        justify-content: center;
+        flex-wrap: wrap;
         gap: 32px;
-        padding: 20px 32px;
-    }
-
-    .hero-trust-item {
-        flex: 1;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        gap: 8px;
-        font-size: 0.875rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-message h1 {
-        font-size: 2.75rem;
+    .hero-copy h1 {
+        font-size: 3rem;
     }
 
-    .hero-grid {
-        gap: 64px;
+    .hero-layout {
+        gap: 80px;
     }
 }
 
@@ -439,122 +450,115 @@ h1, h2, h3, h4 {
 
     .btn-hero-primary:hover,
     .btn-hero-primary:focus-visible,
-    .btn-hero-secondary:hover,
-    .btn-hero-secondary:focus-visible {
+    .btn-hero-whatsapp:hover,
+    .btn-hero-whatsapp:focus-visible {
         transform: none;
     }
 }
 
-/* Listening section */
-.listening-section {
-    background-color: var(--color-bg-alt);
-    padding: 4rem 0;
+/* Ascolto e Differenziazione — premium minimal */
+.ascolto-section {
+    background-color: #FAF9F6;
 }
 
-.listening-content {
-    max-width: 780px;
+.ascolto-empathy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 64px 24px 48px;
+    text-align: center;
+}
+
+.ascolto-message {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ascolto-message p {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #3A3D3A;
+    text-align: center;
+    max-width: 65ch;
     margin: 0 auto;
 }
 
-.listening-quote {
-    border: none;
-    padding: 0;
-    margin: 0;
+.ascolto-differentiation {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
 }
 
-.listening-quote p {
-    font-family: var(--font-serif);
-    font-size: 1.2rem;
-    font-style: italic;
-    line-height: 1.75;
-    color: var(--color-text);
-    text-align: center;
-    position: relative;
-    padding: 0 0.5rem;
-}
-
-.listening-quote p::before {
-    content: "\201C";
-    font-size: 3rem;
-    color: var(--color-secondary);
-    opacity: 0.5;
-    display: block;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-}
-
-@media screen and (min-width: 768px) {
-    .listening-section {
-        padding: 5.5rem 0;
-    }
-
-    .listening-quote p {
-        font-size: 1.4rem;
-    }
-}
-
-/* Differentiation */
-.diff-section {
-    background-color: var(--color-bg);
-    padding: 4.5rem 0;
-}
-
-.diff-grid {
+.ascolto-cards-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 24px;
 }
 
-.diff-card {
-    background: var(--color-white);
-    border-radius: var(--radius-lg);
-    padding: 2rem 1.75rem;
-    box-shadow: var(--shadow-soft);
+.ascolto-card {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 32px 28px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
     transition: transform var(--transition), box-shadow var(--transition);
 }
 
-.diff-card:hover {
+.ascolto-card:hover,
+.ascolto-card:focus-within {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-medium);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.07);
 }
 
-.diff-icon {
-    width: 56px;
-    height: 56px;
-    border-radius: var(--radius-md);
-    background: rgba(96, 140, 110, 0.12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1.25rem;
-    color: var(--color-primary);
-    font-size: 1.4rem;
-}
-
-.diff-card h3 {
+.ascolto-card-title {
+    font-family: var(--font-sans);
     font-size: 1.25rem;
-    margin-bottom: 0.75rem;
-    color: var(--color-primary-dark);
+    font-weight: 700;
+    color: #3A3D3A;
+    line-height: 1.35;
+    margin-bottom: 16px;
 }
 
-.diff-card p {
+.ascolto-card-text {
+    font-family: var(--font-sans);
     font-size: 1rem;
-    color: var(--color-text-muted);
-    line-height: 1.7;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #555555;
 }
 
 @media screen and (min-width: 768px) {
-    .diff-section {
-        padding: 5.5rem 0;
+    .ascolto-empathy {
+        padding: 100px 32px 60px;
     }
 
-    .diff-grid {
+    .ascolto-message p {
+        font-size: 1.5rem;
+    }
+
+    .ascolto-differentiation {
+        padding: 0 32px 80px;
+    }
+
+    .ascolto-cards-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        gap: 40px;
+    }
+
+    .ascolto-card {
+        padding: 40px;
     }
 
     .section-header h2 {
         font-size: 2.2rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ascolto-card:hover,
+    .ascolto-card:focus-within {
+        transform: none;
     }
 }
 

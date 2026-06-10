@@ -141,7 +141,7 @@
     <!-- Preconnect to resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="galleria.css">
@@ -193,34 +193,36 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
 
     <!-- Hero Section -->
     <section id="hero" class="hero" aria-label="Casa Famiglia Quercia — accoglienza per anziani a Pinerolo">
-        <div class="hero-video-container">
+        <div class="hero-video-container" aria-hidden="true">
             <video id="heroVideo" autoplay muted loop playsinline poster="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif">
                 <!-- JavaScript caricherà il video appropriato -->
             </video>
-            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-overlay"></div>
             <noscript>
-                <img src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" alt="Casa Famiglia Quercia a Pinerolo" class="hero-fallback">
+                <img src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" alt="" class="hero-fallback">
             </noscript>
         </div>
 
         <div class="hero-inner">
-            <div class="hero-grid">
-                <div class="hero-message">
-                    <h1>Tuo genitore non vuole la casa di ripari? Scopri il calore di una vera famiglia.</h1>
-                    <p class="hero-subheading">A Pinerolo (a soli 30 minuti da Torino), un ambiente protetto, piccolo e sereno per anziani autosufficienti over 65. Massimo 8 ospiti, per sentirsi liberi, amati e sempre a casa.</p>
-                </div>
+            <div class="hero-layout">
+                <header class="hero-copy">
+                    <h1>Tuo genitore non vuole la casa di riposo? Scopri il calore di una vera famiglia.</h1>
+                    <p class="hero-lead">A Pinerolo, a soli 30 minuti da Torino, un ambiente protetto, piccolo e sereno per anziani autosufficienti over 65. Massimo 8 ospiti, per sentirsi liberi, amati e sempre a casa.</p>
+                </header>
 
-                <aside class="hero-contact-box" aria-labelledby="hero-contact-heading">
+                <aside class="hero-contact" aria-labelledby="hero-contact-heading">
                     <h2 id="hero-contact-heading" class="visually-hidden">Contatti rapidi</h2>
-                    <p class="hero-welcome-text">Noi ci siamo. Chiamaci anche solo per un consiglio, una domanda o per sfogarti. La porta è sempre aperta, anche solo per un caffè insieme.</p>
+                    <p class="hero-contact-intro">Noi ci siamo. Chiamaci anche solo per un consiglio, una domanda o per sfogarti. La porta è sempre aperta, anche solo per un caffè insieme.</p>
 
-                    <div class="hero-cta-group">
+                    <div class="hero-actions">
                         <a href="tel:+393762031211" class="btn btn-hero-primary track-phone" data-track-label="hero_call">
                             <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                            <span class="btn-label">Fai uno squillo: 376 203 1211</span>
-                            <span class="btn-sublabel">Risponde il nostro personale, senza impegno</span>
+                            <span class="btn-text">
+                                <span class="btn-label">Fai uno squillo: 376 203 1211</span>
+                                <span class="btn-sublabel">Risponde il nostro personale, senza impegno</span>
+                            </span>
                         </a>
-                        <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20fare%20due%20chiacchiere..." class="btn btn-hero-secondary track-whatsapp" data-track-label="hero_whatsapp" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20fare%20due%20chiacchiere..." class="btn btn-hero-whatsapp track-whatsapp" data-track-label="hero_whatsapp" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-whatsapp" aria-hidden="true"></i>
                             <span class="btn-label">Scrivici su WhatsApp</span>
                         </a>
@@ -228,10 +230,10 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
                 </aside>
             </div>
 
-            <ul class="hero-trust-badges" aria-label="Punti di forza">
+            <ul class="hero-trust" aria-label="Punti di forza">
                 <li class="hero-trust-item">
                     <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-clock"></i></span>
-                    <span>Presenza e Assistenza 24h</span>
+                    <span>Presenza e assistenza 24h</span>
                 </li>
                 <li class="hero-trust-item">
                     <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-leaf"></i></span>
@@ -239,9 +241,38 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
                 </li>
                 <li class="hero-trust-item">
                     <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-home"></i></span>
-                    <span>Massimo 8 ospiti (Niente liste d'attesa)</span>
+                    <span>Massimo 8 ospiti — niente liste d'attesa</span>
                 </li>
             </ul>
+        </div>
+    </section>
+
+    <!-- Sezione Ascolto e Differenziazione -->
+    <section id="ascolto-differenziazione" class="ascolto-section" aria-label="Ascolto empatico e cosa ci rende diversi da una RSA">
+        <div class="ascolto-empathy">
+            <blockquote class="ascolto-message">
+                <p>Sappiamo cosa stai provando. La paura di scegliere il posto sbagliato, il senso di colpa nel cercare aiuto. Noi ci siamo. Chiamaci anche solo per chiederci come gestire questo momento, senza alcun impegno. La nostra porta è sempre aperta, anche solo per un caffè insieme.</p>
+            </blockquote>
+        </div>
+
+        <div class="ascolto-differentiation">
+            <h2 class="visually-hidden">Cosa ci rende diversi</h2>
+            <div class="ascolto-cards-grid">
+                <article class="ascolto-card" aria-labelledby="ascolto-card-1-title">
+                    <h3 id="ascolto-card-1-title" class="ascolto-card-title">Casa, non reparto.</h3>
+                    <p class="ascolto-card-text">Massimo 8 ospiti. Nessun corridoio anonimo, ma il profumo del pranzo che cuoce in cucina e il calore di una vera sala da pranzo.</p>
+                </article>
+
+                <article class="ascolto-card" aria-labelledby="ascolto-card-2-title">
+                    <h3 id="ascolto-card-2-title" class="ascolto-card-title">Persone, non turni.</h3>
+                    <p class="ascolto-card-text">Staff stabile e fisso. Nessun turnover freddo: i nostri assistenti diventano figure di riferimento, creando legami sinceri con gli ospiti.</p>
+                </article>
+
+                <article class="ascolto-card" aria-labelledby="ascolto-card-3-title">
+                    <h3 id="ascolto-card-3-title" class="ascolto-card-title">Vita vera, non routine.</h3>
+                    <p class="ascolto-card-text">Curare l'orto, cucinare insieme, leggere in giardino e accogliere i parenti a qualsiasi ora. La vita continua, con serenità e protezione.</p>
+                </article>
+            </div>
         </div>
     </section>
 
