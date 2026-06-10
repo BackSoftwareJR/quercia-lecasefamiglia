@@ -5,15 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Copia la porzione di codice seguente e incollala in tutte le pagine del tuo sito web.
-
-1. Incolla questo codice quanto più in alto possibile nella sezione <head> della pagina:
-
-<!-- Google Tag Manager
+**Current task context:** Improve the legal pages, including the footer, to ensure they are well-structured and compliant with standards. The goal is to have a clean and organized layout. Do not modify the existing cookie bann
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 6%)
+### Pattern 1 (relevance: 30%)
 
 **When you see:**
 ```
@@ -41,7 +37,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 4%)
+### Pattern 1 (relevance: 28%)
 
 **When you see:**
 ```
