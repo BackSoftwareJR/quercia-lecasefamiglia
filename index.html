@@ -275,26 +275,104 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
         </div>
     </section>
 
-    <!-- Sezione Chi Siamo -->
-    <section class="about-section">
+    <!-- Sezione Una seconda famiglia -->
+    <section id="seconda-famiglia" class="famiglia-section" aria-labelledby="famiglia-heading">
         <div class="container">
-            <div class="about-content">
-                <!-- Contenuto testuale -->
-                <div class="about-text">
-                    <h2>Una seconda famiglia per chi ami di più</h2>
-                    <p>Villa immerse nel verde, intima e curata, dove ogni anziano può sentirsi a casa. Privacy garantita, assistenza discreta, e uno stile di vita che continua ad essere il tuo.</p>
-                    <p>Non solo sicurezza e servizi: qui si costruiscono nuove relazioni, si mantengono la propria indipendenza e si respira davvero aria di casa.</p>
-                    <blockquote class="quote-callout">
-                        "Tutto questo a pochi chilometri da Torino, nel comune di Pinerolo."
-                    </blockquote>
+            <header class="famiglia-header">
+                <p class="famiglia-eyebrow">La nostra filosofia</p>
+                <h2 id="famiglia-heading">Una seconda famiglia per chi ami di più</h2>
+                <p class="famiglia-intro">Villa immerse nel verde, intima e curata, dove ogni anziano può sentirsi a casa. Scopri cosa significa vivere qui, giorno dopo giorno.</p>
+            </header>
+
+            <div class="famiglia-experience">
+                <div class="famiglia-tabs" role="tablist" aria-label="Scopri la vita in casa famiglia">
+                    <button type="button" role="tab" id="famiglia-tab-1" class="famiglia-tab is-active" aria-selected="true" aria-controls="famiglia-panel-1" tabindex="0">
+                        <span class="famiglia-tab-icon" aria-hidden="true"><i class="fas fa-home"></i></span>
+                        <span class="famiglia-tab-text">
+                            <span class="famiglia-tab-title">Ambiente di casa</span>
+                            <span class="famiglia-tab-desc">Intimo, curato, nel verde</span>
+                        </span>
+                    </button>
+                    <button type="button" role="tab" id="famiglia-tab-2" class="famiglia-tab" aria-selected="false" aria-controls="famiglia-panel-2" tabindex="-1">
+                        <span class="famiglia-tab-icon" aria-hidden="true"><i class="fas fa-heart"></i></span>
+                        <span class="famiglia-tab-text">
+                            <span class="famiglia-tab-title">Relazioni autentiche</span>
+                            <span class="famiglia-tab-desc">Legami sinceri e indipendenza</span>
+                        </span>
+                    </button>
+                    <button type="button" role="tab" id="famiglia-tab-3" class="famiglia-tab" aria-selected="false" aria-controls="famiglia-panel-3" tabindex="-1">
+                        <span class="famiglia-tab-icon" aria-hidden="true"><i class="fas fa-sun"></i></span>
+                        <span class="famiglia-tab-text">
+                            <span class="famiglia-tab-title">Vita quotidiana</span>
+                            <span class="famiglia-tab-desc">Il tuo ritmo, con serenità</span>
+                        </span>
+                    </button>
                 </div>
-                
-                <!-- Contenuto visivo -->
-                <div class="about-image">
-                    <img src="images/Sala da Pranzo + persone 1.avif" alt="Casa Famiglia Quercia - Ambiente familiare">
-                    <!-- Sostituire con foto reale staff + ospiti o scorcio interno accogliente -->
+
+                <div class="famiglia-panels">
+                    <article role="tabpanel" id="famiglia-panel-1" class="famiglia-panel is-active" aria-labelledby="famiglia-tab-1">
+                        <figure class="famiglia-visual">
+                            <img src="images/Sala da Pranzo + persone 1.avif" alt="Ospiti e staff condividono un pasto in sala da pranzo" width="800" height="600" loading="lazy">
+                        </figure>
+                        <div class="famiglia-content">
+                            <h3>Sentirsi a casa, non in una struttura</h3>
+                            <p>Privacy garantita, assistenza discreta e ambienti accoglienti dove ogni dettaglio è pensato per il benessere. Niente atmosfera istituzionale: solo il calore di una vera casa familiare.</p>
+                        </div>
+                    </article>
+
+                    <article role="tabpanel" id="famiglia-panel-2" class="famiglia-panel" aria-labelledby="famiglia-tab-2" hidden>
+                        <figure class="famiglia-visual">
+                            <img src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" alt="Salone luminoso e accogliente della Casa Famiglia Quercia" width="800" height="600" loading="lazy">
+                        </figure>
+                        <div class="famiglia-content">
+                            <h3>Relazioni che nascono naturalmente</h3>
+                            <p>Non solo sicurezza e servizi: qui si costruiscono nuove amicizie, si mantiene la propria indipendenza e si respira davvero aria di casa. Ogni ospite è una persona, non un numero.</p>
+                        </div>
+                    </article>
+
+                    <article role="tabpanel" id="famiglia-panel-3" class="famiglia-panel" aria-labelledby="famiglia-tab-3" hidden>
+                        <figure class="famiglia-visual">
+                            <img src="images/Pinerolo - Casa Famiglia Quercia 2/Salone 2.avif" alt="Spazi comuni luminosi per la vita quotidiana" width="800" height="600" loading="lazy">
+                        </figure>
+                        <div class="famiglia-content">
+                            <h3>Il tuo stile di vita, ogni giorno</h3>
+                            <p>Dalle conversazioni in sala al sole in giardino: lo stile di vita che hai sempre avuto continua, con serenità e protezione. La routine diventa piacevole, mai imposta.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
+
+            <ul class="famiglia-highlights" aria-label="Cosa rende speciale la nostra casa">
+                <li class="famiglia-highlight">
+                    <span class="famiglia-highlight-icon" aria-hidden="true">
+                        <img src="icons/attivita.svg" alt="" width="32" height="32">
+                    </span>
+                    <span class="famiglia-highlight-label">Privacy e comfort</span>
+                </li>
+                <li class="famiglia-highlight">
+                    <span class="famiglia-highlight-icon" aria-hidden="true">
+                        <img src="icons/assistenza.svg" alt="" width="32" height="32">
+                    </span>
+                    <span class="famiglia-highlight-label">Assistenza discreta 24h</span>
+                </li>
+                <li class="famiglia-highlight">
+                    <span class="famiglia-highlight-icon" aria-hidden="true">
+                        <img src="icons/giardino.svg" alt="" width="32" height="32">
+                    </span>
+                    <span class="famiglia-highlight-label">Giardino e vita all'aperto</span>
+                </li>
+                <li class="famiglia-highlight">
+                    <span class="famiglia-highlight-icon" aria-hidden="true">
+                        <img src="icons/pasti.svg" alt="" width="32" height="32">
+                    </span>
+                    <span class="famiglia-highlight-label">Pasti come a casa</span>
+                </li>
+            </ul>
+
+            <blockquote class="famiglia-location">
+                <img src="icons/location.svg" alt="" class="famiglia-location-icon" width="24" height="24" aria-hidden="true">
+                <p>Tutto questo a pochi chilometri da Torino, nel comune di <strong>Pinerolo</strong>.</p>
+            </blockquote>
         </div>
     </section>
 
@@ -651,6 +729,7 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
 
     <!-- JavaScript -->
 <script src="script.js?v=1.2.0"></script>
+    <script src="famiglia.js"></script>
     <script src="galleria.js"></script>
     <script src="faq.js"></script>
 </body>

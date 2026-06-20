@@ -5,13 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** # PROMPT CURSOR: CORREZIONE CRITICA UX/UI - RIMOZIONE PESANTEZZA E BLOCCHI BIANCHI
-
-Il layout attuale è inaccettabile: c'è un blocco bianco solido sopra il video della Hero che copre le immagini, c'è 
+**Current task context:** Ristrutturare la sezione 'Una seconda famiglia' con un approccio dettagliato, eseguendo un'analisi del contenuto esistente per comprendere le esigenze dell'utente. Sviluppare un nuovo concept moderno 
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 1%)
+### Pattern 1 (relevance: 3%)
 
 **When you see:**
 ```
@@ -39,7 +37,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 1%)
+### Pattern 1 (relevance: 2%)
 
 **When you see:**
 ```
