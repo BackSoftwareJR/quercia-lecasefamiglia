@@ -5,11 +5,13 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Ristruttura la sezione 'Vieni a trovarci e a conoscerci' per migliorare la chiarezza delle informazioni, aggiungere funzionalità per facilitare la navigazione e creare un'esperienza utente più coinvol
+**Current task context:** Sviluppare un piano di restyling completo per la brand identity, con obiettivi specifici:
+             * Creare più sezioni per una comunicazione più empatica e affidabile
+             * Utilizzare im
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 4%)
+### Pattern 1
 
 **When you see:**
 ```
@@ -37,7 +39,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 2%)
+### Pattern 1
 
 **When you see:**
 ```
