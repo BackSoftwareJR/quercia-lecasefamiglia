@@ -5,11 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Aggiornare la foto nel sito 'Vieni a trovarci e a conoscerci' per una rappresentazione più attuale. cAMbiamola proprioo
+**Current task context:** Rivedere foto e utilizzare solo quelle presenti nella cartella 'Pinerolo - Casa Famiglia Quercia 1'. Escludere tutte le altre foto.
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 12%)
+### Pattern 1
 
 **When you see:**
 ```
@@ -37,7 +37,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 6%)
+### Pattern 1 (relevance: 5%)
 
 **When you see:**
 ```
