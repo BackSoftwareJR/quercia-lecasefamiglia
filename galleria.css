@@ -151,3 +151,123 @@
         transition: none;
     }
 }
+
+/* Lightbox overlay (hidden until opened via JS) */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    background-color: rgba(58, 61, 58, 0.92);
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.lightbox.is-open {
+    display: flex;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: min(960px, 100%);
+    max-height: 90vh;
+    width: 100%;
+}
+
+.lightbox-image {
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: var(--radius-sm, 12px);
+}
+
+.lightbox-caption {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--color-hero-text, #FDFBF7);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: var(--color-hero-text, #FDFBF7);
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    padding: 4px 8px;
+    transition: opacity var(--transition, 0.3s ease);
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus-visible {
+    opacity: 0.75;
+    outline: 2px solid var(--color-secondary, #D98A6C);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-hero-text, #FDFBF7);
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: rgba(253, 251, 247, 0.15);
+    border-radius: var(--radius-sm, 12px);
+    transition: background-color var(--transition, 0.3s ease);
+    user-select: none;
+}
+
+.lightbox-prev {
+    left: -56px;
+}
+
+.lightbox-next {
+    right: -56px;
+}
+
+.lightbox-prev:hover,
+.lightbox-prev:focus-visible,
+.lightbox-next:hover,
+.lightbox-next:focus-visible {
+    background-color: rgba(253, 251, 247, 0.3);
+    outline: 2px solid var(--color-secondary, #D98A6C);
+    outline-offset: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .lightbox-prev,
+    .lightbox-next {
+        top: auto;
+        bottom: -52px;
+        transform: none;
+        font-size: 1.5rem;
+        padding: 10px 14px;
+    }
+
+    .lightbox-prev {
+        left: calc(50% - 60px);
+    }
+
+    .lightbox-next {
+        right: calc(50% - 60px);
+    }
+
+    .lightbox-close {
+        top: -36px;
+        right: 0;
+        font-size: 1.75rem;
+    }
+}

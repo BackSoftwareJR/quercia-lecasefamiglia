@@ -5,11 +5,13 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Remove the section titled 'Parole di chi ha vissuto la stessa scelta' from the website, ensuring the remaining content is properly rearranged to maintain a visually appealing and cohesive design.
+**Current task context:** in fondo appare WhatsAppParliamo del tuo caro
+×
+❮ ❯ senza css risolviamo
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 39%)
+### Pattern 1
 
 **When you see:**
 ```
@@ -37,7 +39,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 32%)
+### Pattern 1
 
 **When you see:**
 ```
