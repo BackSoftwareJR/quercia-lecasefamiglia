@@ -478,67 +478,128 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
                 <p class="services-subtitle">Tutto quello che serve per vivere sereni. Senza sorprese.</p>
             </header>
 
-            <ul class="services-grid">
-                <li>
-                    <article class="service-card" aria-labelledby="service-title-1">
-                        <div class="service-icon-wrap" aria-hidden="true">
-                            <img src="icons/assistenza.svg" alt="" class="service-icon" width="40" height="40">
-                        </div>
-                        <h3 id="service-title-1">Assistenza 24h</h3>
-                        <p>Sempre al vostro fianco.</p>
-                    </article>
-                </li>
+            <div class="services-immersive">
+                <div class="services-stage" aria-hidden="true">
+                    <div class="services-stage-images">
+                        <figure class="services-stage-image is-active">
+                            <img src="images/Sala da Pranzo + persone 1.avif" alt="" width="900" height="675" loading="lazy" decoding="async">
+                        </figure>
+                        <figure class="services-stage-image">
+                            <img src="images/Pinerolo - Casa Famiglia Quercia 2/Cucina 1.avif" alt="" width="900" height="675" loading="lazy" decoding="async">
+                        </figure>
+                        <figure class="services-stage-image">
+                            <img src="images/Pinerolo - Casa Famiglia Quercia 2/Camera 1.avif" alt="" width="900" height="675" loading="lazy" decoding="async">
+                        </figure>
+                        <figure class="services-stage-image">
+                            <img src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" alt="" width="900" height="675" loading="lazy" decoding="async">
+                        </figure>
+                        <figure class="services-stage-image">
+                            <img src="images/Coazze - Casa Famiglia Gramsci/Esterno 1.avif" alt="" width="900" height="675" loading="lazy" decoding="async">
+                        </figure>
+                        <figure class="services-stage-image">
+                            <img src="images/Pinerolo - Casa Famiglia Quercia 1/img7.avif" alt="" width="900" height="675" loading="lazy" decoding="async">
+                        </figure>
+                    </div>
+                    <div class="services-stage-gradient"></div>
+                    <p class="services-stage-caption" id="services-stage-caption">Presenza costante, giorno e notte</p>
+                </div>
 
-                <li>
-                    <article class="service-card" aria-labelledby="service-title-2">
-                        <div class="service-icon-wrap" aria-hidden="true">
-                            <img src="icons/pasti.svg" alt="" class="service-icon" width="40" height="40">
-                        </div>
-                        <h3 id="service-title-2">Pasti su misura</h3>
-                        <p>Cucina fresca, come a casa.</p>
-                    </article>
-                </li>
+                <div class="services-flow">
+                    <div class="services-flow-track" aria-hidden="true">
+                        <span class="services-flow-line"></span>
+                        <span class="services-flow-progress"></span>
+                    </div>
 
-                <li>
-                    <article class="service-card" aria-labelledby="service-title-3">
-                        <div class="service-icon-wrap service-icon-wrap--warm" aria-hidden="true">
-                            <img src="icons/attivita.svg" alt="" class="service-icon" width="40" height="40">
-                        </div>
-                        <h3 id="service-title-3">Ambiente intimo</h3>
-                        <p>Camere luminose e private.</p>
-                    </article>
-                </li>
+                    <div class="services-list" role="tablist" aria-label="Servizi inclusi nella retta">
+                        <button type="button" role="tab" id="service-tab-1" class="services-item is-active" aria-selected="true" aria-controls="service-panel-1" tabindex="0" data-caption="Presenza costante, giorno e notte">
+                            <span class="services-item-index" aria-hidden="true">01</span>
+                            <span class="services-item-icon" aria-hidden="true">
+                                <img src="icons/assistenza.svg" alt="" width="32" height="32">
+                            </span>
+                            <span class="services-item-body">
+                                <span class="services-item-title">Assistenza 24h</span>
+                                <span class="services-item-tagline">Sempre al vostro fianco.</span>
+                            </span>
+                        </button>
 
-                <li>
-                    <article class="service-card" aria-labelledby="service-title-4">
-                        <div class="service-icon-wrap" aria-hidden="true">
-                            <img src="icons/medico.svg" alt="" class="service-icon" width="40" height="40">
-                        </div>
-                        <h3 id="service-title-4">Supporto medico</h3>
-                        <p>Pensiamo noi alle terapie.</p>
-                    </article>
-                </li>
+                        <button type="button" role="tab" id="service-tab-2" class="services-item" aria-selected="false" aria-controls="service-panel-2" tabindex="-1" data-caption="Colazione, pranzo, merenda e cena in cucina">
+                            <span class="services-item-index" aria-hidden="true">02</span>
+                            <span class="services-item-icon" aria-hidden="true">
+                                <img src="icons/pasti.svg" alt="" width="32" height="32">
+                            </span>
+                            <span class="services-item-body">
+                                <span class="services-item-title">Pasti su misura</span>
+                                <span class="services-item-tagline">Cucina fresca, come a casa.</span>
+                            </span>
+                        </button>
 
-                <li>
-                    <article class="service-card" aria-labelledby="service-title-5">
-                        <div class="service-icon-wrap" aria-hidden="true">
-                            <img src="icons/giardino.svg" alt="" class="service-icon" width="40" height="40">
-                        </div>
-                        <h3 id="service-title-5">Giardino privato</h3>
-                        <p>Aria aperta ogni giorno.</p>
-                    </article>
-                </li>
+                        <button type="button" role="tab" id="service-tab-3" class="services-item" aria-selected="false" aria-controls="service-panel-3" tabindex="-1" data-caption="Stanze accoglienti e curate ogni giorno">
+                            <span class="services-item-index" aria-hidden="true">03</span>
+                            <span class="services-item-icon services-item-icon--warm" aria-hidden="true">
+                                <img src="icons/attivita.svg" alt="" width="32" height="32">
+                            </span>
+                            <span class="services-item-body">
+                                <span class="services-item-title">Ambiente intimo</span>
+                                <span class="services-item-tagline">Camere luminose e private.</span>
+                            </span>
+                        </button>
 
-                <li>
-                    <article class="service-card" aria-labelledby="service-title-6">
-                        <div class="service-icon-wrap service-icon-wrap--warm" aria-hidden="true">
-                            <img src="icons/pulizia.svg" alt="" class="service-icon" width="40" height="40">
-                        </div>
-                        <h3 id="service-title-6">Cura personale</h3>
-                        <p>Discrezione e attenzione quotidiana.</p>
-                    </article>
-                </li>
-            </ul>
+                        <button type="button" role="tab" id="service-tab-4" class="services-item" aria-selected="false" aria-controls="service-panel-4" tabindex="-1" data-caption="Terapie e coordinamento con i medici">
+                            <span class="services-item-index" aria-hidden="true">04</span>
+                            <span class="services-item-icon" aria-hidden="true">
+                                <img src="icons/medico.svg" alt="" width="32" height="32">
+                            </span>
+                            <span class="services-item-body">
+                                <span class="services-item-title">Supporto medico</span>
+                                <span class="services-item-tagline">Pensiamo noi alle terapie.</span>
+                            </span>
+                        </button>
+
+                        <button type="button" role="tab" id="service-tab-5" class="services-item" aria-selected="false" aria-controls="service-panel-5" tabindex="-1" data-caption="Spazi verdi per passeggiate e relax">
+                            <span class="services-item-index" aria-hidden="true">05</span>
+                            <span class="services-item-icon" aria-hidden="true">
+                                <img src="icons/giardino.svg" alt="" width="32" height="32">
+                            </span>
+                            <span class="services-item-body">
+                                <span class="services-item-title">Giardino privato</span>
+                                <span class="services-item-tagline">Aria aperta ogni giorno.</span>
+                            </span>
+                        </button>
+
+                        <button type="button" role="tab" id="service-tab-6" class="services-item" aria-selected="false" aria-controls="service-panel-6" tabindex="-1" data-caption="Igiene e lavanderia con delicatezza">
+                            <span class="services-item-index" aria-hidden="true">06</span>
+                            <span class="services-item-icon services-item-icon--warm" aria-hidden="true">
+                                <img src="icons/pulizia.svg" alt="" width="32" height="32">
+                            </span>
+                            <span class="services-item-body">
+                                <span class="services-item-title">Cura personale</span>
+                                <span class="services-item-tagline">Discrezione e attenzione quotidiana.</span>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="services-panels">
+                        <article role="tabpanel" id="service-panel-1" class="services-panel is-active" aria-labelledby="service-tab-1">
+                            <p>Presenza costante, giorno e notte. Il nostro staff è in casa con voi, pronto ad ascoltare e intervenire con discrezione e umanità.</p>
+                        </article>
+                        <article role="tabpanel" id="service-panel-2" class="services-panel" aria-labelledby="service-tab-2" hidden>
+                            <p>Colazione, pranzo, merenda e cena preparati in cucina ogni giorno. Menu personalizzati in base a gusti, abitudini ed esigenze alimentari.</p>
+                        </article>
+                        <article role="tabpanel" id="service-panel-3" class="services-panel" aria-labelledby="service-tab-3" hidden>
+                            <p>Stanze accoglienti e curate, con servizio di pulizia quotidiano. Un angolo tutto vostro dove sentirsi protetti e a proprio agio.</p>
+                        </article>
+                        <article role="tabpanel" id="service-panel-4" class="services-panel" aria-labelledby="service-tab-4" hidden>
+                            <p>Gestione delle terapie, coordinamento con medici e farmacie. La famiglia resta informata e tranquilla, senza pensieri aggiuntivi.</p>
+                        </article>
+                        <article role="tabpanel" id="service-panel-5" class="services-panel" aria-labelledby="service-tab-5" hidden>
+                            <p>Spazi verdi protetti per passeggiate, sole e relax all'aperto. La natura fa parte della quotidianità, in ogni stagione.</p>
+                        </article>
+                        <article role="tabpanel" id="service-panel-6" class="services-panel" aria-labelledby="service-tab-6" hidden>
+                            <p>Igiene personale, lavanderia e assistenza quotidiana con rispetto e delicatezza. Ogni gesto è pensato per preservare dignità e autonomia.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
 
             <footer class="services-footer">
                 <a href="https://wa.me/393762031211?text=Ciao,%20ho%20una%20domanda%20su%20un%20servizio..." class="services-whatsapp-link track-whatsapp" data-track-label="services_whatsapp" target="_blank" rel="noopener noreferrer">
@@ -1128,6 +1189,7 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
 
     <!-- JavaScript -->
 <script src="script.js?v=1.2.0"></script>
+    <script src="servizi.js"></script>
     <script src="famiglia.js"></script>
     <script src="galleria.js"></script>
     <script src="faq.js"></script>
