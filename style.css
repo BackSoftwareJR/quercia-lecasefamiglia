@@ -476,62 +476,89 @@ h1, h2, h3, h4 {
     }
 }
 
-/* Ascolto e Differenziazione — editorial empathy */
+/* Ascolto e Differenziazione — immersive editorial */
 .ascolto-section {
     background-color: var(--color-bg);
-    padding-bottom: 0;
+    overflow: hidden;
 }
 
-.ascolto-empathy {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 64px 24px 48px;
-}
-
-.ascolto-empathy-layout {
+.ascolto-immersive {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
-    align-items: center;
+    gap: 32px;
+    padding: 48px 0 64px;
 }
 
-.ascolto-visual {
+.ascolto-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 0 16px;
+    min-height: 420px;
 }
 
-.ascolto-visual-main {
+.ascolto-gallery-feature {
     grid-row: span 2;
     margin: 0;
-    border-radius: var(--radius-lg);
+    position: relative;
     overflow: hidden;
+    border-radius: var(--radius-lg);
     aspect-ratio: 3 / 4;
 }
 
-.ascolto-visual-main img,
-.ascolto-visual-secondary img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.ascolto-visual-secondary {
+.ascolto-gallery-accent {
     margin: 0;
-    border-radius: var(--radius-md);
     overflow: hidden;
+    border-radius: var(--radius-md);
     aspect-ratio: 4 / 3;
 }
 
-.ascolto-copy {
-    text-align: center;
+.ascolto-gallery-feature img,
+.ascolto-gallery-accent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.ascolto-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 48px 20px 18px;
+    background: linear-gradient(transparent, rgba(45, 49, 46, 0.72));
+    color: var(--color-hero-text);
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.ascolto-narrative {
+    padding: 0 20px;
+    margin-top: -24px;
+    position: relative;
+    z-index: 2;
+}
+
+.ascolto-narrative-card {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 32px 28px;
+    background: rgba(252, 250, 248, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-medium);
+    border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .ascolto-eyebrow {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .ascolto-message {
@@ -545,138 +572,216 @@ h1, h2, h3, h4 {
     content: "\201C";
     display: block;
     font-family: var(--font-serif);
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1;
     color: var(--color-primary);
-    opacity: 0.35;
-    margin-bottom: -12px;
+    opacity: 0.4;
+    margin-bottom: -8px;
 }
 
 .ascolto-message p {
     font-family: var(--font-serif);
-    font-size: 1.25rem;
+    font-size: 1.1875rem;
     font-weight: 400;
     line-height: 1.65;
     color: var(--color-text);
-    text-align: center;
-    max-width: 42ch;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .ascolto-signature {
-    margin-top: 24px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(92, 139, 107, 0.2);
     font-family: var(--font-sans);
     font-size: 0.9375rem;
     font-weight: 500;
     color: var(--color-text-muted);
 }
 
-.ascolto-differentiation {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 48px 24px 80px;
+.ascolto-showcase {
+    background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
+    padding: 56px 0 88px;
 }
 
-.ascolto-diff-header {
+.ascolto-showcase-header {
     text-align: center;
     max-width: 36rem;
-    margin: 0 auto 48px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
 }
 
-.ascolto-cards-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 24px;
+.ascolto-pillars {
+    display: flex;
+    gap: 16px;
+    padding: 0 20px 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 20px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
 }
 
-.ascolto-card {
-    background-color: var(--color-card);
+.ascolto-pillars::-webkit-scrollbar {
+    display: none;
+}
+
+.ascolto-pillar {
+    position: relative;
+    flex: 0 0 min(85vw, 340px);
+    scroll-snap-align: center;
     border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow-soft);
-    transition: transform var(--transition), box-shadow var(--transition);
+    min-height: 440px;
+    isolation: isolate;
 }
 
-.ascolto-card:hover,
-.ascolto-card:focus-within {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-medium);
-}
-
-.ascolto-card-visual {
+.ascolto-pillar-visual {
+    position: absolute;
+    inset: 0;
     margin: 0;
-    aspect-ratio: 16 / 10;
-    overflow: hidden;
 }
 
-.ascolto-card-visual img {
+.ascolto-pillar-visual img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.5s ease;
+    transition: transform 0.6s ease;
 }
 
-.ascolto-card:hover .ascolto-card-visual img {
-    transform: scale(1.03);
+.ascolto-pillar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        transparent 25%,
+        rgba(45, 49, 46, 0.35) 55%,
+        rgba(45, 49, 46, 0.88) 100%
+    );
+    z-index: 1;
+    transition: opacity var(--transition);
 }
 
-.ascolto-card-body {
+.ascolto-pillar-overlay {
+    position: absolute;
+    inset: auto 0 0 0;
+    z-index: 2;
     padding: 28px 24px 32px;
+    color: var(--color-hero-text);
 }
 
-.ascolto-card-title {
+.ascolto-pillar-index {
+    display: block;
     font-family: var(--font-sans);
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: var(--color-text);
-    line-height: 1.35;
-    margin-bottom: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: rgba(253, 251, 247, 0.65);
+    margin-bottom: 10px;
 }
 
-.ascolto-card-text {
+.ascolto-pillar-title {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: var(--color-hero-text);
+}
+
+.ascolto-pillar-text {
     font-family: var(--font-sans);
-    font-size: 0.9375rem;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 1.65;
-    color: var(--color-text-muted);
+    line-height: 1.6;
+    color: rgba(253, 251, 247, 0.9);
     margin: 0;
 }
 
+.ascolto-pillar:hover .ascolto-pillar-visual img,
+.ascolto-pillar:focus-within .ascolto-pillar-visual img {
+    transform: scale(1.05);
+}
+
+.ascolto-gallery-feature:hover img {
+    transform: scale(1.03);
+}
+
 @media screen and (min-width: 768px) {
-    .ascolto-empathy {
-        padding: 100px 32px 60px;
+    .ascolto-immersive {
+        grid-template-columns: 1.15fr 0.85fr;
+        align-items: center;
+        gap: 0;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 80px 32px 72px;
     }
 
-    .ascolto-empathy-layout {
-        grid-template-columns: 1fr 1fr;
-        gap: 64px;
+    .ascolto-gallery {
+        padding: 0;
+        gap: 14px;
+        min-height: 520px;
     }
 
-    .ascolto-copy {
-        text-align: left;
+    .ascolto-gallery-feature {
+        aspect-ratio: auto;
+        min-height: 100%;
+    }
+
+    .ascolto-narrative {
+        padding: 0 0 0 48px;
+        margin-top: 0;
+    }
+
+    .ascolto-narrative-card {
+        margin: 0;
+        padding: 40px 36px;
     }
 
     .ascolto-message p {
-        font-size: 1.375rem;
-        text-align: left;
-        margin: 0;
+        font-size: 1.3125rem;
     }
 
-    .ascolto-signature {
-        text-align: left;
+    .ascolto-showcase {
+        padding: 72px 0 100px;
     }
 
-    .ascolto-differentiation {
-        padding: 64px 32px 100px;
+    .ascolto-showcase-header {
+        margin-bottom: 56px;
     }
 
-    .ascolto-cards-grid {
+    .ascolto-pillars {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 32px;
+        gap: 24px;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 32px;
+        overflow: visible;
     }
 
-    .ascolto-card-body {
-        padding: 32px 28px 36px;
+    .ascolto-pillar {
+        flex: none;
+        min-height: 520px;
+        transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .ascolto-pillar:hover,
+    .ascolto-pillar:focus-within {
+        transform: translateY(-6px);
+        box-shadow: var(--shadow-medium);
+    }
+
+    .ascolto-pillar-overlay {
+        padding: 36px 28px 40px;
+    }
+
+    .ascolto-pillar-title {
+        font-size: 1.375rem;
+    }
+
+    .ascolto-pillar-text {
+        font-size: 0.9375rem;
     }
 
     .section-header h2,
@@ -685,13 +790,37 @@ h1, h2, h3, h4 {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .ascolto-immersive {
+        padding: 100px 40px 88px;
+    }
+
+    .ascolto-gallery {
+        min-height: 580px;
+    }
+
+    .ascolto-narrative-card {
+        padding: 48px 44px;
+    }
+
+    .ascolto-message p {
+        font-size: 1.4375rem;
+    }
+
+    .ascolto-pillar {
+        min-height: 560px;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
-    .ascolto-card:hover,
-    .ascolto-card:focus-within {
+    .ascolto-pillar:hover,
+    .ascolto-pillar:focus-within {
         transform: none;
     }
 
-    .ascolto-card:hover .ascolto-card-visual img {
+    .ascolto-pillar:hover .ascolto-pillar-visual img,
+    .ascolto-pillar:focus-within .ascolto-pillar-visual img,
+    .ascolto-gallery-feature:hover img {
         transform: none;
     }
 }
