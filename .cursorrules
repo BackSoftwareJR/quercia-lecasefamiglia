@@ -5,10 +5,7 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Sviluppare un footer interattivo con un carosello di foto e un CTA 'Visualizza galleria' per:
-             - Migliorare l'esperienza dell'utente
-             - Aumentare l'interazione con il sito
-    
+**Current task context:** Sostituire l'ultima foto visualizzata nel carosello con una nuova immagine in tutte le pagine del sito web, cessando l'utilizzo della foto attuale.
 
 ## Project-Specific Patterns
 
@@ -40,7 +37,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 8%)
+### Pattern 1
 
 **When you see:**
 ```
