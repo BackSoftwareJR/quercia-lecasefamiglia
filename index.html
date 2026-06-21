@@ -146,6 +146,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="galleria.css">
     <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="contatti.css">
     <!-- Hotjar Tracking Code for https://www.quercia.lecasefamiglia.it/ -->
 <script>
     (function(h,o,t,j,a,r){
@@ -630,35 +631,240 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
         </div>
     </section>
     <!-- Sezione Contatti -->
-    <section class="contact-section" id="contatti">
+    <section class="contact-section" id="contatti" aria-labelledby="contact-heading">
         <div class="container">
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h2>Vieni a trovarci e a conoscerci</h2>
-                    <p>Ci impegniamo ogni giorno per offrire servizi sempre migliori, ascoltando i bisogni reali degli ospiti e delle loro famiglie. </p>
+            <header class="contact-header">
+                <p class="contact-eyebrow">Siamo qui per te</p>
+                <h2 id="contact-heading">Vieni a trovarci e a conoscerci</h2>
+                <p class="contact-intro">La porta è sempre aperta: vieni a conoscere la casa, il giardino e il nostro team. Nessun impegno, solo un momento per capire se siamo la scelta giusta per il tuo caro.</p>
+            </header>
 
-                    <ul class="contact-list">
-                        <li><img src="icons/location.svg" alt="" class="contact-icon"><strong>Indirizzo:</strong> Stradale Poirino, 152 - 10064 Pinerolo (TO)</li>
-                        <li><img src="icons/phone.svg" alt="" class="contact-icon"><strong>Telefono:</strong> <a href="tel:+393762031211">+39 376 203 1211</a></li>
-                        <li><img src="icons/whatsapp.svg" alt="" class="contact-icon"><strong>WhatsApp:</strong> <a href="https://wa.me/393762031211" target="_blank" class="whatsapp-link">Scrivici su WhatsApp</a></li>
-                        <li><img src="icons/email.svg" alt="" class="contact-icon"><strong>Email:</strong> <a href="mailto:info@casafamigliaquercia.it">info@casafamigliaquercia.it</a></li>
-                    </ul>
+            <nav class="contact-nav" aria-label="Navigazione sezione contatti">
+                <a href="#visita" class="contact-nav-link is-active" data-contact-nav="0">
+                    <i class="fas fa-calendar-check" aria-hidden="true"></i>
+                    Prenota una visita
+                </a>
+                <a href="#ubicazione" class="contact-nav-link" data-contact-nav="1">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    Dove siamo
+                </a>
+                <a href="#contatti-rapidi" class="contact-nav-link" data-contact-nav="2">
+                    <i class="fas fa-comments" aria-hidden="true"></i>
+                    Contattaci
+                </a>
+            </nav>
 
-                    <div class="cta-buttons">
-                        <a href="tel:+393762031211" class="btn btn-call">Parliamone insieme</a>
-                        <a href="https://wa.me/393762031211" target="_blank" class="btn btn-whatsapp">Scrivici su WhatsApp</a>
+            <div class="contact-layout">
+                <div class="contact-main">
+                    <div class="contact-tabs" role="tablist" aria-label="Informazioni per visitarci">
+                        <button type="button" role="tab" id="contact-tab-1" class="contact-tab is-active" aria-selected="true" aria-controls="contact-panel-1" tabindex="0">
+                            <span class="contact-tab-icon" aria-hidden="true"><i class="fas fa-handshake"></i></span>
+                            <span class="contact-tab-text">
+                                <span class="contact-tab-title">Prenota una visita</span>
+                                <span class="contact-tab-desc">Senza impegno, al tuo ritmo</span>
+                            </span>
+                        </button>
+                        <button type="button" role="tab" id="contact-tab-2" class="contact-tab" aria-selected="false" aria-controls="contact-panel-2" tabindex="-1">
+                            <span class="contact-tab-icon" aria-hidden="true"><i class="fas fa-map-marked-alt"></i></span>
+                            <span class="contact-tab-text">
+                                <span class="contact-tab-title">Dove siamo</span>
+                                <span class="contact-tab-desc">Mappa e indicazioni</span>
+                            </span>
+                        </button>
+                        <button type="button" role="tab" id="contact-tab-3" class="contact-tab" aria-selected="false" aria-controls="contact-panel-3" tabindex="-1">
+                            <span class="contact-tab-icon" aria-hidden="true"><i class="fas fa-phone-alt"></i></span>
+                            <span class="contact-tab-text">
+                                <span class="contact-tab-title">Contattaci</span>
+                                <span class="contact-tab-desc">Telefono, WhatsApp, email</span>
+                            </span>
+                        </button>
                     </div>
-                    
 
+                    <div class="contact-panels">
+                        <article role="tabpanel" id="contact-panel-1" class="contact-panel is-active" aria-labelledby="contact-tab-1">
+                            <h3 id="visita">Come funziona la visita</h3>
+                            <p>Ti accogliamo con calma: niente pressioni, solo la possibilità di vedere gli spazi, fare domande e capire se ci sentiamo la famiglia giusta per te.</p>
+
+                            <ol class="visit-steps">
+                                <li class="visit-step">
+                                    <span class="visit-step-number" aria-hidden="true">1</span>
+                                    <div class="visit-step-content">
+                                        <h4>Chiamaci o scrivici</h4>
+                                        <p>Parla direttamente con il nostro staff. Scegliamo insieme giorno e orario più comodi per te.</p>
+                                    </div>
+                                </li>
+                                <li class="visit-step">
+                                    <span class="visit-step-number" aria-hidden="true">2</span>
+                                    <div class="visit-step-content">
+                                        <h4>Visita la casa</h4>
+                                        <p>Ti mostriamo camere, spazi comuni e giardino. Incontri il team e respiri l'atmosfera quotidiana.</p>
+                                    </div>
+                                </li>
+                                <li class="visit-step">
+                                    <span class="visit-step-number" aria-hidden="true">3</span>
+                                    <div class="visit-step-content">
+                                        <h4>Fai tutte le domande</h4>
+                                        <p>Servizi, costi, accoglienza, visite dei familiari: rispondiamo con trasparenza, senza fretta.</p>
+                                    </div>
+                                </li>
+                                <li class="visit-step">
+                                    <span class="visit-step-number" aria-hidden="true">4</span>
+                                    <div class="visit-step-content">
+                                        <h4>Decidi con serenità</h4>
+                                        <p>Nessuna pressione. Se vuoi, torna a trovarci quante volte serve prima di scegliere.</p>
+                                    </div>
+                                </li>
+                            </ol>
+                        </article>
+
+                        <article role="tabpanel" id="contact-panel-2" class="contact-panel" aria-labelledby="contact-tab-2" hidden>
+                            <h3 id="ubicazione">Come raggiungerci</h3>
+                            <p>Siamo a Pinerolo, a pochi chilometri da Torino, in una zona tranquilla e ben collegata.</p>
+
+                            <div class="location-address">
+                                <div class="location-address-text">
+                                    <strong>Casa Famiglia Quercia</strong>
+                                    Stradale Poirino, 152 — 10064 Pinerolo (TO)
+                                </div>
+                                <div class="location-actions">
+                                    <button type="button" class="location-btn" data-copy-address="Stradale Poirino, 152, 10064 Pinerolo TO" aria-label="Copia indirizzo negli appunti">
+                                        <i class="fas fa-copy" aria-hidden="true"></i>
+                                        Copia indirizzo
+                                    </button>
+                                    <a href="https://www.google.com/maps/dir/?api=1&destination=Stradale+Poirino,+152,+10064+Pinerolo+TO" class="location-btn" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-directions" aria-hidden="true"></i>
+                                        Indicazioni
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contact-map">
+                                <iframe
+                                    title="Mappa Casa Famiglia Quercia a Pinerolo"
+                                    src="https://maps.google.com/maps?q=Stradale+Poirino,+152,+10064+Pinerolo+(TO)&amp;hl=it&amp;z=15&amp;output=embed"
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="contact-map-overlay">
+                                    <a href="https://www.google.com/maps/search/?api=1&amp;query=Stradale+Poirino,+152,+10064+Pinerolo+TO" class="contact-map-expand" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                        Apri in Google Maps
+                                    </a>
+                                </div>
+                            </div>
+
+                            <ul class="location-highlights" aria-label="Informazioni sulla posizione">
+                                <li class="location-highlight">
+                                    <i class="fas fa-car" aria-hidden="true"></i>
+                                    <span>Parcheggio disponibile in struttura</span>
+                                </li>
+                                <li class="location-highlight">
+                                    <i class="fas fa-city" aria-hidden="true"></i>
+                                    <span>A 40 minuti da Torino centro</span>
+                                </li>
+                                <li class="location-highlight">
+                                    <i class="fas fa-mountain" aria-hidden="true"></i>
+                                    <span>Vicino a Val Chisone e Val Pellice</span>
+                                </li>
+                                <li class="location-highlight">
+                                    <i class="fas fa-clock" aria-hidden="true"></i>
+                                    <span>Visite su appuntamento, anche nel weekend</span>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article role="tabpanel" id="contact-panel-3" class="contact-panel" aria-labelledby="contact-tab-3" hidden>
+                            <h3 id="contatti-rapidi">Scegli come contattarci</h3>
+                            <p>Rispondiamo personalmente, senza call center. Scegli il canale che preferisci.</p>
+
+                            <ul class="contact-methods">
+                                <li class="contact-method">
+                                    <a href="tel:+393762031211" class="contact-method-link track-phone" data-track-label="contact_section_call">
+                                        <span class="contact-method-icon" aria-hidden="true">
+                                            <img src="icons/phone.svg" alt="" width="24" height="24">
+                                        </span>
+                                        <span class="contact-method-text">
+                                            <span class="contact-method-label">Telefono</span>
+                                            <span class="contact-method-value">+39 376 203 1211</span>
+                                        </span>
+                                        <span class="contact-method-arrow" aria-hidden="true">→</span>
+                                    </a>
+                                </li>
+                                <li class="contact-method">
+                                    <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20organizzare%20una%20visita..." class="contact-method-link track-whatsapp" data-track-label="contact_section_whatsapp" target="_blank" rel="noopener noreferrer">
+                                        <span class="contact-method-icon contact-method-icon--whatsapp" aria-hidden="true">
+                                            <img src="icons/whatsapp.svg" alt="" width="24" height="24">
+                                        </span>
+                                        <span class="contact-method-text">
+                                            <span class="contact-method-label">WhatsApp</span>
+                                            <span class="contact-method-value">Scrivici un messaggio</span>
+                                        </span>
+                                        <span class="contact-method-arrow" aria-hidden="true">→</span>
+                                    </a>
+                                </li>
+                                <li class="contact-method">
+                                    <a href="mailto:info@casafamigliaquercia.it" class="contact-method-link">
+                                        <span class="contact-method-icon" aria-hidden="true">
+                                            <img src="icons/email.svg" alt="" width="24" height="24">
+                                        </span>
+                                        <span class="contact-method-text">
+                                            <span class="contact-method-label">Email</span>
+                                            <span class="contact-method-value">info@casafamigliaquercia.it</span>
+                                        </span>
+                                        <span class="contact-method-arrow" aria-hidden="true">→</span>
+                                    </a>
+                                </li>
+                                <li class="contact-method">
+                                    <a href="https://www.google.com/maps/dir/?api=1&destination=Stradale+Poirino,+152,+10064+Pinerolo+TO" class="contact-method-link" target="_blank" rel="noopener noreferrer">
+                                        <span class="contact-method-icon" aria-hidden="true">
+                                            <img src="icons/location.svg" alt="" width="24" height="24">
+                                        </span>
+                                        <span class="contact-method-text">
+                                            <span class="contact-method-label">Indirizzo</span>
+                                            <span class="contact-method-value">Stradale Poirino, 152 — Pinerolo</span>
+                                        </span>
+                                        <span class="contact-method-arrow" aria-hidden="true">→</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
                 </div>
 
-                <div class="contact-photo">
-                    <img src="images/Coazze - Casa Famiglia Gramsci/Esterno + persona 3.avif" alt="Ospiti della Casa Famiglia Quercia" class="contact-image">
-                    <div class="contact-photo-caption">
-                        <p>I nostri ospiti si sentono sempre a casa</p>
+                <aside class="contact-aside" aria-label="La nostra casa">
+                    <figure class="contact-photo">
+                        <img src="images/Coazze - Casa Famiglia Gramsci/Esterno + persona 3.avif" alt="Ospiti che si godono il giardino della casa famiglia" width="600" height="750" loading="lazy">
+                        <figcaption class="contact-photo-caption">
+                            <p>I nostri ospiti si sentono sempre a casa</p>
+                        </figcaption>
+                    </figure>
+
+                    <div class="contact-trust" aria-label="Perché visitarci">
+                        <div class="contact-trust-item">
+                            <i class="fas fa-coffee" aria-hidden="true"></i>
+                            <span>Anche solo per un caffè e una chiacchierata, senza impegno</span>
+                        </div>
+                        <div class="contact-trust-item">
+                            <i class="fas fa-users" aria-hidden="true"></i>
+                            <span>Massimo 8 ospiti: un ambiente intimo e familiare</span>
+                        </div>
+                        <div class="contact-trust-item">
+                            <i class="fas fa-leaf" aria-hidden="true"></i>
+                            <span>Giardino privato da vedere di persona</span>
+                        </div>
                     </div>
-                </div>
+                </aside>
             </div>
+
+            <footer class="contact-cta">
+                <h3>Pronto a conoscerci?</h3>
+                <p>Chiamaci o scrivici su WhatsApp: organizziamo insieme la visita più adatta a te e alla tua famiglia.</p>
+                <div class="contact-cta-buttons">
+                    <a href="tel:+393762031211" class="btn btn-call track-phone" data-track-label="contact_cta_call">Parliamone insieme</a>
+                    <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20organizzare%20una%20visita..." class="btn btn-whatsapp track-whatsapp" data-track-label="contact_cta_whatsapp" target="_blank" rel="noopener noreferrer">Scrivici su WhatsApp</a>
+                </div>
+            </footer>
         </div>
     </section>
 
@@ -732,5 +938,6 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
     <script src="famiglia.js"></script>
     <script src="galleria.js"></script>
     <script src="faq.js"></script>
+    <script src="contatti.js"></script>
 </body>
 </html>
