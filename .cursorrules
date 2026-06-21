@@ -5,11 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Sostituire l'ultima foto visualizzata nel carosello con una nuova immagine in tutte le pagine del sito web, cessando l'utilizzo della foto attuale.
+**Current task context:** Aggiornare la foto nel sito 'Vieni a trovarci e a conoscerci' per una rappresentazione più attuale. cAMbiamola proprioo
 
 ## Project-Specific Patterns
 
-### Pattern 1
+### Pattern 1 (relevance: 12%)
 
 **When you see:**
 ```
@@ -37,7 +37,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1
+### Pattern 1 (relevance: 6%)
 
 **When you see:**
 ```
