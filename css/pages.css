@@ -822,31 +822,6 @@
   );
 }
 
-.contact-hero__actions {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-  margin-top: var(--space-6);
-  max-width: 36rem;
-  margin-inline: auto;
-}
-
-.contact-hero__btn-phone {
-  width: 100%;
-  justify-content: center;
-}
-
-.contact-hero__secondary {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
-}
-
-.contact-hero__secondary .btn {
-  width: 100%;
-  justify-content: center;
-}
-
 .contact-hero__address {
   margin: var(--space-5) 0 0;
   font-size: var(--text-sm);
@@ -873,43 +848,31 @@
   flex-shrink: 0;
 }
 
-@media (min-width: 640px) {
-  .contact-hero__secondary {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .contact-hero__secondary .btn {
-    width: auto;
-    flex: 1 1 auto;
-  }
-}
-
 /* Sticky contact bar */
 .contact-sticky-bar {
   position: sticky;
   top: var(--header-height);
   z-index: calc(var(--z-sticky) - 1);
-  background: var(--color-white);
+  background: rgba(253, 250, 245, 0.97);
+  backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--color-border);
-  box-shadow: var(--shadow-sm);
 }
 
 .contact-sticky-bar__inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-2);
-  padding-block: var(--space-3);
+  padding-block: var(--space-2);
 }
 
 .contact-sticky-bar__btn {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--space-1);
-  padding: var(--space-3) var(--space-2);
-  min-height: 3.25rem;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  min-height: 2.5rem;
   border-radius: var(--radius-md);
   text-decoration: none;
   font-size: var(--text-sm);
@@ -918,8 +881,9 @@
 }
 
 .contact-sticky-bar__btn svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
 }
 
 .contact-sticky-bar__btn--call {
@@ -954,10 +918,8 @@
 
 @media (min-width: 768px) {
   .contact-sticky-bar__btn {
-    flex-direction: row;
-    gap: var(--space-2);
-    font-size: var(--text-base);
-    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+    padding: var(--space-2) var(--space-4);
   }
 }
 
@@ -983,11 +945,11 @@
 .contact-quick-band__phone {
   display: flex;
   flex-direction: column;
-  padding: var(--space-8);
+  padding: var(--space-6);
   background: var(--color-white);
   border-radius: var(--radius-lg);
-  border: 2px solid var(--color-accent);
-  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
   text-align: center;
 }
 
@@ -1002,7 +964,7 @@
 
 .contact-quick-band__number {
   font-family: var(--font-heading);
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-size: clamp(1.375rem, 3vw, 1.75rem);
   font-weight: var(--font-semibold);
   color: var(--color-primary);
   text-decoration: none;
@@ -1016,9 +978,13 @@
 }
 
 .contact-quick-band__hint {
-  margin: 0 0 var(--space-5);
+  margin: 0 0 var(--space-4);
   font-size: var(--text-sm);
   color: var(--color-text-muted);
+}
+
+.contact-quick-band__actions {
+  justify-content: center;
 }
 
 .contact-quick-band__channels {
@@ -1038,7 +1004,7 @@
   align-items: center;
   text-align: center;
   gap: var(--space-2);
-  padding: var(--space-6) var(--space-4);
+  padding: var(--space-5) var(--space-4);
   background: var(--color-white);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
@@ -1053,8 +1019,9 @@
 }
 
 .contact-quick-band__channel svg {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
 }
 
 .contact-quick-band__channel--whatsapp svg {
@@ -1083,16 +1050,16 @@
 
 .contact-quick-band__channel-value {
   font-family: var(--font-heading);
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   color: var(--color-primary);
   line-height: var(--leading-snug);
 }
 
-/* Extra-large buttons */
+/* Extra-large buttons — capped to match btn--lg */
 .btn--xl {
-  padding: 1.125rem 2rem;
-  font-size: clamp(1.0625rem, 2.5vw, 1.25rem);
-  min-height: 3.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.0625rem;
+  min-height: 44px;
   font-weight: var(--font-semibold);
 }
 
