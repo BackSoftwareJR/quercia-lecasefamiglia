@@ -513,6 +513,15 @@
   height: 50vh;
 }
 
+.comparison-table--compact {
+  font-size: var(--text-sm);
+}
+
+.comparison-table--compact th,
+.comparison-table--compact td {
+  padding: var(--space-sm) var(--space-md);
+}
+
 .admission-steps {
   display: grid;
   gap: var(--space-8);
