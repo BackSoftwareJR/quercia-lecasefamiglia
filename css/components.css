@@ -724,6 +724,22 @@
   color: var(--color-text-light);
 }
 
+.card-testimonial__source {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.card-testimonial__source .icon-google {
+  width: 0.875rem;
+  height: 0.875rem;
+  flex-shrink: 0;
+}
+
+.testimonials-cta {
+  text-align: center;
+}
+
 /* Steps */
 .steps {
   display: grid;
