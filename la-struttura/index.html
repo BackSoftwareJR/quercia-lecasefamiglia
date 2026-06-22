@@ -16,7 +16,7 @@
   <meta property="og:image" content="https://casafamigliaquercia.it/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img7.avif">
   <meta property="og:locale" content="it_IT">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#2D5A3D">
+  <meta name="theme-color" content="#6b6348">
   <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,62 +57,134 @@
       </div>
     </header>
 
-    <section class="section">
+    <section class="section" aria-labelledby="camere-heading">
       <div class="container">
-        <div class="split-layout">
-          <div class="content-prose">
-            <h2>Le camere</h2>
-            <p>Ogni ospite ha la propria stanza — singola o doppia, in base alle preferenze e alla disponibilità. Letto comodo, armadio, comodini, luce naturale. E soprattutto: spazio per portare i propri oggetti.</p>
-            <h3>Camera singola</h3>
-            <p>Privacy totale, ideali per chi ama i propri ritmi e vuole un angolo tutto suo. Porta quadri, fotografie, la poltrona preferita: la camera si adatta a chi la abita, non il contrario.</p>
-            <h3>Camera doppia</h3>
-            <p>Per coppie di coniugi o per chi apprezza la compagnia di un coinquilino. Stesso calore, stessa cura, con l'equilibrio giusto tra convivialità e spazio personale.</p>
-            <p>La pulizia è quotidiana. L'igiene personale è seguita con discrezione. Per i dettagli su cosa è incluso, consulta la pagina <a href="/rette-e-ammissione/">Rette e ammissione</a>.</p>
+        <header class="section__header section__header--center">
+          <p class="section__eyebrow">Il tuo spazio</p>
+          <h2 id="camere-heading">Le camere</h2>
+          <p class="section__lead">Ogni ospite ha la propria stanza — singola o doppia, in base alle preferenze e alla disponibilità. Non camere d'albergo: un angolo personale dove portare foto, libri e gli oggetti che profumano di casa.</p>
+        </header>
+
+        <div class="struttura-rooms">
+          <article class="struttura-room-card">
+            <figure class="struttura-room-card__media">
+              <button type="button" class="struttura-room-card__photo" data-lightbox="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img7.avif" aria-label="Ingrandisci foto camera singola">
+                <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img7.avif" alt="Camera singola confortevole con arredi personali a Casa Famiglia Quercia, Pinerolo" width="640" height="480" loading="lazy">
+              </button>
+            </figure>
+            <div class="struttura-room-card__body">
+              <div class="card-service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+              </div>
+              <h3 class="struttura-room-card__title">Camera singola</h3>
+              <p class="struttura-room-card__intro">Privacy totale, per chi ama i propri ritmi e vuole un rifugio tutto suo. Porta quadri, fotografie, la poltrona preferita: la stanza si adatta a chi la abita, non il contrario.</p>
+              <ul class="struttura-room-card__features">
+                <li>Letto comodo, armadio e comodini curati</li>
+                <li>Luce naturale e ventilazione quotidiana</li>
+                <li>Spazio per mobili e oggetti personali</li>
+                <li>Pulizia e igiene seguite ogni giorno, con discrezione</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="struttura-room-card struttura-room-card--reverse">
+            <figure class="struttura-room-card__media">
+              <button type="button" class="struttura-room-card__photo" data-lightbox="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img8.avif" aria-label="Ingrandisci foto camera doppia">
+                <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img8.avif" alt="Camera doppia luminosa con vista sul verde del Pinerolese" width="640" height="480" loading="lazy">
+              </button>
+            </figure>
+            <div class="struttura-room-card__body">
+              <div class="card-service__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="struttura-room-card__title">Camera doppia</h3>
+              <p class="struttura-room-card__intro">Per coppie di coniugi o per chi apprezza la compagnia di un coinquilino. Stesso calore, stessa cura — con l'equilibrio giusto tra convivialità e spazio personale.</p>
+              <ul class="struttura-room-card__features">
+                <li>Ideale per coniugi che vogliono restare insieme</li>
+                <li>Arredi curati e stessa attenzione delle singole</li>
+                <li>Compagnia quotidiana, senza affollamento</li>
+                <li>Bagno privato o adiacente, secondo la disposizione</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <p class="struttura-section-note">La pulizia è quotidiana e l'igiene personale è seguita con rispetto. Per capire cosa è incluso nella retta — pasti, lavanderia, assistenza — consulta la pagina <a href="/rette-e-ammissione/">Rette e ammissione</a>.</p>
+      </div>
+    </section>
+
+    <section class="section section--secondary" aria-labelledby="spazi-comuni-heading">
+      <div class="container">
+        <header class="section__header section__header--center">
+          <p class="section__eyebrow">Vita condivisa</p>
+          <h2 id="spazi-comuni-heading">Gli spazi comuni</h2>
+          <p class="section__lead">La vita qui non si chiude in camera. Salotti, tavola e cucina sono il cuore della giornata — dove si mangia insieme, si chiacchiera e ci si sente parte di una famiglia.</p>
+        </header>
+
+        <div class="struttura-spaces">
+          <div class="struttura-spaces__cards">
+            <article class="card-service">
+              <div class="card-service__icon" aria-hidden="true"><img src="/icons/attivita.svg" alt="" width="28" height="28"></div>
+              <h3 class="card-service__title">Salone</h3>
+              <p class="card-service__text">Luminoso e accogliente. Conversazioni al pomeriggio, giochi da tavolo, lettura tranquilla. Non un corridoio di passaggio: un vero salotto di casa.</p>
+            </article>
+            <article class="card-service">
+              <div class="card-service__icon" aria-hidden="true"><img src="/icons/pasti.svg" alt="" width="28" height="28"></div>
+              <h3 class="card-service__title">Sala da pranzo</h3>
+              <p class="card-service__text">Colazione, pranzo, merenda e cena attorno al tavolo — come si faceva a casa, meglio di casa. Niente mensa, niente vassoi monotoni.</p>
+            </article>
+            <article class="card-service">
+              <div class="card-service__icon" aria-hidden="true"><img src="/icons/pulizia.svg" alt="" width="28" height="28"></div>
+              <h3 class="card-service__title">Cucina</h3>
+              <p class="card-service__text">Il profumo del caffè al mattino, piatti freschi ogni giorno, diete rispettate. La cucina è il centro della casa e si sente.</p>
+            </article>
           </div>
-          <div class="gallery-grid" style="grid-template-columns: 1fr;" aria-label="Foto camere">
-            <button type="button" class="gallery-grid__item" data-lightbox="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img7.avif">
-              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img7.avif" alt="Camera confortevole con arredi personali a Pinerolo" width="400" height="300" loading="lazy">
-            </button>
-            <button type="button" class="gallery-grid__item" data-lightbox="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img8.avif">
-              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img8.avif" alt="Camera luminosa e accogliente nel Pinerolese" width="400" height="300" loading="lazy">
-            </button>
-          </div>
+
+          <article class="servizi-block">
+            <figure class="servizi-block__media">
+              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img2.avif" alt="Momento conviviale nel salone di Casa Famiglia Quercia a Pinerolo" width="640" height="480" loading="lazy">
+            </figure>
+            <div class="servizi-block__content">
+              <div class="servizi-block__icon" aria-hidden="true"><img src="/icons/quote.svg" alt="" width="28" height="28"></div>
+              <h3 class="servizi-block__title">Dove si vive, non solo si dorme</h3>
+              <p>Con solo otto ospiti, gli spazi comuni restano intimi. Ci si conosce per nome, si condividono storie e abitudini — come in una famiglia allargata nel Pinerolese.</p>
+              <p>Vuoi vedere come scorre una giornata tipo? Leggi <a href="/la-giornata/">La giornata</a> e scopri i <a href="/servizi/">servizi inclusi</a>.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--secondary">
-      <div class="container content-prose">
-        <h2>Gli spazi comuni</h2>
-        <p>La vita qui non si chiude in camera. Gli spazi condivisi sono il cuore della giornata — dove si mangia insieme, si chiacchiera, si guarda la tv o si legge in compagnia.</p>
-        <h3>Salone</h3>
-        <p>Luminoso e accogliente. Conversazioni al pomeriggio, giochi da tavolo, lettura tranquilla. Non un corridoio di passaggio: un vero salotto di casa.</p>
-        <h3>Sala da pranzo</h3>
-        <p>I pasti sono conviviali. Colazione, pranzo, merenda e cena attorno al tavolo — come si faceva a casa, meglio di casa. Niente mensa, niente vassoi monotoni.</p>
-        <h3>Cucina</h3>
-        <p>Il profumo del caffè al mattino, piatti freschi preparati ogni giorno, diete rispettate. La cucina è il centro della casa e si sente.</p>
-        <p>Vuoi vedere come scorre una giornata tipo? Leggi <a href="/la-giornata/">La giornata</a> e scopri i <a href="/servizi/">servizi inclusi</a>.</p>
-      </div>
-    </section>
-
-    <section class="section">
+    <section class="section" aria-labelledby="giardino-heading">
       <div class="container">
-        <div class="split-layout">
-          <div class="content-prose">
-            <h2>Il giardino</h2>
-            <p>Spazi verdi privati per passeggiare, coltivare l'orto, godersi il sole o semplicemente stare all'aria aperta. Il giardino fa parte della quotidianità, in ogni stagione — non un optional da visitare una volta al mese.</p>
-            <p>Per chi ama il Pinerolese, la natura intorno è un beneficio concreto: aria buona, ritmi lenti, la possibilità di uscire senza dover prendere l'auto ogni volta.</p>
-            <h3>Sicurezza, senza clima ospedaliero</h3>
-            <p>Personale presente h24, ambiente protetto, accessi controllati. Ma niente sirene, niente cartelli minacciosi: sicurezza sì, ospedale no. È questa la differenza che senti quando entri.</p>
-          </div>
-          <div class="gallery-grid" style="grid-template-columns: 1fr;" aria-label="Foto giardino">
-            <button type="button" class="gallery-grid__item" data-lightbox="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img9.avif">
-              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img9.avif" alt="Giardino privato nel verde del Pinerolese" width="400" height="300" loading="lazy">
-            </button>
-            <button type="button" class="gallery-grid__item" data-lightbox="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img10.avif">
-              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img10.avif" alt="Spazi verdi per passeggiate a Casa Famiglia Quercia" width="400" height="300" loading="lazy">
-            </button>
-          </div>
+        <header class="section__header section__header--center">
+          <p class="section__eyebrow">Aria aperta</p>
+          <h2 id="giardino-heading">Il giardino</h2>
+          <p class="section__lead">Spazi verdi privati per passeggiare, coltivare l'orto, godersi il sole o semplicemente respirare. Il giardino fa parte della quotidianità, in ogni stagione.</p>
+        </header>
+
+        <div class="struttura-spaces">
+          <article class="servizi-block">
+            <figure class="servizi-block__media">
+              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img9.avif" alt="Giardino privato nel verde del Pinerolese" width="640" height="480" loading="lazy">
+            </figure>
+            <div class="servizi-block__content">
+              <div class="servizi-block__icon" aria-hidden="true"><img src="/icons/giardino.svg" alt="" width="28" height="28"></div>
+              <h3 class="servizi-block__title">Verde e ritmi lenti</h3>
+              <p>Passeggiate al mattino, orto da curare, un tavolo all'ombra per leggere. Per chi ama il Pinerolese, la natura intorno è un beneficio concreto: aria buona e la possibilità di uscire senza prendere l'auto ogni volta.</p>
+            </div>
+          </article>
+
+          <article class="servizi-block servizi-block--reverse">
+            <figure class="servizi-block__media">
+              <img src="/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img10.avif" alt="Spazi verdi per passeggiate a Casa Famiglia Quercia" width="640" height="480" loading="lazy">
+            </figure>
+            <div class="servizi-block__content">
+              <div class="servizi-block__icon" aria-hidden="true"><img src="/icons/assistenza.svg" alt="" width="28" height="28"></div>
+              <h3 class="servizi-block__title">Sicurezza, senza clima ospedaliero</h3>
+              <p>Personale presente h24, ambiente protetto, accessi controllati. Ma niente sirene, niente cartelli minacciosi: sicurezza sì, ospedale no. È questa la differenza che senti quando entri.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>

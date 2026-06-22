@@ -204,6 +204,16 @@
       });
     });
 
+    document.querySelectorAll('.struttura-room-card__photo[data-lightbox]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var img = btn.querySelector('img');
+        openLightbox([{
+          src: btn.getAttribute('data-lightbox'),
+          alt: img ? img.getAttribute('alt') || '' : ''
+        }], 0);
+      });
+    });
+
     if (lightbox.dataset.staticBound === 'true') return;
     lightbox.dataset.staticBound = 'true';
 
