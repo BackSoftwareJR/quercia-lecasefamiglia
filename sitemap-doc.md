@@ -1,6 +1,6 @@
-# Sitemap — Casa Famiglia Gramsci
+# Sitemap — Casa Famiglia Quercia
 
-> Base URL: `https://gramsci.lecasefamiglia.it`  
+> Base URL: `https://casafamigliaquercia.it`  
 > Primary keyword: **casa famiglia anziani Coazze**  
 > Target audience: adult children (45–65) choosing for autonomous seniors 65+
 
@@ -36,7 +36,7 @@
 |-------|-------|
 | **Slug** | `/` |
 | **H1** | Una seconda casa per chi ami, a Coazze |
-| **Meta title** | Casa famiglia anziani Coazze \| Gramsci Valle Susa |
+| **Meta title** | Casa famiglia anziani Coazze \| Casa Famiglia Quercia Valle Susa |
 | **Meta description** | Casa famiglia per anziani autosufficienti a Coazze. Ambiente familiare, assistenza discreta e libertà quotidiana. Valle di Susa, vicino Giaveno e Pinerolo. |
 | **Sections** | Hero · Perché sceglierci · Servizi in sintesi · La struttura (preview) · Una giornata tipo · Testimonianze · FAQ · CTA contatti |
 | **Primary CTA** | Chiama · Ti aiutiamo noi |
@@ -51,8 +51,8 @@
 |-------|-------|
 | **Slug** | `/chi-siamo/` |
 | **H1** | Chi siamo: una famiglia che accoglie |
-| **Meta title** | Chi siamo \| Casa Famiglia Gramsci Coazze |
-| **Meta description** | Conosci Casa Famiglia Gramsci: accoglienza calorosa per anziani autosufficienti a Coazze. Non una RSA, una vera seconda casa in Valle di Susa. |
+| **Meta title** | Chi siamo \| Casa Famiglia Quercia Coazze |
+| **Meta description** | Conosci Casa Famiglia Quercia: accoglienza calorosa per anziani autosufficienti a Coazze. Non una RSA, una vera seconda casa in Valle di Susa. |
 | **Sections** | Intro · Filosofia · Il team · Valori · Area servita · CTA |
 | **Primary CTA** | Scopri di più (lecasefamiglia.it) · Prenota una visita |
 | **Internal links** | `/servizi/`, `/la-struttura/`, `/contatti/` |
@@ -65,7 +65,7 @@
 |-------|-------|
 | **Slug** | `/servizi/` |
 | **H1** | Servizi pensati per vivere bene ogni giorno |
-| **Meta title** | Servizi casa famiglia anziani \| Gramsci Coazze |
+| **Meta title** | Servizi casa famiglia anziani \| Casa Famiglia Quercia Coazze |
 | **Meta description** | Assistenza discreta 24h, pasti genuini, attività e cura della casa. Servizi per anziani autosufficienti a Coazze e Valle di Susa. |
 | **Sections** | Intro · Assistenza · Pasti · Attività · Pulizia · Wi-Fi · Cosa include la retta · FAQ servizi · CTA |
 | **Primary CTA** | Hai altre domande? · Chiama |
@@ -79,8 +79,8 @@
 |-------|-------|
 | **Slug** | `/la-struttura/` |
 | **H1** | La nostra casa: spazi accoglienti nel verde |
-| **Meta title** | La struttura \| Villa Gramsci Coazze anziani |
-| **Meta description** | Camere luminose, salotti condivisi e giardino in Valle di Susa. Scopri gli spazi di Casa Famiglia Gramsci a Piazza Gramsci 17, Coazze. |
+| **Meta title** | La struttura \| Casa Famiglia Quercia Coazze anziani |
+| **Meta description** | Camere luminose, salotti condivisi e giardino in Valle di Susa. Scopri gli spazi di Casa Famiglia Quercia a Stradale Poirino 152, Coazze. |
 | **Sections** | Intro · Camere · Spazi comuni · Giardino · Galleria · Sicurezza · CTA visita |
 | **Primary CTA** | Prenota una visita · Scopri di più |
 | **Internal links** | `/la-giornata/`, `/servizi/`, `/contatti/` |
@@ -93,7 +93,7 @@
 |-------|-------|
 | **Slug** | `/la-giornata/` |
 | **H1** | Una giornata tipo da noi |
-| **Meta title** | La giornata \| Vita quotidiana Gramsci Coazze |
+| **Meta title** | La giornata \| Vita quotidiana Casa Famiglia Quercia – Pinerolo |
 | **Meta description** | Dalla colazione al riposo serale: scopri com'è una giornata in casa famiglia a Coazze. Ritmi naturali, autonomia e convivialità. |
 | **Sections** | Intro · Timeline mattina/pomeriggio/sera · Attività · Visite familiari · CTA |
 | **Primary CTA** | Ti aiutiamo noi · Chiama |
@@ -108,7 +108,7 @@
 | **Slug** | `/rette-e-ammissione/` |
 | **H1** | Rette e percorso di ammissione |
 | **Meta title** | Rette e ammissione \| Casa famiglia Coazze |
-| **Meta description** | Tariffe trasparenti e percorso di ingresso sereno per anziani autosufficienti. Casa Famiglia Gramsci a Coazze: ti guidiamo passo dopo passo. |
+| **Meta description** | Tariffe trasparenti e percorso di ingresso sereno per anziani autosufficienti. Casa Famiglia Quercia a Coazze: ti guidiamo passo dopo passo. |
 | **Sections** | Intro · Cosa include · Processo ammissione · Documenti · Tempi · FAQ · CTA |
 | **Primary CTA** | Chiama · Hai altre domande? |
 | **Internal links** | `/servizi/`, `/contatti/`, `/chi-siamo/` |
@@ -121,9 +121,9 @@
 |-------|-------|
 | **Slug** | `/contatti/` |
 | **H1** | Contattaci: siamo qui per ascoltarti |
-| **Meta title** | Contatti \| Casa Famiglia Gramsci Coazze |
-| **Meta description** | Telefono, WhatsApp, email e modulo contatti. Casa Famiglia Gramsci, Piazza Gramsci 17, Coazze. Ti rispondiamo con calma e chiarezza. |
-| **Sections** | Intro · Form · Recapiti · Mappa · Orari · CTA |
+| **Meta title** | Contatti \| Casa Famiglia Quercia Coazze |
+| **Meta description** | Telefono, WhatsApp ed email. Casa Famiglia Quercia, Stradale Poirino 152, Pinerolo. Ti rispondiamo con calma e chiarezza. |
+| **Sections** | Intro · Recapiti · Mappa · Orari · CTA |
 | **Primary CTA** | Chiama · Scrivici su WhatsApp |
 | **Internal links** | `/rette-e-ammissione/`, `/servizi/`, `/chi-siamo/` |
 
@@ -150,7 +150,7 @@
 |-------|-------|
 | **Slug** | `/blog/{slug}/` |
 | **H1** | {Article title} |
-| **Meta title** | {Title ≤50 chars} \| Blog Gramsci |
+| **Meta title** | {Title ≤50 chars} \| Blog Casa Famiglia Quercia |
 | **Meta description** | {Excerpt ≤155 chars} |
 | **Sections** | Breadcrumb · Article body · Author/date · Related posts · CTA |
 | **Primary CTA** | Ti aiutiamo noi · Contattaci |
@@ -164,8 +164,8 @@
 | Field | Value |
 |-------|-------|
 | **H1** | Informativa sulla privacy |
-| **Meta title** | Privacy Policy \| Casa Famiglia Gramsci |
-| **Meta description** | Informativa sul trattamento dei dati personali di Casa Famiglia Gramsci, Coazze. GDPR compliant. |
+| **Meta title** | Privacy Policy \| Casa Famiglia Quercia |
+| **Meta description** | Informativa sul trattamento dei dati personali di Casa Famiglia Quercia, Coazze. GDPR compliant. |
 | **Primary CTA** | Contattaci |
 | **Internal links** | `/cookie-policy/`, `/contatti/` |
 
@@ -176,8 +176,8 @@
 | Field | Value |
 |-------|-------|
 | **H1** | Cookie Policy |
-| **Meta title** | Cookie Policy \| Casa Famiglia Gramsci |
-| **Meta description** | Informazioni sui cookie utilizzati dal sito Casa Famiglia Gramsci e come gestire le preferenze. |
+| **Meta title** | Cookie Policy \| Casa Famiglia Quercia |
+| **Meta description** | Informazioni sui cookie utilizzati dal sito Casa Famiglia Quercia e come gestire le preferenze. |
 | **Primary CTA** | — |
 | **Internal links** | `/privacy-policy/`, `/contatti/` |
 
@@ -188,8 +188,8 @@
 | Field | Value |
 |-------|-------|
 | **H1** | Termini e condizioni |
-| **Meta title** | Termini e condizioni \| Gramsci Coazze |
-| **Meta description** | Termini di utilizzo del sito web Casa Famiglia Gramsci e informazioni legali. |
+| **Meta title** | Termini e condizioni \| Casa Famiglia Quercia Coazze |
+| **Meta description** | Termini di utilizzo del sito web Casa Famiglia Quercia e informazioni legali. |
 | **Primary CTA** | — |
 | **Internal links** | `/privacy-policy/`, `/contatti/` |
 
@@ -200,7 +200,7 @@
 | Field | Value |
 |-------|-------|
 | **H1** | Pagina non trovata |
-| **Meta title** | 404 \| Casa Famiglia Gramsci |
+| **Meta title** | 404 \| Casa Famiglia Quercia |
 | **Meta description** | La pagina che cerchi non esiste. Torna alla home o contattaci. |
 | **Primary CTA** | Torna alla home · Contattaci |
 | **Internal links** | `/`, `/contatti/` |

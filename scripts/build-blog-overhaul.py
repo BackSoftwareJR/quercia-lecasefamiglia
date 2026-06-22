@@ -11,13 +11,13 @@ from blog_articles_data import ARTICLES, ARTICLE_INDEX, OG_IMAGE, IMG_BASE
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(BASE, "content", "blog")
 BLOG_DIR = os.path.join(BASE, "blog")
-SITE = "https://gramsci.lecasefamiglia.it"
+SITE = "https://casafamigliaquercia.it"
 
 PROMO_BOXES = {
     "galleria": {
         "href": "/galleria/",
         "title": "Vedi la galleria",
-        "text": "Scoprite gli spazi di Casa Famiglia Gramsci: camere luminose, salotti accoglienti e giardino nel verde di Coazze.",
+        "text": "Scoprite gli spazi di Casa Famiglia Quercia: camere luminose, salotti accoglienti e giardino nel verde di Coazze.",
         "icon": "gallery",
     },
     "servizi": {
@@ -137,7 +137,7 @@ def sidebar_related(slugs):
 
 def sidebar_cta():
     return """<div class="blog-sidebar-box blog-sidebar-cta">
-            <h2 class="blog-sidebar-box__title">Scopri Casa Gramsci</h2>
+            <h2 class="blog-sidebar-box__title">Scopri Casa Famiglia Quercia</h2>
             <p class="blog-sidebar-cta__text">Una seconda casa per anziani autosufficienti a Coazze, in Valle di Susa.</p>
             <ul class="blog-sidebar-cta__links">
               <li><a href="/galleria/">Galleria fotografica</a></li>
@@ -184,9 +184,9 @@ def build_html(article):
     toc = build_toc(article["sections"])
     hero = article.get("hero", "Sala da Pranzo + persone 1.avif")
     hero_alt = article.get("hero_alt", f"Casa famiglia anziani Coazze — {article['title']}")
-    hero_caption = article.get("hero_caption", "Casa Famiglia Gramsci, Piazza Gramsci 17 — Coazze, Valle di Susa")
+    hero_caption = article.get("hero_caption", "Casa Famiglia Quercia, Stradale Poirino 152 — Coazze, Valle di Susa")
     wa_text = unquote(article.get("wa_text", "Ciao, ho letto il vostro articolo e vorrei informazioni sulla casa famiglia"))
-    author = article.get("author", "Casa Famiglia Gramsci")
+    author = article.get("author", "Casa Famiglia Quercia")
     tags = article.get("tags", [])
     sidebar = sidebar_related(article.get("related", [])) + sidebar_cta()
 
@@ -233,7 +233,7 @@ def build_html(article):
     "datePublished": "2026-06-22T09:00:00+02:00",
     "dateModified": "2026-06-22T09:00:00+02:00",
     "author": {{"@type": "Organization", "name": {json_str(author)}, "url": "{SITE}/"}},
-    "publisher": {{"@type": "Organization", "name": "Casa Famiglia Gramsci", "url": "{SITE}/"}},
+    "publisher": {{"@type": "Organization", "name": "Casa Famiglia Quercia", "url": "{SITE}/"}},
     "mainEntityOfPage": {{"@type": "WebPage", "@id": "{SITE}/blog/{slug}/"}},
     "inLanguage": "it-IT",
     "keywords": {json_str(article['keywords'])},
@@ -282,7 +282,7 @@ def build_html(article):
       </div>
       <aside class="blog-article-cta">
         <h2>Hai dubbi? Parliamoci</h2>
-        <p>Volete approfondire o prenotare una visita gratuita a Coazze? Siamo in Piazza Gramsci 17, Valle di Susa — rispondiamo con calma, senza pressione.</p>
+        <p>Volete approfondire o prenotare una visita gratuita a Coazze? Siamo in Stradale Poirino 152, Valle di Susa — rispondiamo con calma, senza pressione.</p>
         <div class="btn-group blog-article-cta__buttons">
           <a href="tel:+393762031211" class="btn btn--accent btn--lg">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" width="20" height="20" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -317,7 +317,7 @@ def build_md(article):
         f'metaDescription: "{article["meta_desc"]}"',
         "date: 2026-06-22",
         "dateModified: 2026-06-22",
-        f'author: {article.get("author", "Casa Famiglia Gramsci")}',
+        f'author: {article.get("author", "Casa Famiglia Quercia")}',
         f'category: {article["category"]}',
         f'readingTime: {article["reading"]}',
         f'keywords: {article["keywords"]}',
@@ -367,7 +367,7 @@ def build_blog_index():
         )
         cards.append(f"""          <article class="card blog-card" data-category="{html_lib.escape(meta['category'])}">
             <a href="/blog/{slug}/" class="blog-card__image-link">
-              <img src="../images/Coazze - Casa Famiglia Gramsci/{html_lib.escape(thumb)}" alt="{html_lib.escape(meta.get('thumb_alt', meta['title']))}" width="400" height="250" loading="lazy" class="blog-card__image">
+              <img src="../images/Coazze - Casa Famiglia Quercia/{html_lib.escape(thumb)}" alt="{html_lib.escape(meta.get('thumb_alt', meta['title']))}" width="400" height="250" loading="lazy" class="blog-card__image">
             </a>
             <div class="card__body">
               <span class="badge badge--{meta['badge']} card__category">{html_lib.escape(meta['category'])}</span>
@@ -379,7 +379,7 @@ def build_blog_index():
             </div>
           </article>""")
 
-    intro = """Quando un genitore inizia a faticare da solo, i figli tra i 45 e i 65 anni si trovano spesso senza una mappa. Internet mescola RSA, case famiglia e residenze assistite; i prezzi sono difficili da confrontare; il senso di colpa rende ogni ricerca un peso. Questo blog è pensato per voi: famiglie del Piemonte occidentale che cercano una soluzione serena per un padre o una madre ancora autosufficienti. Qui trovate guide pratiche su differenze tra casa famiglia e RSA, costi delle rette in Piemonte, visite familiari, inserimento sereno e vita quotidiana in Valle di Susa. Ogni articolo nasce dall'esperienza quotidiana di Casa Famiglia Gramsci a Coazze: una villa familiare, non un reparto, dove anziani autosufficienti trovano compagnia, sicurezza e autonomia. Che viviate a Giaveno, Pinerolo, Avigliana o Torino, queste pagine vi aiutano a fare domande giuste, confrontare con lucidità e — quando sarà il momento — prenotare una visita senza impegno."""
+    intro = """Quando un genitore inizia a faticare da solo, i figli tra i 45 e i 65 anni si trovano spesso senza una mappa. Internet mescola RSA, case famiglia e residenze assistite; i prezzi sono difficili da confrontare; il senso di colpa rende ogni ricerca un peso. Questo blog è pensato per voi: famiglie del Piemonte occidentale che cercano una soluzione serena per un padre o una madre ancora autosufficienti. Qui trovate guide pratiche su differenze tra casa famiglia e RSA, costi delle rette in Piemonte, visite familiari, inserimento sereno e vita quotidiana in Valle di Susa. Ogni articolo nasce dall'esperienza quotidiana di Casa Famiglia Quercia a Coazze: una villa familiare, non un reparto, dove anziani autosufficienti trovano compagnia, sicurezza e autonomia. Che viviate a Giaveno, Pinerolo, Avigliana o Torino, queste pagine vi aiutano a fare domande giuste, confrontare con lucidità e — quando sarà il momento — prenotare una visita senza impegno."""
 
     featured_thumb = featured.get("hero", "Sala da Pranzo + persone 1.avif")
     featured_tags = "".join(
@@ -414,7 +414,7 @@ def build_blog_index():
   <link rel="stylesheet" href="../css/components.css">
   <link rel="stylesheet" href="../css/pages.css">
   <link rel="stylesheet" href="../blog.css">
-  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"Blog","name":"Blog Casa Famiglia Gramsci","url":"{SITE}/blog/","description":"Guide per famiglie che scelgono una casa famiglia a Coazze","publisher":{{"@type":"Organization","name":"Casa Famiglia Gramsci"}}}}</script>
+  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"Blog","name":"Blog Casa Famiglia Quercia","url":"{SITE}/blog/","description":"Guide per famiglie che scelgono una casa famiglia a Coazze","publisher":{{"@type":"Organization","name":"Casa Famiglia Quercia"}}}}</script>
   <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"{SITE}/"}},{{"@type":"ListItem","position":2,"name":"Blog","item":"{SITE}/blog/"}}]}}</script>
 </head>
 <body class="blog-page">
@@ -438,7 +438,7 @@ def build_blog_index():
       <div class="container">
         <article class="blog-featured__card">
           <a href="/blog/{featured_slug}/" class="blog-featured__image-wrap">
-            <img src="../images/Coazze - Casa Famiglia Gramsci/{html_lib.escape(featured_thumb)}" alt="{html_lib.escape(featured.get('hero_alt', featured['title']))}" width="1200" height="600" loading="eager" class="blog-featured__image">
+            <img src="../images/Coazze - Casa Famiglia Quercia/{html_lib.escape(featured_thumb)}" alt="{html_lib.escape(featured.get('hero_alt', featured['title']))}" width="1200" height="600" loading="eager" class="blog-featured__image">
           </a>
           <div class="blog-featured__content">
             <span class="badge badge--{featured['badge']}">In evidenza</span>

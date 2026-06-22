@@ -28,7 +28,7 @@ PART2 = [
             section("territorio", "Il territorio che abbraccia",
                 "Dalla bassa valle fino ai comuni collinari, la Susa offre boschi, prati, borghi storici come Avigliana, Susa, Bussoleno. I servizi essenziali — farmacie, medici, negozi — sono raggiungibili. Torino resta comoda per visite e controlli.",
                 "Per un anziano autosufficiente, significa <strong>aria, luce, ritmi lenti</strong> senza tagliarsi fuori dal mondo. La ricerca «anziani soli cosa fare» trova qui risposte concrete: comunità, natura, strutture a misura d'uomo.",
-                f"In <a href=\"/chi-siamo/\">Coazze</a>, Casa Famiglia Gramsci incarna questo modello: villa familiare, non reparto sanitario."),
+                f"In <a href=\"/chi-siamo/\">Coazze</a>, Casa Famiglia Quercia incarna questo modello: villa familiare, non reparto sanitario."),
             section("socialita", "Socialità e comunità in valle",
                 "In valle le relazioni hanno memoria. Conosci chi conosce tua sorella, il parroco saluta per nome, al mercato chiedono del nipote. Questa rete, per chi ha più di 65 anni, è medicina silenziosa contro la solitudine.",
                 "In casa famiglia, questa dimensione comunitaria si intreccia con convivialità quotidiana: pasti insieme, chiacchiere in salone, passeggiate in giardino. Non è isolamento in coppia forzata — è compagnia scelta.",

@@ -1,5 +1,5 @@
 /**
- * Casa Famiglia Gramsci — Design Tokens (JS)
+ * Casa Famiglia Quercia — Design Tokens (JS)
  * Mirror of design-system.css for programmatic use (theme, analytics, A/B)
  */
 (function (global) {
@@ -7,9 +7,9 @@
 
   const tokens = {
     brand: {
-      name: 'Casa Famiglia Gramsci',
+      name: 'Casa Famiglia Quercia',
       tagline: 'Una seconda casa, non una struttura',
-      domain: 'https://gramsci.lecasefamiglia.it',
+      domain: 'https://casafamigliaquercia.it',
       parentSite: 'https://www.lecasefamiglia.it/',
     },
 
@@ -18,15 +18,15 @@
       phoneHref: 'tel:+393762031211',
       whatsapp: '393762031211',
       whatsappHref: 'https://wa.me/393762031211',
-      email: 'associazioneunocoazze@gmail.com',
-      emailHref: 'mailto:associazioneunocoazze@gmail.com',
+      email: 'info@casafamigliaquercia.it',
+      emailHref: 'mailto:info@casafamigliaquercia.it',
       address: {
-        street: 'Piazza Gramsci, 17',
-        city: 'Coazze',
+        street: 'Stradale Poirino, 152',
+        city: 'Pinerolo',
         province: 'TO',
-        postalCode: '10050',
+        postalCode: '10064',
         country: 'IT',
-        full: 'Piazza Gramsci, 17, 10050 Coazze (TO)',
+        full: 'Stradale Poirino, 152, 10064 Pinerolo (TO)',
       },
     },
 
@@ -173,7 +173,7 @@
 
     seo: {
       primaryKeyword: 'casa famiglia anziani Coazze',
-      siteName: 'Casa Famiglia Gramsci',
+      siteName: 'Casa Famiglia Quercia',
     },
   };
 
@@ -192,5 +192,5 @@
     return global.matchMedia('(min-width: ' + min + 'px)').matches;
   };
 
-  global.GramsciTokens = tokens;
+  global.QuerciaTokens = tokens;
 })(typeof window !== 'undefined' ? window : globalThis);

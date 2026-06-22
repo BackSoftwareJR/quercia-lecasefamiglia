@@ -5,7 +5,7 @@ metaTitle: "Casa famiglia vs RSA: differenze reali a Coazze"
 metaDescription: "Casa famiglia e RSA non sono uguali: autonomia, linguaggio, costi e requisiti per scegliere con serenità a Coazze."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Gramsci
+author: Casa Famiglia Quercia
 category: Guida
 readingTime: 11 min
 keywords: casa famiglia anziani Coazze, differenze casa famiglia RSA, scelta figli

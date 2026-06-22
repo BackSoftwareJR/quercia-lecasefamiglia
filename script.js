@@ -1,5 +1,5 @@
 /**
- * Casa Famiglia Gramsci - Hero Section JavaScript
+ * Casa Famiglia Quercia - Hero Section JavaScript
  * Funzionalità:
  * 1. Caricamento video in base al dispositivo (desktop/mobile)
  * 2. CTA button sticky su mobile
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
         heroVideo.setAttribute('controlslist', 'nodownload nofullscreen noremoteplayback'); // Disabilita controlli extra
         
         // Imposta il poster per evitare flash di schermo grigio
-        heroVideo.poster = 'images/Coazze - Casa Famiglia Gramsci/Spazi Comuni.avif';
+        heroVideo.poster = 'images/Coazze - Casa Famiglia Quercia/Spazi Comuni.avif';
         
         // Forza l'autoplay subito e dopo un breve delay (può aiutare su Android)
         heroVideo.play()
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             // Mostra l'immagine fallback se l'autoplay fallisce
                             heroVideo.style.display = 'none';
                             const heroContainer = document.querySelector('.hero-video-container');
-                            heroContainer.style.backgroundImage = 'url("images/Coazze - Casa Famiglia Gramsci/Spazi Comuni.avif")';
+                            heroContainer.style.backgroundImage = 'url("images/Coazze - Casa Famiglia Quercia/Spazi Comuni.avif")';
                             heroContainer.style.backgroundSize = 'cover';
                             heroContainer.style.backgroundPosition = 'center';
                         });

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate blog markdown + HTML for Casa Famiglia Gramsci."""
+"""Generate blog markdown + HTML for Casa Famiglia Quercia."""
 import os
 import html as html_lib
 import textwrap
@@ -51,7 +51,7 @@ ARTICLES = [
         "slug": "anziani-autosufficienti-coazze",
         "title": "Anziani autosufficienti a Coazze: perché restare in valle",
         "meta_title": "Anziani autosufficienti Coazze | Casa famiglia",
-        "meta_desc": "Perché Coazze è ideale per anziani autosufficienti: natura, comunità, casa famiglia Gramsci in Valle di Susa. Guida per famiglie di Giaveno e dintorni.",
+        "meta_desc": "Perché Coazze è ideale per anziani autosufficienti: natura, comunità, Casa Famiglia Quercia in Valle di Susa. Guida per famiglie di Giaveno e dintorni.",
         "category": "Territorio",
         "badge": "primary",
         "reading": "10 min",
@@ -69,7 +69,7 @@ ARTICLES = [
             ("Quando valutare il cambiamento", """<p>Alcuni segnali: pasti saltati, casa trascurata, chiusura nelle relazioni, paura di uscire, notti insonni. Non serve aspettare una crisi. Meglio parlare quando il vostro caro è ancora lucido e partecipe.</p>
 <p>Leggete anche <a href="/rette-e-ammissione/">rette e ammissione</a> per capire il percorso di ingresso.</p>"""),
             ("Conclusione", """<p>Coazze non è una meta lontana: è casa per chi ama la montagna dolce e la comunità vera. Per un anziano autosufficiente, restare qui in una casa famiglia può significare dignità, natura e calore — senza rinunciare alla propria storia.</p>
-<p><strong>Hai dubbi? Parliamone.</strong> Venite a conoscerci in Piazza Gramsci 17.</p>"""),
+<p><strong>Hai dubbi? Parliamone.</strong> Venite a conoscerci in Stradale Poirino 152.</p>"""),
         ],
     },
     {
@@ -202,15 +202,15 @@ ARTICLES = [
     {
         "slug": "coazze-giaveno-pinerolo-servizi",
         "title": "Coazze, Giaveno, Pinerolo: la nostra area servita",
-        "meta_title": "Area servita Coazze Giaveno Pinerolo | Gramsci",
-        "meta_desc": "Casa Famiglia Gramsci serve Coazze, Giaveno, Avigliana, Pinerolo, Trana, Valgioie e Valle di Susa. Mappa, distanze e info per famiglie del territorio.",
+        "meta_title": "Area servita Coazze Giaveno Pinerolo | Casa Famiglia Quercia",
+        "meta_desc": "Casa Famiglia Quercia serve Coazze, Giaveno, Avigliana, Pinerolo, Trana, Valgioie e Valle di Susa. Mappa, distanze e info per famiglie del territorio.",
         "category": "Territorio",
         "badge": "primary",
         "reading": "9 min",
         "keywords": "casa famiglia Coazze, Giaveno anziani, Pinerolo Valle Susa",
         "breadcrumb": "Area servita",
         "sections": [
-            ("Intro", """<p>Siamo in Piazza Gramsci 17, Coazze — ma le famiglie che ci scelgono arrivano da tutta la Valle di Susa e dai comuni limitrofi. Giaveno, Avigliana, Pinerolo, Trana, Valgioie: nomi che suonano vicini a chi vive il Piemonte occidentale. Questo articolo vi aiuta a capire se siamo comodi per voi.</p>"""),
+            ("Intro", """<p>Siamo in Stradale Poirino 152, Coazze — ma le famiglie che ci scelgono arrivano da tutta la Valle di Susa e dai comuni limitrofi. Giaveno, Avigliana, Pinerolo, Trana, Valgioie: nomi che suonano vicini a chi vive il Piemonte occidentale. Questo articolo vi aiuta a capire se siamo comodi per voi.</p>"""),
             ("Coazze: cuore della casa", """<p>Coazze è un comune collinare, verde, tranquillo. Qui vive la nostra casa famiglia: villa familiare, giardino, ritmi umani. Se vostro caro ha radici in valle, restare qui è continuità — non esilio.</p>"""),
             ("Giaveno e Avigliana", """<p>Da Giaveno e Avigliana si raggiunge Coazze in pochi minuti di auto. Molte famiglie fanno visite settimanali senza stress: pranzo insieme il sabato, rientro a casa la sera. La vicinanza mantiene vivi i legami.</p>"""),
             ("Pinerolo e valle oltre", """<p>Da Pinerolo la strada attraversa paesaggi che molti anziani conoscono bene — mercati, parenti, ricordi. Anche da più lontano, restare "in zona" è spesso preferibile a un trasferimento in città caotica.</p>"""),
@@ -224,7 +224,7 @@ ARTICLES = [
         "slug": "domande-figli-casa-famiglia",
         "title": "Le domande che ogni figlio si pone sulla casa famiglia",
         "meta_title": "FAQ figli casa famiglia | Domande comuni",
-        "meta_desc": "Risposte alle domande più frequenti dei figli: costi, visite, autonomia, differenza con RSA. Casa famiglia Gramsci a Coazze, Valle di Susa.",
+        "meta_desc": "Risposte alle domande più frequenti dei figli: costi, visite, autonomia, differenza con RSA. Casa Famiglia Quercia a Pinerolo, Pinerolese.",
         "category": "FAQ",
         "badge": "accent",
         "reading": "14 min",
@@ -280,11 +280,11 @@ def build_html(a):
   <meta name="description" content="{html_lib.escape(a["meta_desc"])}">
   <meta name="robots" content="index, follow">
   <meta name="keywords" content="{html_lib.escape(a["keywords"])}">
-  <link rel="canonical" href="https://gramsci.lecasefamiglia.it/blog/{slug}/">
+  <link rel="canonical" href="https://casafamigliaquercia.it/blog/{slug}/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{html_lib.escape(a["title"])}">
   <meta property="og:description" content="{html_lib.escape(a["meta_desc"][:120])}">
-  <meta property="og:url" content="https://gramsci.lecasefamiglia.it/blog/{slug}/">
+  <meta property="og:url" content="https://casafamigliaquercia.it/blog/{slug}/">
   <meta property="article:published_time" content="2026-06-22">
   <meta name="theme-color" content="#3a6b4a">
   <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
@@ -303,14 +303,14 @@ def build_html(a):
     "description": {json_str(a["meta_desc"])},
     "datePublished": "2026-06-22",
     "dateModified": "2026-06-22",
-    "author": {{"@type": "Organization", "name": "Casa Famiglia Gramsci"}},
-    "publisher": {{"@type": "Organization", "name": "Casa Famiglia Gramsci", "url": "https://gramsci.lecasefamiglia.it/"}},
-    "mainEntityOfPage": "https://gramsci.lecasefamiglia.it/blog/{slug}/",
+    "author": {{"@type": "Organization", "name": "Casa Famiglia Quercia"}},
+    "publisher": {{"@type": "Organization", "name": "Casa Famiglia Quercia", "url": "https://casafamigliaquercia.it/"}},
+    "mainEntityOfPage": "https://casafamigliaquercia.it/blog/{slug}/",
     "inLanguage": "it-IT",
     "keywords": {json_str(a["keywords"])}
   }}
   </script>
-  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"https://gramsci.lecasefamiglia.it/"}},{{"@type":"ListItem","position":2,"name":"Blog","item":"https://gramsci.lecasefamiglia.it/blog/"}},{{"@type":"ListItem","position":3,"name":{json_str(a["breadcrumb"])},"item":"https://gramsci.lecasefamiglia.it/blog/{slug}/"}}]}}</script>
+  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"https://casafamigliaquercia.it/"}},{{"@type":"ListItem","position":2,"name":"Blog","item":"https://casafamigliaquercia.it/blog/"}},{{"@type":"ListItem","position":3,"name":{json_str(a["breadcrumb"])},"item":"https://casafamigliaquercia.it/blog/{slug}/"}}]}}</script>
 </head>
 <body class="blog-page blog-article-page">
   <a href="#main" class="skip-link">Vai al contenuto principale</a>
@@ -327,7 +327,7 @@ def build_html(a):
       <header>
         <span class="badge {badge_class}">{html_lib.escape(a["category"])}</span>
         <h1>{html_lib.escape(a["title"])}</h1>
-        <p class="blog-article__meta">22 giugno 2026 · {html_lib.escape(a["reading"])} di lettura · Casa Famiglia Gramsci</p>
+        <p class="blog-article__meta">22 giugno 2026 · {html_lib.escape(a["reading"])} di lettura · Casa Famiglia Quercia</p>
       </header>
       <div class="content-prose">
 {body}

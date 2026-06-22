@@ -4,12 +4,13 @@
 
 ## Titolare del trattamento
 
-Casa Famiglia Gramsci — Piazza Gramsci, 17, 10050 Coazze (TO)  
-Email: associazioneunocoazze@gmail.com
+Quercia S.r.l.s. — P.IVA IT13206680012  
+Stradale Poirino, 152, 10064 Pinerolo (TO)  
+Email: info@casafamigliaquercia.it
 
 ## Dati raccolti
 
-Raccogliamo dati forniti volontariamente tramite modulo contatti (nome, email, telefono, messaggio) e dati di navigazione tecnici (cookie, log server).
+Raccogliamo dati forniti volontariamente tramite telefono, WhatsApp ed email, oltre a dati di navigazione tecnici (cookie, log server). Il sito non dispone di modulo di contatto online.
 
 ## Finalità
 

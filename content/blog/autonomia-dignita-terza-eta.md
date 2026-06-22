@@ -5,7 +5,7 @@ metaTitle: "Autonomia e dignità nella terza età: guida pratica"
 metaDescription: "Autonomia non è solitudine: linguaggio, scelte quotidiane e assistenza discreta per preservare dignità in casa famiglia."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Gramsci
+author: Casa Famiglia Quercia
 category: Cura relazionale
 readingTime: 11 min
 keywords: casa famiglia anziani Coazze, autonomia e dignità, assistenza discreta

@@ -10,7 +10,7 @@
 
 ## Perché sceglierci
 
-Stai cercando una soluzione per un genitore che non vuole più vivere da solo, ma che resiste all'idea di una "casa di riposo"? Lo capiamo. Per questo Casa Famiglia Gramsci a Coazze è pensata diversamente: camere accoglienti, pasti di casa, assistenza presente ma discreta, e la libertà di mantenere i propri ritmi.
+Stai cercando una soluzione per un genitore che non vuole più vivere da solo, ma che resiste all'idea di una "casa di riposo"? Lo capiamo. Per questo Casa Famiglia Quercia a Coazze è pensata diversamente: camere accoglienti, pasti di casa, assistenza presente ma discreta, e la libertà di mantenere i propri ritmi.
 
 - **Ambiente familiare**, non istituzionale
 - **Anziani autosufficienti** over 65 — persone attive che vogliono serenità
@@ -26,7 +26,7 @@ Assistenza quotidiana, pasti genuini preparati in casa, attività e socialità, 
 
 ## La struttura
 
-Villa curata in Piazza Gramsci 17: camere luminose, salotti condivisi dove conversare, cucina viva e giardino nel verde. Un luogo che sembra casa — perché lo è.
+Villa curata in Stradale Poirino 152: camere luminose, salotti condivisi dove conversare, cucina viva e giardino nel verde. Un luogo che sembra casa — perché lo è.
 
 [Visita la struttura →](/la-struttura/)
 

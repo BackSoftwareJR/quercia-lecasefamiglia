@@ -31,7 +31,7 @@ Testo corpo:
 
 Accade spesso così. Un genitore ancora in salute, ancora autonomo, ma la casa grande è diventata silenziosa. Le scale sono un pensiero. La solitudine a cena pesa più di qualsiasi malattia.
 
-Una RSA sembra troppo. Lasciarlo solo non si può. Casa Famiglia Gramsci è la terza via. Non una struttura, non l'abbandono. Una casa vera, con persone vere, in un posto bellissimo.
+Una RSA sembra troppo. Lasciarlo solo non si può. Casa Famiglia Quercia è la terza via. Non una struttura, non l'abbandono. Una casa vera, con persone vere, in un posto bellissimo.
 
 Visual: Foto della sala da pranzo con persone - la più calda disponibile (Sala da Pranzo + persone 1.avif). Full-width, nessun overlay, testo affiancato su colonna sinistra (layout 40/60).
 
@@ -59,7 +59,7 @@ Esplora gli spazi - come se ci fossi già
 
 Sottotitolo:
 
-Ogni angolo di Casa Gramsci è pensato per farti sentire a tuo agio, non in una struttura.
+Ogni angolo di Casa Famiglia Quercia è pensato per farti sentire a tuo agio, non in una struttura.
 
 Layout: Masonry grid (3 colonne desktop, 2 tablet, 1 mobile). Click → lightbox con frecce, zoom, swipe mobile. Nessun overlay sulle foto. Le immagini parlano da sole.
 
@@ -77,7 +77,7 @@ Non è una RSA. È diverso - e fa tutta la differenza.
 
 Layout a 2 colonne - confronto visivo:
 
-❌ RSA Tradizionale	✅ Casa Famiglia Gramsci
+❌ RSA Tradizionale	✅ Casa Famiglia Quercia
 Decine o centinaia di ospiti	Piccolo gruppo, ci si conosce tutti
 Orari rigidi, regole di reparto	Flessibilità, ritmi personali
 Atmosfera ospedaliera	Casa vera, arredata con cura
@@ -178,7 +178,7 @@ Sempre. La visita è gratuita e senza impegno - anzi, la consigliamo. Chiama e p
 
 Mio padre/mia madre può tenere le sue cose?
 
-Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Gramsci si adatta a lui, non il contrario.
+Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Famiglia Quercia si adatta a lui, non il contrario.
 
 Le visite dei familiari sono libere?
 
@@ -221,10 +221,10 @@ Destra: Info contatto + Google Maps embed + WhatsApp button grande verde
 
 Elementi contatto:
 
-📍 Piazza Gramsci, 17 - Coazze (TO) 10050
+📍 Stradale Poirino, 152 - Coazze (TO) 10050
 📞 +39 376 203 1211
 💬 Scrivici su WhatsApp
-✉️ info@gramsci.lecasefamiglia.it (da creare)
+✉️ info@casafamigliaquercia.it (da creare)
 
 SEZIONE 12 - FOOTER
 Colonne:
@@ -240,11 +240,11 @@ Legale (Privacy, Cookie, T&C) - link a pagine proprie del sottodominio
 🤖 PROMPT CURSOR - Versione Definitiva Loop Multi-Agente
 Questo è il prompt ottimizzato da incollare direttamente in Cursor. Usa agente principale + sotto-agenti. Niente overlay. Priorità assoluta alle immagini.
 
-# CURSOR MAIN AGENT - Casa Famiglia Gramsci
+# CURSOR MAIN AGENT - Casa Famiglia Quercia
 # Modalità: LOOP CONTINUO fino a completamento totale
 
 ## MISSIONE
-Rifare completamente il sito gramsci.lecasefamiglia.it con un design moderno, mobile-first, che valorizza le immagini reali della struttura senza mai coprirle con overlay scuri o velature. Il sito deve sembrare premium, caldo, familiare - non ospedaliero. Lavora sezione per sezione, agente per agente, in loop finché tutto è DONE e verificato.
+Rifare completamente il sito casafamigliaquercia.it con un design moderno, mobile-first, che valorizza le immagini reali della struttura senza mai coprirle con overlay scuri o velature. Il sito deve sembrare premium, caldo, familiare - non ospedaliero. Lavora sezione per sezione, agente per agente, in loop finché tutto è DONE e verificato.
 
 ## REGOLA ASSOLUTA N.1 - IMMAGINI E VIDEO
 - ZERO overlay scuri o semitrasparenti sopra immagini o video
@@ -325,7 +325,7 @@ stagger: ogni figlio con delay += 100ms
 NON usare: parallax pesante, scroll-jacking, animazioni che durano >800ms
 
 STRUTTURA FILE OUTPUT
-gramsci.lecasefamiglia.it/
+casafamigliaquercia.it/
 ├── index.html
 ├── chi-siamo.html
 ├── servizi.html
@@ -407,7 +407,7 @@ Costruisci la homepage completa con QUESTE 12 sezioni nell'ordine indicato:
 SEZIONE 1 - HERO
 Video videos/hero-desktop.mp4 in autoplay muted loop, fullwidth, NO overlay
 
-Su mobile: usa foto statica images/Coazze - Casa Famiglia Gramsci/Esterno + persona 3.avif
+Su mobile: usa foto statica images/Coazze - Casa Famiglia Quercia/Esterno + persona 3.avif
 
 Layout: video occupa tutta la larghezza, altezza min 70vh
 
@@ -434,7 +434,7 @@ counter-up animation quando entra in viewport
 SEZIONE 3 - IL PROBLEMA (emotional hook)
 Layout 40/60: testo sinistra, foto destra (NO overlay sulla foto)
 
-Foto: images/Coazze - Casa Famiglia Gramsci/Sala da Pranzo + persone 1.avif
+Foto: images/Coazze - Casa Famiglia Quercia/Sala da Pranzo + persone 1.avif
 
 Quote in corsivo: "Mia madre stava bene. Ma vivere sola non era più giusto."
 
@@ -483,7 +483,7 @@ Sfondo: --color-bg
 
 Titolo H2: "Non è una RSA. È diverso - e fa tutta la differenza."
 
-Comparison table a 2 colonne (RSA vs Casa Gramsci) come da brief
+Comparison table a 2 colonne (RSA vs Casa Famiglia Quercia) come da brief
 
 CTA: "Prenota la visita gratuita →" (btn-primary)
 
@@ -561,7 +561,7 @@ Col 3: Contatti
 
 Col 4: Legale
 
-Copyright bottom bar: "© 2025 Casa Famiglia Gramsci - Sviluppato da Back Software"
+Copyright bottom bar: "© 2025 Casa Famiglia Quercia - Sviluppato da Back Software"
 
 STOP - aggiorna PROGRESS.md con AGENTE 2: DONE, poi passa ad AGENTE 3.
 
@@ -581,27 +581,27 @@ Schema markup WebPage/BreadcrumbList
 Open Graph tags
 
 chi-siamo.html
-H1: "Chi siamo - La storia di Casa Famiglia Gramsci"
+H1: "Chi siamo - La storia di Casa Famiglia Quercia"
 Sezioni: Hero con foto esterno, La nostra storia (testo narrativo warm), I nostri valori (3 card icon), Il team (placeholder foto + nome + ruolo), CTA visita
 
 servizi.html
-H1: "I nostri servizi - Casa Famiglia Gramsci a Coazze"
+H1: "I nostri servizi - Casa Famiglia Quercia a Coazze"
 Sezioni: Intro, 8 servizi in dettaglio (card espandibili), cosa è incluso nella retta (checklist), CTA
 
 la-struttura.html
-H1: "La struttura - Ambienti e spazi di Casa Gramsci"
+H1: "La struttura - Ambienti e spazi di Casa Famiglia Quercia"
 Sezioni: Intro, gallery fullwidth masonry (tutte le foto), virtual tour placeholder, mappa, CTA
 
 la-giornata.html
-H1: "La giornata tipo a Casa Gramsci - Coazze"
+H1: "La giornata tipo a Casa Famiglia Quercia - Coazze"
 Sezioni: Intro narrativa, timeline espansa (più dettaglio dell'homepage), sezione attività (lista), CTA
 
 rette-e-ammissione.html
-H1: "Rette e ammissione - Come entrare a Casa Gramsci"
+H1: "Rette e ammissione - Come entrare a Casa Famiglia Quercia"
 Sezioni: Processo in 3 step, cosa è incluso (checklist), cosa portare (lista pratica), come prenotare, FAQ specifica, CTA forte
 
 contatti.html
-H1: "Contattaci - Casa Famiglia Gramsci Coazze"
+H1: "Contattaci - Casa Famiglia Quercia Coazze"
 Sezioni: Info contatto grande, form completo, mappa, orari, WhatsApp
 
 blog/index.html
@@ -619,8 +619,8 @@ Dati da form contatti (nome, telefono, messaggio)
 Cookie tecnici e analitici (Google Analytics se presente)
 
 Dati di navigazione
-Titolare: Quercia & Gramsci S.r.l.s., Piazza Gramsci 17, Coazze (TO)
-Email DPO: info@gramsci.lecasefamiglia.it
+Titolare: Quercia S.r.l.s., Stradale Poirino 152, Coazze (TO)
+Email DPO: info@casafamigliaquercia.it
 Base giuridica: consenso + legittimo interesse
 Aggiorna data: [DATA ODIERNA]
 
@@ -638,17 +638,17 @@ AGENTE 5 - SEO TECNICA
 Per ogni pagina HTML creata, verifica e completa:
 
 <!-- In ogni <head> -->
-<title>[KEYWORD LOCALE] | Casa Famiglia Gramsci Coazze</title>
+<title>[KEYWORD LOCALE] | Casa Famiglia Quercia Coazze</title>
 <meta name="description" content="[155 char max, include keyword + CTA implicita]">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://gramsci.lecasefamiglia.it/[slug]">
+<link rel="canonical" href="https://casafamigliaquercia.it/[slug]">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://gramsci.lecasefamiglia.it/[slug]">
+<meta property="og:url" content="https://casafamigliaquercia.it/[slug]">
 <meta property="og:title" content="[OG Title]">
 <meta property="og:description" content="[OG Description]">
-<meta property="og:image" content="https://gramsci.lecasefamiglia.it/images/og-gramsci.jpg">
+<meta property="og:image" content="https://casafamigliaquercia.it/images/og-quercia.jpg">
 <meta property="og:locale" content="it_IT">
 
 <!-- Twitter Card -->
@@ -659,14 +659,14 @@ Schema markup da aggiungere a index.html:
 {
   "@context": "https://schema.org",
   "@type": ["LodgingBusiness", "LocalBusiness"],
-  "name": "Casa Famiglia Gramsci",
+  "name": "Casa Famiglia Quercia",
   "description": "Casa famiglia per anziani autosufficienti a Coazze (TO). Assistenza 24h, ambienti familiari, Valle di Susa.",
-  "url": "https://gramsci.lecasefamiglia.it",
+  "url": "https://casafamigliaquercia.it",
   "telephone": "+39 376 203 1211",
-  "email": "info@gramsci.lecasefamiglia.it",
+  "email": "info@casafamigliaquercia.it",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Piazza Gramsci, 17",
+    "streetAddress": "Stradale Poirino, 152",
     "addressLocality": "Coazze",
     "addressRegion": "TO",
     "postalCode": "10050",
@@ -697,7 +697,7 @@ Crea robots.txt:
 
 User-agent: *
 Allow: /
-Sitemap: https://gramsci.lecasefamiglia.it/sitemap.xml
+Sitemap: https://casafamigliaquercia.it/sitemap.xml
 
 STOP - aggiorna PROGRESS.md con AGENTE 5: DONE, poi passa ad AGENTE 6.
 
@@ -804,10 +804,10 @@ Esegui questa checklist completa. Per ogni item fallito: torna all'agente respon
 
 [ ] Privacy/Cookie/T&C su pagine proprie del sottodominio
 
-[ ] Email gmail → segnalare al client di creare info@gramsci.lecasefamiglia.it
+[ ] Email gmail → segnalare al client di creare info@casafamigliaquercia.it
 
 PROGRESS.md (aggiorna dopo ogni agente)
-# Casa Famiglia Gramsci - Progress
+# Casa Famiglia Quercia - Progress
 
 ## Stato Generale
 - [ ] AGENTE 1 - Design & Componenti
@@ -820,7 +820,7 @@ PROGRESS.md (aggiorna dopo ogni agente)
 
 ## Note Critiche per il Client (prima del go-live)
 - [ ] Sostituire testimonianze placeholder con recensioni reali
-- [ ] Creare email professionale info@gramsci.lecasefamiglia.it
+- [ ] Creare email professionale info@casafamigliaquercia.it
 - [ ] Inserire foto reali del team nella pagina Chi Siamo
 - [ ] Configurare Formspree con endpoint reale
 - [ ] Aggiungere Google Analytics (opzionale)
@@ -835,7 +835,7 @@ Parti da AGENTE 1. Non saltare nessun agente. Non passare al successivo finché 
 
 ## ⚡ 3 azioni rapide prima di lanciare
 
-1. **Email professionale** - Hai già Hostinger Mail su `backsoftware.it`. Per `gramsci.lecasefamiglia.it` basta creare una mailbox `info@gramsci.lecasefamiglia.it` - ti ci porto da Kodee in 2 minuti.
+1. **Email professionale** - Hai già Hostinger Mail su `backsoftware.it`. Per `casafamigliaquercia.it` basta creare una mailbox `info@casafamigliaquercia.it` - ti ci porto da Kodee in 2 minuti.
 
 2. **Testimonianze** - Il prompt mette i placeholder ma sono quelle reali che convertono. Anche solo 2-3 messaggi WhatsApp da famiglie soddisfatte → li trasformo io in testimonianze formattate pronte.
 

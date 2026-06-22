@@ -1,13 +1,13 @@
 # Casa Famiglia Quercia, Testi Completi + Prompt Cursor
-> Documento di lavoro per la riscrittura del sito quercia.lecasefamiglia.it
-> Struttura di riferimento: gramsci.lecasefamiglia.it
+> Documento di lavoro per la riscrittura del sito casafamigliaquercia.it
+> Struttura di riferimento: sito di riferimento (architettura gemella)
 > Tono: empatico, diretto, caldo. Mai istituzionale. Mai freddo.
 
 ---
 
 ## STRUTTURA PAGINE
 
-Il sito Quercia (nuovo) avrà la stessa architettura di Gramsci:
+Il sito Quercia (nuovo) avrà la stessa architettura gemella di riferimento:
 
 1. **Homepage** (index)
 2. **Servizi** (`/servizi/`)
@@ -700,32 +700,7 @@ Stradale Poirino, 152, Pinerolo
 
 ---
 
-**Form di contatto:**
-
-**Titolo:**
-```
-Oppure lasciaci il tuo numero
-```
-
-**Sottotitolo:**
-```
-Ti richiamiamo noi, entro poche ore.
-```
-
-**Campi form:**
-```
-- Nome *
-- Telefono * (campo principale per il recall)
-- Email (opzionale)
-- Messaggio (placeholder: "Raccontaci brevemente la situazione del tuo caro...")
-- Checkbox privacy: "Ho letto e accetto la Privacy Policy"
-- CTA bottone: "Richiedi un contatto"
-```
-
-**Nota sotto il form:**
-```
-Nessuno spam. Nessuna cessione a terzi. Ti chiama solo il nostro staff.
-```
+**Form di contatto:** *(rimosso — contatto solo via telefono, WhatsApp ed email)*
 
 ---
 
@@ -908,7 +883,7 @@ Non lo è. E in questo articolo vogliamo spiegarti perché, con onestà, senza b
 ```
 Aggiorna il componente Hero della homepage di Casa Famiglia Quercia con i seguenti contenuti.
 
-Struttura identica a gramsci.lecasefamiglia.it.
+Struttura identica a sito di riferimento (architettura gemella).
 
 Tag sopra il titolo (small, uppercase): "Pinerolo · Pinerolese"
 
@@ -933,7 +908,7 @@ Immagine hero: usa le immagini già presenti nella cartella /images/Pinerolo - C
 ## PROMPT 2, Sezione empatica
 
 ```
-Aggiungi dopo l'hero la sezione empatica di apertura, stile citazione / storytelling come in gramsci.lecasefamiglia.it.
+Aggiungi dopo l'hero la sezione empatica di apertura, stile citazione / storytelling come in sito di riferimento (architettura gemella).
 
 Titolo della sezione (H2 o quote grande):
 "Mia madre stava bene. Ma vivere sola non era più giusto."
@@ -953,7 +928,7 @@ Affianca un'immagine della sala da pranzo o degli spazi comuni.
 ## PROMPT 3, Tabella comparativa RSA vs Casa Famiglia
 
 ```
-Inserisci la tabella comparativa RSA vs Casa Famiglia Quercia, identica come componente a quella di gramsci.lecasefamiglia.it.
+Inserisci la tabella comparativa RSA vs Casa Famiglia Quercia, identica come componente a quella di sito di riferimento (architettura gemella).
 
 Titolo sezione: "Perché una Casa Famiglia e non una RSA?"
 Sottotitolo: "Non è solo una questione di dimensioni. È una scelta di vita."
@@ -977,7 +952,7 @@ CTA sotto tabella:
 ## PROMPT 4, Timeline giornata tipo (homepage)
 
 ```
-Inserisci la sezione timeline "Una giornata a Casa Quercia" identica al componente di gramsci.lecasefamiglia.it.
+Inserisci la sezione timeline "Una giornata a Casa Quercia" identica al componente di sito di riferimento (architettura gemella).
 
 Titolo: "Una giornata a Casa Quercia"
 Sottotitolo: "Nessuna routine imposta. Solo i ritmi giusti, costruiti insieme."
@@ -999,7 +974,7 @@ Link sotto: "La giornata tipo completa" → href "/la-giornata/"
 ## PROMPT 5, Testimonianze
 
 ```
-Aggiungi la sezione testimonianze come in gramsci.lecasefamiglia.it (citazioni a schermo).
+Aggiungi la sezione testimonianze come in sito di riferimento (architettura gemella) (citazioni a schermo).
 
 Titolo sezione: "Le parole delle famiglie"
 
@@ -1016,7 +991,7 @@ Testimonianze:
 ## PROMPT 6, Sezione Come Funziona (steps)
 
 ```
-Aggiungi la sezione "Come funziona" con 3 step numerati, stile identico a gramsci.lecasefamiglia.it.
+Aggiungi la sezione "Come funziona" con 3 step numerati, stile identico a sito di riferimento (architettura gemella).
 
 Titolo: "Come funziona"
 
@@ -1036,7 +1011,7 @@ CTA doppio:
 ## PROMPT 7, Sezione FAQ Homepage
 
 ```
-Aggiungi la sezione FAQ accordion come in gramsci.lecasefamiglia.it.
+Aggiungi la sezione FAQ accordion come in sito di riferimento (architettura gemella).
 
 Titolo sezione: "Le domande che ci fanno sempre"
 
@@ -1078,7 +1053,7 @@ R: Entrambi, nei limiti di legge. Troviamo insieme la modalità più comoda.
 ## PROMPT 8, Pagina Contatti (completa)
 
 ```
-Crea la pagina /contatti/ di Casa Famiglia Quercia con struttura identica a gramsci.lecasefamiglia.it.
+Crea la pagina /contatti/ di Casa Famiglia Quercia con struttura identica a sito di riferimento (architettura gemella).
 
 Titolo H1: "Contattaci"
 Sottotitolo: "Risposta entro poche ore, senza impegno."
@@ -1106,13 +1081,7 @@ Card 2, WhatsApp: "Scrivici un messaggio" → https://wa.me/393762031211?text=Ci
 Card 3, Email: "info@casafamigliaquercia.it" → mailto:info@casafamigliaquercia.it
 Card 4, Indirizzo: "Stradale Poirino, 152, Pinerolo" → link Google Maps
 
-Form di contatto:
-Titolo: "Oppure lasciaci il tuo numero"
-Sottotitolo: "Ti richiamiamo noi, entro poche ore."
-Campi: Nome (required), Telefono (required), Email (optional), Messaggio (placeholder: "Raccontaci brevemente la situazione del tuo caro...")
-Checkbox: "Ho letto e accetto la Privacy Policy" (required)
-Bottone submit: "Richiedi un contatto"
-Nota sotto form: "Nessuno spam. Nessuna cessione a terzi. Ti chiama solo il nostro staff."
+*(Nessun form di contatto online — solo telefono, WhatsApp ed email)*
 ```
 
 ---
@@ -1150,7 +1119,7 @@ Aggiungi anche il tag canonical per ogni pagina e Open Graph base (og:title, og:
 ## PROMPT 10, Widget WhatsApp floating
 
 ```
-Aggiungi il widget WhatsApp floating in basso a destra identico a quello di quercia.lecasefamiglia.it e gramsci.lecasefamiglia.it.
+Aggiungi il widget WhatsApp floating in basso a destra identico a quello di casafamigliaquercia.it e sito di riferimento (architettura gemella).
 
 Testo del widget: "Parliamo del tuo caro"
 Icona: WhatsApp

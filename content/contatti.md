@@ -9,7 +9,7 @@ Siamo qui per ascoltarvi. Una telefonata, un messaggio, una visita: scegliete vo
 - **Telefono:** [+39 376 203 1211](tel:+393762031211)
 - **WhatsApp:** [393762031211](https://wa.me/393762031211)
 - **Email:** [associazioneunocoazze@gmail.com](mailto:associazioneunocoazze@gmail.com)
-- **Indirizzo:** Piazza Gramsci, 17 — 10050 Coazze (TO)
+- **Indirizzo:** Stradale Poirino, 152 — 10050 Coazze (TO)
 
 ## Orari
 
@@ -21,7 +21,7 @@ Compilate il form: vi rispondiamo entro 24–48 ore lavorative.
 
 ## Mappa
 
-Casa Famiglia Gramsci si trova nel centro di Coazze, facilmente raggiungibile da Giaveno, Avigliana, Pinerolo e Torino.
+Casa Famiglia Quercia si trova nel centro di Coazze, facilmente raggiungibile da Giaveno, Avigliana, Pinerolo e Torino.
 
 ## CTA
 

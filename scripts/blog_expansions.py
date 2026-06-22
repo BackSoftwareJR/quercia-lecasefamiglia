@@ -8,7 +8,7 @@ from blog_articles_data import p, section
 EXPANSIONS = {
     "casa-famiglia-vs-rsa-differenze": {
         "cosa-e-casa-famiglia": [
-            "A Coazze, Casa Famiglia Gramsci accoglie anziani autosufficienti in una villa con giardino, salone condiviso e sala da pranzo dove si incontrano quotidianamente. Il numero contenuto di ospiti permette relazioni autentiche: gli operatori sanno se qualcuno preferisce il tè alle 16 o la lettura silenziosa dopo pranzo.",
+            "A Coazze, Casa Famiglia Quercia accoglie anziani autosufficienti in una villa con giardino, salone condiviso e sala da pranzo dove si incontrano quotidianamente. Il numero contenuto di ospiti permette relazioni autentiche: gli operatori sanno se qualcuno preferisce il tè alle 16 o la lettura silenziosa dopo pranzo.",
             "Per i figli che vivono a Torino o in provincia, questo modello risponde alla domanda ricorrente: «Come posso stare tranquillo senza averlo sotto casa?» La presenza h24 non è vigilanza — è sicurezza condivisa che permette a tutti di dormire.",
         ],
         "differenze-chiave": [
@@ -191,7 +191,7 @@ NEW_SECTIONS = {
             "Visitate di persona almeno due strutture di profilo simile. Portate quaderno, lista domande, tempo per osservare senza fretta. Prima impressione conta — ma seconda visita conferma o corregge.",
             "Chiedete di parlare con ospiti se possibile e appropriato. La voce di chi ci vive vale più di brochure. Osservate pasti, non solo camere modello.",
             "Valutate anche accessibilità per visite familiari dal vostro domicilio — frequenza sostenibile determina qualità del legame post-inserimento.",
-            "A Coazze, Casa Famiglia Gramsci accoglie visite senza impegno — venite con calma, portate domande, lasciate spazio a vostro caro per esprimere preferenze.",
+            "A Coazze, Casa Famiglia Quercia accoglie visite senza impegno — venite con calma, portate domande, lasciate spazio a vostro caro per esprimere preferenze.",
         ),
     ],
     "scegliere-casa-famiglia-genitori": [
@@ -372,7 +372,7 @@ NEW_SECTIONS = {
             "Diritti quotidiani, non privilegi",
             "Autonomia e dignità sono diritti — non bonus offerti da strutture benevole. Verificate che la casa famiglia li pratichi, non solo li enuncia.",
             "Osservate interazioni staff-ospiti durante visita: rispetto è visibile.",
-            "Casa Famiglia Gramsci a Coazze: autosufficienza protetta ogni giorno.",
+            "Casa Famiglia Quercia a Coazze: autosufficienza protetta ogni giorno.",
             "Prenotate visita per vedere con i vostri occhi.",
         ),
     ],
@@ -398,7 +398,7 @@ NEW_SECTIONS = {
             "Organizzare la visita conoscitiva",
             "Prenotate visita conoscitiva senza impegno: vedete spazi, fate domande, valutate percorso da casa vostra. Portate vostro caro se possibile — la sua reazione vale più di qualsiasi brochure.",
             "Confrontate distanza, inclusioni retta, atmosfera, flessibilità visite. Tre criteri oggettivi che orientano senza ansia.",
-            "Siamo in Piazza Gramsci 17, Coazze — cuore operativo con valle tutta intorno.",
+            "Siamo in Stradale Poirino 152, Coazze — cuore operativo con valle tutta intorno.",
             "Contattateci per pianificare il primo incontro con calma.",
         ),
     ],
@@ -433,8 +433,8 @@ NEW_SECTIONS = {
 
 PAD_PARAS = [
     "Le famiglie che ci scelgono arrivano spesso dopo mesi di ricerca online, telefonate confuse, confronti tra RSA e case famiglia senza chiarezza. È normale. L'informazione trasforma ansia in decisione — e ogni domanda che ponete è legittima.",
-    "A Coazze, Casa Famiglia Gramsci accoglie anziani autosufficienti in villa familiare con giardino, salone condiviso, pasti genuini e assistenza discreta h24. Non siamo struttura sanitaria: siamo seconda casa per chi merita compagnia e sicurezza senza perdere autonomia.",
-    "Piazza Gramsci 17 è il nostro indirizzo — cuore di Coazze, Valle di Susa. Da Giaveno, Avigliana, Pinerolo e Torino siamo raggiungibili in tempi che permettono visite regolari. Per molte famiglie, questa accessibilità è decisiva quanto la qualità degli spazi.",
+    "A Coazze, Casa Famiglia Quercia accoglie anziani autosufficienti in villa familiare con giardino, salone condiviso, pasti genuini e assistenza discreta h24. Non siamo struttura sanitaria: siamo seconda casa per chi merita compagnia e sicurezza senza perdere autonomia.",
+    "Stradale Poirino 152 è il nostro indirizzo — cuore di Coazze, Valle di Susa. Da Giaveno, Avigliana, Pinerolo e Torino siamo raggiungibili in tempi che permettono visite regolari. Per molte famiglie, questa accessibilità è decisiva quanto la qualità degli spazi.",
     "Visitate senza impegno. Osservate atmosfera, camere, spazi comuni, giardino. Chiedete di vedere una giornata tipo. Portate vostro caro quando possibile. La decisione migliore emerge dall'esperienza diretta — non dalla paura sola o dalla fretta post-emergenza.",
     "Rette trasparenti, percorso di ingresso chiaro, visite flessibili, oggetti personali in camera: dettagli che definiscono se una struttura è davvero «famiglia» o solo marketing. Confrontate inclusioni, non solo cifre a fondo pagina.",
     "Se questo articolo ha chiarito dubbi, il passo successivo è semplice: contattateci. Telefono, WhatsApp, email — rispondiamo con calma. Non dovete decidere subito. Basta iniziare a parlare, fare domande, prenotare una visita quando vi sentite pronti.",
@@ -442,7 +442,7 @@ PAD_PARAS = [
     "Autonomia, dignità, convivialità scelta, sicurezza h24: pilastri del nostro modello. Per genitori che hanno vissuto in libertà decenni, questi non sono optional — sono condizione per accettare un cambiamento difficile ma necessario.",
     "Molti figli ci raccontano che la telefonata iniziale è stata il momento più difficile — non la visita, non il trasloco. Siamo abituati ad accompagnarvi con calma da quel primo contatto, senza fretta né pressione commerciale.",
     "Confrontate almeno due strutture di profilo simile prima di decidere. Checklist, appunti, domande scritte: strumenti semplici che trasformano confusione in chiarezza. La scelta per un genitore merita questo impegno.",
-    "Il blog è risorsa — ma non sostituisce conversazione. Chiamate, venite, portate domande. Siamo in Piazza Gramsci 17, Coazze, e rispondiamo a famiglie di tutta la Valle di Susa ogni settimana.",
+    "Il blog è risorsa — ma non sostituisce conversazione. Chiamate, venite, portate domande. Siamo in Stradale Poirino 152, Coazze, e rispondiamo a famiglie di tutta la Valle di Susa ogni settimana.",
     "Scoprite anche le pagine dedicate ai servizi, alla struttura, alle rette e alla galleria fotografica: ogni sezione del sito è pensata per accompagnarvi con informazioni chiare, immagini reali e invito costante a contattarci senza impegno.",
 ]
 
@@ -471,7 +471,7 @@ def apply_expansions(articles):
             article["sections"].append(
                 section(
                     "per-approfondire",
-                    "Per approfondire con Casa Famiglia Gramsci",
+                    "Per approfondire con Casa Famiglia Quercia",
                     *PAD_PARAS,
                 )
             )
@@ -481,11 +481,11 @@ def apply_expansions(articles):
                 section(
                     "visita-coazze",
                     "Venite a conoscerci a Coazze",
-                    "Prenotate una visita gratuita in Piazza Gramsci 17. Vi mostriamo camere, salone, giardino e rispondiamo a ogni domanda con calma e trasparenza.",
+                    "Prenotate una visita gratuita in Stradale Poirino 152. Vi mostriamo camere, salone, giardino e rispondiamo a ogni domanda con calma e trasparenza.",
                     "Da Giaveno, Pinerolo, Avigliana e Torino raggiungete Coazze in tempi brevi. Molte famiglie fanno la prima visita nel weekend — senza impegno, senza pressione.",
                     "Portate vostro caro se possibile. La sua reazione guidando per la valle spesso vale più di qualsiasi presentazione. Rispettiamo i tempi di ogni persona.",
                     "Telefono +39 376 203 1211, WhatsApp, email: scegliete il canale che preferite. Rispondiamo con umanità — non con script commerciali.",
-                    "Casa Famiglia Gramsci: villa nel verde, pasti di casa, assistenza discreta h24. Una seconda casa per anziani autosufficienti che meritano compagnia, sicurezza e autonomia in Valle di Susa.",
+                    "Casa Famiglia Quercia: villa nel verde, pasti di casa, assistenza discreta h24. Una seconda casa per anziani autosufficienti che meritano compagnia, sicurezza e autonomia in Valle di Susa.",
                 )
             )
         wc = _article_word_count(article)

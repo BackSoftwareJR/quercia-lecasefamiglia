@@ -5,7 +5,7 @@ metaTitle: "Le domande dei figli prima della casa famiglia"
 metaDescription: "FAQ emotive e pratiche dei figli: momento giusto, costi, visite e qualità della casa famiglia a Coazze."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Gramsci
+author: Casa Famiglia Quercia
 category: FAQ
 readingTime: 12 min
 keywords: casa famiglia anziani Coazze, domande figli, FAQ casa famiglia

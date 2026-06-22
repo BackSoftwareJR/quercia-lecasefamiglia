@@ -2,7 +2,7 @@
 
 ## Intro
 
-Piazza Gramsci 17, Coazze: una villa familiare circondata dal verde della Valle di Susa. Spazi intimi, luminosi e curati — pensati per far sentire ogni ospite "a casa propria".
+Stradale Poirino 152, Coazze: una villa familiare circondata dal verde della Valle di Susa. Spazi intimi, luminosi e curati — pensati per far sentire ogni ospite "a casa propria".
 
 ## Le camere
 

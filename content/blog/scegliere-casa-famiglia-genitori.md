@@ -5,7 +5,7 @@ metaTitle: "Come scegliere casa famiglia per i genitori"
 metaDescription: "Checklist visita, errori dei figli e dialogo con il genitore: guida pratica per scegliere casa famiglia a Coazze senza fretta."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Gramsci
+author: Casa Famiglia Quercia
 category: Scelta consapevole
 readingTime: 12 min
 keywords: casa famiglia anziani Coazze, checklist visita, scegliere casa famiglia

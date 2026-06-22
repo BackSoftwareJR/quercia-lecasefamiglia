@@ -5,7 +5,7 @@ metaTitle: "Inserimento nuovo ospite: guida ai primi 30 giorni"
 metaDescription: "Ambientamento, oggetti personali e primo mese in casa famiglia: percorso pratico per inserire un nuovo ospite con serenità."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Gramsci
+author: Casa Famiglia Quercia
 category: Accoglienza
 readingTime: 12 min
 keywords: casa famiglia anziani Coazze, inserimento ospite, ambientamento

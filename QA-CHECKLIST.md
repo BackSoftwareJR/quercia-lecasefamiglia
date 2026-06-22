@@ -1,4 +1,4 @@
-# QA Checklist — Casa Famiglia Gramsci
+# QA Checklist — Casa Famiglia Quercia
 
 > Verificato: 2026-06-22 (server locale :8765)
 

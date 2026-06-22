@@ -5,7 +5,7 @@ metaTitle: "Coazze, Giaveno, Pinerolo: servizi e distanze"
 metaDescription: "Distanze, collegamenti e servizi tra Coazze, Giaveno e Pinerolo: guida pratica per scegliere una casa famiglia sostenibile."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Gramsci
+author: Casa Famiglia Quercia
 category: Servizi locali
 readingTime: 11 min
 keywords: casa famiglia anziani Coazze, servizi territorio, Giaveno Pinerolo

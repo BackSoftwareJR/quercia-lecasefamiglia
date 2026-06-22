@@ -4,11 +4,11 @@
 
 ## Uso del sito
 
-Il sito gramsci.lecasefamiglia.it fornisce informazioni su Casa Famiglia Gramsci. I contenuti hanno scopo informativo e non costituiscono offerta contrattuale.
+Il sito casafamigliaquercia.it fornisce informazioni su Casa Famiglia Quercia. I contenuti hanno scopo informativo e non costituiscono offerta contrattuale.
 
 ## Proprietà intellettuale
 
-Testi, immagini e marchi sono di proprietà di Casa Famiglia Gramsci / Le Case Famiglia salvo diversa indicazione.
+Testi, immagini e marchi sono di proprietà di Casa Famiglia Quercia / Le Case Famiglia salvo diversa indicazione.
 
 ## Limitazione di responsabilità
 

@@ -2,7 +2,7 @@
 
 ## Intro
 
-Casa Famiglia Gramsci nasce da una scelta semplice: offrire agli anziani autosufficienti un luogo dove sentirsi davvero a casa. Non un reparto, non un corridoio di lettini — una villa familiare a Coazze, in Piazza Gramsci 17, immersa nel verde della Valle di Susa.
+Casa Famiglia Quercia nasce da una scelta semplice: offrire agli anziani autosufficienti un luogo dove sentirsi davvero a casa. Non un reparto, non un corridoio di lettini — una villa familiare a Coazze, in Stradale Poirino 152, immersa nel verde della Valle di Susa.
 
 Parliamo a voi, figli e figlie che state valutando con il cuore in gola. Sappiamo che ogni decisione nasce da amore e da preoccupazione. Il nostro compito è rassicurarvi: qui c'è calore, rispetto e professionalità discreta.
 

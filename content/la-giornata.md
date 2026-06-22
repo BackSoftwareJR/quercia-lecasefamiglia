@@ -2,7 +2,7 @@
 
 ## Intro
 
-Niente sirene, niente turni rigidi. La giornata in Casa Famiglia Gramsci segue ritmi umani — simili a quelli di una casa familiare, con la tranquillità di sapere che qualcuno è sempre presente.
+Niente sirene, niente turni rigidi. La giornata in Casa Famiglia Quercia segue ritmi umani — simili a quelli di una casa familiare, con la tranquillità di sapere che qualcuno è sempre presente.
 
 ## Timeline
 

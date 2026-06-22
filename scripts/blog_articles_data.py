@@ -1,7 +1,7 @@
 """Dataset articoli blog usato da build-blog-overhaul.py."""
 
-OG_IMAGE = "https://gramsci.lecasefamiglia.it/images/Coazze%20-%20Casa%20Famiglia%20Gramsci/Sala%20da%20Pranzo%20%2B%20persone%201.avif"
-IMG_BASE = "../../images/Coazze - Casa Famiglia Gramsci/"
+OG_IMAGE = "https://casafamigliaquercia.it/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/Sala%20da%20Pranzo%20%2B%20persone%201.avif"
+IMG_BASE = "../../images/Coazze - Casa Famiglia Quercia/"
 
 INTRO_EXPANSIONS = {
     "casa-famiglia-vs-rsa-differenze": (
@@ -220,7 +220,7 @@ def _article(
         "badge": badge,
         "reading": reading,
         "keywords": keywords,
-        "author": "Casa Famiglia Gramsci",
+        "author": "Casa Famiglia Quercia",
         "breadcrumb": title,
         "hero": hero,
         "hero_alt": hero_alt,

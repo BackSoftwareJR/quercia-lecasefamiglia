@@ -1,4 +1,4 @@
-# Content & SEO Roadmap — Casa Famiglia Gramsci
+# Content & SEO Roadmap — Casa Famiglia Quercia
 
 > Strategia per massima visibilità organica. Aggiornato: 2026-06-22
 
@@ -18,7 +18,7 @@ Essere trovati da figli 45–65 che cercano una soluzione per genitori autosuffi
 ### Tier 2 — Pagine dedicate (fiducia + profondità)
 | URL | Keyword | Stato |
 |-----|---------|-------|
-| `/storia/` | storia casa famiglia Gramsci Coazze | ✅ Creata |
+| `/storia/` | storia casa famiglia Casa Famiglia Quercia – Pinerolo | ✅ Creata |
 | `/galleria/` | foto casa famiglia Coazze | ✅ Creata |
 | `/requisiti-autosufficienza/` | requisiti anziani autosufficienti | ✅ Creata |
 | `/chi-siamo/` | chi siamo casa famiglia | Esistente — arricchire |
@@ -78,7 +78,7 @@ Ogni pagina → minimo 3 link interni verso: `/contatti/`, `/rette-e-ammissione/
 2. [ ] Aggiungere 5 nuovi articoli blog (Fase 2)
 3. [ ] Landing geo: Trana, Valgioie, Torino provincia
 4. [ ] Testimonianze reali (sostituire placeholder)
-5. [ ] Formspree + email info@gramsci.lecasefamiglia.it
+5. [ ] Formspree + email info@casafamigliaquercia.it
 6. [ ] Lighthouse audit post-deploy
 7. [ ] Google Search Console + sitemap submit
 

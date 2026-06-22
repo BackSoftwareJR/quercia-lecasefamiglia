@@ -79,7 +79,7 @@ EXPANSIONS = {
         <h2>Servizi nel territorio</h2>
         <p>Medici di base, farmacie, laboratori analisi sono presenti nei comuni limitrofi. Per controlli specialistici, Torino e Pinerolo offrono opzioni. Coordinamento con famiglia e medico curante fa parte del lavoro quotidiano in casa famiglia.</p>
         <p>Se vostro caro ha amici o parenti sparsi in valle, restare a Coazze facilita incontri — non li sostituisce, li rende possibili senza lunghe trasferte.</p>
-        <p>Non serve abitare in Piazza Gramsci per sentirsi a casa qui. Basta riconoscersi in un territorio amato — e voler per vostro caro serenità, non isolamento.</p>
+        <p>Non serve abitare in Pinerolo per sentirsi a casa qui. Basta riconoscersi in un territorio amato — e voler per vostro caro serenità, non isolamento.</p>
 """,
     "domande-figli-casa-famiglia": """
         <h2>Domande sulla vita quotidiana</h2>
