@@ -7,8 +7,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://casafamigliaquercia.it"
-OG_IMAGE = f"{BASE}/images/map-placeholder.jpg"
-PINEROLO_OG_IMAGE = f"{BASE}/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/Sala%20da%20Pranzo%20%2B%20persone%201.avif"
+# See js/images.js — root AVIF paths, encodeURI for spaces; no JPG stubs
+OG_IMAGE = f"{BASE}/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif"
+PINEROLO_OG_IMAGE = OG_IMAGE
 
 LODGING_SCHEMA = {
     "@context": "https://schema.org",
