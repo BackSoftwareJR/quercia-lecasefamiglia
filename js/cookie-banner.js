@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  var KEY = 'gramsci_cookie_consent';
+  var KEY = 'quercia_cookie_consent';
 
   function initCookieBanner() {
     var banner = document.getElementById('cookie-banner');
