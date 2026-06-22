@@ -324,7 +324,7 @@
           <p class="section__lead">Ti richiamiamo noi, entro poche ore.</p>
         </header>
 
-        <form class="contact-form" action="#" method="post" novalidate style="display: flex; max-width: 32rem; margin-inline: auto;">
+        <form class="contact-form" action="#" method="post" novalidate>
           <div class="form-field">
             <label class="form-label form-label--required" for="contact-name">Nome</label>
             <input class="form-input" type="text" id="contact-name" name="name" required autocomplete="name">
@@ -334,21 +334,23 @@
             <input class="form-input" type="tel" id="contact-phone" name="phone" required autocomplete="tel">
           </div>
           <div class="form-field">
-            <label class="form-label" for="contact-email">Email <span class="form-hint" style="display: inline; margin: 0;">(opzionale)</span></label>
+            <label class="form-label" for="contact-email">Email <span class="form-hint form-hint--inline">(opzionale)</span></label>
             <input class="form-input" type="email" id="contact-email" name="email" autocomplete="email">
           </div>
           <div class="form-field">
             <label class="form-label" for="contact-message">Messaggio</label>
             <textarea class="form-textarea" id="contact-message" name="message" placeholder="Raccontaci brevemente la situazione del tuo caro..."></textarea>
           </div>
-          <div class="form-field">
+          <div class="form-field form-field--checkbox">
             <label class="form-checkbox">
               <input type="checkbox" id="contact-privacy" name="privacy" required>
               <span>Ho letto e accetto la <a href="/privacy-policy/">Privacy Policy</a></span>
             </label>
           </div>
-          <button type="submit" class="btn btn--accent btn--lg">Richiedi un contatto</button>
-          <p class="form-note">Nessuno spam. Nessuna cessione a terzi. Ti chiama solo il nostro staff.</p>
+          <div class="contact-form__actions">
+            <button type="submit" class="btn btn--accent btn--lg contact-form__submit">Richiedi un contatto</button>
+            <p class="form-note">Nessuno spam. Nessuna cessione a terzi. Ti chiama solo il nostro staff.</p>
+          </div>
         </form>
       </div>
     </section>
