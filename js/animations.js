@@ -40,26 +40,43 @@
       return;
     }
 
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          var el = entry.target;
-          el.classList.add('is-visible');
+    function revealElement(el) {
+      if (el.classList.contains('is-visible')) return;
+      el.classList.add('is-visible');
 
-          if (el.classList.contains('trust-bar')) {
-            el.querySelectorAll('[data-count]').forEach(initCounterUp);
-          }
+      if (el.classList.contains('trust-bar')) {
+        el.querySelectorAll('[data-count]').forEach(initCounterUp);
+      }
+    }
 
-          observer.unobserve(el);
-        });
-      },
-      { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
-    );
+    function observerOptions(el) {
+      // Tall stagger containers (e.g. servizi detail blocks) rarely hit 15% visibility
+      if (el.classList.contains('stagger-children') || el.classList.contains('stagger-150')) {
+        return { threshold: 0, rootMargin: '0px 0px -40px 0px' };
+      }
+      return { threshold: 0.15, rootMargin: '0px 0px -40px 0px' };
+    }
 
     document.querySelectorAll('.animate-on-scroll, .stagger-children, .stagger-150, .trust-bar').forEach(function (el) {
+      if (el.classList.contains('is-visible')) return;
+
+      var observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            revealElement(entry.target);
+            observer.unobserve(entry.target);
+          });
+        },
+        observerOptions(el)
+      );
+
       observer.observe(el);
     });
+
+    window.setTimeout(function () {
+      document.querySelectorAll('.animate-on-scroll:not(.is-visible), .stagger-children:not(.is-visible), .stagger-150:not(.is-visible)').forEach(revealElement);
+    }, 2000);
   }
 
   document.addEventListener('DOMContentLoaded', initAnimations);
