@@ -78,8 +78,10 @@ document.addEventListener('DOMContentLoaded', function () {
         heroVideo.muted = true;
         heroVideo.loop = true;
         heroVideo.playsInline = true;
+        heroVideo.preload = 'none';
         heroVideo.setAttribute('playsinline', '');
         heroVideo.setAttribute('muted', '');
+        heroVideo.setAttribute('preload', 'none');
         heroVideo.poster = HERO_POSTER;
 
         heroVideo.addEventListener('canplay', function onCanPlay() {

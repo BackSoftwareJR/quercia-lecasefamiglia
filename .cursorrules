@@ -5,9 +5,8 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Certamente. Procediamo un passo alla volta per trasformare la Hero Section in un catalizzatore di conversioni, rendendola accogliente, empatica e performante.
-
-Per Cursor, il segreto è fornire un prom
+**Current task context:** 1. Per il layout (Desktop & Mobile)
+"Rendi la Hero Section un layout split-screen 50/50: a sinistra l'immagine (o video con poster), a destra il blocco testo e CTA con sfondo verde scuro. Assicurati c
 
 ## Project-Specific Patterns
 
@@ -39,7 +38,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 1%)
+### Pattern 1 (relevance: 2%)
 
 **When you see:**
 ```
