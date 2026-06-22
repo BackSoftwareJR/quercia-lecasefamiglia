@@ -31,6 +31,12 @@
       document.querySelectorAll('.animate-on-scroll, .stagger-children, .stagger-150').forEach(function (el) {
         el.classList.add('is-visible');
       });
+      document.querySelectorAll('[data-count]').forEach(function (el) {
+        var target = el.getAttribute('data-count');
+        var suffix = el.getAttribute('data-suffix') || '';
+        var prefix = el.getAttribute('data-prefix') || '';
+        el.textContent = prefix + target + suffix;
+      });
       return;
     }
 

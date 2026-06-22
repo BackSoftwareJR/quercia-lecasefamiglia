@@ -74,10 +74,9 @@
     var mediaWrap = video && video.closest('.hero-clean__media');
     if (!video) return;
 
-    var base = getSiteBase();
-    var heroImage = base + 'images/map-placeholder.jpg';
+    var heroImage = '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1.avif';
     var isMobile = window.matchMedia('(max-width: 767px)').matches;
-    var videoSrc = base + 'videos/' + (isMobile ? 'hero-mobile.mp4' : 'hero-desktop.mp4');
+    var videoSrc = '/videos/' + (isMobile ? 'hero-mobile.mp4' : 'hero-desktop.mp4');
     var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     function showImageFallback() {

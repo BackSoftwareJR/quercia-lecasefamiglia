@@ -4,31 +4,27 @@
 (function () {
   'use strict';
 
+  var PIN = '/images/Pinerolo - Casa Famiglia Quercia 1/';
+  var DINING = '/images/Sala da Pranzo + persone 1.avif';
+
   var GALLERY_ITEMS = [
-    { file: 'images/map-placeholder.jpg', alt: 'Salone luminoso di Casa Famiglia Quercia a Pinerolo', category: 'spazi-comuni' },
-    { file: 'images/avatars/avatar3.jpg', alt: 'Attività ricreative nel salone comune a Pinerolo', category: 'spazi-comuni' },
-    { file: 'images/avatars/avatar1.jpg', alt: 'Pranzo conviviale in sala da pranzo — Casa Quercia', category: 'cucina' },
-    { file: 'images/avatars/avatar2.jpg', alt: 'Cucina di casa con pasti freschi ogni giorno a Pinerolo', category: 'cucina' },
-    { file: 'images/avatars/avatar1.jpg', alt: 'Camera confortevole con arredi personali — Pinerolo', category: 'camere' },
-    { file: 'images/avatars/avatar2.jpg', alt: 'Camera luminosa e accogliente nel Pinerolese', category: 'camere' },
-    { file: 'images/map-placeholder.jpg', alt: 'Giardino privato nel verde del Pinerolese', category: 'giardino' },
-    { file: 'images/avatars/avatar3.jpg', alt: 'Spazi verdi per passeggiate a Casa Famiglia Quercia', category: 'giardino' }
+    { file: PIN + 'img1.avif', alt: 'Salone luminoso di Casa Famiglia Quercia a Pinerolo', category: 'spazi-comuni' },
+    { file: PIN + 'img2.avif', alt: 'Attività ricreative nel salone comune a Pinerolo', category: 'spazi-comuni' },
+    { file: DINING, alt: 'Pranzo conviviale in sala da pranzo — Casa Quercia', category: 'cucina' },
+    { file: PIN + 'img6.avif', alt: 'Cucina di casa con pasti freschi ogni giorno a Pinerolo', category: 'cucina' },
+    { file: PIN + 'img7.avif', alt: 'Camera confortevole con arredi personali — Pinerolo', category: 'camere' },
+    { file: PIN + 'img8.avif', alt: 'Camera luminosa e accogliente nel Pinerolese', category: 'camere' },
+    { file: PIN + 'img9.avif', alt: 'Giardino privato nel verde del Pinerolese', category: 'giardino' },
+    { file: PIN + 'img10.avif', alt: 'Spazi verdi per passeggiate a Casa Famiglia Quercia', category: 'giardino' }
   ];
 
-  function getSiteBase() {
-    var path = window.location.pathname;
-    var segments = path.split('/').filter(Boolean);
-    if (segments.length && segments[segments.length - 1].includes('.')) {
-      segments.pop();
-    }
-    return segments.length > 0 ? '../'.repeat(segments.length) : '';
+  function imageSrc(path) {
+    return encodeURI(path);
   }
 
   function initGallery() {
     var root = document.getElementById('home-gallery');
     if (!root) return;
-
-    var IMG_BASE = getSiteBase();
 
     var grid = root.querySelector('.gallery-grid');
     var tabs = root.querySelectorAll('.gallery-tabs__btn');
@@ -50,7 +46,7 @@
           btn.type = 'button';
           btn.className = 'gallery-item scale-in animate-on-scroll';
           btn.setAttribute('data-index', String(idx));
-          btn.innerHTML = '<img src="' + IMG_BASE + item.file + '" alt="' + item.alt + '" loading="lazy" width="400" height="300">';
+          btn.innerHTML = '<img src="' + imageSrc(item.file) + '" alt="' + item.alt + '" loading="lazy" width="400" height="300">';
           btn.addEventListener('click', function () { openLightbox(filtered, idx); });
           grid.appendChild(btn);
         });
@@ -107,7 +103,7 @@
     function showSlide() {
       var img = lightbox.querySelector('.lightbox__image');
       var item = visibleItems[currentIndex];
-      img.src = IMG_BASE + item.file;
+      img.src = imageSrc(item.file);
       img.alt = item.alt;
     }
 
