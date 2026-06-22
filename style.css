@@ -189,151 +189,216 @@ h1, h2, h3, h4 {
     outline-offset: 2px;
 }
 
-/* Hero — premium minimal */
+/* Hero — bento conversion layout */
 .hero {
     position: relative;
     width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--color-bg);
 }
 
-.hero-video-container {
+.hero-bento {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.hero-visual {
+    position: relative;
+    min-height: 42vh;
+    overflow: hidden;
+}
+
+.hero-poster,
+.hero-poster-img,
+.hero-video {
     position: absolute;
     inset: 0;
-    z-index: 0;
-}
-
-#heroVideo,
-.hero-fallback {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.hero-overlay {
+.hero-poster {
+    display: block;
+    z-index: 0;
+}
+
+.hero-video {
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.hero-video.is-ready {
+    opacity: 1;
+}
+
+.hero-visual-overlay {
     position: absolute;
     inset: 0;
-    z-index: 1;
-    background: linear-gradient(
-        135deg,
-        rgba(45, 49, 46, 0.55) 0%,
-        rgba(58, 61, 58, 0.45) 50%,
-        rgba(45, 49, 46, 0.5) 100%
-    );
-}
-
-.hero-inner {
-    position: relative;
     z-index: 2;
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 80px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
+    background: linear-gradient(
+        180deg,
+        rgba(45, 49, 46, 0.15) 0%,
+        rgba(45, 49, 46, 0.35) 100%
+    );
+    pointer-events: none;
 }
 
-.hero-layout {
+.hero-panel {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 48px;
+    background: linear-gradient(165deg, #3a4f42 0%, #2d3530 55%, #252b27 100%);
+    color: var(--color-hero-text);
 }
 
-.hero-copy {
-    text-align: center;
-    max-width: 36rem;
+.hero-panel-inner {
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 40px 24px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(253, 251, 247, 0.75);
+    margin-bottom: 12px;
 }
 
 .hero-copy h1 {
     font-family: var(--font-serif);
-    font-size: 2rem;
+    font-size: 1.875rem;
     font-weight: 500;
-    line-height: 1.15;
+    line-height: 1.18;
     color: var(--color-hero-text);
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .hero-lead {
     font-family: var(--font-sans);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.6;
-    color: var(--color-hero-text);
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    line-height: 1.65;
+    color: rgba(253, 251, 247, 0.88);
     max-width: 42ch;
-    margin: 0 auto;
 }
 
-.hero-contact {
-    width: 100%;
-    max-width: 28rem;
-    padding: 0;
+.hero-conversion {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
 }
 
-.hero-actions {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.hero-actions .btn {
-    width: 100%;
-    min-height: 52px;
-}
-
-.hero-actions .btn-hero-primary {
-    min-height: 56px;
-}
-
-.btn-hero-primary {
-    flex-direction: row;
+.btn-hero-cta {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    padding: 18px 36px;
+    width: 100%;
+    min-height: 56px;
+    padding: 18px 32px;
     border-radius: var(--radius-pill);
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     color: var(--color-white);
+    font-family: var(--font-sans);
     font-size: 1.125rem;
-    font-weight: 600;
-    box-shadow: 0 4px 20px rgba(92, 139, 107, 0.35);
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 6px 24px rgba(217, 138, 108, 0.4);
+    transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
 }
 
-.btn-hero-primary i {
-    font-size: 1.125rem;
+.btn-hero-cta:hover,
+.btn-hero-cta:focus-visible {
+    background-color: var(--color-secondary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(217, 138, 108, 0.45);
+}
+
+.hero-cta-note {
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgba(253, 251, 247, 0.72);
+    text-align: center;
+    margin: -4px 0 4px;
+}
+
+.hero-phone-block {
+    padding: 20px;
+    border-radius: var(--radius-md);
+    background: rgba(253, 251, 247, 0.08);
+    border: 1px solid rgba(253, 251, 247, 0.14);
+}
+
+.hero-phone-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity var(--transition);
+}
+
+.hero-phone-link:hover,
+.hero-phone-link:focus-visible {
+    opacity: 0.9;
+}
+
+.hero-phone-icon {
     flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: var(--color-white);
+    box-shadow: 0 4px 16px rgba(92, 139, 107, 0.35);
 }
 
-.btn-hero-primary .btn-text {
+.hero-phone-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    gap: 2px;
 }
 
-.btn-hero-primary .btn-sublabel {
+.hero-phone-label {
+    font-family: var(--font-sans);
     font-size: 0.8125rem;
-    font-weight: 400;
-    font-style: normal;
-    opacity: 0.92;
-    margin-top: 2px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(253, 251, 247, 0.7);
 }
 
-.btn-hero-primary:hover,
-.btn-hero-primary:focus-visible {
-    background-color: #4D7359;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(92, 139, 107, 0.3);
+.hero-phone-number {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color-hero-text);
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
+
+.hero-phone-note {
+    margin-top: 10px;
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    color: rgba(253, 251, 247, 0.65);
+    padding-left: 68px;
 }
 
 .btn-hero-whatsapp {
@@ -341,14 +406,18 @@ h1, h2, h3, h4 {
     align-items: center;
     justify-content: center;
     gap: 12px;
-    padding: 16px 32px;
+    width: 100%;
+    min-height: 52px;
+    padding: 14px 28px;
     border-radius: var(--radius-pill);
     background-color: transparent;
     color: var(--color-hero-text);
     font-size: 1rem;
     font-weight: 600;
-    border: 1px solid rgba(253, 251, 247, 0.45);
+    text-decoration: none;
+    border: 1px solid rgba(253, 251, 247, 0.35);
     box-shadow: none;
+    transition: transform var(--transition), background-color var(--transition), border-color var(--transition);
 }
 
 .btn-hero-whatsapp i {
@@ -359,117 +428,113 @@ h1, h2, h3, h4 {
 .btn-hero-whatsapp:hover,
 .btn-hero-whatsapp:focus-visible {
     transform: translateY(-2px);
-    background-color: rgba(253, 251, 247, 0.1);
-    border-color: rgba(253, 251, 247, 0.7);
+    background-color: rgba(253, 251, 247, 0.08);
+    border-color: rgba(253, 251, 247, 0.6);
 }
 
 .hero-trust {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 12px 20px;
     padding: 0;
+    margin: 0;
 }
 
 .hero-trust-item {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     font-family: var(--font-sans);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     font-weight: 500;
-    color: var(--color-hero-text);
-    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+    color: rgba(253, 251, 247, 0.85);
     line-height: 1.4;
 }
 
 .hero-trust-icon {
     flex-shrink: 0;
-    width: 44px;
-    height: 44px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
-    background: rgba(253, 251, 247, 0.15);
+    background: rgba(253, 251, 247, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-hero-text);
-    font-size: 1rem;
-}
-
-@media screen and (max-width: 767px) {
-    .btn-hero-primary .btn-text {
-        align-items: center;
-        text-align: center;
-    }
+    font-size: 0.875rem;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-inner {
-        padding: 120px 24px;
-        gap: 64px;
+    .hero-bento {
+        grid-template-columns: 1.05fr 0.95fr;
+        min-height: 100vh;
+        min-height: 100dvh;
     }
 
-    .hero-layout {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: start;
-        gap: 64px;
+    .hero-visual {
+        min-height: auto;
     }
 
-    .hero-copy {
-        text-align: left;
+    .hero-visual-overlay {
+        background: linear-gradient(
+            90deg,
+            rgba(45, 49, 46, 0.05) 0%,
+            rgba(45, 49, 46, 0.25) 100%
+        );
+    }
+
+    .hero-panel-inner {
         max-width: none;
+        padding: 56px 48px;
+        gap: 36px;
     }
 
     .hero-copy h1 {
-        font-size: 2.75rem;
-        margin-bottom: 32px;
-        max-width: 16ch;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        max-width: 14ch;
     }
 
     .hero-lead {
-        font-size: 1.25rem;
-        margin: 0;
-        max-width: 38ch;
+        font-size: 1.0625rem;
     }
 
-    .hero-contact {
-        max-width: none;
-    }
-
-    .hero-trust {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 32px;
+    .hero-phone-number {
+        font-size: 2rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-copy h1 {
-        font-size: 3rem;
+    .hero {
+        padding: 20px;
     }
 
-    .hero-layout {
-        gap: 80px;
+    .hero-bento {
+        grid-template-columns: 1.15fr 1fr;
+        gap: 0;
+        min-height: calc(100dvh - 40px);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        box-shadow: var(--shadow-medium);
+    }
+
+    .hero-panel-inner {
+        padding: 64px 56px;
+    }
+
+    .hero-copy h1 {
+        font-size: 2.75rem;
     }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    #heroVideo {
+    .hero-video {
         display: none;
     }
 
-    .hero-video-container::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-image: url('images/Pinerolo - Casa Famiglia Quercia 1/img1.avif');
-        background-size: cover;
-        background-position: center;
-    }
-
-    .btn-hero-primary:hover,
-    .btn-hero-primary:focus-visible,
+    .btn-hero-cta:hover,
+    .btn-hero-cta:focus-visible,
     .btn-hero-whatsapp:hover,
     .btn-hero-whatsapp:focus-visible {
         transform: none;

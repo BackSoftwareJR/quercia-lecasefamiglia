@@ -1,10 +1,11 @@
 /**
  * Casa Famiglia Quercia – Core interactions
- * Hero video, contact tracking, reduced motion
+ * Hero video (deferred), contact tracking, reduced motion
  */
 
 document.addEventListener('DOMContentLoaded', function () {
     const heroVideo = document.getElementById('heroVideo');
+    const HERO_POSTER = 'images/Pinerolo - Casa Famiglia Quercia 1/img1.avif';
 
     function trackContactClick(type, label) {
         const eventName = type === 'phone' ? 'phone_click' : 'whatsapp_click';
@@ -45,17 +46,20 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    function loadAppropriateVideo() {
+    function getHeroVideoSrc() {
+        return window.innerWidth < 768 ? 'videos/hero-mobile.mp4' : 'videos/hero-desktop.mp4';
+    }
+
+    function loadHeroVideo() {
         if (!heroVideo) return;
 
         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         if (prefersReducedMotion) {
-            heroVideo.style.display = 'none';
+            heroVideo.remove();
             return;
         }
 
-        const isMobile = window.innerWidth < 768;
-        const correctSrc = isMobile ? 'videos/hero-mobile.mp4' : 'videos/hero-desktop.mp4';
+        const correctSrc = getHeroVideoSrc();
         const existingSource = heroVideo.querySelector('source');
 
         if (existingSource && existingSource.getAttribute('src') === correctSrc) {
@@ -76,26 +80,37 @@ document.addEventListener('DOMContentLoaded', function () {
         heroVideo.playsInline = true;
         heroVideo.setAttribute('playsinline', '');
         heroVideo.setAttribute('muted', '');
-        heroVideo.poster = 'images/Pinerolo - Casa Famiglia Quercia 1/img1.avif';
+        heroVideo.poster = HERO_POSTER;
+
+        heroVideo.addEventListener('canplay', function onCanPlay() {
+            heroVideo.removeEventListener('canplay', onCanPlay);
+            heroVideo.classList.add('is-ready');
+        }, { once: true });
 
         heroVideo.play().catch(function () {
-            heroVideo.style.display = 'none';
-            const container = document.querySelector('.hero-video-container');
-            if (container) {
-                container.style.backgroundImage = 'url("images/Pinerolo - Casa Famiglia Quercia 1/img1.avif")';
-                container.style.backgroundSize = 'cover';
-                container.style.backgroundPosition = 'center';
-            }
+            heroVideo.classList.remove('is-ready');
         });
     }
 
-    loadAppropriateVideo();
+    function scheduleHeroVideoLoad() {
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadHeroVideo, { timeout: 3000 });
+        } else {
+            setTimeout(loadHeroVideo, 1500);
+        }
+    }
+
+    if (document.readyState === 'complete') {
+        scheduleHeroVideoLoad();
+    } else {
+        window.addEventListener('load', scheduleHeroVideoLoad, { once: true });
+    }
 
     let resizeTimer;
     window.addEventListener('resize', function () {
         clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(loadAppropriateVideo, 200);
+        resizeTimer = setTimeout(loadHeroVideo, 200);
     });
 
-    window.matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', loadAppropriateVideo);
+    window.matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', loadHeroVideo);
 });

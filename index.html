@@ -143,6 +143,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preload" as="image" href="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" fetchpriority="high">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="galleria.css">
     <link rel="stylesheet" href="faq.css">
@@ -194,56 +195,70 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
 
     <!-- Hero Section -->
     <section id="hero" class="hero" aria-label="Casa Famiglia Quercia — accoglienza per anziani a Pinerolo">
-        <div class="hero-video-container" aria-hidden="true">
-            <video id="heroVideo" autoplay muted loop playsinline poster="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif">
-                <!-- JavaScript caricherà il video appropriato -->
-            </video>
-            <div class="hero-overlay"></div>
-            <noscript>
-                <img src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" alt="" class="hero-fallback">
-            </noscript>
-        </div>
+        <div class="hero-bento">
+            <div class="hero-visual" aria-hidden="true">
+                <picture class="hero-poster">
+                    <source srcset="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif" type="image/avif">
+                    <img
+                        src="images/Pinerolo - Casa Famiglia Quercia 1/img1.avif"
+                        alt=""
+                        class="hero-poster-img"
+                        width="1200"
+                        height="900"
+                        fetchpriority="high"
+                        decoding="async">
+                </picture>
+                <video id="heroVideo" class="hero-video" muted loop playsinline preload="none" aria-hidden="true"></video>
+                <div class="hero-visual-overlay"></div>
+            </div>
 
-        <div class="hero-inner">
-            <div class="hero-layout">
-                <header class="hero-copy">
-                    <h1>Tuo genitore rifiuta la RSA? Scopri una vera casa.</h1>
-                    <p class="hero-lead">A Pinerolo. Massimo 8 ospiti, giardino privato e personale fisso. Il calore di una famiglia, l'assistenza di cui hai bisogno.</p>
-                </header>
+            <div class="hero-panel">
+                <div class="hero-panel-inner">
+                    <header class="hero-copy">
+                        <p class="hero-eyebrow">Casa Famiglia Quercia · Pinerolo</p>
+                        <h1>Un luogo dove tuo genitore non si sentirà un ospite, ma a casa.</h1>
+                        <p class="hero-lead">Massimo 8 ospiti, giardino privato e personale fisso. Il calore di una famiglia vera, con l'assistenza discreta di cui hai bisogno tu e il tuo caro.</p>
+                    </header>
 
-                <aside class="hero-contact" aria-labelledby="hero-contact-heading">
-                    <h2 id="hero-contact-heading" class="visually-hidden">Contatti rapidi</h2>
+                    <div class="hero-conversion" aria-labelledby="hero-contact-heading">
+                        <h2 id="hero-contact-heading" class="visually-hidden">Contatti rapidi</h2>
 
-                    <div class="hero-actions">
-                        <a href="tel:+393762031211" class="btn btn-hero-primary track-phone" data-track-label="hero_call">
-                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                            <span class="btn-text">
-                                <span class="btn-label">Fai uno squillo: 376 203 1211</span>
-                                <span class="btn-sublabel">Risponde il nostro personale, senza impegno</span>
-                            </span>
-                        </a>
-                        <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20fare%20due%20chiacchiere..." class="btn btn-hero-whatsapp track-whatsapp" data-track-label="hero_whatsapp" target="_blank" rel="noopener noreferrer">
+                        <a href="#contatti" class="btn btn-hero-cta">Prenota una Visita Gratuita</a>
+                        <p class="hero-cta-note">Risposta immediata, nessun impegno.</p>
+
+                        <div class="hero-phone-block">
+                            <a href="tel:+393762031211" class="hero-phone-link track-phone" data-track-label="hero_call">
+                                <span class="hero-phone-icon" aria-hidden="true"><i class="fas fa-phone-alt"></i></span>
+                                <span class="hero-phone-text">
+                                    <span class="hero-phone-label">Chiamaci ora</span>
+                                    <span class="hero-phone-number">376 203 1211</span>
+                                </span>
+                            </a>
+                            <p class="hero-phone-note">Risponde il nostro personale, senza call center</p>
+                        </div>
+
+                        <a href="https://wa.me/393762031211?text=Ciao,%20vorrei%20organizzare%20una%20visita..." class="btn btn-hero-whatsapp track-whatsapp" data-track-label="hero_whatsapp" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-whatsapp" aria-hidden="true"></i>
                             <span class="btn-label">Scrivici su WhatsApp</span>
                         </a>
                     </div>
-                </aside>
-            </div>
 
-            <ul class="hero-trust" aria-label="Punti di forza">
-                <li class="hero-trust-item">
-                    <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-clock"></i></span>
-                    <span>Presenza e assistenza 24h</span>
-                </li>
-                <li class="hero-trust-item">
-                    <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-leaf"></i></span>
-                    <span>Giardino privato protetto</span>
-                </li>
-                <li class="hero-trust-item">
-                    <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-home"></i></span>
-                    <span>Massimo 8 ospiti — niente liste d'attesa</span>
-                </li>
-            </ul>
+                    <ul class="hero-trust" aria-label="Punti di forza">
+                        <li class="hero-trust-item">
+                            <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-clock"></i></span>
+                            <span>Assistenza 24h</span>
+                        </li>
+                        <li class="hero-trust-item">
+                            <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-leaf"></i></span>
+                            <span>Giardino privato</span>
+                        </li>
+                        <li class="hero-trust-item">
+                            <span class="hero-trust-icon" aria-hidden="true"><i class="fas fa-home"></i></span>
+                            <span>Max 8 ospiti</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1206,7 +1221,7 @@ src="https://www.facebook.com/tr?id=703387195501399&ev=PageView&noscript=1"
     </div>
 
     <!-- JavaScript -->
-<script src="script.js?v=1.2.0"></script>
+<script src="script.js?v=1.3.0"></script>
     <script src="servizi.js"></script>
     <script src="famiglia.js"></script>
     <script src="galleria.js"></script>
