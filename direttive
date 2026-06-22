@@ -1,0 +1,1165 @@
+# Casa Famiglia Quercia, Testi Completi + Prompt Cursor
+> Documento di lavoro per la riscrittura del sito quercia.lecasefamiglia.it
+> Struttura di riferimento: gramsci.lecasefamiglia.it
+> Tono: empatico, diretto, caldo. Mai istituzionale. Mai freddo.
+
+---
+
+## STRUTTURA PAGINE
+
+Il sito Quercia (nuovo) avrà la stessa architettura di Gramsci:
+
+1. **Homepage** (index)
+2. **Servizi** (`/servizi/`)
+3. **La Giornata** (`/la-giornata/`)
+4. **Rette e Ammissione** (`/rette-e-ammissione/`)
+5. **Blog** (`/blog/`)
+6. **Contatti** (`/contatti/`)
+
+---
+
+## DATI FISSI, DA USARE IN TUTTO IL SITO
+
+```
+Nome struttura: Casa Famiglia Quercia
+Indirizzo: Stradale Poirino, 152, 10064 Pinerolo (TO)
+Telefono: +39 376 203 1211
+WhatsApp: https://wa.me/393762031211?text=Ciao,%20sto%20cercando%20una%20casa%20famiglia%20per%20il%20mio%20caro...
+Email: info@casafamigliaquercia.it
+Google Maps: https://www.google.com/maps/dir/?api=1&destination=Stradale+Poirino,+152,+10064+Pinerolo+TO
+Rete: Le Case Famiglia (lecasefamiglia.it)
+Max ospiti: 8
+Distanza da Torino: ~40 km / ~40 minuti
+Zona: Pinerolo, Pinerolese, provincia di Torino
+Specificità: anziani autosufficienti, non RSA, struttura familiare
+```
+
+---
+
+---
+
+# SEZIONE 1, HOMEPAGE
+
+---
+
+## 🟢 HERO (sopra la piega)
+
+**Tag sopra il titolo (piccolo, uppercase):**
+```
+Pinerolo · Pinerolese
+```
+
+**Titolo H1:**
+```
+La tua seconda casa, nel verde del Pinerolese
+```
+
+**Sottotitolo:**
+```
+Per chi è ancora pienamente autonomo ma non vuole più vivere da solo.
+Assistenza discreta, ambienti veri, libertà quotidiana.
+A Pinerolo, a 40 minuti da Torino.
+```
+
+**CTA primario:**
+```
+Chiama ora, +39 376 203 1211
+```
+
+**CTA secondario:**
+```
+Prenota una visita gratuita
+```
+
+**Contatori (sotto i CTA):**
+```
+24/7 · Assistenza sempre presente
+8 · Ospiti al massimo
+100% · Anziani autosufficienti
+★ 5 · Qualità di vita percepita
+```
+
+---
+
+## 🟡 SEZIONE EMPATICA, "Il momento che nessuno vorrebbe vivere"
+
+**Titolo:**
+```
+"Mia madre stava bene. Ma vivere sola non era più giusto."
+```
+
+**Testo:**
+```
+Succede così, spesso. Un genitore ancora lucido, ancora in gamba, ma la casa grande è diventata silenziosa. Le scale sono un pensiero. La cena da soli pesa più di qualsiasi malattia.
+
+Una RSA sembra esagerata. Lasciarlo solo non è giusto. Casa Famiglia Quercia è la terza via.
+
+Non una struttura. Non l'abbandono. Una casa vera, con persone vere, a pochi chilometri da Torino.
+```
+
+---
+
+## 🔵 SEZIONE SERVIZI, 4 CARD PRINCIPALI
+
+**Intestazione sezione:**
+```
+Quello che trovi qui, ogni giorno
+```
+
+**Card 1, Assistenza**
+```
+Icona: assistenza.svg
+Titolo: Assistenza 24h, discreta
+Testo: C'è sempre qualcuno. Di notte, di giorno, nei momenti difficili e in quelli normali. Presente quando serve, invisibile quando non serve.
+```
+
+**Card 2, Cucina**
+```
+Icona: pasti.svg
+Titolo: Cucina di casa, ogni giorno
+Testo: Niente mensa. Piatti freschi, diete rispettate, la merenda nel pomeriggio. Come a casa, meglio di casa.
+```
+
+**Card 3, Giardino**
+```
+Icona: giardino.svg
+Titolo: Giardino e aria aperta
+Testo: Spazi verdi privati per passeggiare, coltivare l'orto, godersi il sole. La natura fa parte della quotidianità, in ogni stagione.
+```
+
+**Card 4, Attività**
+```
+Icona: attivita.svg
+Titolo: Attività che danno senso
+Testo: Ginnastica dolce, laboratori, giochi, lettura. Non per riempire il tempo, per farlo valere.
+```
+
+**Card 5, Camera**
+```
+Titolo: Camera tua, con le tue cose
+Testo: Porta i tuoi oggetti, i tuoi ricordi, i tuoi quadri. Personalizza lo spazio. È casa tua.
+```
+
+**Link sotto:**
+```
+→ Tutti i servizi in dettaglio  [link a /servizi/]
+```
+
+---
+
+## 🔴 TABELLA COMPARATIVA, Quercia vs RSA
+
+**Titolo sezione:**
+```
+Perché una Casa Famiglia e non una RSA?
+```
+
+**Sottotitolo:**
+```
+Non è solo una questione di dimensioni. È una scelta di vita.
+```
+
+| RSA tradizionale | Casa Famiglia Quercia |
+|---|---|
+| Decine o centinaia di ospiti | Massimo 8 persone: ci si conosce tutti |
+| Orari rigidi, regole di reparto | Flessibilità, ritmi personali rispettati |
+| Atmosfera ospedaliera | Casa vera, arredata con cura |
+| Personale che ruota ogni turno | Stesse persone ogni giorno |
+| Visite contingentate | Familiari sempre benvenuti, senza orari |
+| Spesso per chi non è autosufficiente | Solo per chi è ancora pienamente autonomo |
+
+**CTA tabella:**
+```
+Prenota la visita gratuita  [link a /contatti/]
+Leggi la nostra guida completa  [link a /blog/casa-famiglia-vs-rsa/]
+```
+
+---
+
+## 🟣 SEZIONE GIORNATA TIPO (timeline)
+
+**Titolo:**
+```
+Una giornata a Casa Quercia
+```
+
+**Sottotitolo:**
+```
+Nessuna routine imposta. Solo i ritmi giusti, costruiti insieme.
+```
+
+```
+07:30, Risveglio
+Chi vuole supporto ce l'ha. Chi preferisce alzarsi da solo, lo fa.
+
+08:30, Colazione
+Tavola apparecchiata, prodotti freschi, chiacchiere mattutine.
+
+10:00, Attività mattutina
+Ginnastica dolce in giardino, lettura, laboratorio creativo o una passeggiata.
+
+12:30, Pranzo
+Piatto caldo, preparato qui ogni giorno. Si mangia insieme, si parla, si ride.
+
+15:00, Pomeriggio libero
+Giochi di carte, riposo, musica, l'orto. Ognuno sceglie il suo ritmo.
+
+16:30, Merenda
+Tè e dolci fatti in casa. Un momento piccolo, ma irrinunciabile.
+
+19:30, Cena e sera
+Cena leggera, compagnia, poi ci si sistema per la notte con calma.
+```
+
+**Link:**
+```
+→ La giornata tipo completa  [link a /la-giornata/]
+```
+
+---
+
+## 🟤 TESTIMONIANZE
+
+**Titolo:**
+```
+Le parole delle famiglie
+```
+
+**Testimonial 1:**
+```
+"Avevo paura di fare questa scelta. Dopo la prima visita ho capito che era quella giusta. Mio padre dopo tre settimane mi ha detto che si sente a casa.", Marco T., figlio di ospite · Marzo 2025
+```
+
+**Testimonial 2:**
+```
+"Quello che mi ha convinto è che hanno lasciato mia madre con le sue abitudini. Il caffè a modo suo, la televisione alla sua ora, le sue piante sul davanzale.", Carla M., figlia di ospite · Gennaio 2025
+```
+
+**Testimonial 3:**
+```
+"Rispondo sempre quando chiamano da lì, non perché ci siano problemi, ma perché mi aggiornano. Questa cosa vale oro.", Luca B., figlio di ospite · Febbraio 2025
+```
+
+---
+
+## ⚪ SEZIONE COME FUNZIONA (steps)
+
+**Titolo:**
+```
+Come funziona
+```
+
+**Step 1:**
+```
+1, Ci chiami (o ci scrivi su WhatsApp)
+Non serve sapere cosa dire. Basta raccontarci la situazione del tuo caro. Noi ascoltiamo, facciamo le domande giuste, ti diamo le risposte vere.
+```
+
+**Step 2:**
+```
+2, Vieni a visitarci (gratis, senza impegno)
+Porta tuo padre o tua madre, fatti un giro, siediti in giardino, fai tutte le domande che vuoi.
+```
+
+**Step 3:**
+```
+3, Decidi con serenità
+Se senti che è il posto giusto, ci organizziamo insieme. Niente fretta, niente pressioni. L'inserimento è graduale.
+```
+
+**CTA doppio:**
+```
+Chiama ora  [tel:+393762031211]
+Scrivici su WhatsApp  [wa.me link]
+```
+
+---
+
+## 🔶 FAQ HOMEPAGE
+
+**Titolo:**
+```
+Le domande che ci fanno sempre
+```
+
+```
+Quanto costa il soggiorno?
+La retta varia in base alla camera e ai servizi. Te lo diciamo chiaramente al telefono, senza costi nascosti e senza sorprese. [link: Scopri il processo → /rette-e-ammissione/]
+
+Cosa è incluso nella retta?
+Tutto: camera con pulizia quotidiana, 4 pasti al giorno, attività ricreative, assistenza 24h, lavanderia e Wi-Fi. Nessun extra.
+
+Si può visitare la struttura prima di decidere?
+Sempre. La visita è gratuita e senza impegno, anzi, la consigliamo. Chiama e prenotiamo insieme.
+
+Mio padre/mia madre può tenere le sue cose?
+Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Quercia si adatta a lui, non il contrario.
+
+Le visite dei familiari sono libere?
+Nessun orario rigido. I familiari sono sempre benvenuti, è parte di quello che ci rende diversi.
+
+Come si prenota?
+Basta una telefonata. Ti ascoltiamo, ti spieghiamo tutto, e organizziamo una visita. Semplice.
+
+Cosa succede se le condizioni di salute cambiano?
+Se l'ospite resta autosufficiente, rimane con noi. Se la situazione cambia, valutiamo insieme con la famiglia il percorso migliore.
+
+C'è un periodo minimo di permanenza?
+Accettiamo sia permanenze residenziali lunghe che soggiorni di media durata. Parliamone in base alla situazione specifica.
+
+Quanto dista da Torino?
+Pinerolo è a circa 40 km da Torino, facilmente raggiungibile in auto. Una posizione tranquilla a pochi minuti dalla città.
+
+Posso pagare con bonifico o contanti?
+Entrambi, nei limiti di legge. Troviamo insieme la modalità più comoda.
+```
+
+---
+
+---
+
+# SEZIONE 2, PAGINA SERVIZI (`/servizi/`)
+
+---
+
+**Titolo H1:**
+```
+I servizi di Casa Famiglia Quercia
+```
+
+**Sottotitolo:**
+```
+Tutto quello che serve per vivere bene, ogni giorno. Niente di superfluo, niente che manchi.
+```
+
+---
+
+**Blocco 1, Assistenza**
+```
+Titolo: Assistenza 24 ore su 24
+Testo: Il nostro staff è in casa con voi, giorno e notte. Presenti quando serve, discreti quando non serve. Non un call center, non un turno anonimo: le stesse persone, ogni giorno, che imparano a conoscerti davvero. Collaboriamo con medici di base e specialisti della zona per garantire la continuità delle cure, senza che la famiglia debba preoccuparsi di niente.
+```
+
+**Blocco 2, Pasti**
+```
+Titolo: Pasti freschi, ogni giorno
+Testo: Colazione, pranzo, merenda e cena preparati in cucina ogni mattina. Menu personalizzati in base a gusti, abitudini ed esigenze alimentari. Niente pietanze preconfezionate: cibo vero, fatto con cura, come si faceva a casa. Mangiare insieme è uno dei momenti più importanti della giornata, e si vede.
+```
+
+**Blocco 3, Camere**
+```
+Titolo: Camera privata e personale
+Testo: Stanze luminose e curate, con pulizia quotidiana. Ogni ospite può portare i propri oggetti, le proprie foto, i propri mobili preferiti. Lo spazio è tuo: lo personalizzi come vuoi. Non ci sono corridoi anonimi qui, c'è una casa.
+```
+
+**Blocco 4, Supporto medico**
+```
+Titolo: Supporto medico e terapie
+Testo: Gestiamo noi le terapie quotidiane, il coordinamento con i medici e le farmacie. La famiglia resta informata e tranquilla, senza pensieri aggiuntivi. In caso di necessità, attiviamo rapidamente il supporto sanitario del territorio.
+```
+
+**Blocco 5, Giardino**
+```
+Titolo: Giardino privato
+Testo: Spazi verdi protetti per passeggiare, coltivare l'orto, godersi il sole o semplicemente stare all'aria aperta. Il giardino fa parte della vita quotidiana, in ogni stagione. C'è qualcosa di profondamente diverso nel passare un pomeriggio fuori, con le mani nella terra.
+```
+
+**Blocco 6, Cura personale**
+```
+Titolo: Igiene personale e lavanderia
+Testo: Igiene quotidiana, cura del corpo e lavanderia gestita con rispetto e discrezione. Ogni gesto è pensato per preservare la dignità e l'autonomia dell'ospite, mai come un servizio meccanico, sempre come un atto di cura.
+```
+
+**Blocco 7, Attività**
+```
+Titolo: Attività ricreative e vita sociale
+Testo: Ginnastica dolce, laboratori creativi, lettura, giochi di carte, gite. Non per riempire il tempo, per farlo valere. E poi le conversazioni a tavola, i pomeriggi in giardino, i momenti condivisi che diventano, piano piano, amicizie vere.
+```
+
+**Blocco 8, Wi-Fi**
+```
+Titolo: Wi-Fi gratuito
+Testo: Connessione inclusa per restare in contatto con i propri cari, seguire le proprie passioni online o semplicemente guardare un film la sera.
+```
+
+---
+
+**CTA finale pagina servizi:**
+```
+Titolo: Vuoi vedere tutto di persona?
+Testo: La visita è gratuita e senza impegno. Vieni a vedere gli spazi, conosci il team, respira l'atmosfera. È il modo migliore per capire se siamo la famiglia giusta per il tuo caro.
+CTA: Prenota una visita  [link /contatti/]
+```
+
+---
+
+---
+
+# SEZIONE 3, PAGINA LA GIORNATA (`/la-giornata/`)
+
+---
+
+**Titolo H1:**
+```
+Una giornata a Casa Famiglia Quercia
+```
+
+**Introduzione:**
+```
+Non esiste una giornata uguale all'altra. Ma c'è un ritmo, costruito con gli ospiti, non imposto sopra di loro. Ogni momento ha il suo tempo, ogni persona ha il suo spazio.
+
+Quello che segue è un esempio. La realtà è più ricca, più spontanea, più viva.
+```
+
+---
+
+**Timeline dettagliata:**
+
+```
+07:00, 08:00 | Risveglio
+Ognuno si sveglia al suo ritmo. Chi vuole supporto per alzarsi e lavarsi lo trova. Chi preferisce fare tutto da solo, lo fa. Nessuna sveglia forzata, nessuna fretta.
+
+08:30 | Colazione
+La tavola è apparecchiata. Caffè, latte, pane fresco, marmellata, biscotti. Le chiacchiere del mattino, le più sincere della giornata. Si comincia insieme.
+
+10:00, 12:00 | Attività mattutina
+Ginnastica dolce in giardino quando il tempo lo permette. Laboratorio creativo, lettura, piccoli lavori nell'orto. Non tutto è organizzato: a volte è semplicemente stare seduti al sole.
+
+12:30 | Pranzo
+Il momento centrale della giornata. Piatto caldo, preparato quella mattina. Si mangia insieme, si parla di tutto e di niente. Il cibo è buono, e si sente.
+
+15:00, 17:00 | Pomeriggio libero
+Giochi di carte, un film, una telefonata ai figli, la siesta. Ognuno sceglie il suo ritmo. Lo staff è presente, ma non invadente.
+
+16:30 | Merenda
+Tè, caffè, dolci fatti in casa. Un appuntamento fisso che sembra piccolo ma dà struttura al pomeriggio.
+
+19:30 | Cena
+Leggera, curata. Si finisce la giornata in compagnia, senza fretta. Poi ci si sistema per la notte, chi vuole aiuto lo trova.
+
+Notte | Assistenza notturna
+C'è sempre qualcuno sveglio. Non è invasivo: è rassicurante. Per l'ospite e per la famiglia.
+```
+
+---
+
+**Sezione attività ricreative:**
+
+**Titolo:**
+```
+Le attività che fanno bene
+```
+
+**Testo:**
+```
+Non tutte le attività sono uguali. Quelle che proponiamo non nascono per "tenere occupati", nascono per mantenere viva la mente, il corpo e il senso di sé.
+```
+
+**Lista attività:**
+```
+• Ginnastica dolce, movimento adatto a ogni livello, in giardino o al coperto
+• Laboratori creativi, pittura, collage, lavori manuali
+• Lettura e cultura, libri, quotidiani, discussioni
+• Giochi di società, carte, tombola, scacchi
+• Orto e giardinaggio, prendersi cura di qualcosa di vivo
+• Gite e uscite, mercati, passeggiate, visite
+• Musica e cinema, serate condivise o momenti personali
+• Cucina insieme, partecipare alla preparazione di qualcosa di buono
+```
+
+**CTA:**
+```
+Vuoi vedere come viviamo?
+Prenota una visita gratuita, vieni a respirare l'atmosfera di persona.
+[Contattaci → /contatti/]
+```
+
+---
+
+---
+
+# SEZIONE 4, PAGINA RETTE E AMMISSIONE (`/rette-e-ammissione/`)
+
+---
+
+**Titolo H1:**
+```
+Rette e ammissione
+```
+
+**Introduzione:**
+```
+Sappiamo che la prima domanda di molte famiglie è "quanto costa?", e va benissimo. È una domanda legittima, necessaria.
+
+Non pubblichiamo un prezzo fisso perché ogni situazione è diversa: il tipo di camera, i servizi personalizzati, la durata del soggiorno. Ma vi diciamo tutto, con trasparenza completa, al telefono o durante la visita.
+
+Nessun costo nascosto. Nessuna sorpresa in fattura.
+```
+
+---
+
+**Blocco "Cosa è incluso nella retta":**
+
+**Titolo:**
+```
+Cosa è incluso nella retta
+```
+
+**Lista:**
+```
+✓ Camera privata con pulizia quotidiana
+✓ Colazione, pranzo, merenda e cena, preparati in cucina ogni giorno
+✓ Assistenza 24 ore su 24, 7 giorni su 7
+✓ Gestione delle terapie e coordinamento medico
+✓ Attività ricreative e sociali
+✓ Servizio lavanderia
+✓ Wi-Fi gratuito
+✓ Spazi comuni (salone, cucina, giardino)
+✓ Aggiornamenti regolari alla famiglia
+```
+
+**Nota sotto:**
+```
+Nessuna voce extra sul conto a fine mese. Quello che ti diciamo è quello che paghi.
+```
+
+---
+
+**Blocco "Come funziona l'ammissione":**
+
+**Titolo:**
+```
+Come funziona l'ammissione
+```
+
+**Steps:**
+```
+1, Prima telefonata
+Ci racconti la situazione. Noi ascoltiamo, facciamo le domande giuste e capiamo insieme se possiamo essere la soluzione giusta. Nessuna pressione, nessun impegno.
+
+2, Visita gratuita
+Vieni a vedere la struttura, gli spazi, il giardino. Incontri il team, respiri l'atmosfera. Porta il tuo caro se ti sembra il momento giusto.
+
+3, Valutazione congiunta
+Verifichiamo insieme che il tuo caro sia adatto alla vita in casa famiglia, deve essere ancora autosufficiente. Se ci sono dubbi, te lo diciamo chiaramente.
+
+4, Accordo e ingresso
+Definiamo insieme i dettagli pratici, i servizi, la retta. L'ingresso avviene gradualmente, al ritmo giusto per l'ospite e per la famiglia.
+
+5, Periodo di ambientamento
+Le prime settimane sono dedicate a far sentire l'ospite a casa. Il nostro staff dedica attenzione extra, la famiglia può visitare quanto vuole.
+```
+
+---
+
+**Blocco "Chi può essere ospitato":**
+
+**Titolo:**
+```
+Chi può essere ospitato
+```
+
+**Testo:**
+```
+Casa Famiglia Quercia accoglie anziani autosufficienti, persone che vogliono ancora essere parte attiva della propria vita, ma in un ambiente protetto, non solitario.
+
+Non siamo una RSA. Non gestiamo gravi patologie degenerative o non autosufficienza totale. Siamo la scelta giusta per chi:
+
+• Vive solo ed è stanco della solitudine
+• Ha bisogno di compagnia e struttura quotidiana, non di assistenza medicale intensa
+• Vuole mantenere le proprie abitudini in un ambiente sicuro
+• Desidera un inserimento graduale, senza trauma
+
+Se non sei sicuro, chiamaci. Ti diciamo noi se possiamo fare al caso tuo.
+```
+
+---
+
+**CTA finale:**
+```
+Parlaci della situazione del tuo caro
+La telefonata non costa niente e non impegna a niente. È solo il primo passo.
+[Chiama ora, +39 376 203 1211]
+[Scrivici su WhatsApp]
+```
+
+---
+
+---
+
+# SEZIONE 5, PAGINA CONTATTI (`/contatti/`)
+
+---
+
+**Titolo H1:**
+```
+Contattaci
+```
+
+**Sottotitolo:**
+```
+Risposta entro poche ore, senza impegno.
+```
+
+---
+
+**Sezione "Come raggiungere Casa Quercia":**
+
+**Titolo:**
+```
+Come raggiungerci
+```
+
+**Testo:**
+```
+Siamo a Pinerolo, nel cuore del Pinerolese, a circa 40 minuti da Torino in auto. Una zona tranquilla, verde, ben collegata.
+```
+
+**Indirizzo:**
+```
+Casa Famiglia Quercia
+Stradale Poirino, 152
+10064 Pinerolo (TO)
+```
+
+**Info pratiche:**
+```
+• Parcheggio disponibile in struttura
+• A 40 minuti da Torino centro
+• Vicino a Val Chisone e Val Pellice
+• Visite su appuntamento, anche nel weekend
+```
+
+**CTA mappa:**
+```
+[Indicazioni stradali → Google Maps]
+[Apri in Google Maps]
+```
+
+---
+
+**Sezione "Come funziona la visita":**
+
+**Titolo:**
+```
+Come funziona la visita
+```
+
+**Testo introduttivo:**
+```
+Ti accogliamo con calma: niente pressioni, solo la possibilità di vedere gli spazi, fare domande e capire se ci sentiamo la famiglia giusta per te.
+```
+
+**Steps:**
+```
+1, Chiamaci o scrivici
+Parla direttamente con il nostro staff. Scegliamo insieme il giorno e l'orario più comodi per te.
+
+2, Visita la casa
+Ti mostriamo camere, spazi comuni e giardino. Incontri il team e respiri l'atmosfera quotidiana.
+
+3, Fai tutte le domande
+Servizi, costi, accoglienza, visite dei familiari: rispondiamo con trasparenza, senza fretta.
+
+4, Decidi con serenità
+Nessuna pressione. Se vuoi, torna a trovarci quante volte serve prima di scegliere.
+```
+
+---
+
+**Sezione "Scegli come contattarci":**
+
+**Titolo:**
+```
+Scegli come contattarci
+```
+
+**Testo:**
+```
+Rispondiamo personalmente, senza call center. Scegli il canale che preferisci.
+```
+
+**Card contatti:**
+```
+📞 Telefono
++39 376 203 1211
+[Chiama ora]
+
+💬 WhatsApp
+Scrivici un messaggio
+[Apri WhatsApp → wa.me/393762031211]
+
+📧 Email
+info@casafamigliaquercia.it
+[Scrivi una email]
+
+📍 Indirizzo
+Stradale Poirino, 152, Pinerolo
+[Indicazioni stradali]
+```
+
+---
+
+**Form di contatto:**
+
+**Titolo:**
+```
+Oppure lasciaci il tuo numero
+```
+
+**Sottotitolo:**
+```
+Ti richiamiamo noi, entro poche ore.
+```
+
+**Campi form:**
+```
+- Nome *
+- Telefono * (campo principale per il recall)
+- Email (opzionale)
+- Messaggio (placeholder: "Raccontaci brevemente la situazione del tuo caro...")
+- Checkbox privacy: "Ho letto e accetto la Privacy Policy"
+- CTA bottone: "Richiedi un contatto"
+```
+
+**Nota sotto il form:**
+```
+Nessuno spam. Nessuna cessione a terzi. Ti chiama solo il nostro staff.
+```
+
+---
+
+---
+
+# SEZIONE 6, BLOG
+
+> Il blog è il cuore SEO del sito. Di seguito i titoli degli articoli prioritari da pubblicare nei primi 3 mesi, con outline e incipit pronti per Cursor o per la scrittura.
+
+---
+
+## Articolo 1, Pillar (priorità assoluta)
+
+**URL slug:** `/blog/casa-famiglia-vs-rsa-differenze/`
+
+**Titolo SEO:**
+```
+Casa Famiglia o RSA? Le differenze vere (e come scegliere quella giusta)
+```
+
+**Meta description:**
+```
+RSA o casa famiglia per il tuo caro? Scopri le differenze reali: costi, assistenza, libertà, atmosfera. Una guida onesta per famiglie in cerca della scelta giusta.
+```
+
+**H1:**
+```
+Casa Famiglia o RSA? Le differenze che nessuno ti dice
+```
+
+**Incipit (primi 2 paragrafi):**
+```
+Quando cerchi una soluzione per un genitore anziano, prima o poi ti trovi davanti a questa domanda: RSA o casa famiglia? Sul web trovi definizioni tecniche, tabelle comparative, sigle. Ma quello che ti serve davvero è capire cosa significa nella vita di tutti i giorni, per tuo padre, per tua madre, per te che vai a trovarlo.
+
+Questa guida non è scritta da un avvocato o da un funzionario sanitario. È scritta da chi gestisce una casa famiglia da anni e ha visto centinaia di famiglie fare questa scelta. Ti diciamo quello che abbiamo imparato, comprese le cose che non tornano a favore nostro.
+```
+
+**Outline articolo:**
+```
+H2: Cosa si intende per RSA
+H2: Cosa si intende per casa famiglia (e cosa non è)
+H2: Le differenze pratiche, tavola comparativa
+H2: Quanto costano, davvero?
+H2: Per chi è giusta la RSA
+H2: Per chi è giusta una casa famiglia
+H2: Le domande da fare durante la visita
+H2: Come capire se una struttura è davvero "familiare"
+CTA finale: Vieni a vedere Casa Quercia di persona
+```
+
+---
+
+## Articolo 2
+
+**URL slug:** `/blog/cosa-include-retta-casa-famiglia/`
+
+**Titolo SEO:**
+```
+Cosa include la retta di una casa famiglia? Tutto quello che devi sapere
+```
+
+**Meta description:**
+```
+Cosa copre la retta mensile di una casa famiglia? Pasti, assistenza, terapie, pulizie: ecco cosa è incluso (e cosa non lo è). Guida chiara per famiglie.
+```
+
+**Incipit:**
+```
+La prima domanda di quasi tutte le famiglie è: "Quanto costa?" Ed è la domanda giusta. Ma la seconda, quella che fa davvero la differenza, è: "E cosa include?"
+
+Perché una retta apparentemente bassa può nascondere decine di voci extra. E una retta all-inclusive può essere il miglior investimento che fai per tuo padre o tua madre.
+```
+
+---
+
+## Articolo 3
+
+**URL slug:** `/blog/anziano-solo-soluzioni/`
+
+**Titolo SEO:**
+```
+Mio genitore vive solo: cosa fare quando inizia a essere un problema
+```
+
+**Meta description:**
+```
+Tuo genitore è ancora autosufficiente ma la solitudine lo pesa? Ecco le soluzioni concrete, dalla badante alla casa famiglia, e come capire quando è il momento di agire.
+```
+
+**Incipit:**
+```
+C'è un momento, in molte famiglie, in cui ci si rende conto che qualcosa è cambiato. Non un evento drammatico, solo una sensazione. Tua madre mangia meno. Tuo padre non scende più a fare la spesa da solo. Le telefonate si fanno più brevi, o più frequenti del solito.
+
+Non è una crisi. È un passaggio. E la buona notizia è che ci sono opzioni, buone opzioni, per affrontarlo senza aspettare che diventi un'emergenza.
+```
+
+---
+
+## Articolo 4
+
+**URL slug:** `/blog/casa-famiglia-pinerolo-torino/`
+
+**Titolo SEO:**
+```
+Casa famiglia a Pinerolo: la scelta giusta vicino a Torino
+```
+
+**Meta description:**
+```
+Cerchi una casa famiglia per anziani vicino a Torino? Scopri perché Pinerolo è la location ideale: verde, tranquilla, a 40 minuti dalla città. Casa Famiglia Quercia.
+```
+
+---
+
+## Articolo 5
+
+**URL slug:** `/blog/senso-di-colpa-casa-famiglia/`
+
+**Titolo SEO:**
+```
+Il senso di colpa di chi cerca una casa famiglia (e perché non dovresti averlo)
+```
+
+**Meta description:**
+```
+Cercare una soluzione per un genitore anziano non significa abbandonarlo. Un articolo onesto per le famiglie che si trovano a fare questa scelta difficile.
+```
+
+**Incipit:**
+```
+Se stai leggendo questo articolo, probabilmente stai cercando una soluzione per qualcuno che ami. E probabilmente, da qualche parte, senti un peso.
+
+È normale. Quasi ogni figlio o figlia che viene da noi lo sente. Il senso di colpa per il solo fatto di cercare. Come se chiedere aiuto fosse un fallimento.
+
+Non lo è. E in questo articolo vogliamo spiegarti perché, con onestà, senza buonismi.
+```
+
+---
+
+---
+
+# SEZIONE 7, TESTI SEO AGGIUNTIVI
+
+---
+
+## Meta tag, Homepage
+
+```html
+<title>Casa Famiglia Quercia | Residenza per Anziani a Pinerolo (TO)</title>
+<meta name="description" content="Casa Famiglia Quercia a Pinerolo: residenza per anziani autosufficienti a 40 minuti da Torino. Max 8 ospiti, assistenza 24h, ambiente familiare. Prenota una visita gratuita.">
+<meta name="keywords" content="casa famiglia anziani Pinerolo, residenza anziani Pinerolo Torino, casa famiglia Pinerolese, anziani autosufficienti Pinerolo">
+```
+
+## Meta tag, Pagina Servizi
+
+```html
+<title>Servizi | Casa Famiglia Quercia – Pinerolo</title>
+<meta name="description" content="Assistenza 24h, pasti freschi, camere private, giardino, attività ricreative: scopri tutti i servizi inclusi a Casa Famiglia Quercia a Pinerolo.">
+```
+
+## Meta tag, Contatti
+
+```html
+<title>Contatti | Casa Famiglia Quercia – Pinerolo (TO)</title>
+<meta name="description" content="Contatta Casa Famiglia Quercia a Pinerolo. Telefono, WhatsApp, email. Prenota una visita gratuita senza impegno. Stradale Poirino 152, Pinerolo.">
+```
+
+---
+
+---
+
+# SEZIONE 8, PROMPT CURSOR
+
+> Copia e incolla questi prompt direttamente in Cursor per inserire i testi nel codice. Adatta i nomi dei componenti alla struttura reale del tuo progetto React.
+
+---
+
+## PROMPT 1, Hero Homepage
+
+```
+Aggiorna il componente Hero della homepage di Casa Famiglia Quercia con i seguenti contenuti.
+
+Struttura identica a gramsci.lecasefamiglia.it.
+
+Tag sopra il titolo (small, uppercase): "Pinerolo · Pinerolese"
+
+Titolo H1: "La tua seconda casa, nel verde del Pinerolese"
+
+Sottotitolo: "Per chi è ancora pienamente autonomo ma non vuole più vivere da solo. Assistenza discreta, ambienti veri, libertà quotidiana. A Pinerolo, a 40 minuti da Torino."
+
+CTA primario (telefono): testo "Chiama ora, +39 376 203 1211", href "tel:+393762031211"
+CTA secondario: testo "Prenota una visita gratuita", href "/contatti/"
+
+Contatori sotto i CTA:
+- "24/7", "Assistenza sempre presente"
+- "8", "Ospiti al massimo"
+- "100%", "Anziani autosufficienti"
+- "5 ★", "Qualità di vita percepita"
+
+Immagine hero: usa le immagini già presenti nella cartella /images/Pinerolo - Casa Famiglia Quercia 1/
+```
+
+---
+
+## PROMPT 2, Sezione empatica
+
+```
+Aggiungi dopo l'hero la sezione empatica di apertura, stile citazione / storytelling come in gramsci.lecasefamiglia.it.
+
+Titolo della sezione (H2 o quote grande):
+"Mia madre stava bene. Ma vivere sola non era più giusto."
+
+Testo paragrafo:
+"Succede così, spesso. Un genitore ancora lucido, ancora in gamba, ma la casa grande è diventata silenziosa. Le scale sono un pensiero. La cena da soli pesa più di qualsiasi malattia.
+
+Una RSA sembra esagerata. Lasciarlo solo non è giusto. Casa Famiglia Quercia è la terza via.
+
+Non una struttura. Non l'abbandono. Una casa vera, con persone vere, a pochi chilometri da Torino."
+
+Affianca un'immagine della sala da pranzo o degli spazi comuni.
+```
+
+---
+
+## PROMPT 3, Tabella comparativa RSA vs Casa Famiglia
+
+```
+Inserisci la tabella comparativa RSA vs Casa Famiglia Quercia, identica come componente a quella di gramsci.lecasefamiglia.it.
+
+Titolo sezione: "Perché una Casa Famiglia e non una RSA?"
+Sottotitolo: "Non è solo una questione di dimensioni. È una scelta di vita."
+
+Dati tabella:
+| RSA tradizionale | Casa Famiglia Quercia |
+| Decine o centinaia di ospiti | Massimo 8 persone: ci si conosce tutti |
+| Orari rigidi, regole di reparto | Flessibilità, ritmi personali rispettati |
+| Atmosfera ospedaliera | Casa vera, arredata con cura |
+| Personale che ruota ogni turno | Stesse persone ogni giorno |
+| Visite contingentate | Familiari sempre benvenuti, senza orari |
+| Spesso per chi non è autosufficiente | Solo per chi è ancora pienamente autonomo |
+
+CTA sotto tabella:
+- "Prenota la visita gratuita" → href "/contatti/"
+- "Leggi la nostra guida completa" → href "/blog/casa-famiglia-vs-rsa-differenze/"
+```
+
+---
+
+## PROMPT 4, Timeline giornata tipo (homepage)
+
+```
+Inserisci la sezione timeline "Una giornata a Casa Quercia" identica al componente di gramsci.lecasefamiglia.it.
+
+Titolo: "Una giornata a Casa Quercia"
+Sottotitolo: "Nessuna routine imposta. Solo i ritmi giusti, costruiti insieme."
+
+Voci timeline:
+07:30, Risveglio: "Chi vuole supporto per alzarsi lo trova. Chi preferisce fare da solo, lo fa."
+08:30, Colazione: "Tavola apparecchiata, prodotti freschi, chiacchiere mattutine."
+10:00, Attività mattutina: "Ginnastica dolce in giardino, lettura, laboratorio creativo o una passeggiata."
+12:30, Pranzo: "Piatto caldo, preparato qui ogni giorno. Si mangia insieme, si parla, si ride."
+15:00, Pomeriggio libero: "Giochi di carte, riposo, musica, l'orto. Ognuno sceglie il suo ritmo."
+16:30, Merenda: "Tè e dolci fatti in casa. Un momento piccolo, ma irrinunciabile."
+19:30, Cena e sera: "Cena leggera, compagnia, poi ci si sistema per la notte con calma."
+
+Link sotto: "La giornata tipo completa" → href "/la-giornata/"
+```
+
+---
+
+## PROMPT 5, Testimonianze
+
+```
+Aggiungi la sezione testimonianze come in gramsci.lecasefamiglia.it (citazioni a schermo).
+
+Titolo sezione: "Le parole delle famiglie"
+
+Testimonianze:
+1. "Avevo paura di fare questa scelta. Dopo la prima visita ho capito che era quella giusta. Mio padre dopo tre settimane mi ha detto che si sente a casa.", Marco T., figlio di ospite · Marzo 2025
+
+2. "Quello che mi ha convinto è che hanno lasciato mia madre con le sue abitudini. Il caffè a modo suo, la televisione alla sua ora, le sue piante sul davanzale.", Carla M., figlia di ospite · Gennaio 2025
+
+3. "Rispondo sempre quando chiamano da lì, non perché ci siano problemi, ma perché mi aggiornano. Questa cosa vale oro.", Luca B., figlio di ospite · Febbraio 2025
+```
+
+---
+
+## PROMPT 6, Sezione Come Funziona (steps)
+
+```
+Aggiungi la sezione "Come funziona" con 3 step numerati, stile identico a gramsci.lecasefamiglia.it.
+
+Titolo: "Come funziona"
+
+Step 1: "Ci chiami (o ci scrivi su WhatsApp)", "Non serve sapere cosa dire. Basta raccontarci la situazione del tuo caro. Noi ascoltiamo, facciamo le domande giuste, ti diamo le risposte vere."
+
+Step 2: "Vieni a visitarci (gratis, senza impegno)", "Porta tuo padre o tua madre, fatti un giro, siediti in giardino, fai tutte le domande che vuoi."
+
+Step 3: "Decidi con serenità", "Se senti che è il posto giusto, ci organizziamo insieme. Niente fretta, niente pressioni. L'inserimento è graduale."
+
+CTA doppio:
+- "Chiama ora" → tel:+393762031211
+- "Scrivici su WhatsApp" → https://wa.me/393762031211?text=Ciao,%20sto%20cercando%20una%20casa%20famiglia%20per%20il%20mio%20caro...
+```
+
+---
+
+## PROMPT 7, Sezione FAQ Homepage
+
+```
+Aggiungi la sezione FAQ accordion come in gramsci.lecasefamiglia.it.
+
+Titolo sezione: "Le domande che ci fanno sempre"
+
+Domande e risposte:
+
+D: Quanto costa il soggiorno?
+R: La retta varia in base alla camera e ai servizi. Te lo diciamo chiaramente al telefono, senza costi nascosti e senza sorprese. [link "Scopri il processo" → /rette-e-ammissione/]
+
+D: Cosa è incluso nella retta?
+R: Tutto: camera con pulizia quotidiana, 4 pasti al giorno, attività ricreative, assistenza 24h, lavanderia e Wi-Fi. Nessun extra.
+
+D: Si può visitare la struttura prima di decidere?
+R: Sempre. La visita è gratuita e senza impegno, anzi, la consigliamo. Chiama e prenotiamo insieme.
+
+D: Mio padre/mia madre può tenere le sue cose?
+R: Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Quercia si adatta a lui, non il contrario.
+
+D: Le visite dei familiari sono libere?
+R: Nessun orario rigido. I familiari sono sempre benvenuti, è parte di quello che ci rende diversi.
+
+D: Come si prenota?
+R: Basta una telefonata. Ti ascoltiamo, ti spieghiamo tutto, e organizziamo una visita. Semplice.
+
+D: Cosa succede se le condizioni di salute cambiano?
+R: Se l'ospite resta autosufficiente, rimane con noi. Se la situazione cambia, valutiamo insieme con la famiglia il percorso migliore.
+
+D: C'è un periodo minimo di permanenza?
+R: Accettiamo sia permanenze residenziali lunghe che soggiorni di media durata. Parliamone in base alla situazione specifica.
+
+D: Quanto dista da Torino?
+R: Pinerolo è a circa 40 km da Torino, facilmente raggiungibile in auto. Una posizione tranquilla a pochi minuti dalla città.
+
+D: Posso pagare con bonifico o contanti?
+R: Entrambi, nei limiti di legge. Troviamo insieme la modalità più comoda.
+```
+
+---
+
+## PROMPT 8, Pagina Contatti (completa)
+
+```
+Crea la pagina /contatti/ di Casa Famiglia Quercia con struttura identica a gramsci.lecasefamiglia.it.
+
+Titolo H1: "Contattaci"
+Sottotitolo: "Risposta entro poche ore, senza impegno."
+
+Sezione "Come raggiungerci":
+Titolo: "Come raggiungerci"
+Testo: "Siamo a Pinerolo, nel cuore del Pinerolese, a circa 40 minuti da Torino in auto. Una zona tranquilla, verde, ben collegata."
+Indirizzo: "Casa Famiglia Quercia, Stradale Poirino, 152, 10064 Pinerolo (TO)"
+Info pratiche (bullet list):
+- Parcheggio disponibile in struttura
+- A 40 minuti da Torino centro
+- Vicino a Val Chisone e Val Pellice
+- Visite su appuntamento, anche nel weekend
+
+CTA mappa:
+- "Indicazioni stradali" → https://www.google.com/maps/dir/?api=1&destination=Stradale+Poirino,+152,+10064+Pinerolo+TO
+- "Apri in Google Maps" → https://www.google.com/maps/search/?api=1&query=Stradale+Poirino,+152,+10064+Pinerolo+TO
+
+Sezione "Scegli come contattarci":
+Titolo: "Scegli come contattarci"
+Testo: "Rispondiamo personalmente, senza call center."
+
+Card 1, Telefono: "+39 376 203 1211" → tel:+393762031211
+Card 2, WhatsApp: "Scrivici un messaggio" → https://wa.me/393762031211?text=Ciao,%20sto%20cercando%20una%20casa%20famiglia%20per%20il%20mio%20caro...
+Card 3, Email: "info@casafamigliaquercia.it" → mailto:info@casafamigliaquercia.it
+Card 4, Indirizzo: "Stradale Poirino, 152, Pinerolo" → link Google Maps
+
+Form di contatto:
+Titolo: "Oppure lasciaci il tuo numero"
+Sottotitolo: "Ti richiamiamo noi, entro poche ore."
+Campi: Nome (required), Telefono (required), Email (optional), Messaggio (placeholder: "Raccontaci brevemente la situazione del tuo caro...")
+Checkbox: "Ho letto e accetto la Privacy Policy" (required)
+Bottone submit: "Richiedi un contatto"
+Nota sotto form: "Nessuno spam. Nessuna cessione a terzi. Ti chiama solo il nostro staff."
+```
+
+---
+
+## PROMPT 9, Meta tag e SEO (tutte le pagine)
+
+```
+Aggiorna i meta tag SEO di tutte le pagine del sito Casa Famiglia Quercia con i seguenti valori:
+
+Homepage:
+<title>Casa Famiglia Quercia | Residenza per Anziani a Pinerolo (TO)</title>
+<meta name="description" content="Casa Famiglia Quercia a Pinerolo: residenza per anziani autosufficienti a 40 minuti da Torino. Max 8 ospiti, assistenza 24h, ambiente familiare. Prenota una visita gratuita.">
+
+Pagina Servizi:
+<title>Servizi | Casa Famiglia Quercia – Pinerolo</title>
+<meta name="description" content="Assistenza 24h, pasti freschi, camere private, giardino, attività ricreative: scopri tutti i servizi inclusi a Casa Famiglia Quercia a Pinerolo.">
+
+Pagina Contatti:
+<title>Contatti | Casa Famiglia Quercia – Pinerolo (TO)</title>
+<meta name="description" content="Contatta Casa Famiglia Quercia a Pinerolo. Telefono, WhatsApp, email. Prenota una visita gratuita senza impegno. Stradale Poirino 152, Pinerolo.">
+
+Pagina Rette e Ammissione:
+<title>Rette e Ammissione | Casa Famiglia Quercia – Pinerolo</title>
+<meta name="description" content="Scopri cosa include la retta di Casa Famiglia Quercia a Pinerolo. Trasparenza completa su costi e servizi. Nessun extra nascosto. Contattaci per un preventivo.">
+
+Pagina La Giornata:
+<title>La Giornata Tipo | Casa Famiglia Quercia – Pinerolo</title>
+<meta name="description" content="Com'è una giornata a Casa Famiglia Quercia? Scopri i ritmi, le attività e la vita quotidiana della nostra residenza per anziani a Pinerolo.">
+
+Aggiungi anche il tag canonical per ogni pagina e Open Graph base (og:title, og:description, og:url, og:type: website).
+```
+
+---
+
+## PROMPT 10, Widget WhatsApp floating
+
+```
+Aggiungi il widget WhatsApp floating in basso a destra identico a quello di quercia.lecasefamiglia.it e gramsci.lecasefamiglia.it.
+
+Testo del widget: "Parliamo del tuo caro"
+Icona: WhatsApp
+Link: https://wa.me/393762031211?text=Ciao,%20sto%20cercando%20una%20casa%20famiglia%20per%20il%20mio%20caro...
+Posizione: fixed, bottom-right, z-index alto
+Comportamento: visibile su tutte le pagine
+```
+
+---
+
+*Fine documento, Casa Famiglia Quercia · Testi + Prompt Cursor*
+*Versione 1.0, Giugno 2025*

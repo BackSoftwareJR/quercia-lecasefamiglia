@@ -1,0 +1,843 @@
+🗺️ STRUTTURA HOMEPAGE - 12 Sezioni
+SEZIONE 1 - HERO (video/foto fullscreen senza overlay)
+Logica visiva: Video autoplay muted in fullscreen. Testo posizionato sotto il video, non sopra. Oppure testo in colonna laterale affiancata alla foto - mai sopra l'immagine con un velo scuro.
+
+H1:
+
+La tua seconda casa, nel verde della Valle di Susa
+
+Sottotitolo:
+
+Per chi è ancora pienamente autonomo ma non vuole più vivere da solo. Assistenza discreta, ambienti veri, libertà quotidiana. A Coazze, a 30 minuti da Torino.
+
+CTA primaria: 📞 Chiama ora - +39 376 203 1211
+CTA secondaria: 📅 Prenota una visita gratuita
+
+Animazione: Fade-in del testo da sotto, delay 0.3s dopo il caricamento immagine. Nessun parallax aggressivo.
+
+SEZIONE 2 - TRUST BAR (numeri reali)
+Barra orizzontale, sfondo verde scuro, 4 numeri in riga. Entra con counter animation allo scroll.
+
++50 Ospiti accolti negli anni · 24/7 Assistenza sempre presente · 100% Anziani autosufficienti · 5★ Qualità di vita percepita
+
+(Se i numeri non sono esatti, adattiamo - ma i placeholder devono essere credibili)
+
+SEZIONE 3 - IL PROBLEMA (la storia del familiare che decide)
+Titolo H2:
+
+"Mia madre stava bene. Ma vivere sola non era più giusto."
+
+Testo corpo:
+
+Accade spesso così. Un genitore ancora in salute, ancora autonomo, ma la casa grande è diventata silenziosa. Le scale sono un pensiero. La solitudine a cena pesa più di qualsiasi malattia.
+
+Una RSA sembra troppo. Lasciarlo solo non si può. Casa Famiglia Gramsci è la terza via. Non una struttura, non l'abbandono. Una casa vera, con persone vere, in un posto bellissimo.
+
+Visual: Foto della sala da pranzo con persone - la più calda disponibile (Sala da Pranzo + persone 1.avif). Full-width, nessun overlay, testo affiancato su colonna sinistra (layout 40/60).
+
+SEZIONE 4 - I SERVIZI (5 card animate)
+Titolo H2:
+
+Tutto quello che serve. Niente di superfluo.
+
+Sottotitolo:
+
+Ogni servizio è pensato per mantenere l'indipendenza, non per sostituirla.
+
+5 Card - entrano con stagger animation (ogni card 0.1s di delay dalla precedente):
+
+Icona	Titolo	Testo breve
+🌙	Assistenza 24h - discreta	C'è sempre qualcuno. Di notte, di giorno, nei momenti difficili e in quelli normali. Presente quando serve, invisibile quando non serve.
+🍽️	Cucina di casa, ogni giorno	Niente mensa. Piatti freschi, diete rispettate, la merenda nel pomeriggio. Come a casa, meglio di casa.
+🌿	Giardino e aria di montagna	Un grande giardino da coltivare, da attraversare, da godersi. Aria pulita, natura vera, Valle di Susa.
+🎨	Attività che danno senso alle giornate	Ginnastica dolce, laboratori, gite, lettura, giochi. Non per occupare il tempo - per farlo valere.
+🔑	Camera tua, con le tue cose	Porta i tuoi oggetti, i tuoi ricordi, i tuoi quadri. Personalizza lo spazio. È casa tua.
+SEZIONE 5 - GALLERY AMBIENTI (masonry, niente carousel)
+Titolo H2:
+
+Esplora gli spazi - come se ci fossi già
+
+Sottotitolo:
+
+Ogni angolo di Casa Gramsci è pensato per farti sentire a tuo agio, non in una struttura.
+
+Layout: Masonry grid (3 colonne desktop, 2 tablet, 1 mobile). Click → lightbox con frecce, zoom, swipe mobile. Nessun overlay sulle foto. Le immagini parlano da sole.
+
+Categorie cliccabili (tab filter animato):
+Tutti · Camere · Spazi Comuni · Cucina · Giardino
+
+Animazione: Le foto entrano con scale-up + fade al caricamento iniziale. Al cambio tab, fade out/in veloce (200ms).
+
+SEZIONE 6 - PERCHÉ NON UNA RSA (il differenziatore)
+Questa sezione non esiste su nessun competitor. È il vantaggio competitivo principale.
+
+Titolo H2:
+
+Non è una RSA. È diverso - e fa tutta la differenza.
+
+Layout a 2 colonne - confronto visivo:
+
+❌ RSA Tradizionale	✅ Casa Famiglia Gramsci
+Decine o centinaia di ospiti	Piccolo gruppo, ci si conosce tutti
+Orari rigidi, regole di reparto	Flessibilità, ritmi personali
+Atmosfera ospedaliera	Casa vera, arredata con cura
+Personale che ruota	Stesse persone ogni giorno
+Visite contingentate	Familiari sempre benvenuti
+Solo per chi non è autosufficiente	Solo per chi è ancora pienamente autonomo
+CTA sotto la tabella:
+
+Vuoi vedere con i tuoi occhi? Prenota una visita - è gratuita e senza impegno.
+→ Prenota la visita
+
+SEZIONE 7 - LA GIORNATA TIPO (timeline orizzontale scrollabile)
+Titolo H2:
+
+Una giornata da noi - ore per ore
+
+Sottotitolo:
+
+Non c'è una giornata uguale all'altra. Ma ogni giorno ha il suo ritmo, il suo calore.
+
+Layout: Timeline orizzontale scrollabile su mobile, verticale su desktop. Ogni step ha un'icona, un orario, un titolo breve, 2 righe di testo. Animazione: ogni nodo appare con slide-in orizzontale allo scroll.
+
+Orario	Momento	Testo
+07:30	🌅 Risveglio	Assistenza discreta per chi vuole supporto. Chi preferisce svegliarsi per conto suo, lo fa. Nessuna sveglia forzata.
+08:30	☕ Colazione	Tavola apparecchiata, prodotti freschi, chiacchiere mattutine. Il momento preferito di molti ospiti.
+10:00	🏃 Attività mattutina	Ginnastica dolce in giardino, laboratorio creativo o semplicemente una passeggiata con il sole.
+12:30	🍝 Pranzo	Piatto caldo, fresco, preparato qui. Si mangia insieme, si parla, si ride.
+15:00	🎲 Pomeriggio libero	Giochi di carte, lettura, musica, un sonnellino. Ognuno sceglie il suo ritmo.
+16:30	🍰 Merenda	Tè e dolci fatti in casa. Un momento piccolo ma irrinunciabile.
+19:30	🌙 Cena e sera	Cena leggera, compagnia, poi ci si sistema per la notte con tutta la calma del mondo.
+SEZIONE 8 - TESTIMONIANZE / SOCIAL PROOF
+Titolo H2:
+
+Lo dicono le famiglie che ci hanno scelto
+
+Layout: 3 card in riga, sfondo crema caldo, stelle gialle, nome e mese/anno. Animazione: slide-in da destra allo scroll.
+
+Placeholder (da sostituire con testimonianze reali - priorità assoluta):
+
+⭐⭐⭐⭐⭐
+"Avevo paura di fare questa scelta. Dopo la prima visita, ho capito che era quella giusta. Mio padre dopo tre settimane mi ha detto che si sente a casa."
+
+Marco T., figlio di ospite · Aprile 2025
+
+⭐⭐⭐⭐⭐
+"Quello che mi ha convinto è che hanno lasciato mia madre con le sue abitudini. Il caffè a modo suo, la televisione alla sua ora, le sue piante sul davanzale."
+
+Carla M., figlia di ospite · Febbraio 2025
+
+⭐⭐⭐⭐⭐
+"Rispondo sempre al telefono quando chiamano da lì - non perché ci siano problemi, ma perché mi aggiornano. Questa cosa vale oro."
+
+Luca B., figlio di ospite · Gennaio 2025
+
+Nota per Cursor: Struttura pronta, testi placeholder. Il client sostituisce con testimonianze reali prima del go-live.
+
+SEZIONE 9 - COME FUNZIONA (3 step processo)
+Titolo H2:
+
+Iniziare è più semplice di quanto pensi
+
+3 step con linea di connessione animata:
+
+1 → Ci chiami (o ci scrivi su WhatsApp)
+
+Non serve sapere cosa dire. Basta dirci la situazione di tuo caro. Noi ascoltiamo, facciamo le domande giuste, ti diamo le risposte vere.
+
+2 → Vieni a visitarci (gratis, senza impegno)
+
+Porta tuo padre o tua madre, fatti un giro, siediti in giardino, fai tutte le domande che vuoi. La visita è il modo migliore per capire se siamo la scelta giusta.
+
+3 → Decidi con serenità
+
+Se senti che è il posto giusto, ci organizziamo insieme. Niente fretta, niente pressioni. L'inserimento è graduale e lo gestiamo noi.
+
+CTA:
+
+📞 Chiama ora · 💬 Scrivici su WhatsApp
+
+SEZIONE 10 - FAQ (accordion animato)
+Titolo H2:
+
+Le domande che fanno tutti - risposte vere
+
+10 domande (le 5 attuali + 5 nuove critiche):
+
+Quanto costa il soggiorno?
+
+La retta varia in base al tipo di camera e ai servizi richiesti. Ti diciamo tutto chiaramente al telefono - senza costi nascosti. Chiama e ti facciamo un preventivo personalizzato.
+
+Cosa è incluso nella retta?
+
+Tutto: camera con pulizia quotidiana, 4 pasti al giorno, attività ricreative, assistenza 24h, lavanderia, Wi-Fi. Nessun extra a sorpresa.
+
+Si può venire a vedere la struttura prima di decidere?
+
+Sempre. La visita è gratuita e senza impegno - anzi, la consigliamo. Chiama e prenotiamo insieme.
+
+Mio padre/mia madre può tenere le sue cose?
+
+Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Gramsci si adatta a lui, non il contrario.
+
+Le visite dei familiari sono libere?
+
+Nessun orario rigido. I familiari sono sempre benvenuti - è parte di quello che ci rende diversi.
+
+Come prenotare un soggiorno?
+
+Basta una telefonata. Ti ascoltiamo, ti spieghiamo tutto, e organizziamo una visita. Semplice.
+
+Cosa succede se le condizioni di salute cambiano?
+
+Se l'ospite resta autosufficiente, rimane con noi. Se la situazione cambia, valutiamo insieme con la famiglia il percorso migliore. Non lasciamo mai nessuno da solo in quei momenti.
+
+C'è un periodo minimo di permanenza?
+
+Accettiamo sia permanenze residenziali lunghe che soggiorni di media durata. Parliamone in base alla situazione specifica.
+
+Quanto dista da Torino?
+
+Coazze è a circa 30 km da Torino, facilmente raggiungibile in auto. Un contesto naturale a pochi minuti dalla città.
+
+Posso pagare con bonifico o contanti?
+
+Entrambi, nei limiti di legge. Troviamo insieme la modalità più comoda.
+
+SEZIONE 11 - CONTATTI (layout doppio)
+Titolo H2:
+
+Parliamoci - senza impegno
+
+Sottotitolo:
+
+Una chiamata non costa nulla. Ma può cambiare tutto.
+
+Layout 50/50:
+
+Sinistra: Form semplice (Nome, Telefono, Messaggio opzionale, checkbox GDPR, bottone invio) + nota "Risposta entro poche ore"
+
+Destra: Info contatto + Google Maps embed + WhatsApp button grande verde
+
+Elementi contatto:
+
+📍 Piazza Gramsci, 17 - Coazze (TO) 10050
+📞 +39 376 203 1211
+💬 Scrivici su WhatsApp
+✉️ info@gramsci.lecasefamiglia.it (da creare)
+
+SEZIONE 12 - FOOTER
+Colonne:
+
+Logo + tagline breve + social (se presenti)
+
+Link rapidi (Home, Chi siamo, Servizi, La struttura, Contatti)
+
+Contatti (tel, WhatsApp, indirizzo)
+
+Legale (Privacy, Cookie, T&C) - link a pagine proprie del sottodominio
+
+🤖 PROMPT CURSOR - Versione Definitiva Loop Multi-Agente
+Questo è il prompt ottimizzato da incollare direttamente in Cursor. Usa agente principale + sotto-agenti. Niente overlay. Priorità assoluta alle immagini.
+
+# CURSOR MAIN AGENT - Casa Famiglia Gramsci
+# Modalità: LOOP CONTINUO fino a completamento totale
+
+## MISSIONE
+Rifare completamente il sito gramsci.lecasefamiglia.it con un design moderno, mobile-first, che valorizza le immagini reali della struttura senza mai coprirle con overlay scuri o velature. Il sito deve sembrare premium, caldo, familiare - non ospedaliero. Lavora sezione per sezione, agente per agente, in loop finché tutto è DONE e verificato.
+
+## REGOLA ASSOLUTA N.1 - IMMAGINI E VIDEO
+- ZERO overlay scuri o semitrasparenti sopra immagini o video
+- Il testo NON va mai posizionato sopra le foto con background scuro
+- Le immagini occupano il loro spazio PULITO - niente filtri colorati
+- Se il testo deve stare vicino a un'immagine: colonna affiancata, sfondo bianco/crema
+- Il video hero va in autoplay muted loop fullwidth - il testo va SOTTO o in sidebar, mai sopra
+- Gallery: masonry grid con lightbox - mai carousel lento con frecce piccole
+- Le foto .avif esistenti sono di qualità: usale, valorizzale, non degradarle
+
+## STACK TECNICO
+- HTML5 semantico + CSS3 custom properties + Vanilla JS (zero jQuery, zero dipendenze inutili)
+- Mobile-first: breakpoints 375px / 768px / 1024px / 1440px
+- Immagini: lazy loading + srcset + WebP/AVIF già presente
+- Form: Formspree.io (no backend necessario ora)
+- Animazioni: CSS transitions + Intersection Observer API (no GSAP a meno che non serva)
+- Font: Cormorant Garamond (headings via Google Fonts) + Inter (body)
+- Performance target: Lighthouse >90 su tutti i 4 parametri
+
+## DESIGN SYSTEM (applica globalmente)
+```css
+:root {
+  /* Colori */
+  --color-primary: #2D5A3D;        /* Verde Valle di Susa */
+  --color-primary-light: #4A7A5A;
+  --color-secondary: #F5EDD8;      /* Crema caldo */
+  --color-accent: #C17A3A;         /* Terracotta */
+  --color-text: #2C2C2C;
+  --color-text-light: #6B6B6B;
+  --color-bg: #FDFAF5;             /* Bianco caldo */
+  --color-white: #FFFFFF;
+  --color-whatsapp: #25D366;
+  
+  /* Tipografia */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  
+  /* Spacing (base 4px) */
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4rem;     /* 64px */
+  --space-4xl: 6rem;     /* 96px */
+  
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 600ms ease;
+}
+
+ANIMAZIONI PERMESSE (tutte via Intersection Observer)
+fade-in-up: opacity 0→1 + translateY(24px→0), duration 600ms
+
+fade-in: opacity 0→1, duration 500ms
+
+slide-in-left / slide-in-right: translateX(±40px→0) + opacity, duration 600ms
+
+scale-in: scale(0.95→1) + opacity 0→1, duration 400ms
+
+counter-up: numeri che si incrementano quando entrano in viewport
+
+stagger: ogni figlio con delay += 100ms
+
+NON usare: parallax pesante, scroll-jacking, animazioni che durano >800ms
+
+STRUTTURA FILE OUTPUT
+gramsci.lecasefamiglia.it/
+├── index.html
+├── chi-siamo.html
+├── servizi.html
+├── la-struttura.html
+├── la-giornata.html
+├── rette-e-ammissione.html
+├── blog/
+│   ├── index.html
+│   └── [articolo-slug].html (×10)
+├── contatti.html
+├── privacy-policy.html
+├── cookie-policy.html
+├── termini-e-condizioni.html
+├── 404.html
+├── sitemap.xml
+├── robots.txt
+├── css/
+│   ├── design-system.css
+│   ├── global.css
+│   ├── components.css
+│   └── animations.css
+├── js/
+│   ├── main.js
+│   ├── gallery.js
+│   ├── animations.js
+│   └── cookie-banner.js
+└── PROGRESS.md
+
+AGENTE 1 - DESIGN & COMPONENTI GLOBALI
+Crea tutti i file CSS e i componenti riutilizzabili. Lavora in questo ordine:
+
+css/design-system.css - variabili CSS del design system sopra
+
+css/animations.css - tutte le classi animazione (fade-in-up, stagger, counter-up, ecc.)
+
+css/global.css - reset, base typography, layout grid, container, sezioni base
+
+css/components.css - tutti i componenti:
+
+Header (sticky, trasparente → solido allo scroll, hamburger mobile)
+
+Button (.btn-primary, .btn-secondary, .btn-ghost, .btn-whatsapp)
+
+Card (.card-service, .card-testimonial, .card-blog)
+
+Badge (.badge)
+
+Form (.form-field, .form-input, .form-textarea, .form-checkbox, .btn-submit)
+
+Gallery masonry (.gallery-grid, .gallery-item, .lightbox)
+
+FAQ accordion (.faq-item, .faq-question, .faq-answer)
+
+Timeline (.timeline, .timeline-item)
+
+Comparison table (.comparison-table)
+
+Trust bar (.trust-bar, .trust-stat)
+
+WhatsApp FAB (.whatsapp-fab)
+
+Cookie banner (.cookie-banner)
+
+Footer (.footer)
+
+js/main.js - header scroll behavior, hamburger menu, smooth scroll
+
+js/animations.js - Intersection Observer per tutte le animazioni
+
+js/gallery.js - masonry layout + lightbox + tab filter
+
+js/cookie-banner.js - GDPR compliant, salva preferenze in localStorage
+
+STOP - aggiorna PROGRESS.md con AGENTE 1: DONE, poi passa ad AGENTE 2.
+
+AGENTE 2 - HOMEPAGE (index.html)
+Costruisci la homepage completa con QUESTE 12 sezioni nell'ordine indicato:
+
+SEZIONE 1 - HERO
+Video videos/hero-desktop.mp4 in autoplay muted loop, fullwidth, NO overlay
+
+Su mobile: usa foto statica images/Coazze - Casa Famiglia Gramsci/Esterno + persona 3.avif
+
+Layout: video occupa tutta la larghezza, altezza min 70vh
+
+Testo SOTTO il video (non sopra), su sfondo --color-bg
+
+H1: "La tua seconda casa, nel verde della Valle di Susa"
+
+Sottotitolo: "Per chi è ancora pienamente autonomo ma non vuole più vivere da solo. Assistenza discreta, ambienti veri, libertà quotidiana. A Coazze, a 30 minuti da Torino."
+
+CTA: bottone primary "Chiama ora +39 376 203 1211" + bottone ghost "Prenota visita gratuita"
+
+Animazione: fade-in-up sul testo, delay 200ms
+
+SEZIONE 2 - TRUST BAR
+Sfondo: --color-primary
+
+Testo: --color-white
+
+4 stat in riga (flex, wrap su mobile):
+"+50 Ospiti accolti" · "24/7 Assistenza" · "100% Autosufficienti" · "5★ Qualità percepita"
+
+counter-up animation quando entra in viewport
+
+SEZIONE 3 - IL PROBLEMA (emotional hook)
+Layout 40/60: testo sinistra, foto destra (NO overlay sulla foto)
+
+Foto: images/Coazze - Casa Famiglia Gramsci/Sala da Pranzo + persone 1.avif
+
+Quote in corsivo: "Mia madre stava bene. Ma vivere sola non era più giusto."
+
+Testo come da brief
+
+Animazione: slide-in-left testo, slide-in-right foto
+
+SEZIONE 4 - SERVIZI
+Sfondo: --color-secondary
+
+Titolo H2 centrato
+
+5 card in griglia (3+2 desktop, 2+3 tablet, 1 mobile)
+
+Ogni card: icona SVG (Heroicons), titolo, testo breve, border-bottom --color-accent
+
+stagger animation 100ms per card
+
+Hover: scale(1.02) + box-shadow md
+
+SEZIONE 5 - GALLERY
+Titolo centrato
+
+Tab filter: "Tutti / Camere / Spazi Comuni / Cucina / Giardino"
+
+Tutti: tutte le immagini
+
+Camere: Camera 1, Camera 2, Camera 3, Camera 4, camera 9
+
+Spazi Comuni: Spazi Comuni, Salone 1, Corridoio, Ingresso 2
+
+Cucina: Cucina 1, Cucina 2, Sala da Pranzo + persone 1, Sala da Pranzo + persone 2
+
+Giardino: Esterno + persona 3 (aggiungere placeholder per foto giardino)
+
+Masonry grid 3 colonne desktop, 2 tablet, 1 mobile
+
+Click → lightbox fullscreen con frecce prev/next, swipe mobile, tasto ESC
+
+Transizione tab: fade out 200ms → fade in 200ms delle foto filtrate
+
+NESSUN overlay sulle immagini - le foto parlano da sole
+
+SEZIONE 6 - PERCHÉ NON RSA
+Sfondo: --color-bg
+
+Titolo H2: "Non è una RSA. È diverso - e fa tutta la differenza."
+
+Comparison table a 2 colonne (RSA vs Casa Gramsci) come da brief
+
+CTA: "Prenota la visita gratuita →" (btn-primary)
+
+Animazione: fade-in-up sulla tabella
+
+SEZIONE 7 - GIORNATA TIPO
+Sfondo: --color-secondary
+
+Titolo H2 centrato
+
+Timeline verticale su mobile, orizzontale scrollabile su desktop
+
+8 step come da brief (orario + icona + titolo + testo)
+
+Ogni nodo appare con fade-in-up staggered 150ms
+
+Linea di connessione animata (stroke dash animation via CSS)
+
+SEZIONE 8 - TESTIMONIANZE
+Sfondo: --color-bg
+
+Titolo H2 centrato
+
+3 card in riga (1 su mobile)
+
+Ogni card: stelle ⭐⭐⭐⭐⭐, citazione in corsivo, nome + data
+
+Sfondo card: --color-white, border-left 3px --color-accent
+
+stagger animation 150ms
+
+Nota nel codice: <!-- SOSTITUIRE CON TESTIMONIANZE REALI PRIMA GO-LIVE -->
+
+SEZIONE 9 - COME FUNZIONA
+Layout: 3 step in riga con numero grande, titolo, testo
+
+Linea tratteggiata animata che connette i 3 step
+
+CTA doppia: "Chiama ora" + "WhatsApp"
+
+Animazione: slide-in staggered da sinistra
+
+SEZIONE 10 - FAQ
+Sfondo: --color-secondary
+
+Accordion: 10 domande, una aperta di default (la prima)
+
+Animazione apertura: max-height transition 300ms ease
+
+Icona +/- che ruota a 45deg quando aperto
+
+Schema markup FAQPage JSON-LD nel <head>
+
+SEZIONE 11 - CONTATTI
+Layout 50/50 desktop, stack su mobile
+
+Sinistra: form (Nome, Telefono, Messaggio textarea, checkbox GDPR, submit)
+
+Form action: Formspree endpoint (placeholder)
+
+Validazione JS lato client
+
+Dopo invio: messaggio successo inline (no redirect)
+
+Destra: info contatti + iframe Google Maps + WhatsApp button verde grande
+
+SEZIONE 12 - FOOTER
+4 colonne desktop, 2 tablet, 1 mobile
+
+Col 1: Logo + tagline "Casa Famiglia per anziani autosufficienti a Coazze (TO)"
+
+Col 2: Navigazione
+
+Col 3: Contatti
+
+Col 4: Legale
+
+Copyright bottom bar: "© 2025 Casa Famiglia Gramsci - Sviluppato da Back Software"
+
+STOP - aggiorna PROGRESS.md con AGENTE 2: DONE, poi passa ad AGENTE 3.
+
+AGENTE 3 - PAGINE INTERNE
+Crea ogni pagina con header/footer globali e contenuto specifico. Ogni pagina deve avere:
+
+Title tag unico (max 60 char)
+
+Meta description unica (max 155 char)
+
+H1 ottimizzato per keyword locale
+
+Almeno 2 link interni
+
+Schema markup WebPage/BreadcrumbList
+
+Open Graph tags
+
+chi-siamo.html
+H1: "Chi siamo - La storia di Casa Famiglia Gramsci"
+Sezioni: Hero con foto esterno, La nostra storia (testo narrativo warm), I nostri valori (3 card icon), Il team (placeholder foto + nome + ruolo), CTA visita
+
+servizi.html
+H1: "I nostri servizi - Casa Famiglia Gramsci a Coazze"
+Sezioni: Intro, 8 servizi in dettaglio (card espandibili), cosa è incluso nella retta (checklist), CTA
+
+la-struttura.html
+H1: "La struttura - Ambienti e spazi di Casa Gramsci"
+Sezioni: Intro, gallery fullwidth masonry (tutte le foto), virtual tour placeholder, mappa, CTA
+
+la-giornata.html
+H1: "La giornata tipo a Casa Gramsci - Coazze"
+Sezioni: Intro narrativa, timeline espansa (più dettaglio dell'homepage), sezione attività (lista), CTA
+
+rette-e-ammissione.html
+H1: "Rette e ammissione - Come entrare a Casa Gramsci"
+Sezioni: Processo in 3 step, cosa è incluso (checklist), cosa portare (lista pratica), come prenotare, FAQ specifica, CTA forte
+
+contatti.html
+H1: "Contattaci - Casa Famiglia Gramsci Coazze"
+Sezioni: Info contatto grande, form completo, mappa, orari, WhatsApp
+
+blog/index.html
+H1: "Blog - Consigli per le famiglie di anziani autosufficienti"
+Sezioni: Hero, griglia articoli (3 colonne), categorie sidebar, CTA newsletter placeholder
+
+STOP - aggiorna PROGRESS.md con AGENTE 3: DONE, poi passa ad AGENTE 4.
+
+AGENTE 4 - PAGINE LEGALI
+privacy-policy.html
+Genera Privacy Policy GDPR-compliant per sito italiano che raccoglie:
+
+Dati da form contatti (nome, telefono, messaggio)
+
+Cookie tecnici e analitici (Google Analytics se presente)
+
+Dati di navigazione
+Titolare: Quercia & Gramsci S.r.l.s., Piazza Gramsci 17, Coazze (TO)
+Email DPO: info@gramsci.lecasefamiglia.it
+Base giuridica: consenso + legittimo interesse
+Aggiorna data: [DATA ODIERNA]
+
+cookie-policy.html
+Cookie Policy con lista cookie usati, finalità, durata, terze parti.
+Include riferimento a cookie banner funzionante.
+
+termini-e-condizioni.html
+T&C per sito informativo con form di contatto.
+Include: scopo del sito, limitazioni responsabilità, legge applicabile italiana.
+
+STOP - aggiorna PROGRESS.md con AGENTE 4: DONE, poi passa ad AGENTE 5.
+
+AGENTE 5 - SEO TECNICA
+Per ogni pagina HTML creata, verifica e completa:
+
+<!-- In ogni <head> -->
+<title>[KEYWORD LOCALE] | Casa Famiglia Gramsci Coazze</title>
+<meta name="description" content="[155 char max, include keyword + CTA implicita]">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gramsci.lecasefamiglia.it/[slug]">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gramsci.lecasefamiglia.it/[slug]">
+<meta property="og:title" content="[OG Title]">
+<meta property="og:description" content="[OG Description]">
+<meta property="og:image" content="https://gramsci.lecasefamiglia.it/images/og-gramsci.jpg">
+<meta property="og:locale" content="it_IT">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+
+Schema markup da aggiungere a index.html:
+
+{
+  "@context": "https://schema.org",
+  "@type": ["LodgingBusiness", "LocalBusiness"],
+  "name": "Casa Famiglia Gramsci",
+  "description": "Casa famiglia per anziani autosufficienti a Coazze (TO). Assistenza 24h, ambienti familiari, Valle di Susa.",
+  "url": "https://gramsci.lecasefamiglia.it",
+  "telephone": "+39 376 203 1211",
+  "email": "info@gramsci.lecasefamiglia.it",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Piazza Gramsci, 17",
+    "addressLocality": "Coazze",
+    "addressRegion": "TO",
+    "postalCode": "10050",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.0234,
+    "longitude": 7.2789
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "Assistenza 24h", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Wi-Fi gratuito", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Giardino", "value": true},
+    {"@type": "LocationFeatureSpecification", "name": "Pasti inclusi", "value": true}
+  ],
+  "priceRange": "€€"
+}
+
+Crea sitemap.xml con tutte le pagine, priorità e lastmod.
+Crea robots.txt:
+
+User-agent: *
+Allow: /
+Sitemap: https://gramsci.lecasefamiglia.it/sitemap.xml
+
+STOP - aggiorna PROGRESS.md con AGENTE 5: DONE, poi passa ad AGENTE 6.
+
+AGENTE 6 - BLOG (10 articoli)
+Inizia SOLO dopo AGENTE 5 completato.
+
+Per ogni articolo crea un file HTML completo con:
+
+Layout blog: header + sidebar (articoli correlati + CTA) + footer
+
+Schema markup Article
+
+Breadcrumb
+
+Sezione "Hai domande?" → link a /contatti alla fine di ogni articolo
+
+Articoli da creare (in ordine):
+
+/blog/differenza-casa-famiglia-rsa.html - "Casa famiglia o RSA: qual è la vera differenza?"
+
+/blog/quando-genitore-anziano-ha-bisogno-assistenza.html
+
+/blog/cosa-include-retta-casa-famiglia.html
+
+/blog/benefici-vita-comunita-anziani-autosufficienti.html
+
+/blog/come-scegliere-casa-famiglia-anziani.html
+
+/blog/valle-di-susa-anziani-qualita-vita.html
+
+/blog/senso-di-colpa-affidare-genitore-struttura.html
+
+/blog/ginnastica-dolce-anziani-benefici.html
+
+/blog/inserimento-casa-famiglia-anziani.html
+
+/blog/visite-familiari-anziani-importanza.html
+
+Ogni articolo: minimo 1200 parole, tono caldo italiano, link interni, CTA finale morbida.
+
+STOP - aggiorna PROGRESS.md con AGENTE 6: DONE, poi passa ad AGENTE 7.
+
+AGENTE 7 - QA & VALIDAZIONE FINALE
+Esegui questa checklist completa. Per ogni item fallito: torna all'agente responsabile, correggi, ri-verifica.
+
+✅ Funzionale
+[ ] Tutti i link interni ed esterni funzionano (no 404)
+
+[ ] Form contatti risponde correttamente (simula invio)
+
+[ ] WhatsApp link: https://wa.me/393762031211?text=Ciao,%20sto%20cercando%20una%20casa%20famiglia%20per%20il%20mio%20caro...
+
+[ ] Video hero: autoplay muted loop, no overlay
+
+[ ] Gallery: tab filter + lightbox funzionanti
+
+[ ] FAQ accordion: open/close animato
+
+[ ] Cookie banner: appare al primo accesso, salva preferenze
+
+[ ] 404.html: personalizzata con link home
+
+[ ] ZERO overlay scuri su immagini o video (violazione critica)
+
+✅ Mobile
+[ ] Header hamburger funziona su 375px
+
+[ ] Gallery diventa 1 colonna
+
+[ ] Timeline diventa verticale
+
+[ ] Form è usabile con tastiera mobile
+
+[ ] WhatsApp FAB non copre contenuti importanti
+
+[ ] Font size minimo 16px body
+
+✅ Performance
+[ ] Tutte le immagini hanno lazy loading
+
+[ ] Nessun CSS o JS bloccante nel <head> (usa defer/async)
+
+[ ] Font caricati con font-display: swap
+
+[ ] Lighthouse Performance > 90 (target)
+
+✅ SEO
+[ ] Ogni pagina ha title unico
+
+[ ] Ogni pagina ha meta description unica
+
+[ ] sitemap.xml valida e accessibile
+
+[ ] robots.txt corretto
+
+[ ] Schema markup validato
+
+[ ] Nessun link rotto
+
+✅ GDPR
+[ ] Cookie banner funzionante
+
+[ ] Form con checkbox consenso esplicito
+
+[ ] Privacy/Cookie/T&C su pagine proprie del sottodominio
+
+[ ] Email gmail → segnalare al client di creare info@gramsci.lecasefamiglia.it
+
+PROGRESS.md (aggiorna dopo ogni agente)
+# Casa Famiglia Gramsci - Progress
+
+## Stato Generale
+- [ ] AGENTE 1 - Design & Componenti
+- [ ] AGENTE 2 - Homepage
+- [ ] AGENTE 3 - Pagine Interne
+- [ ] AGENTE 4 - Pagine Legali
+- [ ] AGENTE 5 - SEO Tecnica
+- [ ] AGENTE 6 - Blog (10 articoli)
+- [ ] AGENTE 7 - QA Finale
+
+## Note Critiche per il Client (prima del go-live)
+- [ ] Sostituire testimonianze placeholder con recensioni reali
+- [ ] Creare email professionale info@gramsci.lecasefamiglia.it
+- [ ] Inserire foto reali del team nella pagina Chi Siamo
+- [ ] Configurare Formspree con endpoint reale
+- [ ] Aggiungere Google Analytics (opzionale)
+- [ ] Verificare coordinate GPS nella mappa
+- [ ] Aggiornare numero posti disponibili nella trust bar
+
+INIZIO
+Parti da AGENTE 1. Non saltare nessun agente. Non passare al successivo finché il corrente non è DONE e PROGRESS.md non è aggiornato. Al completamento di tutti e 7, genera HANDOFF.md con istruzioni deploy complete.
+
+
+---
+
+## ⚡ 3 azioni rapide prima di lanciare
+
+1. **Email professionale** - Hai già Hostinger Mail su `backsoftware.it`. Per `gramsci.lecasefamiglia.it` basta creare una mailbox `info@gramsci.lecasefamiglia.it` - ti ci porto da Kodee in 2 minuti.
+
+2. **Testimonianze** - Il prompt mette i placeholder ma sono quelle reali che convertono. Anche solo 2-3 messaggi WhatsApp da famiglie soddisfatte → li trasformo io in testimonianze formattate pronte.
+
+3. **Formspree** - Vai su [formspree.io](https://formspree.io), crea un form gratuito con la mail che vuoi ricevere le richieste, copia l'endpoint e inseriscilo nell'`action` del form. 2 minuti.
+
