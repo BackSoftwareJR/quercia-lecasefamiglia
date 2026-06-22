@@ -5,21 +5,30 @@
   'use strict';
 
   var GALLERY_ITEMS = [
-    { file: '/images/map-placeholder.jpg', alt: 'Spazi comuni accoglienti di Casa Famiglia Quercia', category: 'spazi-comuni' },
-    { file: '/images/avatars/avatar1.jpg', alt: 'Ospite in sala da pranzo', category: 'cucina' },
-    { file: '/images/avatars/avatar2.jpg', alt: 'Pranzo conviviale tra ospiti', category: 'cucina' },
-    { file: '/images/avatars/avatar3.jpg', alt: 'Attività ricreative nel salone', category: 'spazi-comuni' },
-    { file: '/images/map-placeholder.jpg', alt: 'Camera confortevole con arredi personali', category: 'camere' },
-    { file: '/images/avatars/avatar1.jpg', alt: 'Camera luminosa e accogliente', category: 'camere' },
-    { file: '/images/avatars/avatar2.jpg', alt: 'Giardino della struttura nel verde', category: 'giardino' },
-    { file: '/images/map-placeholder.jpg', alt: 'Vista esterna della struttura', category: 'giardino' }
+    { file: 'images/map-placeholder.jpg', alt: 'Salone luminoso di Casa Famiglia Quercia a Pinerolo', category: 'spazi-comuni' },
+    { file: 'images/avatars/avatar3.jpg', alt: 'Attività ricreative nel salone comune a Pinerolo', category: 'spazi-comuni' },
+    { file: 'images/avatars/avatar1.jpg', alt: 'Pranzo conviviale in sala da pranzo — Casa Quercia', category: 'cucina' },
+    { file: 'images/avatars/avatar2.jpg', alt: 'Cucina di casa con pasti freschi ogni giorno a Pinerolo', category: 'cucina' },
+    { file: 'images/avatars/avatar1.jpg', alt: 'Camera confortevole con arredi personali — Pinerolo', category: 'camere' },
+    { file: 'images/avatars/avatar2.jpg', alt: 'Camera luminosa e accogliente nel Pinerolese', category: 'camere' },
+    { file: 'images/map-placeholder.jpg', alt: 'Giardino privato nel verde del Pinerolese', category: 'giardino' },
+    { file: 'images/avatars/avatar3.jpg', alt: 'Spazi verdi per passeggiate a Casa Famiglia Quercia', category: 'giardino' }
   ];
+
+  function getSiteBase() {
+    var path = window.location.pathname;
+    var segments = path.split('/').filter(Boolean);
+    if (segments.length && segments[segments.length - 1].includes('.')) {
+      segments.pop();
+    }
+    return segments.length > 0 ? '../'.repeat(segments.length) : '';
+  }
 
   function initGallery() {
     var root = document.getElementById('home-gallery');
     if (!root) return;
 
-    var IMG_BASE = '';
+    var IMG_BASE = getSiteBase();
 
     var grid = root.querySelector('.gallery-grid');
     var tabs = root.querySelectorAll('.gallery-tabs__btn');

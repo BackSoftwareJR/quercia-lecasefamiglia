@@ -1324,6 +1324,7 @@
 }
 
 .hero-clean__media {
+  position: relative;
   width: 100%;
   max-height: 70vh;
   overflow: hidden;
@@ -1331,11 +1332,40 @@
 }
 
 .hero-clean__media video,
-.hero-clean__media img {
+.hero-clean__media img,
+.hero-clean__fallback {
   width: 100%;
   height: 70vh;
   object-fit: cover;
   display: block;
+}
+
+.hero-clean__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 90, 61, 0.08) 0%,
+    rgba(45, 90, 61, 0.35) 55%,
+    rgba(45, 90, 61, 0.55) 100%
+  );
+}
+
+.hero-clean__media.is-image-fallback .hero-clean__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 90, 61, 0.12) 0%,
+    rgba(45, 90, 61, 0.4) 50%,
+    rgba(45, 90, 61, 0.6) 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-clean__media video {
+    display: none !important;
+  }
 }
 
 .hero-clean__content {

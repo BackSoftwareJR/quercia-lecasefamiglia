@@ -36,7 +36,7 @@
 
 ## GDPR
 - [x] Cookie banner funzionante
-- [x] Privacy/Cookie/T&C GDPR con P.IVA IT13186510015
+- [x] Privacy/Cookie/T&C GDPR con P.IVA IT13206680012
 - [x] Contatto solo tel/WhatsApp/email (nessun form)
 - [ ] Email info@ da attivare lato client
 
