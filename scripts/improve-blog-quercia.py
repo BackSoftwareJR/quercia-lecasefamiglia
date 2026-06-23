@@ -300,7 +300,7 @@ RSA_ARTICLE = {
             "Cosa si intende per casa famiglia (e cosa non è)",
             p(
                 "La casa famiglia è una struttura privata autorizzata che accoglie un numero limitato di ospiti — da pochi a una dozzina — in un ambiente domestico vero: salone, cucina, giardino, camere personalizzabili. Non è un reparto ospedaliero mascherato da hotel.",
-                "Casa Famiglia Quercia a Pinerolo accoglie al massimo 8 anziani autosufficienti. Chi vive qui cammina da solo, mangia, si veste, gestisce l'igiene. Non serve assistenza sanitaria continua, ma può servire compagnia, pasti preparati, qualcuno presente h24 e un contesto dove la solitudine non è la norma.",
+                "Casa Famiglia Quercia a Pinerolo accoglie al massimo 6 anziani autosufficienti. Chi vive qui cammina da solo, mangia, si veste, gestisce l'igiene. Non serve assistenza sanitaria continua, ma può servire compagnia, pasti preparati, qualcuno presente h24 e un contesto dove la solitudine non è la norma.",
                 "Attenzione: casa famiglia non significa badante condivisa a basso costo, né hotel per anziani. Significa una casa vera con regole umane, operatori stabili e familiari sempre benvenuti. Se cerchi «casa famiglia anziani Pinerolo», stai cercando questo equilibrio — non una scorciatoia economica rispetto a una RSA.",
             )
             + h3(
@@ -317,7 +317,7 @@ RSA_ARTICLE = {
             + """<div class="table-responsive"><table class="comparison-table">
 <thead><tr><th scope="col">RSA tradizionale</th><th scope="col">Casa Famiglia Quercia</th></tr></thead>
 <tbody>
-<tr><td>Decine o centinaia di ospiti</td><td>Massimo 8 persone: ci si conosce tutti</td></tr>
+<tr><td>Decine o centinaia di ospiti</td><td>Massimo 6 persone: ci si conosce tutti</td></tr>
 <tr><td>Orari rigidi, regole di reparto</td><td>Flessibilità, ritmi personali rispettati</td></tr>
 <tr><td>Atmosfera ospedaliera</td><td>Casa vera, arredata con cura a Pinerolo</td></tr>
 <tr><td>Personale che ruota ogni turno</td><td>Stesse persone ogni giorno</td></tr>
@@ -502,7 +502,7 @@ PINEROLO_ARTICLE = {
     "wa_text": "Buongiorno, cerchiamo una casa famiglia a Pinerolo vicino Torino e vorremmo informazioni.",
     "intro": p(
         "Cerchi una casa famiglia per anziani vicino a Torino, ma non vuoi rinunciare al verde e alla tranquillità? Pinerolo potrebbe essere la risposta che stavi cercando. A circa 40 minuti dalla città, nel cuore del Pinerolese, trovi un contesto diverso da quello urbano: meno rumore, più spazio, ritmi più umani.",
-        "Casa Famiglia Quercia accoglie al massimo 8 anziani autosufficienti in Stradale Poirino 152 — una villa familiare circondata dal verde, pensata per chi è ancora autonomo ma non vuole più vivere da solo. Per iniziare consulta <a href='/servizi/'>servizi</a>, <a href='/rette-e-ammissione/'>rette e ammissione</a> e <a href='/contatti/'>contatti</a>.",
+        "Casa Famiglia Quercia accoglie al massimo 6 anziani autosufficienti in Stradale Poirino 152 — una villa familiare circondata dal verde, pensata per chi è ancora autonomo ma non vuole più vivere da solo. Per iniziare consulta <a href='/servizi/'>servizi</a>, <a href='/rette-e-ammissione/'>rette e ammissione</a> e <a href='/contatti/'>contatti</a>.",
     ),
     "sections": [
         section(
@@ -539,7 +539,7 @@ PINEROLO_ARTICLE = {
             "casa-quercia-pinerolo",
             "Casa Famiglia Quercia: cosa offriamo a Pinerolo",
             p(
-                "Non siamo una RSA. Siamo una casa vera: massimo 8 ospiti autosufficienti, assistenza h24 discreta, pasti freschi, camere personalizzabili, giardino, attività quotidiane e familiari sempre benvenuti senza orari rigidi.",
+                "Non siamo una RSA. Siamo una casa vera: massimo 6 ospiti autosufficienti, assistenza h24 discreta, pasti freschi, camere personalizzabili, giardino, attività quotidiane e familiari sempre benvenuti senza orari rigidi.",
                 "A differenza di strutture grandi, qui ogni persona è conosciuta per nome. Gli operatori sono gli stessi ogni giorno. Il pranzo è conversazione, non silenzio di reparto. È questo che cercano le famiglie torinesi quando dicono: «Voglio che stia bene, ma non in un ospedale».",
                 "Siamo in Stradale Poirino 152, in una villa circondata dal verde del Pinerolese. Gli ospiti mantengono le proprie abitudini — orario del risveglio, preferenze alimentari, oggetti personali in camera — con la sicurezza di avere qualcuno presente anche di notte.",
             )
@@ -762,7 +762,7 @@ def build_blog_index():
     <header class="page-header">
       <div class="container">
         <h1>Blog — Consigli per le famiglie di anziani autosufficienti</h1>
-        <p class="section__lead blog-index-intro">Quando un genitore inizia a faticare da solo, i figli tra i 45 e i 65 anni si trovano spesso senza una mappa. Internet mescola RSA, case famiglia e residenze assistite; i prezzi sono difficili da confrontare; il senso di colpa rende ogni ricerca un peso. Questo blog è pensato per voi: famiglie del Pinerolese e dell'area torinese che cercano una soluzione serena per un padre o una madre ancora autosufficienti. Qui trovate guide pratiche su differenze tra casa famiglia e RSA, cosa include la retta, visite familiari, inserimento sereno e vita quotidiana a Pinerolo. Ogni articolo nasce dall'esperienza quotidiana di Casa Famiglia Quercia: una casa vera, non un reparto, dove al massimo 8 anziani autosufficienti trovano compagnia, sicurezza e autonomia.</p>
+        <p class="section__lead blog-index-intro">Quando un genitore inizia a faticare da solo, i figli tra i 45 e i 65 anni si trovano spesso senza una mappa. Internet mescola RSA, case famiglia e residenze assistite; i prezzi sono difficili da confrontare; il senso di colpa rende ogni ricerca un peso. Questo blog è pensato per voi: famiglie del Pinerolese e dell'area torinese che cercano una soluzione serena per un padre o una madre ancora autosufficienti. Qui trovate guide pratiche su differenze tra casa famiglia e RSA, cosa include la retta, visite familiari, inserimento sereno e vita quotidiana a Pinerolo. Ogni articolo nasce dall'esperienza quotidiana di Casa Famiglia Quercia: una casa vera, non un reparto, dove al massimo 6 anziani autosufficienti trovano compagnia, sicurezza e autonomia.</p>
       </div>
     </header>
 

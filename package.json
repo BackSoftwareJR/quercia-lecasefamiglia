@@ -1,0 +1,9 @@
+{
+  "name": "casafamigliaquercia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site — Casa Famiglia Quercia",
+  "scripts": {
+    "test": "node scripts/validate-guest-count.js"
+  }
+}

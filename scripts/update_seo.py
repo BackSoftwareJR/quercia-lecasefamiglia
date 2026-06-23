@@ -34,7 +34,7 @@ LODGING_SCHEMA = {
 PAGE_SEO = {
     "index.html": {
         "title": "Casa Famiglia Quercia | Residenza per Anziani a Pinerolo (TO)",
-        "description": "Casa Famiglia Quercia a Pinerolo: residenza per anziani autosufficienti a 40 minuti da Torino. Max 8 ospiti, assistenza 24h, ambiente familiare. Prenota una visita gratuita.",
+        "description": "Casa Famiglia Quercia a Pinerolo: residenza per anziani autosufficienti a 40 minuti da Torino. Max 6 ospiti, assistenza 24h, ambiente familiare. Prenota una visita gratuita.",
         "keywords": "casa famiglia anziani Pinerolo, residenza anziani Pinerolo Torino, casa famiglia Pinerolese, anziani autosufficienti Pinerolo",
         "path": "/",
         "og_type": "website",
@@ -100,7 +100,7 @@ PAGE_SEO = {
     },
     "casa-famiglia-pinerolo/index.html": {
         "title": "Casa famiglia anziani Pinerolo | Casa Famiglia Quercia",
-        "description": "Casa famiglia per anziani autosufficienti a Pinerolo. Max 8 ospiti, assistenza 24h, ambiente familiare vicino Torino. Prenota una visita gratuita.",
+        "description": "Casa famiglia per anziani autosufficienti a Pinerolo. Max 6 ospiti, assistenza 24h, ambiente familiare vicino Torino. Prenota una visita gratuita.",
         "path": "/casa-famiglia-pinerolo/",
         "og_type": "website",
     },

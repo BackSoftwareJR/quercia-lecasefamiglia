@@ -15,10 +15,10 @@ const pages = [
   {
     slug: 'casa-famiglia-pinerolo',
     title: 'Casa famiglia anziani Pinerolo | Casa Famiglia Quercia – Pinerolese',
-    meta: 'Casa famiglia per anziani autosufficienti a Pinerolo (TO). Max 8 ospiti, assistenza 24h, pasti di casa in Stradale Poirino 152. A 40 min da Torino. Prenota una visita gratuita.',
+    meta: 'Casa famiglia per anziani autosufficienti a Pinerolo (TO). Max 6 ospiti, assistenza 24h, pasti di casa in Stradale Poirino 152. A 40 min da Torino. Prenota una visita gratuita.',
     h1: 'Casa famiglia per anziani autosufficienti a Pinerolo',
     eyebrow: 'Casa Famiglia Quercia · Stradale Poirino 152, Pinerolo',
-    lead: 'Nel cuore del Pinerolese, a pochi minuti dal centro di Pinerolo, accogliamo al massimo otto ospiti over 65 in una villa familiare circondata dal verde.',
+    lead: 'Nel cuore del Pinerolese, a pochi minuti dal centro di Pinerolo, accogliamo al massimo sei ospiti over 65 in una villa familiare circondata dal verde.',
     image: IMG_DINING,
     imageAlt: 'Pranzo conviviale in sala da pranzo — Casa Famiglia Quercia, Pinerolo',
     primary: true
@@ -37,7 +37,7 @@ const pages = [
   {
     slug: 'casa-famiglia-giaveno',
     title: 'Casa famiglia anziani vicino Giaveno | Casa Famiglia Quercia – Pinerolo',
-    meta: 'Cerchi una casa famiglia per genitori autosufficienti vicino Giaveno? Casa Famiglia Quercia a Pinerolo è raggiungibile in 15–20 minuti. Visita gratuita, max 8 ospiti.',
+    meta: 'Cerchi una casa famiglia per genitori autosufficienti vicino Giaveno? Casa Famiglia Quercia a Pinerolo è raggiungibile in 15–20 minuti. Visita gratuita, max 6 ospiti.',
     h1: 'Casa famiglia per anziani vicino Giaveno',
     eyebrow: 'Casa Famiglia Quercia · 15–20 min da Giaveno',
     lead: 'Se abitate a Giaveno e cercate una soluzione serena per un genitore autosufficiente, Casa Famiglia Quercia a Pinerolo è raggiungibile in pochi minuti.',
@@ -47,7 +47,7 @@ const pages = [
   {
     slug: 'casa-famiglia-valle-di-susa',
     title: 'Casa famiglia Valle di Susa e Pinerolese | Casa Famiglia Quercia',
-    meta: 'Casa famiglia per anziani autosufficienti in Valle di Susa e Pinerolese. Casa Famiglia Quercia a Pinerolo: natura, assistenza 24h, max 8 ospiti. Prenota una visita.',
+    meta: 'Casa famiglia per anziani autosufficienti in Valle di Susa e Pinerolese. Casa Famiglia Quercia a Pinerolo: natura, assistenza 24h, max 6 ospiti. Prenota una visita.',
     h1: 'Casa famiglia in Valle di Susa e Pinerolese per anziani autosufficienti',
     eyebrow: 'Casa Famiglia Quercia · Valle di Susa e Pinerolese',
     lead: 'La Valle di Susa e il Pinerolese offrono qualità della vita rara. Casa Famiglia Quercia a Pinerolo è pensata per chi vuole invecchiare bene in questo territorio.',
