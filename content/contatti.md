@@ -21,7 +21,7 @@ Compilate il form: vi rispondiamo entro 24–48 ore lavorative.
 
 ## Mappa
 
-Casa Famiglia Quercia si trova nel centro di Coazze, facilmente raggiungibile da Giaveno, Avigliana, Pinerolo e Torino.
+Casa Famiglia Castelletto si trova nel centro di Coazze, facilmente raggiungibile da Giaveno, Avigliana, Pinerolo e Torino.
 
 ## CTA
 

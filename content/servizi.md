@@ -2,7 +2,7 @@
 
 ## Intro
 
-In Casa Famiglia Quercia ogni servizio è pensato per sostenere la vita quotidiana senza togliere autonomia. Niente linguaggio ospedaliero: parliamo di casa, pasti, compagnia e cura discreta.
+In Casa Famiglia Castelletto ogni servizio è pensato per sostenere la vita quotidiana senza togliere autonomia. Niente linguaggio ospedaliero: parliamo di casa, pasti, compagnia e cura discreta.
 
 ## Assistenza 24 ore
 

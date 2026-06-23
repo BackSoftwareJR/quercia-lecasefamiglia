@@ -47,7 +47,7 @@ ARTICLES = [
                 "I pasti sono spesso il cuore dell'inclusione. Non si tratta solo di nutrire, ma di creare momenti di convivialità: colazione, pranzo, merenda, cena. In molte case famiglia i menu sono cucinati in loco, con attenzione alle preferenze e alle esigenze alimentari. Chiedi sempre come vengono gestite le diete speciali e se ci sono supplementi per particolari richieste.",
                 "L'assistenza quotidiana comprende supporto nelle attività ordinarie: accompagnamento nei pasti se serve, aiuto nell'igiene personale leggera, promemoria per le terapie, vigilanza notturna discreta. Non è assistenza sanitaria intensiva come in RSA, ma una presenza costante che evita solitudine e piccoli rischi domestici.",
                 "Spesso sono inclusi anche pulizia della camera, biancheria, lavanderia, utenze, Wi-Fi e attività ricreative. Alcune strutture includono anche accompagnamento a visite mediche di routine, gestione delle terapie ordinarie e comunicazione periodica con i familiari. Altri servizi, come parrucchiere o podologo, possono essere organizzati internamente o tramite professionisti esterni.",
-                "La Casa Famiglia Quercia a Pinerolo adotta un approccio trasparente: durante la visita spieghiamo punto per punto cosa è compreso, così i figli possono confrontare con serenità. Per il dettaglio completo visita <a href='/servizi/'>la pagina servizi</a>.",
+                "La Casa Famiglia Castelletto a Pinerolo adotta un approccio trasparente: durante la visita spieghiamo punto per punto cosa è compreso, così i figli possono confrontare con serenità. Per il dettaglio completo visita <a href='/servizi/'>la pagina servizi</a>.",
             ]),
             ("voci-extra", "2) Le voci extra: cosa chiedere prima di firmare", [
                 "Il punto critico di molte rette è ciò che resta fuori. Farmaci, visite specialistiche, pannoloni, servizi di parrucchiere, trasporti per appuntamenti medici, materiali sanitari specifici: possono generare costi aggiuntivi. Non è un problema in sé, ma devono essere comunicati in anticipo, non scoperti a contratto firmato.",
@@ -64,13 +64,13 @@ ARTICLES = [
             ("sostenibilita", "4) Sostenibilità nel tempo per la famiglia", [
                 "Una retta sostenibile è quella che la famiglia può mantenere senza tensioni continue. Prima di impegnarsi, valuta le entrate disponibili, eventuali contributi di altri familiari, la possibilità di accesso a agevolazioni e un margine per imprevisti. Parlarne tra fratelli e sorelle prima dell'ingresso evita conflitti futuri.",
                 "Il senso di colpa spesso spinge a scegliere la soluzione più economica, anche quando non è la più adatta. Ricorda che investire nella qualità della vita di un genitore non è un lusso: è una scelta di cura. Una retta chiara e sostenibile protegge anche la relazione familiare.",
-                "La Casa Famiglia Quercia a Pinerolo accompagna le famiglie in questa valutazione senza pressione commerciale. L'obiettivo è trovare un equilibrio realistico, non convincere a tutti i costi. Quando numeri e aspettative sono allineati, il percorso è più sereno per l'ospite e per i figli.",
+                "La Casa Famiglia Castelletto a Pinerolo accompagna le famiglie in questa valutazione senza pressione commerciale. L'obiettivo è trovare un equilibrio realistico, non convincere a tutti i costi. Quando numeri e aspettative sono allineati, il percorso è più sereno per l'ospite e per i figli.",
                 "Per approfondire la scelta consapevole consulta <a href='/blog/scegliere-casa-famiglia-genitori/'>come scegliere una casa famiglia</a> e prenota una visita da <a href='/contatti/'>contatti</a>.",
             ]),
             ("conclusione", "Conclusione: trasparenza è cura", [
                 "Capire cosa include la retta non è un dettaglio burocratico: è il fondamento di una scelta consapevole. Quando sai esattamente cosa paghi e cosa ricevi, puoi confrontare le offerte con lucidità e proteggere la serenità della tua famiglia.",
                 "Ogni casa famiglia ha la sua organizzazione, ma i principi restano gli stessi: chiarezza, rispetto, comunicazione. Chiedi sempre, scrivi le risposte, confronta. I figli che fanno domande precise prendono decisioni migliori.",
-                "Se vuoi un quadro concreto su cosa comprende la retta a Casa Famiglia Quercia, siamo a Pinerolo in Stradale Poirino 152. Una visita gratuita è il modo migliore per capire cosa c'è dietro al numero — e cosa c'è dietro al numero per la vita di tuo padre o tua madre.",
+                "Se vuoi un quadro concreto su cosa comprende la retta a Casa Famiglia Castelletto, siamo a Pinerolo in Stradale Poirino 152. Una visita gratuita è il modo migliore per capire cosa c'è dietro al numero — e cosa c'è dietro al numero per la vita di tuo padre o tua madre.",
             ]),
         ],
         "faq": [
@@ -129,7 +129,7 @@ ARTICLES = [
             ("quando-casa-famiglia", "3) Quando la casa famiglia è la risposta giusta", [
                 "La casa famiglia è pensata per anziani ancora autosufficienti che non vogliono più vivere da soli. Non è un ospedale, non è una RSA: è una casa con poche persone, pasti condivisi, assistenza discreta e la possibilità di portare i propri arredi e abitudini. Per molti genitori è il giusto equilibrio tra autonomia e sicurezza.",
                 "È la scelta giusta quando la solitudine pesa più della voglia di restare nell'appartamento vuoto. Quando i figli vivono lontano e non riescono a garantire presenza quotidiana. Quando la gestione della casa — spesa, pulizie, cucina, manutenzione — diventa fonte di stress per l'anziano. Quando si vuole prevenire, non aspettare l'emergenza.",
-                "A Pinerolo, Casa Famiglia Quercia accoglie al massimo 6 ospiti. Questo significa relazioni vere, non folle anonime. Gli ospiti mantengono le proprie routine, le proprie scelte, i propri oggetti. I figli restano parte della vita quotidiana, con visite libere e comunicazione costante con l'équipe.",
+                "A Pinerolo, Casa Famiglia Castelletto accoglie al massimo 6 ospiti. Questo significa relazioni vere, non folle anonime. Gli ospiti mantengono le proprie routine, le proprie scelte, i propri oggetti. I figli restano parte della vita quotidiana, con visite libere e comunicazione costante con l'équipe.",
                 "Per confrontare con altre opzioni leggi <a href='/blog/casa-famiglia-vs-rsa-differenze/'>casa famiglia vs RSA</a> e <a href='/blog/scegliere-casa-famiglia-genitori/'>come scegliere una casa famiglia</a>. Una visita gratuita è il modo migliore per capire se è la strada giusta.",
             ]),
             ("parlare-genitore", "4) Come parlarne con tuo padre o tua madre", [
@@ -141,7 +141,7 @@ ARTICLES = [
             ("conclusione", "Conclusione: agire prima dell'emergenza", [
                 "Un genitore che vive solo e inizia a faticare non ha bisogno di drammi: ha bisogno di opzioni. La solitudine è silenziosa, ma non è irreversibile. Con le soluzioni giuste — intermedie o strutturali — si può recuperare qualità di vita e serenità per tutta la famiglia.",
                 "Il momento migliore per agire è quando i segnali sono chiari ma non c'è ancora urgenza. È allora che si può scegliere con lucidità, visitare le strutture, coinvolgere il genitore, pianificare con calma.",
-                "Se il tuo padre o la tua madre vive nel Pinerolese o nell'area torinese e senti che il tempo da solo pesa troppo, Casa Famiglia Quercia a Pinerolo è a tua disposizione. Una telefonata, una visita, un confronto senza impegno: a volte basta questo per capire che non siete soli in questa scelta.",
+                "Se il tuo padre o la tua madre vive nel Pinerolese o nell'area torinese e senti che il tempo da solo pesa troppo, Casa Famiglia Castelletto a Pinerolo è a tua disposizione. Una telefonata, una visita, un confronto senza impegno: a volte basta questo per capire che non siete soli in questa scelta.",
             ]),
         ],
         "faq": [
@@ -188,7 +188,7 @@ ARTICLES = [
                 "Il senso di colpa nasce da un'intuizione profonda: i figli sentono di dover restituire ciò che i genitori hanno dato. Crescere, nutrire, proteggere, educare: quando i ruoli si invertono, sembra che chiedere aiuto equivalga a tradire quel debito affettivo. La cultura italiana rafforza questa idea: «la famiglia si aiuta da sola», «non si manda via mamma».",
                 "A questo si aggiunge la paura del giudizio: vicini, parenti, amici che potrebbero pensare «non vogliono occuparsene». Molti figli tra i 45 e i 65 anni vivono questo conflitto in silenzio, cercando informazioni di notte, senza parlarne con fratelli o amici. Il senso di colpa diventa un compagno costante, che appesantisce ogni ricerca.",
                 "Ma il senso di colpa non è un indicatore di verità. È un'emozione, spesso legittima nel suo bisogno di proteggere, ma non sempre allineata alla realtà. Riconoscerlo è il primo passo per non lasciare che guidi la decisione al posto tuo. Molti figli ci dicono che il senso di colpa è più forte prima della visita che dopo: vedere la casa, conoscere l'équipe e osservare gli ospiti tranquilli riduce la distanza tra paura e realtà.",
-                "Se ti riconosci in questa descrizione, sappi che non sei solo. È la domanda più frequente che ci fanno i figli che visitano Casa Famiglia Quercia a Pinerolo.",
+                "Se ti riconosci in questa descrizione, sappi che non sei solo. È la domanda più frequente che ci fanno i figli che visitano Casa Famiglia Castelletto a Pinerolo.",
             ]),
             ("non-abbandono", "2) Cercare aiuto non è abbandonare", [
                 "Abbandonare significa smettere di essere presenti. Cercare una casa famiglia significa trovare un contesto dove il genitore vive meglio, con compagnia, pasti curati, assistenza discreta e sicurezza. I figli non spariscono: cambiano modo di essere presenti. Da gestori di ogni imprevisto diventano compagni di vita, visitatori sereni, interlocutori affettuosi.",
@@ -211,7 +211,7 @@ ARTICLES = [
             ("conclusione", "Conclusione: amore e responsabilità non sono in conflitto", [
                 "Cercare una casa famiglia per un genitore anziano non è l'opposto dell'amore. È una forma di amore maturo: quello che mette il benessere dell'altro davanti all'immagine che noi abbiamo di noi stessi come figli perfetti.",
                 "Il senso di colpa ti dirà che dovresti fare di più. La realtà ti dirà che fare di più, da soli, non è sempre possibile né sempre la scelta migliore per chi ami. Ascolta entrambi, ma decidi con lucidità.",
-                "Casa Famiglia Quercia a Pinerolo è qui per questo: per offrire un'alternativa concreta a chi non vuole più vivere da solo, e per accompagnare le famiglie che fanno una scelta difficile con dignità e senza giudizio. Una visita gratuita può essere il primo passo per alleggerire quel peso che porti da solo. Non devi avere tutte le risposte prima di chiamare: basta voler capire, con calma, se questa strada può essere quella giusta per la vostra famiglia.",
+                "Casa Famiglia Castelletto a Pinerolo è qui per questo: per offrire un'alternativa concreta a chi non vuole più vivere da solo, e per accompagnare le famiglie che fanno una scelta difficile con dignità e senza giudizio. Una visita gratuita può essere il primo passo per alleggerire quel peso che porti da solo. Non devi avere tutte le risposte prima di chiamare: basta voler capire, con calma, se questa strada può essere quella giusta per la vostra famiglia.",
             ]),
         ],
         "faq": [
@@ -314,7 +314,7 @@ def render(article):
   <meta property="og:image" content="{OG_IMAGE}">
   <meta property="article:published_time" content="2026-06-22T09:00:00+02:00">
   <meta property="article:modified_time" content="2026-06-22T09:00:00+02:00">
-  <meta property="article:author" content="Casa Famiglia Quercia">
+  <meta property="article:author" content="Casa Famiglia Castelletto">
   <meta property="article:section" content="{article['category']}">
 
   <meta name="theme-color" content="#2D5A3D">
@@ -337,8 +337,8 @@ def render(article):
     "image": OG_IMAGE,
     "datePublished": "2026-06-22T09:00:00+02:00",
     "dateModified": "2026-06-22T09:00:00+02:00",
-    "author": {"@type": "Organization", "name": "Casa Famiglia Quercia", "url": SITE + "/"},
-    "publisher": {"@type": "Organization", "name": "Casa Famiglia Quercia", "url": SITE + "/"},
+    "author": {"@type": "Organization", "name": "Casa Famiglia Castelletto", "url": SITE + "/"},
+    "publisher": {"@type": "Organization", "name": "Casa Famiglia Castelletto", "url": SITE + "/"},
     "mainEntityOfPage": {"@type": "WebPage", "@id": url},
     "inLanguage": "it-IT",
     "keywords": article["keywords"],
@@ -367,13 +367,13 @@ def render(article):
         <p class="blog-article__meta">
           <time datetime="2026-06-22">22 giugno 2026</time>
           · 12 min di lettura
-          · <span class="blog-article__author">Casa Famiglia Quercia</span>
+          · <span class="blog-article__author">Casa Famiglia Castelletto</span>
         </p>
         <div class="blog-article__tags" aria-label="Tag"></div>
       </header>
       <figure class="blog-article__hero">
         <img src="../../images/{IMG_DIR}/{article['hero']}" alt="{article['hero_alt']}" width="1200" height="630" loading="eager" fetchpriority="high">
-        <figcaption>Casa Famiglia Quercia, Stradale Poirino, 152 — Pinerolo, Pinerolese</figcaption>
+        <figcaption>Casa Famiglia Castelletto, Stradale Poirino, 152 — Pinerolo, Pinerolese</figcaption>
       </figure>
       <div class="blog-article-layout">
         <div class="blog-article-main">
@@ -391,7 +391,7 @@ def render(article):
             <h2 class="blog-sidebar-box__title">Articoli correlati</h2>
             <ul class="blog-sidebar-related__list">{related_html(article['related'])}</ul>
           </div><div class="blog-sidebar-box blog-sidebar-cta">
-            <h2 class="blog-sidebar-box__title">Scopri Casa Quercia</h2>
+            <h2 class="blog-sidebar-box__title">Scopri Casa Castelletto</h2>
             <p class="blog-sidebar-cta__text">Una seconda casa per anziani autosufficienti a Pinerolo, nel Pinerolese.</p>
             <ul class="blog-sidebar-cta__links">
               <li><a href="/galleria/">Galleria fotografica</a></li>

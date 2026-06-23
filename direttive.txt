@@ -31,7 +31,7 @@ Testo corpo:
 
 Accade spesso così. Un genitore ancora in salute, ancora autonomo, ma la casa grande è diventata silenziosa. Le scale sono un pensiero. La solitudine a cena pesa più di qualsiasi malattia.
 
-Una RSA sembra troppo. Lasciarlo solo non si può. Casa Famiglia Quercia è la terza via. Non una struttura, non l'abbandono. Una casa vera, con persone vere, in un posto bellissimo.
+Una RSA sembra troppo. Lasciarlo solo non si può. Casa Famiglia Castelletto è la terza via. Non una struttura, non l'abbandono. Una casa vera, con persone vere, in un posto bellissimo.
 
 Visual: Foto della sala da pranzo con persone - la più calda disponibile (Sala da Pranzo + persone 1.avif). Full-width, nessun overlay, testo affiancato su colonna sinistra (layout 40/60).
 
@@ -59,7 +59,7 @@ Esplora gli spazi - come se ci fossi già
 
 Sottotitolo:
 
-Ogni angolo di Casa Famiglia Quercia è pensato per farti sentire a tuo agio, non in una struttura.
+Ogni angolo di Casa Famiglia Castelletto è pensato per farti sentire a tuo agio, non in una struttura.
 
 Layout: Masonry grid (3 colonne desktop, 2 tablet, 1 mobile). Click → lightbox con frecce, zoom, swipe mobile. Nessun overlay sulle foto. Le immagini parlano da sole.
 
@@ -77,7 +77,7 @@ Non è una RSA. È diverso - e fa tutta la differenza.
 
 Layout a 2 colonne - confronto visivo:
 
-❌ RSA Tradizionale	✅ Casa Famiglia Quercia
+❌ RSA Tradizionale	✅ Casa Famiglia Castelletto
 Decine o centinaia di ospiti	Piccolo gruppo, ci si conosce tutti
 Orari rigidi, regole di reparto	Flessibilità, ritmi personali
 Atmosfera ospedaliera	Casa vera, arredata con cura
@@ -178,7 +178,7 @@ Sempre. La visita è gratuita e senza impegno - anzi, la consigliamo. Chiama e p
 
 Mio padre/mia madre può tenere le sue cose?
 
-Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Famiglia Quercia si adatta a lui, non il contrario.
+Sì. La camera è sua. Porta i mobili preferiti, le foto, le piante. Casa Famiglia Castelletto si adatta a lui, non il contrario.
 
 Le visite dei familiari sono libere?
 
@@ -240,7 +240,7 @@ Legale (Privacy, Cookie, T&C) - link a pagine proprie del sottodominio
 🤖 PROMPT CURSOR - Versione Definitiva Loop Multi-Agente
 Questo è il prompt ottimizzato da incollare direttamente in Cursor. Usa agente principale + sotto-agenti. Niente overlay. Priorità assoluta alle immagini.
 
-# CURSOR MAIN AGENT - Casa Famiglia Quercia
+# CURSOR MAIN AGENT - Casa Famiglia Castelletto
 # Modalità: LOOP CONTINUO fino a completamento totale
 
 ## MISSIONE
@@ -407,7 +407,7 @@ Costruisci la homepage completa con QUESTE 12 sezioni nell'ordine indicato:
 SEZIONE 1 - HERO
 Video videos/hero-desktop.mp4 in autoplay muted loop, fullwidth, NO overlay
 
-Su mobile: usa foto statica images/Coazze - Casa Famiglia Quercia/Esterno + persona 3.avif
+Su mobile: usa foto statica images/Coazze - Casa Famiglia Castelletto/Esterno + persona 3.avif
 
 Layout: video occupa tutta la larghezza, altezza min 70vh
 
@@ -434,7 +434,7 @@ counter-up animation quando entra in viewport
 SEZIONE 3 - IL PROBLEMA (emotional hook)
 Layout 40/60: testo sinistra, foto destra (NO overlay sulla foto)
 
-Foto: images/Coazze - Casa Famiglia Quercia/Sala da Pranzo + persone 1.avif
+Foto: images/Coazze - Casa Famiglia Castelletto/Sala da Pranzo + persone 1.avif
 
 Quote in corsivo: "Mia madre stava bene. Ma vivere sola non era più giusto."
 
@@ -483,7 +483,7 @@ Sfondo: --color-bg
 
 Titolo H2: "Non è una RSA. È diverso - e fa tutta la differenza."
 
-Comparison table a 2 colonne (RSA vs Casa Famiglia Quercia) come da brief
+Comparison table a 2 colonne (RSA vs Casa Famiglia Castelletto) come da brief
 
 CTA: "Prenota la visita gratuita →" (btn-primary)
 
@@ -561,7 +561,7 @@ Col 3: Contatti
 
 Col 4: Legale
 
-Copyright bottom bar: "© 2025 Casa Famiglia Quercia - Sviluppato da Back Software"
+Copyright bottom bar: "© 2025 Casa Famiglia Castelletto - Sviluppato da Back Software"
 
 STOP - aggiorna PROGRESS.md con AGENTE 2: DONE, poi passa ad AGENTE 3.
 
@@ -581,27 +581,27 @@ Schema markup WebPage/BreadcrumbList
 Open Graph tags
 
 chi-siamo.html
-H1: "Chi siamo - La storia di Casa Famiglia Quercia"
+H1: "Chi siamo - La storia di Casa Famiglia Castelletto"
 Sezioni: Hero con foto esterno, La nostra storia (testo narrativo warm), I nostri valori (3 card icon), Il team (placeholder foto + nome + ruolo), CTA visita
 
 servizi.html
-H1: "I nostri servizi - Casa Famiglia Quercia a Coazze"
+H1: "I nostri servizi - Casa Famiglia Castelletto a Coazze"
 Sezioni: Intro, 8 servizi in dettaglio (card espandibili), cosa è incluso nella retta (checklist), CTA
 
 la-struttura.html
-H1: "La struttura - Ambienti e spazi di Casa Famiglia Quercia"
+H1: "La struttura - Ambienti e spazi di Casa Famiglia Castelletto"
 Sezioni: Intro, gallery fullwidth masonry (tutte le foto), virtual tour placeholder, mappa, CTA
 
 la-giornata.html
-H1: "La giornata tipo a Casa Famiglia Quercia - Coazze"
+H1: "La giornata tipo a Casa Famiglia Castelletto - Coazze"
 Sezioni: Intro narrativa, timeline espansa (più dettaglio dell'homepage), sezione attività (lista), CTA
 
 rette-e-ammissione.html
-H1: "Rette e ammissione - Come entrare a Casa Famiglia Quercia"
+H1: "Rette e ammissione - Come entrare a Casa Famiglia Castelletto"
 Sezioni: Processo in 3 step, cosa è incluso (checklist), cosa portare (lista pratica), come prenotare, FAQ specifica, CTA forte
 
 contatti.html
-H1: "Contattaci - Casa Famiglia Quercia Coazze"
+H1: "Contattaci - Casa Famiglia Castelletto Coazze"
 Sezioni: Info contatto grande, form completo, mappa, orari, WhatsApp
 
 blog/index.html
@@ -638,7 +638,7 @@ AGENTE 5 - SEO TECNICA
 Per ogni pagina HTML creata, verifica e completa:
 
 <!-- In ogni <head> -->
-<title>[KEYWORD LOCALE] | Casa Famiglia Quercia Coazze</title>
+<title>[KEYWORD LOCALE] | Casa Famiglia Castelletto Coazze</title>
 <meta name="description" content="[155 char max, include keyword + CTA implicita]">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://casafamigliaquercia.it/[slug]">
@@ -659,7 +659,7 @@ Schema markup da aggiungere a index.html:
 {
   "@context": "https://schema.org",
   "@type": ["LodgingBusiness", "LocalBusiness"],
-  "name": "Casa Famiglia Quercia",
+  "name": "Casa Famiglia Castelletto",
   "description": "Casa famiglia per anziani autosufficienti a Coazze (TO). Assistenza 24h, ambienti familiari, Valle di Susa.",
   "url": "https://casafamigliaquercia.it",
   "telephone": "+39 376 203 1211",
@@ -807,7 +807,7 @@ Esegui questa checklist completa. Per ogni item fallito: torna all'agente respon
 [ ] Email gmail → segnalare al client di creare info@casafamigliaquercia.it
 
 PROGRESS.md (aggiorna dopo ogni agente)
-# Casa Famiglia Quercia - Progress
+# Casa Famiglia Castelletto - Progress
 
 ## Stato Generale
 - [ ] AGENTE 1 - Design & Componenti

@@ -1,5 +1,5 @@
 /**
- * Casa Famiglia Quercia - Galleria Fotografica
+ * Casa Famiglia Castelletto - Galleria Fotografica
  * Script per gestire la galleria a schermo intero con scorrimento automatico
  */
 

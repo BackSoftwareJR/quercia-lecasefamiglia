@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate blog markdown + HTML for Casa Famiglia Quercia."""
+"""Generate blog markdown + HTML for Casa Famiglia Castelletto."""
 import os
 import html as html_lib
 import textwrap
@@ -51,7 +51,7 @@ ARTICLES = [
         "slug": "anziani-autosufficienti-coazze",
         "title": "Anziani autosufficienti a Coazze: perché restare in valle",
         "meta_title": "Anziani autosufficienti Coazze | Casa famiglia",
-        "meta_desc": "Perché Coazze è ideale per anziani autosufficienti: natura, comunità, Casa Famiglia Quercia in Valle di Susa. Guida per famiglie di Giaveno e dintorni.",
+        "meta_desc": "Perché Coazze è ideale per anziani autosufficienti: natura, comunità, Casa Famiglia Castelletto in Valle di Susa. Guida per famiglie di Giaveno e dintorni.",
         "category": "Territorio",
         "badge": "primary",
         "reading": "10 min",
@@ -202,8 +202,8 @@ ARTICLES = [
     {
         "slug": "coazze-giaveno-pinerolo-servizi",
         "title": "Coazze, Giaveno, Pinerolo: la nostra area servita",
-        "meta_title": "Area servita Coazze Giaveno Pinerolo | Casa Famiglia Quercia",
-        "meta_desc": "Casa Famiglia Quercia serve Coazze, Giaveno, Avigliana, Pinerolo, Trana, Valgioie e Valle di Susa. Mappa, distanze e info per famiglie del territorio.",
+        "meta_title": "Area servita Coazze Giaveno Pinerolo | Casa Famiglia Castelletto",
+        "meta_desc": "Casa Famiglia Castelletto serve Coazze, Giaveno, Avigliana, Pinerolo, Trana, Valgioie e Valle di Susa. Mappa, distanze e info per famiglie del territorio.",
         "category": "Territorio",
         "badge": "primary",
         "reading": "9 min",
@@ -224,7 +224,7 @@ ARTICLES = [
         "slug": "domande-figli-casa-famiglia",
         "title": "Le domande che ogni figlio si pone sulla casa famiglia",
         "meta_title": "FAQ figli casa famiglia | Domande comuni",
-        "meta_desc": "Risposte alle domande più frequenti dei figli: costi, visite, autonomia, differenza con RSA. Casa Famiglia Quercia a Pinerolo, Pinerolese.",
+        "meta_desc": "Risposte alle domande più frequenti dei figli: costi, visite, autonomia, differenza con RSA. Casa Famiglia Castelletto a Pinerolo, Pinerolese.",
         "category": "FAQ",
         "badge": "accent",
         "reading": "14 min",
@@ -303,8 +303,8 @@ def build_html(a):
     "description": {json_str(a["meta_desc"])},
     "datePublished": "2026-06-22",
     "dateModified": "2026-06-22",
-    "author": {{"@type": "Organization", "name": "Casa Famiglia Quercia"}},
-    "publisher": {{"@type": "Organization", "name": "Casa Famiglia Quercia", "url": "https://casafamigliaquercia.it/"}},
+    "author": {{"@type": "Organization", "name": "Casa Famiglia Castelletto"}},
+    "publisher": {{"@type": "Organization", "name": "Casa Famiglia Castelletto", "url": "https://casafamigliaquercia.it/"}},
     "mainEntityOfPage": "https://casafamigliaquercia.it/blog/{slug}/",
     "inLanguage": "it-IT",
     "keywords": {json_str(a["keywords"])}
@@ -327,7 +327,7 @@ def build_html(a):
       <header>
         <span class="badge {badge_class}">{html_lib.escape(a["category"])}</span>
         <h1>{html_lib.escape(a["title"])}</h1>
-        <p class="blog-article__meta">22 giugno 2026 · {html_lib.escape(a["reading"])} di lettura · Casa Famiglia Quercia</p>
+        <p class="blog-article__meta">22 giugno 2026 · {html_lib.escape(a["reading"])} di lettura · Casa Famiglia Castelletto</p>
       </header>
       <div class="content-prose">
 {body}

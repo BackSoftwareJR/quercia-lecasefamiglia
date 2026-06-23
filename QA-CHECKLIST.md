@@ -1,4 +1,4 @@
-# QA Checklist — Casa Famiglia Quercia
+# QA Checklist — Casa Famiglia Castelletto
 
 > Verificato: 2026-06-22 (server locale :8765)
 

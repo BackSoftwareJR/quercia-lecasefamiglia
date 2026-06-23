@@ -15,7 +15,7 @@ EXTENDED_ARTICLES = [
         "tags": ARTICLE_INDEX["scegliere-casa-famiglia-genitori"]["tags"],
         "hero": "Camera 1.avif",
         "hero_alt": "Camera accogliente in casa famiglia per anziani autosufficienti Coazze",
-        "hero_caption": "Ogni camera può diventare «casa» con oggetti personali — Casa Famiglia Quercia, Coazze.",
+        "hero_caption": "Ogni camera può diventare «casa» con oggetti personali — Casa Famiglia Castelletto, Coazze.",
         "inline_images": [
             {"after_section": 2, "file": "Camera 2.avif", "alt": "Camera luminosa casa famiglia anziani Valle di Susa", "caption": "Luce naturale e spazio personale: elementi da valutare durante la visita."},
             {"after_section": 5, "file": "Corridoio.avif", "alt": "Corridoio accogliente casa famiglia Coazze", "caption": "Atmosfera e suoni: osservate oltre le camere."},
@@ -68,7 +68,7 @@ EXTENDED_ARTICLES = [
         "slug": "anziani-autosufficienti-coazze",
         "title": ARTICLE_INDEX["anziani-autosufficienti-coazze"]["title"],
         "meta_title": "Anziani autosufficienti Coazze | Casa famiglia",
-        "meta_desc": "Anziani autosufficienti a Coazze: natura, comunità e Casa Famiglia Quercia in Valle di Susa. Guida per famiglie di Giaveno e dintorni.",
+        "meta_desc": "Anziani autosufficienti a Coazze: natura, comunità e Casa Famiglia Castelletto in Valle di Susa. Guida per famiglie di Giaveno e dintorni.",
         "category": "Territorio",
         "badge": "primary",
         "reading": "14 min",
@@ -76,7 +76,7 @@ EXTENDED_ARTICLES = [
         "breadcrumb": "Anziani autosufficienti Coazze",
         "tags": ARTICLE_INDEX["anziani-autosufficienti-coazze"]["tags"],
         "hero": "Esterno 1.avif",
-        "hero_alt": "Villa Casa Famiglia Quercia nel verde di Coazze — anziani autosufficienti Valle di Susa",
+        "hero_alt": "Villa Casa Famiglia Castelletto nel verde di Coazze — anziani autosufficienti Valle di Susa",
         "hero_caption": "Nel verde di Coazze, anziani autosufficienti trovano natura e comunità — Valle di Susa.",
         "inline_images": [
             {"after_section": 2, "file": "Esterno 3.avif", "alt": "Giardino e natura casa famiglia anziani Coazze", "caption": "Passeggiate nel verde: un privilegio quotidiano in valle."},
