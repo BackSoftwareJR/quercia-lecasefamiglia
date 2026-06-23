@@ -1,5 +1,5 @@
 /**
- * Casa Famiglia Quercia — Design Tokens (JS)
+ * Casa Famiglia Castelletto — Design Tokens (JS)
  * Mirror of design-system.css for programmatic use (theme, analytics, A/B)
  */
 (function (global) {
@@ -7,7 +7,7 @@
 
   const tokens = {
     brand: {
-      name: 'Casa Famiglia Quercia',
+      name: 'Casa Famiglia Castelletto',
       tagline: 'Una seconda casa, non una struttura',
       domain: 'https://casafamigliaquercia.it',
       parentSite: 'https://www.lecasefamiglia.it/',
@@ -172,8 +172,9 @@
     ],
 
     seo: {
-      primaryKeyword: 'casa famiglia anziani Coazze',
-      siteName: 'Casa Famiglia Quercia',
+      primaryKeyword: 'casa famiglia anziani Pinerolo',
+      siteName: 'Casa Famiglia Castelletto',
+      alternateNames: ['Casa Famiglia Quercia', 'Casa Quercia'],
     },
   };
 

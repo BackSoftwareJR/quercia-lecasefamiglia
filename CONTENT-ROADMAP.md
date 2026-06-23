@@ -1,4 +1,4 @@
-# Content & SEO Roadmap — Casa Famiglia Quercia
+# Content & SEO Roadmap — Casa Famiglia Castelletto
 
 > Strategia per massima visibilità organica. Aggiornato: 2026-06-22
 
@@ -18,7 +18,7 @@ Essere trovati da figli 45–65 che cercano una soluzione per genitori autosuffi
 ### Tier 2 — Pagine dedicate (fiducia + profondità)
 | URL | Keyword | Stato |
 |-----|---------|-------|
-| `/storia/` | storia casa famiglia Casa Famiglia Quercia – Pinerolo | ✅ Creata |
+| `/storia/` | storia casa famiglia Casa Famiglia Castelletto – Pinerolo | ✅ Creata |
 | `/galleria/` | foto casa famiglia Coazze | ✅ Creata |
 | `/requisiti-autosufficienza/` | requisiti anziani autosufficienti | ✅ Creata |
 | `/chi-siamo/` | chi siamo casa famiglia | Esistente — arricchire |

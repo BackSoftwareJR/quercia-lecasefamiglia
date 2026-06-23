@@ -8,19 +8,19 @@
   var DINING = '/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif';
 
   var GALLERY_ITEMS = [
-    { file: PIN + 'img1.avif', alt: 'Salone luminoso di Casa Famiglia Quercia a Pinerolo', category: 'spazi-comuni' },
+    { file: PIN + 'img1.avif', alt: 'Salone luminoso di Casa Famiglia Castelletto a Pinerolo', category: 'spazi-comuni' },
     { file: PIN + 'img2.avif', alt: 'Attività ricreative nel salone comune a Pinerolo', category: 'spazi-comuni' },
     { file: PIN + 'img3.avif', alt: 'Angolo lettura e convivialità negli spazi comuni — Pinerolo', category: 'spazi-comuni' },
-    { file: PIN + 'img4.avif', alt: 'Soggiorno accogliente con luce naturale a Casa Quercia', category: 'spazi-comuni' },
+    { file: PIN + 'img4.avif', alt: 'Soggiorno accogliente con luce naturale a Casa Castelletto', category: 'spazi-comuni' },
     { file: PIN + 'img5.avif', alt: 'Dettaglio degli arredi caldi negli spazi condivisi del Pinerolese', category: 'spazi-comuni' },
-    { file: DINING, alt: 'Pranzo conviviale in sala da pranzo — Casa Famiglia Quercia, Pinerolo', category: 'cucina' },
+    { file: DINING, alt: 'Pranzo conviviale in sala da pranzo — Casa Famiglia Castelletto, Pinerolo', category: 'cucina' },
     { file: PIN + 'img6.avif', alt: 'Cucina di casa con pasti freschi preparati ogni giorno a Pinerolo', category: 'cucina' },
-    { file: PIN + 'img7.avif', alt: 'Camera confortevole con arredi personali — Casa Quercia, Pinerolo', category: 'camere' },
+    { file: PIN + 'img7.avif', alt: 'Camera confortevole con arredi personali — Casa Castelletto, Pinerolo', category: 'camere' },
     { file: PIN + 'img8.avif', alt: 'Camera luminosa e accogliente nel Pinerolese', category: 'camere' },
     { file: PIN + 'img11.avif', alt: 'Camera privata arredata con cura per ogni ospite a Pinerolo', category: 'camere' },
-    { file: PIN + 'img12.avif', alt: 'Spazio notte tranquillo e personale — Casa Famiglia Quercia', category: 'camere' },
+    { file: PIN + 'img12.avif', alt: 'Spazio notte tranquillo e personale — Casa Famiglia Castelletto', category: 'camere' },
     { file: PIN + 'img9.avif', alt: 'Giardino privato nel verde del Pinerolese', category: 'giardino' },
-    { file: PIN + 'img10.avif', alt: 'Spazi verdi per passeggiate e aria aperta a Casa Quercia', category: 'giardino' }
+    { file: PIN + 'img10.avif', alt: 'Spazi verdi per passeggiate e aria aperta a Casa Castelletto', category: 'giardino' }
   ];
 
   function initGallery() {

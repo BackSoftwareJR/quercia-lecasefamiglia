@@ -10,7 +10,7 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG_DIR = os.path.join(BASE, "blog")
 CONTENT_DIR = os.path.join(BASE, "content", "blog")
 SITE = "https://casafamigliaquercia.it"
-AUTHOR = "Casa Famiglia Quercia"
+AUTHOR = "Casa Famiglia Castelletto"
 DATE_PUBLISHED = "2026-06-22T09:00:00+02:00"
 OG_IMAGE = f"{SITE}/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif"
 PIN = "Pinerolo - Casa Famiglia Quercia 1"
@@ -30,16 +30,16 @@ HERO = {
 }
 
 THUMB_ALT = {
-    "casa-famiglia-vs-rsa-differenze": "Ospiti e familiari a tavola in Casa Famiglia Quercia, Pinerolo",
+    "casa-famiglia-vs-rsa-differenze": "Ospiti e familiari a tavola in Casa Famiglia Castelletto, Pinerolo",
     "scegliere-casa-famiglia-genitori": "Momento conviviale in sala da pranzo a Pinerolo",
-    "anziani-autosufficienti-coazze": "Salone luminoso di Casa Famiglia Quercia nel Pinerolese",
+    "anziani-autosufficienti-coazze": "Salone luminoso di Casa Famiglia Castelletto nel Pinerolese",
     "valle-di-susa-vita-anziani": "Spazi comuni accoglienti per anziani autosufficienti",
     "visite-familiari-casa-famiglia": "Camera confortevole pronta per le visite in famiglia",
     "costi-retta-casa-famiglia-piemonte": "Camera luminosa con arredi personali in stile domestico",
     "inserimento-nuovo-ospite": "Cucina di casa dove iniziano le nuove abitudini",
     "autonomia-dignita-terza-eta": "Giardino e verde del Pinerolese intorno alla casa",
-    "coazze-giaveno-pinerolo-servizi": "Casa Famiglia Quercia facilmente raggiungibile da Torino",
-    "domande-figli-casa-famiglia": "Ingresso accogliente di Casa Famiglia Quercia a Pinerolo",
+    "coazze-giaveno-pinerolo-servizi": "Casa Famiglia Castelletto facilmente raggiungibile da Torino",
+    "domande-figli-casa-famiglia": "Ingresso accogliente di Casa Famiglia Castelletto a Pinerolo",
 }
 
 
@@ -124,7 +124,7 @@ def sidebar_related(slugs: list) -> str:
 
 def sidebar_cta() -> str:
     return """<div class="blog-sidebar-box blog-sidebar-cta">
-            <h2 class="blog-sidebar-box__title">Scopri Casa Quercia</h2>
+            <h2 class="blog-sidebar-box__title">Scopri Casa Castelletto</h2>
             <p class="blog-sidebar-cta__text">Una seconda casa per anziani autosufficienti a Pinerolo, nel Pinerolese.</p>
             <ul class="blog-sidebar-cta__links">
               <li><a href="/galleria/">Galleria fotografica</a></li>
@@ -136,7 +136,7 @@ def sidebar_cta() -> str:
 
 def article_cta(wa_text: str) -> str:
     return f"""<aside class="blog-article-cta">
-        <h2>Prenota visita a Casa Famiglia Quercia</h2>
+        <h2>Prenota visita a Casa Famiglia Castelletto</h2>
         <p>Vieni a conoscere la nostra casa a Pinerolo, in Stradale Poirino 152. Visita gratuita e senza impegno: ti mostriamo gli spazi, rispondiamo alle domande e ti aiutiamo a capire se siamo la scelta giusta per la tua famiglia.</p>
         <div class="btn-group blog-article-cta__buttons">
           <a href="tel:+393762031211" class="btn btn--accent btn--lg">
@@ -147,7 +147,7 @@ def article_cta(wa_text: str) -> str:
             <img src="../../icons/whatsapp.svg" alt="" width="20" height="20" aria-hidden="true">
             WhatsApp
           </a>
-          <a href="/contatti/" class="btn btn--secondary btn--lg">Prenota visita a Casa Famiglia Quercia</a>
+          <a href="/contatti/" class="btn btn--secondary btn--lg">Prenota visita a Casa Famiglia Castelletto</a>
         </div>
       </aside>"""
 
@@ -239,7 +239,7 @@ def build_html(article: dict) -> str:
       </header>
       <figure class="blog-article__hero">
         <img src="{html_lib.escape(hero_img)}" alt="{html_lib.escape(article['hero_alt'])}" width="1200" height="630" loading="eager" fetchpriority="high">
-        <figcaption>Casa Famiglia Quercia, Stradale Poirino 152 — Pinerolo, Pinerolese</figcaption>
+        <figcaption>Casa Famiglia Castelletto, Stradale Poirino 152 — Pinerolo, Pinerolese</figcaption>
       </figure>
       <div class="blog-article-layout">
         <div class="blog-article-main">
@@ -252,7 +252,7 @@ def build_html(article: dict) -> str:
           {sidebar_related(article.get('related', []))}{sidebar_cta()}
         </aside>
       </div>
-      {article_cta(article.get('wa_text', 'Buongiorno, vorrei prenotare una visita a Casa Famiglia Quercia a Pinerolo.'))}
+      {article_cta(article.get('wa_text', 'Buongiorno, vorrei prenotare una visita a Casa Famiglia Castelletto a Pinerolo.'))}
     </article>
   </main>
   <div data-include="footer"></div>
@@ -283,7 +283,7 @@ RSA_ARTICLE = {
     "wa_text": "Buongiorno, vorrei capire meglio le differenze tra casa famiglia e RSA per mio padre.",
     "intro": p(
         "Quando cerchi una soluzione per un genitore anziano, prima o poi ti trovi davanti a questa domanda: RSA o casa famiglia? Sul web trovi definizioni tecniche, tabelle comparative, sigle. Ma quello che ti serve davvero è capire cosa significa nella vita di tutti i giorni, per tuo padre, per tua madre, per te che vai a trovarlo.",
-        'Questa guida non è scritta da un avvocato o da un funzionario sanitario. È scritta da chi gestisce Casa Famiglia Quercia a Pinerolo da anni e ha visto centinaia di famiglie fare questa scelta. Ti diciamo quello che abbiamo imparato, comprese le cose che non tornano a favore nostro. Per orientarti puoi iniziare dai nostri <a href="/servizi/">servizi</a> e dalla pagina <a href="/rette-e-ammissione/">rette e ammissione</a>.',
+        'Questa guida non è scritta da un avvocato o da un funzionario sanitario. È scritta da chi gestisce Casa Famiglia Castelletto a Pinerolo da anni e ha visto centinaia di famiglie fare questa scelta. Ti diciamo quello che abbiamo imparato, comprese le cose che non tornano a favore nostro. Per orientarti puoi iniziare dai nostri <a href="/servizi/">servizi</a> e dalla pagina <a href="/rette-e-ammissione/">rette e ammissione</a>.',
     ),
     "sections": [
         section(
@@ -300,7 +300,7 @@ RSA_ARTICLE = {
             "Cosa si intende per casa famiglia (e cosa non è)",
             p(
                 "La casa famiglia è una struttura privata autorizzata che accoglie un numero limitato di ospiti — da pochi a una dozzina — in un ambiente domestico vero: salone, cucina, giardino, camere personalizzabili. Non è un reparto ospedaliero mascherato da hotel.",
-                "Casa Famiglia Quercia a Pinerolo accoglie al massimo 8 anziani autosufficienti. Chi vive qui cammina da solo, mangia, si veste, gestisce l'igiene. Non serve assistenza sanitaria continua, ma può servire compagnia, pasti preparati, qualcuno presente h24 e un contesto dove la solitudine non è la norma.",
+                "Casa Famiglia Castelletto a Pinerolo accoglie al massimo 6 anziani autosufficienti. Chi vive qui cammina da solo, mangia, si veste, gestisce l'igiene. Non serve assistenza sanitaria continua, ma può servire compagnia, pasti preparati, qualcuno presente h24 e un contesto dove la solitudine non è la norma.",
                 "Attenzione: casa famiglia non significa badante condivisa a basso costo, né hotel per anziani. Significa una casa vera con regole umane, operatori stabili e familiari sempre benvenuti. Se cerchi «casa famiglia anziani Pinerolo», stai cercando questo equilibrio — non una scorciatoia economica rispetto a una RSA.",
             )
             + h3(
@@ -312,12 +312,12 @@ RSA_ARTICLE = {
             "differenze-pratiche",
             "Le differenze pratiche: tavola comparativa",
             p(
-                "Le differenze si sentono ogni giorno, non solo sulla carta. Ecco un confronto onesto tra una RSA tradizionale e Casa Famiglia Quercia:",
+                "Le differenze si sentono ogni giorno, non solo sulla carta. Ecco un confronto onesto tra una RSA tradizionale e Casa Famiglia Castelletto:",
             )
             + """<div class="table-responsive"><table class="comparison-table">
-<thead><tr><th scope="col">RSA tradizionale</th><th scope="col">Casa Famiglia Quercia</th></tr></thead>
+<thead><tr><th scope="col">RSA tradizionale</th><th scope="col">Casa Famiglia Castelletto</th></tr></thead>
 <tbody>
-<tr><td>Decine o centinaia di ospiti</td><td>Massimo 8 persone: ci si conosce tutti</td></tr>
+<tr><td>Decine o centinaia di ospiti</td><td>Massimo 6 persone: ci si conosce tutti</td></tr>
 <tr><td>Orari rigidi, regole di reparto</td><td>Flessibilità, ritmi personali rispettati</td></tr>
 <tr><td>Atmosfera ospedaliera</td><td>Casa vera, arredata con cura a Pinerolo</td></tr>
 <tr><td>Personale che ruota ogni turno</td><td>Stesse persone ogni giorno</td></tr>
@@ -335,7 +335,7 @@ RSA_ARTICLE = {
             p(
                 "Il costo è spesso il primo filtro — e anche il più fuorviante. Confrontare solo la cifra mensile senza chiedere cosa include è il modo più rapido per fare una scelta sbagliata.",
                 "In RSA la retta copre assistenza sanitaria, vitto, alloggio e interventi previsti dal PAI. Può essere parzialmente rimborsata tramite contributi regionali o ASL, a seconda del caso. In casa famiglia la retta include generalmente vitto, alloggio, assistenza di base e gestione quotidiana — senza la componente sanitaria intensiva.",
-                "Una retta casa famiglia apparentemente più alta può essere più conveniente se include tutto: pasti, pulizie, attività, assistenza notturna, gestione farmaci di routine. Chiedi sempre cosa è extra. Leggi la nostra guida su <a href='/blog/costi-retta-casa-famiglia-piemonte/'>cosa include la retta</a> e consulta <a href='/rette-e-ammissione/'>rette e ammissione</a> per i dettagli su Casa Quercia.",
+                "Una retta casa famiglia apparentemente più alta può essere più conveniente se include tutto: pasti, pulizie, attività, assistenza notturna, gestione farmaci di routine. Chiedi sempre cosa è extra. Leggi la nostra guida su <a href='/blog/costi-retta-casa-famiglia-piemonte/'>cosa include la retta</a> e consulta <a href='/rette-e-ammissione/'>rette e ammissione</a> per i dettagli su Casa Castelletto.",
             )
             + h3(
                 "Costi indiretti che nessuno mette nel preventivo",
@@ -356,7 +356,7 @@ RSA_ARTICLE = {
             "Per chi è giusta una casa famiglia",
             p(
                 "La casa famiglia è la scelta giusta quando il genitore è ancora autosufficiente — cammina, mangia, si veste, gestisce le necessità — ma la vita da solo pesa: la casa è troppo grande, le scale fanno paura, la cena solitaria è diventata triste, i figli abitano lontano e dormono male.",
-                "È anche la scelta giusta quando una RSA sembra eccessiva ma lasciare tutto com'è non è più giusto. Casa Famiglia Quercia a Pinerolo nasce per questa «terza via»: non una struttura, non l'abbandono, una casa vera con persone vere, a 40 minuti da Torino nel verde del Pinerolese.",
+                "È anche la scelta giusta quando una RSA sembra eccessiva ma lasciare tutto com'è non è più giusto. Casa Famiglia Castelletto a Pinerolo nasce per questa «terza via»: non una struttura, non l'abbandono, una casa vera con persone vere, a 40 minuti da Torino nel verde del Pinerolese.",
                 "Molte famiglie del Pinerolese e dell'area torinese ci scelgono perché vogliono che mamma o papà mantengano autonomia, dignità e ritmi personali — con qualcuno sotto lo stesso tetto che veglia anche di notte.",
             ),
         ),
@@ -377,7 +377,7 @@ RSA_ARTICLE = {
 </ul>"""
             + p(
                 "Annotate le risposte e confrontatele tra strutture diverse. Una visita ben fatta vale più di dieci pagine web. Per una checklist completa leggi <a href='/blog/scegliere-casa-famiglia-genitori/'>come scegliere una casa famiglia</a> e le <a href='/blog/domande-figli-casa-famiglia/'>domande frequenti dei figli</a>.",
-                "Potete prenotare una visita gratuita a Casa Quercia dalla pagina <a href='/contatti/'>contatti</a>.",
+                "Potete prenotare una visita gratuita a Casa Castelletto dalla pagina <a href='/contatti/'>contatti</a>.",
             ),
         ),
         section(
@@ -395,7 +395,7 @@ RSA_ARTICLE = {
 <li>La struttura è piccola: riconosci i volti dopo la prima visita</li>
 </ul>"""
             + p(
-                "Durante la visita a Casa Famiglia Quercia osservate suoni, odori, luce naturale e come gli ospiti reagiscono agli operatori. Sono segnali più affidabili di qualsiasi brochure. Se qualcosa non vi convince, continuate a cercare — la scelta giusta esiste, ma va sentita con i piedi per terra.",
+                "Durante la visita a Casa Famiglia Castelletto osservate suoni, odori, luce naturale e come gli ospiti reagiscono agli operatori. Sono segnali più affidabili di qualsiasi brochure. Se qualcosa non vi convince, continuate a cercare — la scelta giusta esiste, ma va sentita con i piedi per terra.",
                 "Per vedere gli spazi prima della visita, esplora la <a href='/galleria/'>galleria fotografica</a> e scopri i <a href='/servizi/'>servizi inclusi</a>.",
             ),
         ),
@@ -414,7 +414,7 @@ COSTI_ARTICLE = {
     "reading": "12 min",
     "keywords": "casa famiglia Pinerolo, retta casa famiglia, costi assistenza anziani Piemonte",
     "breadcrumb": "Cosa include la retta di una casa famiglia?",
-    "hero_alt": "Camera luminosa con arredi personali in stile domestico a Casa Quercia",
+    "hero_alt": "Camera luminosa con arredi personali in stile domestico a Casa Castelletto",
     "tags": ["retta casa famiglia", "costi Pinerolo", "trasparenza"],
     "related": ["casa-famiglia-vs-rsa-differenze", "domande-figli-casa-famiglia", "coazze-giaveno-pinerolo-servizi"],
     "wa_text": "Buongiorno, vorrei capire cosa include la retta e come valutare eventuali contributi.",
@@ -428,7 +428,7 @@ COSTI_ARTICLE = {
             "Cosa include di solito la retta mensile",
             p(
                 "La retta di una casa famiglia copre tipicamente: alloggio in camera singola o doppia, vitto completo (colazione, pranzo, cena, spuntini), assistenza di base h24, gestione della casa (pulizie spazi comuni, biancheria, manutenzione ordinaria), attività ricreative e socializzazione, monitoraggio del benessere quotidiano e comunicazione con i familiari.",
-                "A Casa Famiglia Quercia a Pinerolo la retta è pensata come formula all-inclusive: pasti preparati in casa con menu variati, assistenza discreta sempre presente, giardino e spazi comuni, attività quotidiane e referente familiare dedicato. Niente sorprese a fine mese per servizi «base» dimenticati nel preventivo.",
+                "A Casa Famiglia Castelletto a Pinerolo la retta è pensata come formula all-inclusive: pasti preparati in casa con menu variati, assistenza discreta sempre presente, giardino e spazi comuni, attività quotidiane e referente familiare dedicato. Niente sorprese a fine mese per servizi «base» dimenticati nel preventivo.",
                 "Quando valutate un preventivo, chiedete di vedere un esempio di menù settimanale, l'elenco delle attività proposte e come viene gestita la sicurezza notturna. Sono dettagli che fanno la differenza tra una retta giustificata e una cifra che non regge al confronto con la vita reale dell'ospite.",
             )
             + h3(
@@ -460,7 +460,7 @@ COSTI_ARTICLE = {
             "Contributi e agevolazioni in Piemonte",
             p(
                 "In Piemonte esistono strumenti di sostegno economico legati alla non autosufficienza — più rilevanti per RSA e assistenza domiciliare intensiva che per case famiglia per autosufficienti. Comunque vale la pena informarsi: ASL, Comune, CAF e patronato possono indicare percorsi per indennità di accompagnamento, assegno di mantenimento o detrazioni fiscali.",
-                "Casa Famiglia Quercia orienta le famiglie verso le fonti corrette senza promettere contributi che non spettano. La chiarezza fin dall'inizio evita delusioni e permette di pianificare con serenità.",
+                "Casa Famiglia Castelletto orienta le famiglie verso le fonti corrette senza promettere contributi che non spettano. La chiarezza fin dall'inizio evita delusioni e permette di pianificare con serenità.",
                 "Anche le detrazioni fiscali per spese sanitarie e assistenziali meritano attenzione: conservate fatture e ricevute e chiedete al vostro commercialista quali voci sono deducibili nel vostro caso specifico.",
             ),
         ),
@@ -490,19 +490,19 @@ PINEROLO_ARTICLE = {
     "slug": "coazze-giaveno-pinerolo-servizi",
     "title": "Casa famiglia a Pinerolo: la scelta giusta vicino a Torino",
     "meta_title": "Casa famiglia a Pinerolo: la scelta giusta vicino a Torino",
-    "meta_desc": "Cerchi una casa famiglia per anziani vicino a Torino? Scopri perché Pinerolo è la location ideale: verde, tranquilla, a 40 minuti dalla città. Casa Famiglia Quercia.",
+    "meta_desc": "Cerchi una casa famiglia per anziani vicino a Torino? Scopri perché Pinerolo è la location ideale: verde, tranquilla, a 40 minuti dalla città. Casa Famiglia Castelletto.",
     "category": "Servizi locali",
     "badge": "primary",
     "reading": "12 min",
     "keywords": "casa famiglia Pinerolo, casa famiglia vicino Torino, Pinerolese anziani",
     "breadcrumb": "Casa famiglia a Pinerolo: la scelta giusta vicino a Torino",
-    "hero_alt": "Casa Famiglia Quercia nel verde del Pinerolese, facilmente raggiungibile da Torino",
+    "hero_alt": "Casa Famiglia Castelletto nel verde del Pinerolese, facilmente raggiungibile da Torino",
     "tags": ["Pinerolo", "Torino", "Pinerolese"],
     "related": ["anziani-autosufficienti-coazze", "costi-retta-casa-famiglia-piemonte", "valle-di-susa-vita-anziani"],
     "wa_text": "Buongiorno, cerchiamo una casa famiglia a Pinerolo vicino Torino e vorremmo informazioni.",
     "intro": p(
         "Cerchi una casa famiglia per anziani vicino a Torino, ma non vuoi rinunciare al verde e alla tranquillità? Pinerolo potrebbe essere la risposta che stavi cercando. A circa 40 minuti dalla città, nel cuore del Pinerolese, trovi un contesto diverso da quello urbano: meno rumore, più spazio, ritmi più umani.",
-        "Casa Famiglia Quercia accoglie al massimo 8 anziani autosufficienti in Stradale Poirino 152 — una villa familiare circondata dal verde, pensata per chi è ancora autonomo ma non vuole più vivere da solo. Per iniziare consulta <a href='/servizi/'>servizi</a>, <a href='/rette-e-ammissione/'>rette e ammissione</a> e <a href='/contatti/'>contatti</a>.",
+        "Casa Famiglia Castelletto accoglie al massimo 6 anziani autosufficienti in Stradale Poirino 152 — una villa familiare circondata dal verde, pensata per chi è ancora autonomo ma non vuole più vivere da solo. Per iniziare consulta <a href='/servizi/'>servizi</a>, <a href='/rette-e-ammissione/'>rette e ammissione</a> e <a href='/contatti/'>contatti</a>.",
     ),
     "sections": [
         section(
@@ -521,7 +521,7 @@ PINEROLO_ARTICLE = {
             "distanze-torino",
             "Distanze reali da Torino, Giaveno e dintorni",
             p(
-                "Da Torino centro a Casa Famiglia Quercia: circa 40 km via tangenziale e SR-23. Da Giaveno: circa 25 km attraverso la Val Sangone. Da Avigliana: ancora più vicino. Da Pinerolo città: pochi minuti.",
+                "Da Torino centro a Casa Famiglia Castelletto: circa 40 km via tangenziale e SR-23. Da Giaveno: circa 25 km attraverso la Val Sangone. Da Avigliana: ancora più vicino. Da Pinerolo città: pochi minuti.",
                 "La distanza va misurata in «visite sostenibili», non solo chilometri. Se un figlio può passare il mercoledì sera dopo lavoro — non solo il sabato — la qualità della presenza familiare cambia radicalmente. L'ospite non vive in attesa del «grande appuntamento» settimanale.",
                 "Simulate una settimana tipo: quante volte potete passare realisticamente? Se la risposta è «almeno due volte», Pinerolo è nel raggio giusto per la maggior parte delle famiglie dell'area metropolitana torinese. Se zero, nessuna distanza basterà — meglio affrontarlo onestamente prima della scelta.",
             ),
@@ -531,15 +531,15 @@ PINEROLO_ARTICLE = {
             "Servizi del territorio: farmacie, medici, ospedali",
             p(
                 "Pinerolo ha Ospedale Civile, farmacie, ambulatori, specialisti e reti di assistenza domiciliare. Per un anziano autosufficiente che necessita controlli periodici, non serve trasferirsi in città per ogni esigenza routinaria.",
-                "Casa Famiglia Quercia collabora con il territorio per appuntamenti, farmaci e comunicazioni con medici di base. La famiglia non resta sola a coordinare tutto da Torino — c'è un referente in casa che conosce l'ospite e sa quando coinvolgervi.",
+                "Casa Famiglia Castelletto collabora con il territorio per appuntamenti, farmaci e comunicazioni con medici di base. La famiglia non resta sola a coordinare tutto da Torino — c'è un referente in casa che conosce l'ospite e sa quando coinvolgervi.",
                 "La vicinanza a Torino resta un vantaggio per visite specialistiche più complesse: in un'ora siete in città, ma la vita quotidiana dell'ospite resta nel calmo del Pinerolese — un equilibrio che molte famiglie considerano ideale.",
             ),
         ),
         section(
             "casa-quercia-pinerolo",
-            "Casa Famiglia Quercia: cosa offriamo a Pinerolo",
+            "Casa Famiglia Castelletto: cosa offriamo a Pinerolo",
             p(
-                "Non siamo una RSA. Siamo una casa vera: massimo 8 ospiti autosufficienti, assistenza h24 discreta, pasti freschi, camere personalizzabili, giardino, attività quotidiane e familiari sempre benvenuti senza orari rigidi.",
+                "Non siamo una RSA. Siamo una casa vera: massimo 6 ospiti autosufficienti, assistenza h24 discreta, pasti freschi, camere personalizzabili, giardino, attività quotidiane e familiari sempre benvenuti senza orari rigidi.",
                 "A differenza di strutture grandi, qui ogni persona è conosciuta per nome. Gli operatori sono gli stessi ogni giorno. Il pranzo è conversazione, non silenzio di reparto. È questo che cercano le famiglie torinesi quando dicono: «Voglio che stia bene, ma non in un ospedale».",
                 "Siamo in Stradale Poirino 152, in una villa circondata dal verde del Pinerolese. Gli ospiti mantengono le proprie abitudini — orario del risveglio, preferenze alimentari, oggetti personali in camera — con la sicurezza di avere qualcuno presente anche di notte.",
             )
@@ -559,7 +559,7 @@ PINEROLO_ARTICLE = {
             "conclusione",
             "Pinerolo: la terza via tra solitudine e RSA",
             p(
-                "Se tuo padre o tua madre è ancora in gamba ma la casa grande è diventata silenziosa, Pinerolo offre una via d'uscita rispettosa: Casa Famiglia Quercia, nel verde del Pinerolese, a portata di Torino.",
+                "Se tuo padre o tua madre è ancora in gamba ma la casa grande è diventata silenziosa, Pinerolo offre una via d'uscita rispettosa: Casa Famiglia Castelletto, nel verde del Pinerolese, a portata di Torino.",
                 "Le famiglie che ci scelgono ci dicono spesso la stessa cosa: «Avremmo voluto farlo un anno prima». Agire prima dell'emergenza significa più tempo per ambientarsi, più voce per il genitore nella decisione, meno senso di colpa per i figli.",
                 "Non aspettate l'emergenza. Venite a vedere la casa, parlate con chi la vive, fate domande. Consulta <a href='/rette-e-ammissione/'>rette e ammissione</a> e prenota da <a href='/contatti/'>contatti</a>. La visita è gratuita e senza impegno.",
             ),
@@ -633,7 +633,7 @@ def load_existing_article(slug: str) -> dict:
         "hero_alt": THUMB_ALT.get(slug, meta["title"]),
         "tags": [],
         "related": [],
-        "wa_text": "Buongiorno, vorrei prenotare una visita a Casa Famiglia Quercia a Pinerolo.",
+        "wa_text": "Buongiorno, vorrei prenotare una visita a Casa Famiglia Castelletto a Pinerolo.",
         "intro": intro,
         "sections": sections,
     }
@@ -724,14 +724,14 @@ def build_blog_index():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Casa Famiglia Quercia – Pinerolo</title>
+  <title>Blog | Casa Famiglia Castelletto – Pinerolo</title>
   <meta name="description" content="Guide e articoli per famiglie: scegliere una casa famiglia, autonomia degli anziani e vita quotidiana serena a Pinerolo.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{SITE}/blog/">
   <link rel="alternate" hreflang="it" href="{SITE}/blog/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
-  <meta property="og:title" content="Blog | Casa Famiglia Quercia – Pinerolo">
+  <meta property="og:title" content="Blog | Casa Famiglia Castelletto – Pinerolo">
   <meta property="og:description" content="Guide e articoli per famiglie: scegliere una casa famiglia, autonomia degli anziani e vita quotidiana serena a Pinerolo.">
   <meta property="og:url" content="{SITE}/blog/">
   <meta property="og:image" content="{OG_IMAGE}">
@@ -746,7 +746,7 @@ def build_blog_index():
   <link rel="stylesheet" href="../css/components.css">
   <link rel="stylesheet" href="../css/pages.css">
   <link rel="stylesheet" href="../blog.css">
-  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"Blog","name":"Blog Casa Famiglia Quercia","url":"{SITE}/blog/","description":"Guide per famiglie che scelgono una casa famiglia a Pinerolo","publisher":{{"@type":"Organization","name":"Casa Famiglia Quercia"}}}}</script>
+  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"Blog","name":"Blog Casa Famiglia Castelletto","url":"{SITE}/blog/","description":"Guide per famiglie che scelgono una casa famiglia a Pinerolo","publisher":{{"@type":"Organization","name":"Casa Famiglia Castelletto"}}}}</script>
   <script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"Home","item":"{SITE}/"}},{{"@type":"ListItem","position":2,"name":"Blog","item":"{SITE}/blog/"}}]}}</script>
 </head>
 <body class="blog-page">
@@ -762,7 +762,7 @@ def build_blog_index():
     <header class="page-header">
       <div class="container">
         <h1>Blog — Consigli per le famiglie di anziani autosufficienti</h1>
-        <p class="section__lead blog-index-intro">Quando un genitore inizia a faticare da solo, i figli tra i 45 e i 65 anni si trovano spesso senza una mappa. Internet mescola RSA, case famiglia e residenze assistite; i prezzi sono difficili da confrontare; il senso di colpa rende ogni ricerca un peso. Questo blog è pensato per voi: famiglie del Pinerolese e dell'area torinese che cercano una soluzione serena per un padre o una madre ancora autosufficienti. Qui trovate guide pratiche su differenze tra casa famiglia e RSA, cosa include la retta, visite familiari, inserimento sereno e vita quotidiana a Pinerolo. Ogni articolo nasce dall'esperienza quotidiana di Casa Famiglia Quercia: una casa vera, non un reparto, dove al massimo 8 anziani autosufficienti trovano compagnia, sicurezza e autonomia.</p>
+        <p class="section__lead blog-index-intro">Quando un genitore inizia a faticare da solo, i figli tra i 45 e i 65 anni si trovano spesso senza una mappa. Internet mescola RSA, case famiglia e residenze assistite; i prezzi sono difficili da confrontare; il senso di colpa rende ogni ricerca un peso. Questo blog è pensato per voi: famiglie del Pinerolese e dell'area torinese che cercano una soluzione serena per un padre o una madre ancora autosufficienti. Qui trovate guide pratiche su differenze tra casa famiglia e RSA, cosa include la retta, visite familiari, inserimento sereno e vita quotidiana a Pinerolo. Ogni articolo nasce dall'esperienza quotidiana di Casa Famiglia Castelletto: una casa vera, non un reparto, dove al massimo 6 anziani autosufficienti trovano compagnia, sicurezza e autonomia.</p>
       </div>
     </header>
 

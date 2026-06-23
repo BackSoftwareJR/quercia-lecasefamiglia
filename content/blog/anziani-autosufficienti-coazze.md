@@ -5,7 +5,7 @@ metaTitle: "Anziani autosufficienti a Coazze: guida utile"
 metaDescription: "Autosufficienza non significa assenza di bisogno: territorio, solitudine e figli lontani nella scelta di una casa famiglia a Coazze."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Quercia
+author: Casa Famiglia Castelletto
 category: Territorio
 readingTime: 11 min
 keywords: casa famiglia anziani Coazze, anziani autosufficienti, figli lontani

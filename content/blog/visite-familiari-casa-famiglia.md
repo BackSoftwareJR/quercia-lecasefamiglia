@@ -5,7 +5,7 @@ metaTitle: "Visite familiari in casa famiglia: guida pratica"
 metaDescription: "Orari, nipoti, equilibrio emotivo e distanza: come gestire visite familiari utili in casa famiglia a Coazze."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Quercia
+author: Casa Famiglia Castelletto
 category: Vita in casa
 readingTime: 11 min
 keywords: casa famiglia anziani Coazze, visite familiari, rapporto figli

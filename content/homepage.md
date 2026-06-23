@@ -10,7 +10,7 @@
 
 ## Perché sceglierci
 
-Stai cercando una soluzione per un genitore che non vuole più vivere da solo, ma che resiste all'idea di una "casa di riposo"? Lo capiamo. Per questo Casa Famiglia Quercia a Coazze è pensata diversamente: camere accoglienti, pasti di casa, assistenza presente ma discreta, e la libertà di mantenere i propri ritmi.
+Stai cercando una soluzione per un genitore che non vuole più vivere da solo, ma che resiste all'idea di una "casa di riposo"? Lo capiamo. Per questo Casa Famiglia Castelletto a Coazze è pensata diversamente: camere accoglienti, pasti di casa, assistenza presente ma discreta, e la libertà di mantenere i propri ritmi.
 
 - **Ambiente familiare**, non istituzionale
 - **Anziani autosufficienti** over 65 — persone attive che vogliono serenità

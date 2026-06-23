@@ -5,7 +5,7 @@ metaTitle: "Valle di Susa e qualità della vita in terza età"
 metaDescription: "Natura, comunità e casa troppo grande: perché in Valle di Susa una casa famiglia può migliorare la vita dell'ospite e dei figli."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Quercia
+author: Casa Famiglia Castelletto
 category: Benessere
 readingTime: 11 min
 keywords: casa famiglia anziani Coazze, Valle di Susa, qualità vita anziani

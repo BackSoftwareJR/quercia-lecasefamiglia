@@ -1,5 +1,5 @@
 /**
- * Image path registry — Casa Famiglia Quercia (Pinerolo)
+ * Image path registry — Casa Famiglia Castelletto (Pinerolo)
  *
  * Pattern: root-absolute paths + encodeURI for spaces/special chars.
  * Real assets live in:

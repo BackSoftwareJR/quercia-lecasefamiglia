@@ -84,7 +84,7 @@
       video.pause();
       if (fallback) {
         fallback.src = heroImage;
-        fallback.alt = 'Casa Famiglia Quercia a Pinerolo — ambiente familiare nel Pinerolese';
+        fallback.alt = 'Casa Famiglia Castelletto a Pinerolo — ambiente familiare nel Pinerolese';
         fallback.hidden = false;
         fallback.removeAttribute('hidden');
         fallback.style.display = 'block';
@@ -103,7 +103,7 @@
 
     if (fallback) {
       fallback.src = heroImage;
-      fallback.alt = 'Casa Famiglia Quercia a Pinerolo — ambiente familiare nel Pinerolese';
+      fallback.alt = 'Casa Famiglia Castelletto a Pinerolo — ambiente familiare nel Pinerolese';
     }
     video.poster = heroImage;
 

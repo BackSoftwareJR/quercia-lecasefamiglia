@@ -1,7 +1,7 @@
 """Dataset articoli blog usato da build-blog-overhaul.py."""
 
 OG_IMAGE = "https://casafamigliaquercia.it/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/Sala%20da%20Pranzo%20%2B%20persone%201.avif"
-IMG_BASE = "../../images/Coazze - Casa Famiglia Quercia/"
+IMG_BASE = "../../images/Coazze - Casa Famiglia Castelletto/"
 
 INTRO_EXPANSIONS = {
     "casa-famiglia-vs-rsa-differenze": (
@@ -220,7 +220,7 @@ def _article(
         "badge": badge,
         "reading": reading,
         "keywords": keywords,
-        "author": "Casa Famiglia Quercia",
+        "author": "Casa Famiglia Castelletto",
         "breadcrumb": title,
         "hero": hero,
         "hero_alt": hero_alt,

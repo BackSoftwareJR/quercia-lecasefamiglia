@@ -1,4 +1,4 @@
-# Casa Famiglia Quercia — Progress Tracker
+# Casa Famiglia Castelletto — Progress Tracker
 
 > Last updated: 2026-06-22 — Blog overhaul completo (10 articoli + index)
 

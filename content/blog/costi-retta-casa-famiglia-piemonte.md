@@ -5,7 +5,7 @@ metaTitle: "Costi retta casa famiglia in Piemonte"
 metaDescription: "Cosa include la retta, confronto con altre soluzioni e contributi possibili: guida ai costi della casa famiglia in Piemonte."
 date: 2026-06-22
 dateModified: 2026-06-22
-author: Casa Famiglia Quercia
+author: Casa Famiglia Castelletto
 category: Costi
 readingTime: 12 min
 keywords: casa famiglia anziani Coazze, costi retta Piemonte, contributi assistenza
