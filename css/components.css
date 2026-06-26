@@ -164,6 +164,7 @@
 .site-header {
   position: sticky;
   top: 0;
+  width: 100%;
   z-index: var(--z-sticky);
   background: rgba(253, 250, 245, 0.95);
   backdrop-filter: blur(8px);

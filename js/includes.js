@@ -24,7 +24,8 @@
         return res.text();
       })
       .then(function (html) {
-        el.innerHTML = html;
+        el.insertAdjacentHTML('beforebegin', html);
+        el.remove();
       })
       .catch(function (err) {
         console.warn('[includes]', err.message);
