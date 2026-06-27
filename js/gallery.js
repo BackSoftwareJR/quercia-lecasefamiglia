@@ -7,6 +7,25 @@
   var PIN = '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/';
   var DINING = '/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif';
 
+  var CARD_WIDTHS = [400, 640, 800, 1200];
+
+  function responsiveGalleryImg(file, alt) {
+    var match = file.match(/^(.+\/)([^/]+)\.avif$/);
+    if (!match) {
+      return '<img src="' + file + '" alt="' + alt + '" loading="lazy" decoding="async" width="400" height="300">';
+    }
+    var dir = match[1];
+    var stem = match[2];
+    var srcset = CARD_WIDTHS.map(function (w) {
+      return dir + stem + '-' + w + 'w.jpg ' + w + 'w';
+    }).join(', ');
+    return (
+      '<img src="' + dir + stem + '-800w.jpg" srcset="' + srcset + '" ' +
+      'sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 400px" ' +
+      'alt="' + alt + '" loading="lazy" decoding="async" width="400" height="300">'
+    );
+  }
+
   var GALLERY_ITEMS = [
     { file: PIN + 'img1.avif', alt: 'Salone luminoso di Casa Famiglia Castelletto a Pinerolo', category: 'spazi-comuni' },
     { file: PIN + 'img2.avif', alt: 'Attività ricreative nel salone comune a Pinerolo', category: 'spazi-comuni' },
@@ -47,7 +66,7 @@
           btn.type = 'button';
           btn.className = 'gallery-item scale-in animate-on-scroll';
           btn.setAttribute('data-index', String(idx));
-          btn.innerHTML = '<img src="' + item.file + '" alt="' + item.alt + '" loading="lazy" width="400" height="300">';
+          btn.innerHTML = responsiveGalleryImg(item.file, item.alt);
           btn.addEventListener('click', function () { openLightbox(filtered, idx); });
           grid.appendChild(btn);
         });

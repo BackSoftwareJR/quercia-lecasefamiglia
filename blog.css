@@ -300,12 +300,14 @@
   border: 1px solid var(--color-border);
 }
 
+.blog-article__hero picture,
 .blog-article__hero img {
   width: 100%;
   height: auto;
   display: block;
   max-height: 520px;
   object-fit: cover;
+  aspect-ratio: 1200 / 630;
 }
 
 .blog-article__hero figcaption,

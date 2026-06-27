@@ -5,11 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** dobbiamo cambiare completamente la sitemap perche il link è sbagliato quello corretto è https://quercia.lecasefamiglia.it/ e tutte le altre varie pagine anche blog ecc tutto di conseguenza e non <loc>
+**Current task context:** PRIORITÀ 1 - Fix LCP image: Identifica l'elemento LCP nella pagina (probabilmente hero image o logo) tramite Performance tab DevTools → LCP marker. Implementa: 1) Aggiungi <link rel='preload' as='imag
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 15%)
+### Pattern 1 (relevance: 8%)
 
 **When you see:**
 ```
@@ -35,7 +35,7 @@ Resolved after 1 failed attempt(s)
 
 _From task: È necessario aggiornare il numero di ospiti in tutte le sezioni del sito, passando da 8 a 6 ospiti. | Failures before success: 1_
 
-### Pattern 2 (relevance: 2%)
+### Pattern 2 (relevance: 3%)
 
 **When you see:**
 ```
@@ -63,7 +63,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 2%)
+### Pattern 1 (relevance: 3%)
 
 **When you see:**
 ```
@@ -98,7 +98,7 @@ Resolved after 4 failed attempt(s)
 
 _From task: Modify the contacts page in the 'where we are' section by removing the image at the bottom with the white warehouse, then adjust the maps container to be taller so it is parallel with the container holding the address information. | Failures before success: 4_
 
-### Pattern 2
+### Pattern 2 (relevance: 2%)
 
 **When you see:**
 ```
