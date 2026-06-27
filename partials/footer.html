@@ -1,39 +1,103 @@
 <footer class="site-footer" role="contentinfo">
   <div class="container">
+    <nav class="footer-nav" aria-label="Navigazione principale">
+      <ul class="footer-nav__list">
+        <li class="footer-nav__item">
+          <a href="/" class="footer-nav__link" data-footer-nav="home">Home</a>
+        </li>
+        <li class="footer-nav__item footer-nav__item--has-dropdown">
+          <button type="button" class="footer-nav__trigger" aria-expanded="false" aria-haspopup="true" aria-controls="footer-dropdown-chi-siamo">
+            Chi siamo
+            <svg class="footer-nav__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <ul class="footer-nav__dropdown" id="footer-dropdown-chi-siamo" role="menu">
+            <li role="none"><a href="/chi-siamo/" role="menuitem" data-footer-nav="chi-siamo">Chi siamo</a></li>
+            <li role="none"><a href="/storia/" role="menuitem" data-footer-nav="storia">La nostra storia</a></li>
+          </ul>
+        </li>
+        <li class="footer-nav__item">
+          <a href="/servizi/" class="footer-nav__link" data-footer-nav="servizi">Servizi</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="/la-struttura/" class="footer-nav__link" data-footer-nav="la-struttura">La struttura</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="/la-giornata/" class="footer-nav__link" data-footer-nav="la-giornata">La giornata</a>
+        </li>
+        <li class="footer-nav__item footer-nav__item--has-dropdown">
+          <button type="button" class="footer-nav__trigger" aria-expanded="false" aria-haspopup="true" aria-controls="footer-dropdown-ammissione">
+            Rette e ammissione
+            <svg class="footer-nav__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <ul class="footer-nav__dropdown" id="footer-dropdown-ammissione" role="menu">
+            <li role="none"><a href="/rette-e-ammissione/" role="menuitem" data-footer-nav="rette-e-ammissione">Rette e ammissione</a></li>
+            <li role="none"><a href="/requisiti-autosufficienza/" role="menuitem" data-footer-nav="requisiti-autosufficienza">Requisiti autosufficienza</a></li>
+          </ul>
+        </li>
+        <li class="footer-nav__item">
+          <a href="/galleria/" class="footer-nav__link" data-footer-nav="galleria">Galleria</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="/blog/" class="footer-nav__link" data-footer-nav="blog">Blog</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="/contatti/" class="footer-nav__link" data-footer-nav="contatti">Contatti</a>
+        </li>
+        <li class="footer-nav__item footer-nav__item--has-dropdown">
+          <button type="button" class="footer-nav__trigger" aria-expanded="false" aria-haspopup="true" aria-controls="footer-dropdown-zone">
+            Zone servite
+            <svg class="footer-nav__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <ul class="footer-nav__dropdown" id="footer-dropdown-zone" role="menu">
+            <li role="none"><a href="/casa-famiglia-pinerolo/" role="menuitem">Pinerolo</a></li>
+            <li role="none"><a href="/casa-famiglia-coazze/" role="menuitem">Coazze</a></li>
+            <li role="none"><a href="/casa-famiglia-giaveno/" role="menuitem">Giaveno</a></li>
+            <li role="none"><a href="/casa-famiglia-avigliana/" role="menuitem">Avigliana</a></li>
+            <li role="none"><a href="/casa-famiglia-valle-di-susa/" role="menuitem">Pinerolese</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
     <div class="site-footer__grid">
       <div>
         <p class="site-footer__brand">Casa Famiglia Castelletto</p>
         <p class="site-footer__tagline">Una seconda casa per anziani autosufficienti a Pinerolo, nel cuore del Pinerolese.</p>
-        <p style="margin-top: var(--space-4);">
+        <p class="site-footer__partner">
           <a href="https://www.lecasefamiglia.it/" target="_blank" rel="noopener noreferrer">Scopri di più — Le Case Famiglia</a>
         </p>
       </div>
       <div>
-        <p class="site-footer__heading">Navigazione</p>
+        <p class="site-footer__heading">Il sito</p>
         <ul class="site-footer__list">
+          <li><a href="/">Home</a></li>
           <li><a href="/chi-siamo/">Chi siamo</a></li>
           <li><a href="/storia/">La nostra storia</a></li>
           <li><a href="/servizi/">Servizi</a></li>
-          <li><a href="/galleria/">Galleria</a></li>
           <li><a href="/la-struttura/">La struttura</a></li>
           <li><a href="/la-giornata/">La giornata</a></li>
           <li><a href="/rette-e-ammissione/">Rette e ammissione</a></li>
-          <li><a href="/requisiti-autosufficienza/">Requisiti</a></li>
+          <li><a href="/requisiti-autosufficienza/">Requisiti autosufficienza</a></li>
+          <li><a href="/galleria/">Galleria</a></li>
+          <li><a href="/blog/">Blog</a></li>
           <li><a href="/contatti/">Contatti</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
         </ul>
       </div>
       <div>
         <p class="site-footer__heading">Zone servite</p>
         <ul class="site-footer__list">
           <li><a href="/casa-famiglia-pinerolo/">Pinerolo</a></li>
+          <li><a href="/casa-famiglia-coazze/">Coazze</a></li>
           <li><a href="/casa-famiglia-giaveno/">Giaveno</a></li>
-          <li><a href="/casa-famiglia-pinerolo/">Pinerolo</a></li>
-          <li><a href="/casa-famiglia-valle-di-susa/">Pinerolese</a></li>
           <li><a href="/casa-famiglia-avigliana/">Avigliana</a></li>
+          <li><a href="/casa-famiglia-valle-di-susa/">Pinerolese</a></li>
         </ul>
-        <p class="site-footer__heading" style="margin-top: var(--space-6);">Blog</p>
+        <p class="site-footer__heading site-footer__heading--spaced">Dal blog</p>
         <ul class="site-footer__list">
-          <li><a href="/blog/">Guide per famiglie</a></li>
+          <li><a href="/blog/casa-famiglia-vs-rsa-differenze/">Casa famiglia vs RSA</a></li>
+          <li><a href="/blog/scegliere-casa-famiglia-genitori/">Come scegliere</a></li>
+          <li><a href="/blog/costi-retta-casa-famiglia-piemonte/">Costi e retta</a></li>
         </ul>
       </div>
       <div>
@@ -44,11 +108,11 @@
           <li class="footer-contact__item"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span>Stradale Poirino, 152<br>10064 Pinerolo (TO)</span></li>
           <li><a href="mailto:info@casafamigliaquercia.it"><svg class="footer-inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg> info@casafamigliaquercia.it</a></li>
         </ul>
-        <p class="site-footer__heading" style="margin-top: var(--space-6);">Legale</p>
+        <p class="site-footer__heading site-footer__heading--spaced">Legale</p>
         <ul class="site-footer__list">
-          <li><a href="/privacy-policy/">Privacy</a></li>
-          <li><a href="/cookie-policy/">Cookie</a></li>
-          <li><a href="/termini-e-condizioni/">Termini</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/cookie-policy/">Cookie Policy</a></li>
+          <li><a href="/termini-e-condizioni/">Termini e condizioni</a></li>
         </ul>
       </div>
     </div>

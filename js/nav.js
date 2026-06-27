@@ -61,8 +61,67 @@
     });
   }
 
+  function setActiveFooterNav() {
+    var path = window.location.pathname.replace(/\/index\.html$/, '/').replace(/\/$/, '') || '/';
+    document.querySelectorAll('[data-footer-nav]').forEach(function (link) {
+      var navKey = link.getAttribute('data-footer-nav');
+      var href = link.getAttribute('href').replace(/\/$/, '') || '/';
+      var match = path === href || (navKey !== 'home' && path.endsWith('/' + navKey));
+      if (match) {
+        link.setAttribute('aria-current', 'page');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  }
+
+  function initFooterNav() {
+    var dropdownItems = document.querySelectorAll('.footer-nav__item--has-dropdown');
+    if (!dropdownItems.length) return;
+
+    function closeAll(except) {
+      dropdownItems.forEach(function (item) {
+        if (item === except) return;
+        item.classList.remove('is-open');
+        var trigger = item.querySelector('.footer-nav__trigger');
+        if (trigger) trigger.setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    dropdownItems.forEach(function (item) {
+      var trigger = item.querySelector('.footer-nav__trigger');
+      if (!trigger) return;
+
+      trigger.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var isOpen = item.classList.contains('is-open');
+        closeAll();
+        if (!isOpen) {
+          item.classList.add('is-open');
+          trigger.setAttribute('aria-expanded', 'true');
+        }
+      });
+
+      item.querySelectorAll('.footer-nav__dropdown a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          closeAll();
+        });
+      });
+    });
+
+    document.addEventListener('click', function () {
+      closeAll();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeAll();
+    });
+  }
+
   document.addEventListener('partials:loaded', function () {
     setActiveNav();
+    setActiveFooterNav();
     initMobileNav();
+    initFooterNav();
   });
 })();
