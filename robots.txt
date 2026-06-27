@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /css/
+Allow: /js/
 
-Sitemap: https://quercia.lecasefamiglia.it/sitemap.xml
+Sitemap: https://casafamigliaquercia.it/sitemap.xml

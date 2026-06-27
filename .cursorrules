@@ -5,11 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Implementare menu di navigazione globale infooter che linkhi a tutte le pagine principali con dropdown elegante File da modificare: footer in tutte le pagine. Aggiungere: (1) Menu principale con link 
+**Current task context:** 1) VERIFICARE MOBILE USABILITY: in Search Console > Mobile Usability, risolvere eventuali errori. 2) CORE WEB VITALS: controllare in PageSpeed Insights che LCP < 2.5s, INP < 200ms, CLS < 0.1. Ottimizz
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 12%)
+### Pattern 1 (relevance: 5%)
 
 **When you see:**
 ```
@@ -35,7 +35,7 @@ Resolved after 1 failed attempt(s)
 
 _From task: È necessario aggiornare il numero di ospiti in tutte le sezioni del sito, passando da 8 a 6 ospiti. | Failures before success: 1_
 
-### Pattern 2 (relevance: 4%)
+### Pattern 2 (relevance: 1%)
 
 **When you see:**
 ```
@@ -63,7 +63,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 3%)
+### Pattern 1 (relevance: 2%)
 
 **When you see:**
 ```
@@ -98,7 +98,7 @@ Resolved after 4 failed attempt(s)
 
 _From task: Modify the contacts page in the 'where we are' section by removing the image at the bottom with the white warehouse, then adjust the maps container to be taller so it is parallel with the container holding the address information. | Failures before success: 4_
 
-### Pattern 2 (relevance: 3%)
+### Pattern 2
 
 **When you see:**
 ```
