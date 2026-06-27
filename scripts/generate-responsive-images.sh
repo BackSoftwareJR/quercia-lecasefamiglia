@@ -5,6 +5,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WIDTHS=(400 640 800 960 1200 1280 1920)
 QUALITY_JPG=80
+QUALITY_WEBP=80
 TMP="${TMPDIR:-/tmp}/cfq-responsive-$$"
 mkdir -p "$TMP"
 
@@ -26,9 +27,9 @@ generate_variants() {
     local webp="$dir/${stem}-${w}w.webp"
     local avif="$dir/${stem}-${w}w.avif"
 
-    convert "$TMP/src.png" -resize "${w}x" -strip -quality "$QUALITY_JPG" "$jpg"
-    cwebp -quiet -q "$QUALITY_JPG" "$jpg" -o "$webp"
-    avifenc --min 20 --max 35 --speed 6 "$jpg" "$avif" >/dev/null
+    convert "$TMP/src.png" -resize "${w}x" -strip -interlace Plane -quality "$QUALITY_JPG" "$jpg"
+    cwebp -quiet -q "$QUALITY_WEBP" -metadata none "$jpg" -o "$webp"
+    avifenc --min 20 --max 35 --speed 6 --ignore-exif "$jpg" "$avif" >/dev/null
   done
 }
 
