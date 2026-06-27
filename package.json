@@ -5,6 +5,8 @@
   "description": "Static site — Casa Famiglia Castelletto",
   "scripts": {
     "test": "node scripts/validate-guest-count.js",
-    "images:responsive": "bash scripts/generate-responsive-images.sh"
+    "images:responsive": "bash scripts/generate-responsive-images.sh",
+    "images:strip-metadata": "bash scripts/strip-image-metadata.sh",
+    "images:optimize": "npm run images:responsive && npm run images:strip-metadata && python3 scripts/apply-responsive-content-images.py"
   }
 }

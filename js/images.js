@@ -20,10 +20,37 @@
     return encodeURI(PINEROLO_DIR + 'img' + n + '.avif');
   }
 
+  /**
+   * CDN image optimization — Cloudflare Image Resizing.
+   * Enable at zone level (Polish Lossy + Auto AVIF/WebP) then set CDN_ENABLED = true.
+   * URL pattern: /cdn-cgi/image/width=W,quality=Q,format=FM/source-path
+   * Imgix-style fallback: path?w=800&q=80&fm=avif
+   */
+  var CDN_ENABLED = false;
+  var CDN_PROVIDER = 'cloudflare';
+
+  function cdnUrl(path, options) {
+    if (!CDN_ENABLED || !path || path.indexOf('/images/') !== 0) {
+      return path;
+    }
+    var opts = options || {};
+    var w = opts.width || 800;
+    var q = opts.quality || 80;
+    var fm = opts.format || 'avif';
+
+    if (CDN_PROVIDER === 'cloudflare') {
+      return '/cdn-cgi/image/width=' + w + ',quality=' + q + ',format=' + fm + path;
+    }
+    var sep = path.indexOf('?') === -1 ? '?' : '&';
+    return path + sep + 'w=' + w + '&q=' + q + '&fm=' + fm;
+  }
+
   global.CFQ_IMAGES = {
     PINEROLO_DIR: encodeURI(PINEROLO_DIR),
     DINING_ROOM: encodeURI(DINING_ROOM),
     OG_IMAGE: SITE + encodeURI(DINING_ROOM),
-    pineroImg: pineroImg
+    CDN_ENABLED: CDN_ENABLED,
+    pineroImg: pineroImg,
+    cdnUrl: cdnUrl
   };
 })(typeof window !== 'undefined' ? window : this);

@@ -8,6 +8,19 @@
   var DINING = '/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif';
 
   var CARD_WIDTHS = [400, 640, 800, 1200];
+  var CARD_SIZES = '(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 400px';
+
+  function buildSrcset(dir, stem, widths, ext) {
+    return widths.map(function (w) {
+      return dir + stem + '-' + w + 'w.' + ext + ' ' + w + 'w';
+    }).join(', ');
+  }
+
+  function lightboxSrc(file) {
+    var match = file.match(/^(.+\/)([^/]+)\.avif$/);
+    if (!match) return file;
+    return match[1] + match[2] + '-1200w.avif';
+  }
 
   function responsiveGalleryImg(file, alt) {
     var match = file.match(/^(.+\/)([^/]+)\.avif$/);
@@ -16,13 +29,13 @@
     }
     var dir = match[1];
     var stem = match[2];
-    var srcset = CARD_WIDTHS.map(function (w) {
-      return dir + stem + '-' + w + 'w.jpg ' + w + 'w';
-    }).join(', ');
     return (
-      '<img src="' + dir + stem + '-800w.jpg" srcset="' + srcset + '" ' +
-      'sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 400px" ' +
-      'alt="' + alt + '" loading="lazy" decoding="async" width="400" height="300">'
+      '<picture>' +
+        '<source type="image/avif" srcset="' + buildSrcset(dir, stem, CARD_WIDTHS, 'avif') + '" sizes="' + CARD_SIZES + '">' +
+        '<source type="image/webp" srcset="' + buildSrcset(dir, stem, CARD_WIDTHS, 'webp') + '" sizes="' + CARD_SIZES + '">' +
+        '<img src="' + dir + stem + '-800w.jpg" srcset="' + buildSrcset(dir, stem, CARD_WIDTHS, 'jpg') + '" ' +
+        'sizes="' + CARD_SIZES + '" alt="' + alt + '" loading="lazy" decoding="async" width="400" height="300">' +
+      '</picture>'
     );
   }
 
@@ -123,7 +136,7 @@
     function showSlide() {
       var img = lightbox.querySelector('.lightbox__image');
       var item = visibleItems[currentIndex];
-      img.src = item.file;
+      img.src = lightboxSrc(item.file);
       img.alt = item.alt;
     }
 

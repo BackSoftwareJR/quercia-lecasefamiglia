@@ -1,8 +1,11 @@
 # Cloudflare Pages / Netlify — long-lived cache for optimized image variants.
-# Enable Cloudflare Polish (Lossy) + Auto WebP/AVIF at the zone level for on-the-fly format negotiation.
+# Enable Cloudflare Polish (Lossy) + Auto WebP/AVIF at the zone level.
+# Optional Image Resizing: /cdn-cgi/image/width=800,quality=80,format=avif/images/…
+# Set CFQ_IMAGES.CDN_ENABLED = true in js/images.js when resizing is active.
 
 /images/*
   Cache-Control: public, max-age=31536000, immutable
+  Accept-CH: Sec-CH-Viewport-Width, Sec-CH-DPR
 
 /icons/*
   Cache-Control: public, max-age=31536000, immutable
