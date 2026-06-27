@@ -702,6 +702,57 @@
   margin: 0;
 }
 
+/* In-article further reading */
+.blog-approfondimenti {
+  margin-top: var(--space-3xl);
+  padding: var(--space-6);
+  background: var(--color-secondary-50);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.blog-approfondimenti h2 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-4);
+  color: var(--color-primary-800);
+}
+
+.blog-approfondimenti__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-4);
+  display: grid;
+  gap: var(--space-3);
+}
+
+.blog-approfondimenti__list a {
+  display: block;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  color: var(--color-primary-700);
+  text-decoration: none;
+  font-weight: var(--font-medium);
+  line-height: 1.45;
+  border: 1px solid transparent;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.blog-approfondimenti__list a:hover {
+  border-color: var(--color-primary-200);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+}
+
+.blog-approfondimenti__more {
+  margin: 0;
+  font-size: var(--text-sm);
+}
+
+.blog-approfondimenti__more a {
+  font-weight: var(--font-semibold);
+}
+
 /* Category badge colors on cards */
 .card__category {
   margin-bottom: var(--space-2);
