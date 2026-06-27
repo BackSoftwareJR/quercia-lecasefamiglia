@@ -74,7 +74,8 @@
     var mediaWrap = video && video.closest('.hero-clean__media');
     if (!video) return;
 
-    var heroImage = '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1.avif';
+    var heroImage = '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-1280w.avif';
+    var heroImageJpg = '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-1280w.jpg';
     var isMobile = window.matchMedia('(max-width: 767px)').matches;
     var videoSrc = '/videos/' + (isMobile ? 'hero-mobile.mp4' : 'hero-desktop.mp4');
     var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -83,7 +84,15 @@
       video.style.display = 'none';
       video.pause();
       if (fallback) {
-        fallback.src = heroImage;
+        var picture = fallback.closest('picture');
+        if (picture) picture.style.display = 'block';
+        fallback.src = heroImageJpg;
+        fallback.srcset = [
+          '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-640w.jpg 640w',
+          '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-960w.jpg 960w',
+          '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-1280w.jpg 1280w',
+          '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-1920w.jpg 1920w'
+        ].join(', ');
         fallback.alt = 'Casa Famiglia Castelletto a Pinerolo — ambiente familiare nel Pinerolese';
         fallback.hidden = false;
         fallback.removeAttribute('hidden');
@@ -94,6 +103,8 @@
 
     function showVideo() {
       if (fallback) {
+        var picture = fallback.closest('picture');
+        if (picture) picture.style.display = 'none';
         fallback.hidden = true;
         fallback.style.display = 'none';
       }
@@ -102,7 +113,13 @@
     }
 
     if (fallback) {
-      fallback.src = heroImage;
+      fallback.src = heroImageJpg;
+      fallback.srcset = [
+        '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-640w.jpg 640w',
+        '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-960w.jpg 960w',
+        '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-1280w.jpg 1280w',
+        '/images/Pinerolo%20-%20Casa%20Famiglia%20Quercia%201/img1-1920w.jpg 1920w'
+      ].join(', ');
       fallback.alt = 'Casa Famiglia Castelletto a Pinerolo — ambiente familiare nel Pinerolese';
     }
     video.poster = heroImage;

@@ -255,8 +255,10 @@
   max-height: 55vh;
 }
 
+.giornata-hero .hero-clean__media picture,
 .giornata-hero .hero-clean__media img {
-  height: 55vh;
+  height: 100%;
+  max-height: 55vh;
 }
 
 /* Expanded timeline on La giornata page — extends working timeline-h pattern */
@@ -495,8 +497,10 @@
   max-height: 50vh;
 }
 
+.rette-hero .hero-clean__media picture,
 .rette-hero .hero-clean__media img {
-  height: 50vh;
+  height: 100%;
+  max-height: 50vh;
 }
 
 .comparison-table--compact {
@@ -809,8 +813,10 @@
   max-height: 45vh;
 }
 
+.contact-hero .hero-clean__media picture,
 .contact-hero .hero-clean__media img {
-  height: 45vh;
+  height: 100%;
+  max-height: 45vh;
 }
 
 .contact-hero .hero-clean__overlay {
@@ -1534,8 +1540,10 @@ a.contact-card:hover .contact-card__action {
   max-height: 55vh;
 }
 
+.servizi-hero .hero-clean__media picture,
 .servizi-hero .hero-clean__media img {
-  height: 55vh;
+  height: 100%;
+  max-height: 55vh;
 }
 
 .servizi-intro__grid {

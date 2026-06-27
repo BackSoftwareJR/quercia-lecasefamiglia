@@ -1,0 +1,17 @@
+# Cloudflare Pages / Netlify — long-lived cache for optimized image variants.
+# Enable Cloudflare Polish (Lossy) + Auto WebP/AVIF at the zone level for on-the-fly format negotiation.
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/icons/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/videos/*
+  Cache-Control: public, max-age=604800
+
+/*.css
+  Cache-Control: public, max-age=86400
+
+/*.js
+  Cache-Control: public, max-age=86400

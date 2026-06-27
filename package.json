@@ -4,6 +4,7 @@
   "private": true,
   "description": "Static site — Casa Famiglia Castelletto",
   "scripts": {
-    "test": "node scripts/validate-guest-count.js"
+    "test": "node scripts/validate-guest-count.js",
+    "images:responsive": "bash scripts/generate-responsive-images.sh"
   }
 }
