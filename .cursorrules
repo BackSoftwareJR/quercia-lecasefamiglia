@@ -5,16 +5,14 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Implementa lo schema WebMCP e le annotazioni per la navigazione agentica.
+**Current task context:** Crea o aggiorna il file llms.txt per il sito, seguendo esattamente il contenuto proposto.
 
 SITO: https://quercia.lecasefamiglia.it/
 REPOSITORY: https://github.com/BackSoftwareJR/quercia-lecasefamiglia
 
-SCHEMA WebMCP 
-
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 3%)
+### Pattern 1 (relevance: 4%)
 
 **When you see:**
 ```
@@ -40,7 +38,7 @@ Resolved after 1 failed attempt(s)
 
 _From task: È necessario aggiornare il numero di ospiti in tutte le sezioni del sito, passando da 8 a 6 ospiti. | Failures before success: 1_
 
-### Pattern 2 (relevance: 2%)
+### Pattern 2 (relevance: 1%)
 
 **When you see:**
 ```
@@ -68,7 +66,7 @@ _From task: Add a tracking code snippet at the very top of each page's header se
 
 ## Global Patterns (cross-project)
 
-### Pattern 1 (relevance: 4%)
+### Pattern 1 (relevance: 1%)
 
 **When you see:**
 ```
@@ -86,7 +84,7 @@ Resolved after 3 failed attempt(s)
 
 _From task: Completely redesign the footer with a white background, ensuring all elements are clearly visible. Create a modern, intuitive, and well-studied layout. Replace the current background with a new one that is visually appealing and easy to navigate. | Failures before success: 3_
 
-### Pattern 2 (relevance: 3%)
+### Pattern 2 (relevance: 0%)
 
 **When you see:**
 ```
