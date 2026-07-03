@@ -73,25 +73,43 @@ function extractAnimationVisibleRules(css) {
   return matches ? matches.join('') : '';
 }
 
+function stripAnimationHideRules(criticalStyle) {
+  if (!criticalStyle) return criticalStyle;
+
+  let css = criticalStyle.replace(/^<style data-critical>/i, '').replace(/<\/style>$/i, '');
+
+  css = css.replace(/\.animate-on-scroll\{opacity:0[^}]*\}/g, '');
+  css = css.replace(/\.stagger-children>\*\{opacity:0[^}]*\}/g, '');
+  css = css.replace(/\.stagger-150>\*\{opacity:0[^}]*\}/g, '');
+  css = css.replace(/\.fade-in-up\{transform:translateY\([^)]*\)\}/g, '');
+  css = css.replace(/\.slide-in-left\{transform:translateX\([^)]*\)\}/g, '');
+  css = css.replace(/\.slide-in-right\{transform:translateX\([^)]*\)\}/g, '');
+  css = css.replace(/\.scale-in\{transform:scale\([^)]*\)\}/g, '');
+
+  return `<style data-critical>${css}</style>`;
+}
+
 function augmentCriticalStyle(criticalStyle) {
-  if (!criticalStyle || !criticalStyle.includes('animate-on-scroll')) {
-    return criticalStyle;
+  let style = stripAnimationHideRules(criticalStyle);
+
+  if (!style.includes('animate-on-scroll') && !style.includes('stagger-children')) {
+    return style;
   }
-  if (criticalStyle.includes('.is-visible')) {
-    return criticalStyle;
+  if (style.includes('.is-visible')) {
+    return style;
   }
   if (!fs.existsSync(ANIMATIONS_CSS_PATH)) {
-    return criticalStyle;
+    return style;
   }
 
   const visibleRules = extractAnimationVisibleRules(
     fs.readFileSync(ANIMATIONS_CSS_PATH, 'utf8'),
   );
   if (!visibleRules) {
-    return criticalStyle;
+    return style;
   }
 
-  return criticalStyle.replace(/<\/style>/i, `${visibleRules}</style>`);
+  return style.replace(/<\/style>/i, `${visibleRules}</style>`);
 }
 
 function collectLocalStylesheetHrefs(html) {

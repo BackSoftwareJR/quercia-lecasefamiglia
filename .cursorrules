@@ -5,11 +5,11 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** risolviamo errore nella pagina contatti non si vedono i contenuti non so se per animazioni o cosa ma vedo tutto bianco dopo ultima modifica fatta
+**Current task context:** Il sito non visualizza più contenuti come testi e immagini, mostrando solo sezioni vuote. La home page funziona correttamente, ma il resto del sito no. analizza e risolvi il problema.
 
 ## Project-Specific Patterns
 
-### Pattern 1
+### Pattern 1 (relevance: 12%)
 
 **When you see:**
 ```
