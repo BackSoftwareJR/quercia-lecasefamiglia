@@ -1,14 +1,12 @@
-/* Scroll animations — content stays visible until JS enables animation mode */
+/* Scroll animations — content stays visible; motion uses transform only */
 html.js-animations .animate-on-scroll:not(.is-visible) {
-  opacity: 0;
-  transition: opacity var(--transition-slow), transform var(--transition-slow);
+  transition: transform var(--transition-slow), opacity var(--transition-slow);
 }
 
 html.js-animations .stagger-children:not(.is-visible) > *,
 html.js-animations .stagger-150:not(.is-visible) > * {
-  opacity: 0;
   transform: translateY(20px);
-  transition: opacity var(--transition-slow), transform var(--transition-slow);
+  transition: transform var(--transition-slow), opacity var(--transition-slow);
 }
 
 html.js-animations .stagger-150:not(.is-visible) > * {

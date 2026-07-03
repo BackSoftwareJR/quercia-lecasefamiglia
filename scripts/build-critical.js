@@ -89,8 +89,18 @@ function stripAnimationHideRules(criticalStyle) {
   return `<style data-critical>${css}</style>`;
 }
 
+const STAGGER_PARENT_VISIBLE =
+  '.stagger-children.animate-on-scroll,.stagger-150.animate-on-scroll{opacity:1;transform:none}';
+
 function augmentCriticalStyle(criticalStyle) {
   let style = stripAnimationHideRules(criticalStyle);
+
+  if (
+    (style.includes('animate-on-scroll') || style.includes('stagger-children')) &&
+    !style.includes('stagger-children.animate-on-scroll')
+  ) {
+    style = style.replace(/<\/style>/i, `${STAGGER_PARENT_VISIBLE}</style>`);
+  }
 
   if (!style.includes('animate-on-scroll') && !style.includes('stagger-children')) {
     return style;
