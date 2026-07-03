@@ -5,14 +5,16 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Crea o aggiorna il file llms.txt per il sito, seguendo esattamente il contenuto proposto.
+**Current task context:** Implementa lo schema WebMCP e le annotazioni per la navigazione agentica.
 
 SITO: https://quercia.lecasefamiglia.it/
 REPOSITORY: https://github.com/BackSoftwareJR/quercia-lecasefamiglia
 
+SCHEMA WebMCP 
+
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 4%)
+### Pattern 1 (relevance: 2%)
 
 **When you see:**
 ```

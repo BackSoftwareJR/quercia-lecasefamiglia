@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Casa Famiglia il Quercia il Castelletto",
+  "url": "https://quercia.lecasefamiglia.it/",
+  "description": "Residenza per anziani a Castelletto sopra Ticino (NO). Casa famiglia con assistenza h24, percorsi per demenze, residenza temporanea e permanente.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Le Case Famiglia - Progetto il Quercia il Castelletto",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Quercia",
+      "addressLocality": "Castelletto sopra Ticino",
+      "addressRegion": "NO",
+      "postalCode": "28053",
+      "addressCountry": "IT"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Informazioni e prenotazioni",
+      "availableLanguage": ["Italian"]
+    }
+  },
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://quercia.lecasefamiglia.it/blog/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    {
+      "@type": "ReserveAction",
+      "name": "Richiedi disponibilità posto",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://quercia.lecasefamiglia.it/contatti/",
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform"
+        ]
+      },
+      "result": {
+        "@type": "Reservation",
+        "name": "Richiesta informazioni disponibilità"
+      }
+    }
+  ],
+  "mcpTools": [
+    {
+      "@type": "EntryPoint",
+      "name": "availabilityCheck",
+      "description": "Verifica disponibilità posti in struttura",
+      "urlTemplate": "https://quercia.lecasefamiglia.it/contatti/?subject=disponibilita",
+      "httpMethod": "POST",
+      "contentType": "application/x-www-form-urlencoded",
+      "encoding": {
+        "nome": "string, required",
+        "email": "email, required",
+        "telefono": "tel, required",
+        "tipologia_richiesta": "enum[residenza_permanente,residenza_temporanea,day_care,informazioni]",
+        "data_ingresso_prevista": "date, optional",
+        "messaggio": "text, optional"
+      }
+    },
+    {
+      "@type": "EntryPoint",
+      "name": "getPricing",
+      "description": "Ottieni informazioni su tariffe e costi",
+      "urlTemplate": "https://quercia.lecasefamiglia.it/contatti/?subject=tariffe",
+      "httpMethod": "GET"
+    },
+    {
+      "@type": "EntryPoint",
+      "name": "scheduleVisit",
+      "description": "Prenota visita conoscitiva in struttura",
+      "urlTemplate": "https://quercia.lecasefamiglia.it/contatti/?subject=visita",
+      "httpMethod": "POST",
+      "encoding": {
+        "nome": "string, required",
+        "email": "email, required",
+        "telefono": "tel, required",
+        "data_visita_preferita": "date, required",
+        "fascia_oraria": "enum[mattina,pomeriggio]",
+        "numero_partecipanti": "integer, optional"
+      }
+    },
+    {
+      "@type": "EntryPoint",
+      "name": "getBlogArticles",
+      "description": "Recupera articoli blog per argomento",
+      "urlTemplate": "https://quercia.lecasefamiglia.it/blog/category/{category}/",
+      "urlTemplateVariables": {
+        "category": "enum[alzheimer-demenza,assistenza-anziani,casa-famiglia,costi-e-requisiti,nutrizione,salute-e-benessere]"
+      }
+    }
+  ]
+}

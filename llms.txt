@@ -39,6 +39,7 @@ Famiglie, figli e caregiver di anziani che cercano:
 - Cookie policy: solo tecnici necessari, nessun tracciamento marketing
 
 ## MCP Access Points
+- `/.well-known/mcp.json` - WebMCP manifest (schema.org WebSite + mcpTools)
 - `/contatti` - Form richiesta informazioni, disponibilità posti
 - `/blog` - Articoli informativi, SEO long-tail su assistenza anziani
 - `/servizi` - Dettaglio offerta residenziale e temporanea

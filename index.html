@@ -45,9 +45,6 @@
   {"@context":"https://schema.org","@type":["LodgingBusiness","LocalBusiness"],"name":"Casa Famiglia Castelletto","description":"Casa famiglia per anziani autosufficienti a Pinerolo (TO). Assistenza 24h, ambienti familiari, Pinerolese.","url":"https://casafamigliaquercia.it/","telephone":"+39 376 203 1211","email":"info@casafamigliaquercia.it","image":"https://casafamigliaquercia.it/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif","address":{"@type":"PostalAddress","streetAddress":"Stradale Poirino, 152","addressLocality":"Pinerolo","addressRegion":"TO","postalCode":"10064","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":44.8235,"longitude":7.3307},"priceRange":"€€","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"08:00","closes":"20:00"}],"alternateName":["Casa Famiglia Quercia","Casa Quercia"]}
   </script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebSite","name":"Quercia - Casa Famiglia per Anziani","url":"https://quercia.lecasefamiglia.it/","description":"Residenza assistita per anziani con cure specializzate per demenza e Alzheimer. Assistenza sanitaria h24 in ambiente familiare.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quercia.lecasefamiglia.it/?s={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@type":"Organization","name":"Le Case Famiglia","url":"https://www.lecasefamiglia.it/","logo":{"@type":"ImageObject","url":"https://quercia.lecasefamiglia.it/wp-content/uploads/logo.png"}}}
-  </script>
-  <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"Quanto costa il soggiorno?","acceptedAnswer":{"@type":"Answer","text":"La retta varia in base alla camera e ai servizi. Te lo diciamo chiaramente al telefono, senza costi nascosti e senza sorprese."}},
     {"@type":"Question","name":"Cosa è incluso nella retta?","acceptedAnswer":{"@type":"Answer","text":"Tutto: camera con pulizia quotidiana, 4 pasti al giorno, attività ricreative, assistenza 24h, lavanderia e Wi-Fi. Nessun extra."}},
@@ -61,21 +58,60 @@
     {"@type":"Question","name":"Posso pagare con bonifico o contanti?","acceptedAnswer":{"@type":"Answer","text":"Entrambi, nei limiti di legge. Troviamo insieme la modalità più comoda."}}
   ]}
   </script>
-  <!-- WebMCP Agent Discovery -->
-  <meta name="webmcp:version" content="1.0">
-  <meta name="webmcp:endpoint" content="https://quercia.lecasefamiglia.it/.well-known/webmcp">
-  <link rel="webmcp" href="https://quercia.lecasefamiglia.it/.well-known/webmcp">
-  <script type="application/ld+json" id="webmcp-tools">
-{
-  "@context": "https://schema.org",
-  "@type": "WebAPI",
-  "name": "Quercia WebMCP API",
-  "description": "Machine-readable interface for AI agents to interact with Quercia elderly care services",
-  "documentation": "https://quercia.lecasefamiglia.it/.well-known/webmcp",
-  "endpointUrl": "https://quercia.lecasefamiglia.it/wp-json/wp/v2",
-  "conformsTo": "https://webmcp.org/spec/1.0"
-}
+  <!-- MCP Server Discovery -->
+  <link rel="mcp-manifest" href="/.well-known/mcp.json" type="application/json">
+  <meta name="mcp:enabled" content="true">
+  <meta name="mcp:version" content="1.0">
+  <meta name="mcp:contact" content="https://quercia.lecasefamiglia.it/contatti/">
+
+  <!-- Agent Navigation Hints -->
+  <meta name="ai-nav:primary-cta" content="Richiedi informazioni">
+  <meta name="ai-nav:conversion-path" content="/blog -> /servizi -> /contatti">
+  <meta name="ai-nav:trust-signals" content="/chi-siamo, /galleria, testimonianze">
+  <meta name="ai-nav:urgent-query" content="disponibilita-immediata">
+
+  <!-- Structured Data for Agent Understanding -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Casa Famiglia il Quercia il Castelletto",
+    "description": "Struttura residenziale per anziani con assistenza sanitaria integrata",
+    "medicalSpecialty": [
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Geriatria"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Psicogeriatria"
+      }
+    ],
+    "availableService": [
+      {
+        "@type": "MedicalTherapy",
+        "name": "Assistenza residenziale anziani non autosufficienti"
+      },
+      {
+        "@type": "MedicalTherapy",
+        "name": "Percorso Alzheimer e demenze"
+      },
+      {
+        "@type": "MedicalTherapy",
+        "name": "Residenza temporanea e sollievo caregiver"
+      }
+    ],
+    "isAcceptingNewPatients": true,
+    "priceRange": "€€",
+    "paymentAccepted": "Bonifico, assegno, convenzioni ASL, voucher regionali",
+    "currenciesAccepted": "EUR"
+  }
   </script>
+
+  <!-- Agent Action Buttons -->
+  <meta name="ai-action:primary" content='{"label":"Verifica disponibilità","url":"/contatti/?subject=disponibilita","method":"POST","params":["nome","email","telefono","tipologia_richiesta"]}'>
+  <meta name="ai-action:secondary" content='{"label":"Scarica brochure","url":"/download/brochure-casa-famiglia-quercia.pdf","method":"GET"}'>
+  <meta name="ai-action:tertiary" content='{"label":"Prenota visita","url":"/contatti/?subject=visita","method":"POST","params":["nome","email","telefono","data_visita_preferita"]}'>
 </head>
 <body>
   <a href="#main" class="skip-link">Vai al contenuto principale</a>
