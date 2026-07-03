@@ -5,11 +5,14 @@
 
 <!-- DO NOT EDIT BELOW — managed by HyperOrchestrator -->
 
-**Current task context:** Il sito non visualizza più contenuti come testi e immagini, mostrando solo sezioni vuote. La home page funziona correttamente, ma il resto del sito no. analizza e risolvi il problema.
+**Current task context:** Crea o aggiorna il file llms.txt per il sito, seguendo esattamente il contenuto proposto.
+
+SITO: https://quercia.lecasefamiglia.it/
+REPOSITORY: https://github.com/BackSoftwareJR/quercia-lecasefamiglia
 
 ## Project-Specific Patterns
 
-### Pattern 1 (relevance: 12%)
+### Pattern 1 (relevance: 6%)
 
 **When you see:**
 ```
@@ -35,7 +38,7 @@ Resolved after 1 failed attempt(s)
 
 _From task: È necessario aggiornare il numero di ospiti in tutte le sezioni del sito, passando da 8 a 6 ospiti. | Failures before success: 1_
 
-### Pattern 2
+### Pattern 2 (relevance: 5%)
 
 **When you see:**
 ```
@@ -98,7 +101,7 @@ Resolved after 4 failed attempt(s)
 
 _From task: Modify the contacts page in the 'where we are' section by removing the image at the bottom with the white warehouse, then adjust the maps container to be taller so it is parallel with the container holding the address information. | Failures before success: 4_
 
-### Pattern 2
+### Pattern 2 (relevance: 3%)
 
 **When you see:**
 ```
