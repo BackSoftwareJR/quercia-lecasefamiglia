@@ -7,6 +7,7 @@ const Critters = require('critters');
 
 const ROOT = path.resolve(__dirname, '..');
 const CRITICAL_CSS_PATH = path.join(ROOT, 'css/critical.css');
+const ANIMATIONS_CSS_PATH = path.join(ROOT, 'css/animations.css');
 
 const PARTIALS = {
   header: fs.readFileSync(path.join(ROOT, 'partials/header.html'), 'utf8'),
@@ -66,6 +67,33 @@ function extractCriticalStyle(headHtml) {
   return match[0].replace(/<style([^>]*)>/i, '<style data-critical$1>');
 }
 
+function extractAnimationVisibleRules(css) {
+  const withoutMedia = css.replace(/@media[^{]+{[^{}]*(?:{[^{}]*}[^{}]*)*}/g, '');
+  const matches = withoutMedia.match(/[^{}]+\.is-visible[^{]*{[^}]*}/g);
+  return matches ? matches.join('') : '';
+}
+
+function augmentCriticalStyle(criticalStyle) {
+  if (!criticalStyle || !criticalStyle.includes('animate-on-scroll')) {
+    return criticalStyle;
+  }
+  if (criticalStyle.includes('.is-visible')) {
+    return criticalStyle;
+  }
+  if (!fs.existsSync(ANIMATIONS_CSS_PATH)) {
+    return criticalStyle;
+  }
+
+  const visibleRules = extractAnimationVisibleRules(
+    fs.readFileSync(ANIMATIONS_CSS_PATH, 'utf8'),
+  );
+  if (!visibleRules) {
+    return criticalStyle;
+  }
+
+  return criticalStyle.replace(/<\/style>/i, `${visibleRules}</style>`);
+}
+
 function collectLocalStylesheetHrefs(html) {
   const hrefs = new Set();
   const patterns = [
@@ -109,7 +137,9 @@ function replaceLocalStylesheets(html) {
 }
 
 function applyHeadOptimizations(originalHtml, processedHead, filePath, fallbackCritical) {
-  const criticalStyle = extractCriticalStyle(processedHead) || fallbackCritical;
+  const criticalStyle = augmentCriticalStyle(
+    extractCriticalStyle(processedHead) || fallbackCritical,
+  );
   if (!criticalStyle) {
     throw new Error(`No critical CSS available for ${path.relative(ROOT, filePath)}`);
   }
@@ -200,9 +230,16 @@ async function main() {
     if (filePath === path.join(ROOT, 'index.html')) {
       const styleMatch = optimizedHtml.match(/<style data-critical>([\s\S]*)<\/style>/i);
       if (styleMatch) {
-        sharedFallbackCritical = `<style data-critical>${styleMatch[1]}</style>`;
-        fs.writeFileSync(CRITICAL_CSS_PATH, styleMatch[1]);
-        console.log(`updated: css/critical.css (${styleMatch[1].length} bytes)`);
+        const augmentedCritical = augmentCriticalStyle(
+          `<style data-critical>${styleMatch[1]}</style>`,
+        );
+        const criticalCss = augmentedCritical.replace(
+          /^<style data-critical>|<\/style>$/gi,
+          '',
+        );
+        sharedFallbackCritical = `<style data-critical>${criticalCss}</style>`;
+        fs.writeFileSync(CRITICAL_CSS_PATH, criticalCss);
+        console.log(`updated: css/critical.css (${criticalCss.length} bytes)`);
       }
     } else if (!sharedFallbackCritical && pageCritical) {
       sharedFallbackCritical = pageCritical;
