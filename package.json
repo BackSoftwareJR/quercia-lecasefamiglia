@@ -5,9 +5,19 @@
   "description": "Static site — Casa Famiglia Castelletto",
   "scripts": {
     "test": "node scripts/validate-guest-count.js",
+    "build:css": "node scripts/build-css.js",
+    "build:critical": "node scripts/build-critical.js",
+    "build": "npm run build:css && npm run build:critical",
     "images:responsive": "bash scripts/generate-responsive-images.sh",
     "images:strip-metadata": "bash scripts/strip-image-metadata.sh",
     "images:optimize": "npm run images:responsive && npm run images:strip-metadata && python3 scripts/apply-responsive-content-images.py",
     "build:minify": "python3 scripts/minify-assets.py"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "critters": "^0.0.25",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0"
   }
 }

@@ -51,7 +51,8 @@ def async_fonts_markup(url: str) -> str:
 
 def async_stylesheet_markup(href: str) -> str:
     return (
-        f'  <link rel="stylesheet" href="{href}" media="print" onload="this.media=\'all\'">\n'
+        f'  <link rel="preload" href="{href}" as="style" '
+        f"onload=\"this.onload=null;this.rel='stylesheet'\">\n"
         f'  <noscript><link rel="stylesheet" href="{href}"></noscript>'
     )
 
@@ -63,7 +64,7 @@ def ensure_resource_hints(html: str) -> str:
     if OLD_PRECONNECT_RE.search(html):
         return OLD_PRECONNECT_RE.sub(RESOURCE_HINTS + "\n", html, count=1)
 
-    critical_marker = '  <style id="critical-css">'
+    critical_marker = '  <style data-critical>'
     if critical_marker in html:
         return html.replace(critical_marker, RESOURCE_HINTS + "\n" + critical_marker, 1)
 
@@ -79,10 +80,10 @@ def transform_blocking_fonts(html: str) -> str:
 
 
 def ensure_critical_css(html: str, critical_css: str) -> str:
-    if 'id="critical-css"' in html:
+    if 'data-critical' in html:
         return html
 
-    critical_block = f'  <style id="critical-css">{critical_css}</style>\n'
+    critical_block = f'  <style data-critical>{critical_css}</style>\n'
     marker = '  <link rel="preload" as="style" href="https://fonts.googleapis.com'
     if marker in html:
         return html.replace(marker, critical_block + marker, 1)
