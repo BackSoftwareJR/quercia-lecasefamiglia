@@ -1,0 +1,98 @@
+{
+  "spec": "1.0",
+  "conformsTo": "https://webmcp.org/spec/1.0",
+  "name": "Quercia - Casa Famiglia per Anziani",
+  "description": "Residenza assistita per anziani con cure specializzate per demenza e Alzheimer. Assistenza sanitaria h24 in ambiente familiare.",
+  "url": "https://quercia.lecasefamiglia.it/",
+  "documentation": "https://quercia.lecasefamiglia.it/llms.txt",
+  "publisher": {
+    "name": "Le Case Famiglia",
+    "url": "https://www.lecasefamiglia.it/"
+  },
+  "contact": {
+    "telephone": "+39 376 203 1211",
+    "email": "info@casafamigliaquercia.it",
+    "whatsapp": "https://wa.me/393762031211",
+    "address": {
+      "streetAddress": "Stradale Poirino, 152",
+      "addressLocality": "Pinerolo",
+      "addressRegion": "TO",
+      "postalCode": "10064",
+      "addressCountry": "IT"
+    }
+  },
+  "navigation": [
+    { "name": "Home", "path": "/" },
+    { "name": "Chi siamo", "path": "/chi-siamo/" },
+    { "name": "La nostra storia", "path": "/storia/" },
+    { "name": "Servizi", "path": "/servizi/" },
+    { "name": "La struttura", "path": "/la-struttura/" },
+    { "name": "La giornata", "path": "/la-giornata/" },
+    { "name": "Rette e ammissione", "path": "/rette-e-ammissione/" },
+    { "name": "Requisiti autosufficienza", "path": "/requisiti-autosufficienza/" },
+    { "name": "Galleria", "path": "/galleria/" },
+    { "name": "Blog", "path": "/blog/" },
+    { "name": "Contatti", "path": "/contatti/" },
+    { "name": "Mappa del sito", "path": "/mappa-del-sito/" },
+    { "name": "Casa famiglia Pinerolo", "path": "/casa-famiglia-pinerolo/" },
+    { "name": "Casa famiglia Avigliana", "path": "/casa-famiglia-avigliana/" },
+    { "name": "Casa famiglia Coazze", "path": "/casa-famiglia-coazze/" },
+    { "name": "Casa famiglia Giaveno", "path": "/casa-famiglia-giaveno/" },
+    { "name": "Casa famiglia Valle di Susa", "path": "/casa-famiglia-valle-di-susa/" },
+    { "name": "Privacy Policy", "path": "/privacy-policy/" },
+    { "name": "Cookie Policy", "path": "/cookie-policy/" },
+    { "name": "Termini e condizioni", "path": "/termini-e-condizioni/" }
+  ],
+  "tools": [
+    {
+      "name": "search-site",
+      "description": "Search site content by keyword",
+      "url": "https://quercia.lecasefamiglia.it/",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "s",
+          "type": "string",
+          "description": "Search query string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "get-contact-info",
+      "description": "Retrieve phone, email, address and visit booking information",
+      "url": "https://quercia.lecasefamiglia.it/contatti/",
+      "method": "GET"
+    },
+    {
+      "name": "get-services",
+      "description": "List elderly care services, assistance levels and daily activities",
+      "url": "https://quercia.lecasefamiglia.it/servizi/",
+      "method": "GET"
+    },
+    {
+      "name": "get-pricing-admission",
+      "description": "Retrieve fee structure, admission requirements and included services",
+      "url": "https://quercia.lecasefamiglia.it/rette-e-ammissione/",
+      "method": "GET"
+    },
+    {
+      "name": "get-blog-posts",
+      "description": "Access articles about senior care, family decisions and local area",
+      "url": "https://quercia.lecasefamiglia.it/blog/",
+      "method": "GET"
+    },
+    {
+      "name": "get-sitemap",
+      "description": "Machine-readable sitemap of all public pages",
+      "url": "https://quercia.lecasefamiglia.it/sitemap.xml",
+      "method": "GET"
+    }
+  ],
+  "api": {
+    "type": "WebAPI",
+    "name": "Quercia WebMCP API",
+    "endpointUrl": "https://quercia.lecasefamiglia.it/wp-json/wp/v2",
+    "documentation": "https://quercia.lecasefamiglia.it/.well-known/webmcp"
+  }
+}

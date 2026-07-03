@@ -45,7 +45,7 @@
   {"@context":"https://schema.org","@type":["LodgingBusiness","LocalBusiness"],"name":"Casa Famiglia Castelletto","description":"Casa famiglia per anziani autosufficienti a Pinerolo (TO). Assistenza 24h, ambienti familiari, Pinerolese.","url":"https://casafamigliaquercia.it/","telephone":"+39 376 203 1211","email":"info@casafamigliaquercia.it","image":"https://casafamigliaquercia.it/images/Sala%20da%20Pranzo%20%2B%20persone%201.avif","address":{"@type":"PostalAddress","streetAddress":"Stradale Poirino, 152","addressLocality":"Pinerolo","addressRegion":"TO","postalCode":"10064","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":44.8235,"longitude":7.3307},"priceRange":"€€","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"08:00","closes":"20:00"}],"alternateName":["Casa Famiglia Quercia","Casa Quercia"]}
   </script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebSite","name":"Casa Famiglia Castelletto","url":"https://casafamigliaquercia.it/","description":"Casa famiglia per anziani autosufficienti a Pinerolo (TO).","inLanguage":"it-IT","publisher":{"@id":"https://casafamigliaquercia.it/#organization"},"alternateName":["Casa Famiglia Quercia","Casa Quercia"]}
+  {"@context":"https://schema.org","@type":"WebSite","name":"Quercia - Casa Famiglia per Anziani","url":"https://quercia.lecasefamiglia.it/","description":"Residenza assistita per anziani con cure specializzate per demenza e Alzheimer. Assistenza sanitaria h24 in ambiente familiare.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://quercia.lecasefamiglia.it/?s={search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@type":"Organization","name":"Le Case Famiglia","url":"https://www.lecasefamiglia.it/","logo":{"@type":"ImageObject","url":"https://quercia.lecasefamiglia.it/wp-content/uploads/logo.png"}}}
   </script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -60,6 +60,21 @@
     {"@type":"Question","name":"Quanto dista da Torino?","acceptedAnswer":{"@type":"Answer","text":"Pinerolo è a circa 40 km da Torino, facilmente raggiungibile in auto. Una posizione tranquilla a pochi minuti dalla città."}},
     {"@type":"Question","name":"Posso pagare con bonifico o contanti?","acceptedAnswer":{"@type":"Answer","text":"Entrambi, nei limiti di legge. Troviamo insieme la modalità più comoda."}}
   ]}
+  </script>
+  <!-- WebMCP Agent Discovery -->
+  <meta name="webmcp:version" content="1.0">
+  <meta name="webmcp:endpoint" content="https://quercia.lecasefamiglia.it/.well-known/webmcp">
+  <link rel="webmcp" href="https://quercia.lecasefamiglia.it/.well-known/webmcp">
+  <script type="application/ld+json" id="webmcp-tools">
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "Quercia WebMCP API",
+  "description": "Machine-readable interface for AI agents to interact with Quercia elderly care services",
+  "documentation": "https://quercia.lecasefamiglia.it/.well-known/webmcp",
+  "endpointUrl": "https://quercia.lecasefamiglia.it/wp-json/wp/v2",
+  "conformsTo": "https://webmcp.org/spec/1.0"
+}
   </script>
 </head>
 <body>

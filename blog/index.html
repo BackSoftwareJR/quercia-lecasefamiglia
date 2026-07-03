@@ -41,6 +41,21 @@
   {"@context":"https://schema.org","@type":"Blog","name":"Blog Casa Famiglia Castelletto","url":"https://casafamigliaquercia.it/blog/","description":"Guide per famiglie che scelgono una casa famiglia a Pinerolo","publisher":{"@type":"Organization","name":"Casa Famiglia Castelletto","alternateName":["Casa Famiglia Quercia","Casa Quercia"]}}
   </script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://casafamigliaquercia.it/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://casafamigliaquercia.it/blog/"}]}</script>
+  <!-- WebMCP Agent Discovery -->
+  <meta name="webmcp:version" content="1.0">
+  <meta name="webmcp:endpoint" content="https://quercia.lecasefamiglia.it/.well-known/webmcp">
+  <link rel="webmcp" href="https://quercia.lecasefamiglia.it/.well-known/webmcp">
+  <script type="application/ld+json" id="webmcp-tools">
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "Quercia WebMCP API",
+  "description": "Machine-readable interface for AI agents to interact with Quercia elderly care services",
+  "documentation": "https://quercia.lecasefamiglia.it/.well-known/webmcp",
+  "endpointUrl": "https://quercia.lecasefamiglia.it/wp-json/wp/v2",
+  "conformsTo": "https://webmcp.org/spec/1.0"
+}
+  </script>
 </head>
 <body class="blog-page">
   <a href="#main" class="skip-link">Vai al contenuto principale</a>
