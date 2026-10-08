@@ -16,7 +16,7 @@ FORMER_SHORT = "Casa Quercia"
 SEO_KEYWORDS_EXTRA = "casa famiglia castelletto Pinerolo, casa famiglia quercia Pinerolo"
 
 PROTECTED = [
-    ("Quercia S.r.l.s.", "__LEGAL_QUERCIA_SRLS__"),
+    ("Gramsci S.r.l.s.", "__LEGAL_QUERCIA_SRLS__"),
     ("casafamigliaquercia.it", "__DOMAIN_CFQ__"),
     ("info@casafamigliaquercia.it", "__EMAIL_CFQ__"),
     ("quercia.lecasefamiglia.it", "__DOMAIN_LEGACY__"),

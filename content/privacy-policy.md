@@ -4,7 +4,7 @@
 
 ## Titolare del trattamento
 
-Quercia S.r.l.s. — P.IVA IT13206680012  
+Gramsci S.r.l.s. — P.IVA IT13186510015  
 Stradale Poirino, 152, 10064 Pinerolo (TO)  
 Email: info@casafamigliaquercia.it
 

@@ -208,7 +208,7 @@ PAGE_SEO = {
     },
     "privacy-policy/index.html": {
         "title": "Informativa privacy GDPR | Casa Famiglia Castelletto – Pinerolo",
-        "description": "Informativa privacy ai sensi del Reg. UE 2016/679. Titolare: Quercia S.r.l.s., P.IVA IT13206680012, Pinerolo (TO). Trattamento dati da telefono, WhatsApp ed email.",
+        "description": "Informativa privacy ai sensi del Reg. UE 2016/679. Titolare: Gramsci S.r.l.s., P.IVA IT13186510015, Pinerolo (TO). Trattamento dati da telefono, WhatsApp ed email.",
         "path": "/privacy-policy/",
         "og_type": "website",
     },
@@ -220,7 +220,7 @@ PAGE_SEO = {
     },
     "termini-e-condizioni/index.html": {
         "title": "Termini e condizioni d'uso | Casa Famiglia Castelletto – Pinerolo",
-        "description": "Termini di utilizzo del sito informativo Casa Famiglia Castelletto. Quercia S.r.l.s., P.IVA IT13206680012, Pinerolo (TO). Legge italiana, foro di Torino.",
+        "description": "Termini di utilizzo del sito informativo Casa Famiglia Castelletto. Gramsci S.r.l.s., P.IVA IT13186510015, Pinerolo (TO). Legge italiana, foro di Torino.",
         "path": "/termini-e-condizioni/",
         "og_type": "website",
     },

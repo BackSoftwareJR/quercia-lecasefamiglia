@@ -56,8 +56,8 @@ curl -I https://casafamigliaquercia.it/sitemap.xml
 
 ## Dati legali (GDPR / footer / pagine legali)
 
-- **Ragione sociale:** Quercia S.r.l.s.
-- **P.IVA:** IT13206680012 — va indicata in footer, contatti e pagine legali (privacy, cookie, termini)
+- **Ragione sociale:** Gramsci S.r.l.s.
+- **P.IVA:** IT13186510015 — va indicata in footer, contatti e pagine legali (privacy, cookie, termini)
 - **Attività:** Casa Famiglia Castelletto — struttura residenziale per anziani autosufficienti
 - Pagine legali: `/privacy-policy/`, `/cookie-policy/`, `/termini-e-condizioni/` (ultimo aggiornamento: 22 giugno 2026)
 - Nessun modulo contatti online: raccolta dati solo via telefono, WhatsApp ed email

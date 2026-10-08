@@ -619,7 +619,7 @@ Dati da form contatti (nome, telefono, messaggio)
 Cookie tecnici e analitici (Google Analytics se presente)
 
 Dati di navigazione
-Titolare: Quercia S.r.l.s., Stradale Poirino 152, Coazze (TO)
+Titolare: Gramsci S.r.l.s., Stradale Poirino 152, Coazze (TO)
 Email DPO: info@casafamigliaquercia.it
 Base giuridica: consenso + legittimo interesse
 Aggiorna data: [DATA ODIERNA]
